@@ -1,0 +1,5 @@
+# Ignore all files starting with "main"
+main.*
+
+# But do NOT ignore main.tex
+!main.tex

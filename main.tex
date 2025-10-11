@@ -1,12 +1,11 @@
 \documentclass{report}
-\usepackage{graphicx} % Required for inserting images
-%\usepackage{todonotes}
-\usepackage[backend=biber,style=numeric,sorting=none]{biblatex}
+\input{preamble}
 \addbibresource{bibliography.bib}
 
 \title{HMLV Survey}
 \author{Martin Braas Andreasen}
 \author{Mikkel Ejsing Petersen}
+\author{Malthe Tøttrup Birkebæk}
 \date{September 2025}
 
 \begin{document}
@@ -14,14 +13,14 @@
 \maketitle
 
 \chapter{Introduction}
-\input{Chapters/introduction}
+\input{chapters/introduction}
 
 \chapter{Methodology}
-\input{Chapters/methodology}
+\input{chapters/methodology}
 
 \chapter{Industry 3.0} \label{chap:industry3.0}
 % Industry 3.0 is a single tex file chapter
-\input{Chapters/Indsutry3.0/Industry3.0}
+\input{chapters/Indsutry3.0/Industry3.0}
 
 \chapter{Industry 4.0}
 
@@ -36,13 +35,13 @@ Some key technologies to consider touching upon in this section (/suggested stru
     \item Cloud \& Edge Computing: architectures for HMLV environments.
 \end{itemize}
 
-\input{Chapters/Industry4.0/CPS}
-\input{Chapters/Industry4.0/IOT}
-\input{Chapters/Industry4.0/Big_data}
-\input{Chapters/Industry4.0/Automation}
-\input{Chapters/Industry4.0/Decision_support}
-\input{Chapters/Industry4.0/MLops}
-\input{Chapters/Industry4.0/cloud_and_edge_computing}
+\input{chapters/Industry4.0/CPS}
+\input{chapters/Industry4.0/IOT}
+\input{chapters/Industry4.0/Big_data}
+\input{chapters/Industry4.0/Automation}
+\input{chapters/Industry4.0/Decision_support}
+\input{chapters/Industry4.0/MLops}
+\input{chapters/Industry4.0/cloud_and_edge_computing}
 
 \chapter{Industry 5.0}
 
@@ -56,12 +55,12 @@ Some key technologies to consider touching upon in this section (/suggested stru
     \item Collaborative Robotics: Cobots with human oversight.
 \end{itemize}
 
-\input{Chapters/Industry5.0/digital-twins}
-\input{Chapters/Industry5.0/human-centric}
-\input{Chapters/Industry5.0/resilience-and-adaptibility}
-\input{Chapters/Industry5.0/sustainability-and-circularity}
-\input{Chapters/Industry5.0/ethics-and-trustworthy-ai}
-\input{Chapters/Industry5.0/co-bots}
+\input{chapters/Industry5.0/digital-twins}
+\input{chapters/Industry5.0/human-centric}
+\input{chapters/Industry5.0/resilience-and-adaptibility}
+\input{chapters/Industry5.0/sustainability-and-circularity}
+\input{chapters/Industry5.0/ethics-and-trustworthy-ai}
+\input{chapters/Industry5.0/co-bots}
 
 
 \chapter{Conclusion}
