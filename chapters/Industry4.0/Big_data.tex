@@ -17,21 +17,21 @@ Similarly, adaptive scheduling systems informed by real-time data streams can dy
 
 Several strands of analytics have become central to manufacturing.
 Descriptive analytics establishes situational awareness, often through visual dashboards and real-time monitoring tools.
-Predictive analytics leverages statistical and machine learning methods to forecast equipment failures, yield rates, or process deviations.
+Predictive analytics leverages statistical and \ac{ml} methods to forecast equipment failures, yield rates, or process deviations.
 Prescriptive analytics extends this by recommending or automating corrective actions, for instance rescheduling jobs or adjusting machine settings to maintain throughput.
-In recent years, there has been growing interest in hybrid methods that combine domain expertise with machine learning, leading to "physics-informed" models that are more robust under conditions of sparse and variable data~\cite{lu-indsutry-40-a-survey-on-technologies}.
+In recent years, there has been growing interest in hybrid methods that combine domain expertise with \ac{ml}, leading to "physics-informed" models that are more robust under conditions of sparse and variable data~\cite{lu-indsutry-40-a-survey-on-technologies}.
 These hybrid approaches are especially attractive for \ac{hmlv}, where purely data-driven methods often struggle due to limited sample sizes for each product variant.
 
 \subsection{Challenges and Outlook}
 
 Despite clear progress, significant challenges remain in implementing Big Data \& Analytics in real-world manufacturing contexts.
-Data heterogeneity is a persistent barrier, as sensor readings, machine logs, and enterprise-level ERP/MES records must be harmonized to provide meaningful insights~\cite{zhong-intelligent-manufacturing-in-the-context}.
+Data heterogeneity is a persistent barrier, as sensor readings, machine logs, and enterprise-level \ac{erp}/\ac{mes} records must be harmonized to provide meaningful insights~\cite{zhong-intelligent-manufacturing-in-the-context}.
 Real-time responsiveness is another challenge: in \ac{hmlv} settings, decisions must often be made during ongoing production runs, requiring low-latency data pipelines and fast analytical models~\cite{al-fuqaha-internet-of-things-a-survey-on-enabling}.
 Furthermore, analytics must not only be accurate but also interpretable, since operators must be able to trust and act on system outputs.
-This has created growing interest in explainable AI (XAI)~\cite{alexander-an-interrogative-survey-of-explainable-ai-in-manufacturing} approaches for manufacturing, particularly in contexts where human operator remain central decision-makers.
-Finally, infrastructure requirements for storing transmitting, and analyzing large volumes of data can be a limiting factor, particularly for small and medium-sized enterprises.
+This has created growing interest in explainable \ac{ai} (X\ac{ai})~\cite{alexander-an-interrogative-survey-of-explainable-ai-in-manufacturing} approaches for manufacturing, particularly in contexts where human operator remain central decision-makers.
+Finally, infrastructure requirements for storing transmitting, and analyzing large volumes of data can be a limiting factor, particularly for \ac{sme}.
 
-Looking ahead, Big Data \& Analytics can be viewed as the bridge between Internet of Things (which provides the raw data streams) and Cyber-Physical Systems (which implement adaptive responses).
+Looking ahead, Big Data \& Analytics can be viewed as the bridge between \ac{iot} (which provides the raw data streams) and \ac{cps}s (which implement adaptive responses).
 Advances in distributed stream processing, edge analytics, and semantic data integration are expected to reduce latency and improve scalability.
 At the same time, combining predictive and prescriptive methods promises to support not only efficiency but also resilience, enabling manufacturers to adapt to variability and disruptions more effectively.
 In the context of \ac{hmlv} manufacturing, these developments could significantly reduce the overhead of frequent product changes, making highly flexible production both feasible and economically viable.
