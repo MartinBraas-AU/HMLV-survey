@@ -1,14 +1,37 @@
-\documentclass{report}
-\input{preamble}
-\addbibresource{bibliography.bib}
 
-\title{HMLV Survey}
-\author{Martin Braas Andreasen}
-\author{Mikkel Ejsing Petersen}
-\author{Malthe Tøttrup Birkebæk}
-\date{September 2025}
+\documentclass{report}
+% \documentclass[runningheads,12pt]{llncs}
+\input{preamble}
+
+\title{PhD Plan: Distributed Coordination of Autonomous Swarms for Anomaly Detection}
+\author{}
+\date{}
 
 \begin{document}
+
+
+% -------- FRONT MATTER -------- 
+\pagenumbering{roman}
+\thispagestyle{empty}
+\maketitle
+
+
+\newpage
+\pagestyle{plain}
+
+\tableofcontents 
+\input{misc/acronyms.tex}
+
+% -------- MAIN MATTER -------- 
+\newpage
+\pagenumbering{arabic}
+
+% Activate fancyhdr with Page X of Y in footer
+\pagestyle{fancy}
+\fancyhf{}  % clear all headers and footers
+\fancyfoot[C]{Page \thepage\ of \pageref*{LastPage}}
+\renewcommand{\headrulewidth}{0pt}  % no header line
+
 \input{misc/acronyms.tex}
 
 \maketitle
@@ -67,8 +90,11 @@ Some key technologies to consider touching upon in this section (/suggested stru
 \chapter{Conclusion}
 \input{conclusion}
 
-% TODO list:
-% \input{listoftodos}
+% -------- END MATTER -------- 
+\newpage
+% \printbibliography
+\bibliographystyle{IEEEtran}
+\bibliography{references} 
 
-\printbibliography
+% \label{LastPage}
 \end{document}
