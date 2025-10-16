@@ -1,12 +1,21 @@
 \section{Digital Twins}\label{sec:digital-twins}
 
 \subsection{Digital Twins}
-The concept of a \ac{dt} was first proposed in 2003 by Micheal Grieves \cite{TAO2019653}. Since then, numerous definitions and concepts have been made \cite{LIU2021346}. A \ac{dt} can be defined as a digital representation of a physical entity, called a \ac{pt}. Both are connected by a bidirectional communication infrastructure, feeding real-time data from \ac{pt} to \ac{dt} and control feedback from \ac{dt} to \ac{pt} \cite{Larsen2024}. \ac{dt} technology is seen as a key technology in Industry 4.0 and Industry 5.0, in the manufacturing lifecycle, and in human-centric manufacturing such as human-robot collaboration. Kritzinger et al. (2018)~\cite{KRITZINGER20181016} propose that \ac{dt} can be categorized in terms of connectivity (manual vs automatic data flow) to the physical entity. Thus, a digital representation can be either a digital model, a digital shadow, or a digital twin. enabling a clear definition of \ac{dt} technology in its level of integration. \ac{dt}s has been widely used in the manufacturing product lifecycle. In the design, production, prognostics, and health management areas \cite{DT8477101}. The wide applicability of \ac{dt}s makes them relevant for \ac{hmlv} manufacturing, where high variety, small batches, and shorter product life cycles require adaptability, flexibility, and efficacy \cite{app13031687}.
+The concept of a \ac{dt} was first proposed in 2003 by Micheal Grieves \cite{TAO2019653}.
+Since then, numerous definitions and concepts have been made \cite{LIU2021346}.
+A \ac{dt} can be defined as a digital representation of a physical entity, referred to as the \ac{pt}.
+Both are connected by a bidirectional communication infrastructure, feeding real-time data from \ac{pt} to \ac{dt} and control feedback from \ac{dt} to \ac{pt} \cite{Larsen2024}.
+\ac{dt} technology is seen as a key technology in Industry 4.0 and Industry 5.0, in the manufacturing lifecycle, and in human-centric manufacturing such as human-robot collaboration.
+Kritzinger et al. (2018)~\cite{KRITZINGER20181016} propose that \ac{dt} can be categorized in terms of connectivity (manual vs automatic data flow) to the physical entity.
+Thus, a digital representation can be either a digital model, a digital shadow, or a digital twin, enabling a clear definition of \ac{dt} technology in its level of integration.
+\ac{dt}s has been widely used in the manufacturing product lifecycle.
+In the design, production, prognostics, and health management areas \cite{DT8477101}.
+The wide applicability of \ac{dt}s makes them relevant for \ac{hmlv} manufacturing, where high variety, small batches, and shorter product life cycles require adaptability, flexibility, and efficacy \cite{app13031687}.
 
 %A digital model is a representation where data manually transported from physical entity to digital entity. A digital shadow is where data from the physical entity automatically flows to the digital entity, whereas feedback to the physical entity is not automatic and thus does not take directly effect. 
-% Mentioned the proposing of multiple different digital twins. the four ones of the product life cycle.
-% Then shortly describe the core concepts of a digital twins: digital model, digital shadow, and digital twin.
-% Maybe connect the digital twin to CPS
+% Mentioned the proposing of multiple different \ac{dt}s. the four ones of the product life cycle.
+% Then shortly describe the core concepts of a \ac{dt}s: digital model, digital shadow, and \ac{dt}.
+% Maybe connect the \ac{dt} to CPS
 
 % https://ieeexplore.ieee.org/abstract/document/9552135
 % https://www.sciencedirect.com/science/article/pii/S2405896318316021?via%3Dihub
@@ -14,56 +23,58 @@ The concept of a \ac{dt} was first proposed in 2003 by Micheal Grieves \cite{TAO
 % https://doi.org/10.1109/swc57546.2023.10448890
 
 \subsection{Case Studies and Architectures}
-In the integration of \ac{dt}s in manufacturing processes, several architectures has been suggested, to do this. In\cite{complexEquibment9690056} they propose that the \ac{dt} can be incorporated in the design, manufacturing, maintenance, recycling, and scrapping phase, establishing a full life cycle data center for the \ac{pt} extended with intelligent decision-support methods such as Analytic hierarchy process (AHP), Bayesian estimation, expert systems, D–S reasoning, and AI.
-Several case studies have also been made in the field of digital twins in manufacturing. Some of which are the following:
+In the integration of \ac{dt}s in manufacturing processes, several architectures has been suggested, to do this.
+In\cite{complexEquibment9690056} they propose that the \ac{dt} can be incorporated in the design, manufacturing, maintenance, recycling, and scrapping phase, establishing a full life cycle data center for the \ac{pt} extended with intelligent decision-support methods such as Analytic hierarchy process (AHP), Bayesian estimation, expert systems, D–S reasoning, and \ac{ai}.
+
+Several case studies have also been made in the field of \ac{dt}s in manufacturing. Some of which are the following:
 
 \begin{itemize}
-    \item Ren et al. (2022) \cite{complexEquibment9690056} propose a Digital Twin in maintenance model of a locomotive entity for maintenance prediction through predictive models, demonstrating the effectiveness and practical value of \ac{dt}s in health management maintenance.
+    \item Ren et al. (2022) \cite{complexEquibment9690056} propose a \ac{dt} in maintenance model of a locomotive entity for maintenance prediction through predictive models, demonstrating the effectiveness and practical value of \ac{dt}s in health management maintenance.
     \item Luo et al. (2020) \cite{LUO2020101974} implement a hybrid predictive maintenance method that combines data-driven and multidomain models within a \ac{dt} framework, illustrating that \ac{dt} technology can provide a framework for combining data-driven and physics-based approaches to improve predictive maintenance accuracy. 
     \item Villani et al. (2025) \cite{human-centric-DT-case-10564577} present a human-in-the-loop operator digital twin (ODT), giving the operator insight into the plant's state, while also giving technological agents in the plant insight into the operator's physical, emotional, and mental conditions, demonstrating how \ac{dt} technology can be exploited to realize human-centric industrial applications.
     Human-robot collaboration case, such as human-robot collaboration.
     \item In \cite{schedule8821409} they present a real-time rescheduling system based on a \ac{dt} of a shop floor.
-      It reacts to manufacturing job events considering process time, production unit volume, worker, machine, operation, etc. Achieving better rescheduling performance by having more accurate data and a timely response to dynamic events, compared to traditional methods. 
+    It reacts to manufacturing job events considering process time, production unit volume, worker, machine, operation, etc. Achieving better rescheduling performance by having more accurate data and a timely response to dynamic events, compared to traditional methods. 
     %\item Product quality monitoring.
 \end{itemize}
 
 \subsection{Enabling Technologies}
 To effectively implement \ac{dt}s in manufacturing, several enabling technologies are required.
-At its foundation, \ac{iot}/\ac{iiot} (sensors and actuators) and data acquisition networks enables the ability to capture data from machines and processes from the physical system used by the digital twin.
+At its foundation, \ac{iot}/\ac{iiot} (sensors and actuators) and data acquisition networks enables the ability to capture data from machines and processes from the physical system used by the \ac{dt}.
 As well as storage technology to store the collected data \cite{TAO2019653, Fuller9103025}.
 To communicate in heterogeneous environments, communication protocols and interoperability standards ensure reliable and secure data transmission between physical and virtual layers \cite{JONES202036}.
-Cloud and edge computing, together with big data analytics and AI, provide a computational infrastructure to process and analyze the collected data \cite{TAO2019653,Wang10090432}.
+Cloud and edge computing, together with big data analytics and \ac{ai}, provide a computational infrastructure to process and analyze the collected data \cite{TAO2019653,Wang10090432}.
 Finally, data-driven and physics-based models, along with visualization and human-machine interfaces, enable monitoring, decision-making, and interaction with the physical system \cite{Rasheed8972429}.
 
 \subsection{Surveys}
-On the topic of Digital Twins, there exist several surveys on \ac{dt}s in manufacturing, setting its current state: 
+On the topic of \ac{dt}s, there exist several surveys on \ac{dt}s in manufacturing, setting its current state: 
 
 % Eksempel: Dafflon et al. (2021) [6] reviewed 78 CPS studies (2010-2019), identifying common challenges such as interoperability, scalability, and human inte-gration, and highlighting technologies such as Internet of Things (IoT), Big Data, and Artificial Intelligence (AI).
 \begin{itemize}
-    \item This survey first describes the concept of Digital Twin and its misconceptions.
-      It then discusses the challenges of \ac{iot}/\ac{iiot}, data analytics, and digital twins in today's context.
+    \item This survey first describes the concept of \ac{dt} and its misconceptions.
+      It then discusses the challenges of \ac{iot}/\ac{iiot}, data analytics, and \ac{dt}s in today's context.
       Followed by an identification of their enabling technologies.
       Lastly, it ends with a categorical review of current research on \ac{iot}/\ac{iiot} and data analytics with a focus on \ac{dt} publications.
       Reviewing 177 articles from 2015 to 2019, categorizing them into three areas: Manufacturing, Healthcare, and smart city \cite{Fuller9103025}.
-    \item \cite{JONES202036} reviews 92 publications on Digital Twins from 2009 to 2018, focusing on identifying thematic areas, future directions and gaps in research.
+    \item \cite{JONES202036} reviews 92 publications on \ac{dt}s from 2009 to 2018, focusing on identifying thematic areas, future directions and gaps in research.
       It highlights gaps such as the lack of attention to data ownership and integration between virtual entities.
-      A key finding is the absence of studies that provide quantifiable evidence of the benefits of a digital twin approach compared to existing processes and systems, which can hinder industrial adoption.
+      A key finding is the absence of studies that provide quantifiable evidence of the benefits of a \ac{dt} approach compared to existing processes and systems, which can hinder industrial adoption.
       Furthermore, it also highlight that most litterateur is concentrated on specific phases of the life-cycle, with early stages being less explored.
-      Finally, it compares related research domains within the context of digital twins.
-    \item Wang et al. (2023) \cite{Wang10090432} presents the concept of Internet of Digital Twins (IoDT), its architecture, enabling technologies, and security/privacy issues.
-      IoDT is an interconnected system of a number of Digital Twins and Physical entities synchronized through intra-twin semantic communication.
-      In the survey, they highlight their contribution compared to other surveys on the digital twin topic from 2019 to 2023. 
+      Finally, it compares related research domains within the context of \ac{dt}s.
+    \item Wang et al. (2023) \cite{Wang10090432} presents the concept of \ac{iodt}, its architecture, enabling technologies, and security/privacy issues.
+      \ac{iodt} is an interconnected system of a number of \ac{dt}s and Physical entities synchronized through intra-twin semantic communication.
+      In the survey, they highlight their contribution compared to other surveys on the \ac{dt} topic from 2019 to 2023. 
 \end{itemize}
 %% Add this paper to research rabbit.
-% A Comprehensive Review of AI-Based Digital Twin Applications in Manufacturing: Integration Across Operator, Product, and Process Dimensions
+% A Comprehensive Review of \ac{ai}-Based Digital Twin Applications in Manufacturing: Integration Across Operator, Product, and Process Dimensions
 
 \subsection{DTaaS}
-While Digital Twin technology has an influential future, its prolonged life depends on practical implementations, value-added services, and product realization.
-Studies on Digital Twin as a Service (DTaaS) have been approached from two angles.
+While \ac{dt} technology has an influential future, its prolonged life depends on practical implementations, value-added services, and product realization.
+Studies on \ac{dtaas} have been approached from two angles.
 (i) a conceptual reference architecture model as a means to realize mass individualization, and (ii) a platform-oriented implementation.
 
-In \cite{AHELEROFF2021101225}, Aheleroff et al. (2021) propose a Digital Twin reference architecture model in Industry 4.0.
-Inspired by RAMI 4.0 and the DIKW model (Data, Information, Knowledge, and Wisdom), they present a layered reference model, which breaks down the complex integration of Digital Twins in Industry into manageable packages with a focus on the Digital Twin Layers, level of integration, and agile methodology.
+In \cite{AHELEROFF2021101225}, Aheleroff et al. (2021) propose a \ac{dt} reference architecture model in Industry 4.0.
+Inspired by RAMI 4.0 and the DIKW model (Data, Information, Knowledge, and Wisdom), they present a layered reference model, which breaks down the complex integration of \ac{dt}s in Industry into manageable packages with a focus on the \ac{dt} Layers, level of integration, and agile methodology.
 While also being a common understanding and reference point among contributors. 
 
 From a platform and implementation perspective, Talasila et al. (2022) \cite{auDTaaS10448890} present an architecture and concrete implementation of DTaaS.
@@ -77,26 +88,26 @@ This allows the operator to test different power-on times to ensure the avoidanc
 % https://link.springer.com/chapter/10.1007/978-3-031-66719-0_10
 
 \subsection{Digital Twin Challenges and Future Directions}
-While the Digital Twin technology has gained much attention through the years since its conception in 2003 by Micheal Grieves \cite{TAO2019653}, challenges still exists.
-A lack of standardization, frameworks, and reference models that unify the process of creating and implementing Digital Twins in the manufacturing industry.
+While the \ac{dt} technology has gained much attention through the years since its conception in 2003 by Micheal Grieves \cite{TAO2019653}, challenges still exists.
+A lack of standardization, frameworks, and reference models that unify the process of creating and implementing \ac{dt}s in the manufacturing industry.
 A unified reference model for implementation has been proposed \cite{AHELEROFF2021101225}; however, it has not achieved widespread adoption, highlighting the need for reference models that satisfy domain-specific requirements.
-A common digital twin definition isn't fully agreed upon in research, while most use the term Digital Twin, a common understanding and definition are still missing.
-Digital Twins rely on real-time two-way communication between he physical and digital twin to ensure that the digital twin properly reflects the \ac{pt}.
+A common \ac{dt} definition isn't fully agreed upon in research, while most use the term \ac{dt}, a common understanding and definition are still missing.
+\ac{dt}s rely on real-time two-way communication between he physical and \ac{dt} to ensure that the \ac{dt} properly reflects the \ac{pt}.
 Achieving this is challenging due to the spatio-temporal resolution of sensor data, latency in communication, and the large volume and variety of data that is generated cite{Digital Twin, Challenges and Enablers From a Modeling Perspective}.
-To alleviate this, research into more robust fusion algorithms to ensure better synchronization of physical and digital twins is needed.
+To alleviate this, research into more robust fusion algorithms to ensure better synchronization of physical and \ac{dt}s is needed.
 While also attending to the computational burden to perform complex computations on large volumes of data at high velocity, cite{Predictive maintenance using digital twins: A systematic literature review} poses a challenge.
 This could be handled using compute technologies such as edge computing and cloud computing.
 
-However, obstacles remain how detailed a digital twin can or should be.
+However, obstacles remain how detailed a \ac{dt} can or should be.
 Aheleroff et a. \cite{AHELEROFF2021101225} highlight challenges such as knowledge isolation, understanding the physical world, and the computational power needed for simulating the sheer number of states a system can have under many parameter configurations.
-They propose three dimensions to assess this challenge: Integration level (How specific will the Digital Twin integration be?), Interval (How detailed and accurate should the Digital Twin be?), and Intricacy (How much resource is required to create a Digital Twin?).  %- (originalt fra ) https://link.springer.com/chapter/10.1007/978-3-319-38756-7_4  bruger Digital Twin as a Service (DTaaS) in Industry 4.0: An Architecture Reference Model
+They propose three dimensions to assess this challenge: Integration level (How specific will the \ac{dt} integration be?), Interval (How detailed and accurate should the \ac{dt} be?), and Intricacy (How much resource is required to create a \ac{dt}?).  %- (originalt fra ) https://link.springer.com/chapter/10.1007/978-3-319-38756-7_4  bruger Digital Twin as a Service (DTaaS) in Industry 4.0: An Architecture Reference Model
 
-The Digital Twin fidelity level describes how closely it can reflect the \ac{pt}.
+The \ac{dt} fidelity level describes how closely it can reflect the \ac{pt}.
 The higher the fidelity is, the more it resembles the \ac{pt}.
 Currently, no study implements a high-fidelity model and often just uses a subset of the parameters.
-Implementing high-fidelity models in Digital Twins is not currently achievable as they require high network speeds and computational processing power \cite{JONES202036}, which is not doable in all applications.
+Implementing high-fidelity models in \ac{dt}s is not currently achievable as they require high network speeds and computational processing power \cite{JONES202036}, which is not doable in all applications.
 Such as real-time critical systems.
-Perceiving the benefits of digital twins is not trivial, and there is a lack of research in validation and quantification against existing processes and systems to preemptively assess the benefits as well as determine whether the achieved performance stems from the digital twin or its enabling technologies \cite{JONES202036, VANDINTER2022107008}.
+Perceiving the benefits of \ac{dt}s is not trivial, and there is a lack of research in validation and quantification against existing processes and systems to preemptively assess the benefits as well as determine whether the achieved performance stems from the \ac{dt} or its enabling technologies \cite{JONES202036, VANDINTER2022107008}.
 
 
 %Digital twins interacts/uses system sensitive data... 
