@@ -1,0 +1,73 @@
+\contentsline {chapter}{\numberline {1}Introduction}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Terminology}{1}{section.1.1}%
+\contentsline {subsubsection}{Shop Floor}{1}{section*.7}%
+\contentsline {subsubsection}{Line}{1}{section*.8}%
+\contentsline {subsubsection}{Cell}{2}{section*.9}%
+\contentsline {subsubsection}{Process}{2}{section*.10}%
+\contentsline {subsubsection}{Unit}{2}{section*.11}%
+\contentsline {subsubsection}{Batch}{2}{section*.12}%
+\contentsline {subsubsection}{Job / Order}{2}{section*.13}%
+\contentsline {subsubsection}{Setup / Changeover}{2}{section*.14}%
+\contentsline {subsubsection}{Component}{2}{section*.15}%
+\contentsline {subsubsection}{Property}{2}{section*.16}%
+\contentsline {subsubsection}{Device}{2}{section*.17}%
+\contentsline {subsubsection}{Event}{2}{section*.18}%
+\contentsline {subsubsection}{Additive Manufacturing}{2}{section*.19}%
+\contentsline {subsubsection}{Subtractive Manufacturing}{2}{section*.20}%
+\contentsline {chapter}{\numberline {2}Methodology}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Search String}{3}{section.2.1}%
+\contentsline {chapter}{\numberline {3}Industry 3.0}{4}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Overall Equipment Effectiveness}{4}{section.3.1}%
+\contentsline {section}{\numberline {3.2}PackML State}{5}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Simulation and Scheduling}{5}{section.3.3}%
+\contentsline {section}{\numberline {3.4}SPC}{5}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Lean Manufacturing}{5}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Product Line Design / Group Technology}{5}{section.3.6}%
+\contentsline {section}{\numberline {3.7}Layout and Flow Optimization}{5}{section.3.7}%
+\contentsline {chapter}{\numberline {4}Industry 4.0}{6}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Cyber-Physical Systems}{6}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Role of CPS in Manufacturing}{6}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Framework and Tools}{7}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}Surveys and Applications}{7}{subsection.4.1.3}%
+\contentsline {subsection}{\numberline {4.1.4}Challenges and Future Directions}{7}{subsection.4.1.4}%
+\contentsline {section}{\numberline {4.2}Internet of Things \& Industrial Connectivity}{8}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Role in HMLV Manufacturing}{8}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Key Enabling Technologies and Standards}{8}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Challenges and Outlook}{8}{subsection.4.2.3}%
+\contentsline {section}{\numberline {4.3}Big Data \& Analytics}{9}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Role in HMLV Manufacturing}{9}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Analytical Approaches and Trends}{9}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Challenges and Outlook}{9}{subsection.4.3.3}%
+\contentsline {section}{\numberline {4.4}Advanced Robotics \& Automation}{10}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}From Fixed Automation to Flexible Systems}{10}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Intelligence and Adaptivity in Automation}{10}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}Networked and Cloud Robotics}{10}{subsection.4.4.3}%
+\contentsline {subsection}{\numberline {4.4.4}Challenges and Future Directions}{10}{subsection.4.4.4}%
+\contentsline {section}{\numberline {4.5}Decision Support}{11}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}AI-based}{11}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}Predictive Maintenance}{11}{subsection.4.5.2}%
+\contentsline {subsection}{\numberline {4.5.3}Explainable AI}{11}{subsection.4.5.3}%
+\contentsline {subsection}{\numberline {4.5.4}Identified Areas Where AI can be Used}{11}{subsection.4.5.4}%
+\contentsline {subsubsection}{Before Manufacturing}{11}{section*.37}%
+\contentsline {subsubsection}{During Manufacturing}{11}{section*.38}%
+\contentsline {subsubsection}{After Manufacturing}{11}{section*.39}%
+\contentsline {subsection}{\numberline {4.5.5}Challenges in AI}{11}{subsection.4.5.5}%
+\contentsline {section}{\numberline {4.6}MLOps}{11}{section.4.6}%
+\contentsline {section}{\numberline {4.7}Cloud and Edge Computer}{11}{section.4.7}%
+\contentsline {subsection}{\numberline {4.7.1}VM / Virtualization}{11}{subsection.4.7.1}%
+\contentsline {chapter}{\numberline {5}Industry 5.0}{12}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Digital Twins}{12}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Digital Twins}{12}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Case Studies and Architectures}{12}{subsection.5.1.2}%
+\contentsline {subsection}{\numberline {5.1.3}Enabling Technologies}{13}{subsection.5.1.3}%
+\contentsline {subsection}{\numberline {5.1.4}Surveys}{13}{subsection.5.1.4}%
+\contentsline {subsection}{\numberline {5.1.5}DTaaS}{14}{subsection.5.1.5}%
+\contentsline {subsection}{\numberline {5.1.6}What-if (offline)}{14}{subsection.5.1.6}%
+\contentsline {subsection}{\numberline {5.1.7}Digital Twin Challenges and Future Directions}{14}{subsection.5.1.7}%
+\contentsline {section}{\numberline {5.2}Human Centric}{15}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Enabling technologies}{15}{subsection.5.2.1}%
+\contentsline {section}{\numberline {5.3}Resilience and Adaptability}{16}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Sustainability and Circularity}{16}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Ethics and Trustworthy AI}{16}{section.5.5}%
+\contentsline {section}{\numberline {5.6}Co-bots}{16}{section.5.6}%
+\contentsline {chapter}{\numberline {6}Conclusion}{17}{chapter.6}%

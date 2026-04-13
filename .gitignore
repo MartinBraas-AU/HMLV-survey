@@ -1,5 +1,4 @@
-# Ignore all files starting with "main"
-main.*
-
-# But do NOT ignore main.tex
-!main.tex
+.DS_Store
+__pycache__/
+node_modules/
+dist/

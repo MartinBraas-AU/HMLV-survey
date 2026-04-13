@@ -1,0 +1,4674 @@
+[
+  {
+    "id": 0,
+    "title": "Demonstration of the Feasibility of Real Time Application of Machine Learning to Production Scheduling",
+    "year": 2022,
+    "doi": "https://doi.org/10.1109/WSC57314.2022.10015436",
+    "bibtexKey": "Ghasemi2022Demonstration",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": null,
+    "technologies": [
+      "ML",
+      "MES"
+    ],
+    "methods": [
+      "Optimisation"
+    ],
+    "evaluationSetting": "static evaluation",
+    "dataSource": "Industrial data",
+    "country": "Netherlands",
+    "industry": "Semiconductor",
+    "metrics": "makespan minisation",
+    "snowball": false
+  },
+  {
+    "id": 1,
+    "title": "Using a systems approach to model a process digital twin",
+    "year": 2022,
+    "doi": "https://doi.org/10.1016/j.ifacol.2022.09.677",
+    "bibtexKey": "Herkes2022Using",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Lead Time Prediction",
+    "jobShopVariation": null,
+    "technologies": [
+      "DT"
+    ],
+    "methods": [
+      "Optimisation"
+    ],
+    "evaluationSetting": "industrial case study",
+    "dataSource": "Industrial data",
+    "country": "Netherlands",
+    "industry": "Metal & machining",
+    "metrics": "Tardiness",
+    "snowball": false
+  },
+  {
+    "id": 2,
+    "title": "Predicting makespan in Flexible Job Shop Scheduling Problem using Machine Learning",
+    "year": 2022,
+    "doi": "https://doi.org/10.1016/j.ifacol.2022.09.305",
+    "bibtexKey": "Tremblet2022Predicting",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": "Flexible Job-Shop Scheduling",
+    "technologies": [
+      "ML",
+      "AI"
+    ],
+    "methods": [
+      "Random Forest"
+    ],
+    "evaluationSetting": "static evaluation",
+    "dataSource": "synthetic",
+    "country": "France",
+    "industry": "Not specified",
+    "metrics": "Makespan minimisation",
+    "snowball": false
+  },
+  {
+    "id": 3,
+    "title": "A dynamic programming-based heuristic algorithm for a flexible job shop scheduling problem of a matrix system in automotive industry",
+    "year": 2022,
+    "doi": "https://doi.org/10.1109/CASE49997.2022.9926440",
+    "bibtexKey": "Kim2022A",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": "Flexible Job-Shop Scheduling",
+    "technologies": [],
+    "methods": [
+      "MDP",
+      "Heuristic"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "synthetic+industrial data",
+    "country": "South Korea",
+    "industry": "Automotive",
+    "metrics": "Makespan minimisation",
+    "snowball": false
+  },
+  {
+    "id": 4,
+    "title": "Deep Reinforcement Learning-Based Job Shop Scheduling of Smart Manufacturing",
+    "year": 2022,
+    "doi": "https://doi.org/10.32604/cmc.2022.030803",
+    "bibtexKey": "ElSayed2022Deep",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": "Job-Shop Scheduling",
+    "technologies": [
+      "RL"
+    ],
+    "methods": [
+      "GNN",
+      "MDP"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "benchmark data (ft06, ft10 (Fisher);  (Applegate & Cook); (Lawrence))",
+    "country": "Egypt",
+    "industry": "Not specified",
+    "metrics": "Makespan minimisation",
+    "snowball": false
+  },
+  {
+    "id": 5,
+    "title": "Scalability investigation of Double Deep Q Learning for factory layout planning",
+    "year": 2022,
+    "doi": "https://doi.org/10.1016/j.procir.2022.04.027",
+    "bibtexKey": "Klar2022Scalability",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Plant Layout",
+    "jobShopVariation": null,
+    "technologies": [
+      "RL"
+    ],
+    "methods": [
+      "DQN"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "Synthetic",
+    "country": "Germany",
+    "industry": "Not specified",
+    "metrics": "Machine utilisation",
+    "snowball": false
+  },
+  {
+    "id": 6,
+    "title": "Predictive Maintenance Decision Making Based on Reinforcement Learning in Multistage Production Systems",
+    "year": 2022,
+    "doi": "https://doi.org/10.1109/ACCESS.2022.3151170",
+    "bibtexKey": "Feng2022Predictive",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Predictive Maintenance",
+    "jobShopVariation": null,
+    "technologies": [
+      "RL"
+    ],
+    "methods": [
+      "Predictive Maintenance"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "synthetic",
+    "country": "China",
+    "industry": "Not specified",
+    "metrics": "Tardiness",
+    "snowball": false
+  },
+  {
+    "id": 7,
+    "title": "Simultaneous part input sequencing and robot scheduling for mass customisation",
+    "year": 2022,
+    "doi": "https://doi.org/10.1080/00207543.2021.1894369",
+    "bibtexKey": "He2022Simultaneous",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": null,
+    "technologies": [
+      "FMS"
+    ],
+    "methods": [
+      "Heuristic"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "synthetic",
+    "country": "China",
+    "industry": "Semiconductor",
+    "metrics": "Machine utilisation",
+    "snowball": false
+  },
+  {
+    "id": 8,
+    "title": "Multi-agent reinforcement learning for online scheduling in smart factories",
+    "year": 2021,
+    "doi": "https://doi.org/10.1016/j.rcim.2021.102202",
+    "bibtexKey": "Zhou2021Multiagent",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": null,
+    "technologies": [
+      "CPS",
+      "IoT",
+      "RL"
+    ],
+    "methods": [
+      "MARL"
+    ],
+    "evaluationSetting": "lab case study",
+    "dataSource": "lab data",
+    "country": "China",
+    "industry": "Not specified",
+    "metrics": "Makespan minimisation",
+    "snowball": false
+  },
+  {
+    "id": 9,
+    "title": "Data-driven dispatching rules mining and real-time decision-making methodology in intelligent manufacturing shop floor with uncertainty",
+    "year": 2021,
+    "doi": "https://doi.org/10.3390/s21144836",
+    "bibtexKey": "Zhang2021Datadriven",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": "Job-Shop Scheduling",
+    "technologies": [
+      "ML",
+      "CPS"
+    ],
+    "methods": [],
+    "evaluationSetting": "simulation",
+    "dataSource": "synthetic",
+    "country": "China",
+    "industry": "Not specified",
+    "metrics": "Makespan & Tardiness",
+    "snowball": false
+  },
+  {
+    "id": 10,
+    "title": "Evolutionary game based real-time scheduling for energy-efficient distributed and flexible job shop",
+    "year": 2021,
+    "doi": "https://doi.org/10.1016/j.jclepro.2021.126093",
+    "bibtexKey": "Wang2021Evolutionary",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": "Flexible Job-Shop Scheduling",
+    "technologies": [
+      "IoT",
+      "Edge Computing"
+    ],
+    "methods": [],
+    "evaluationSetting": "simulation",
+    "dataSource": "synthetic+industrial data",
+    "country": "China",
+    "industry": "Automotive",
+    "metrics": "Makespan",
+    "snowball": false
+  },
+  {
+    "id": 11,
+    "title": "Artificial-Intelligence-Driven Customized Manufacturing Factory: Key Technologies, Applications, and Challenges",
+    "year": 2021,
+    "doi": "https://doi.org/10.1109/JPROC.2020.3034808",
+    "bibtexKey": "Wan2021ArtificialIntelligenceDriven",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": null,
+    "technologies": [
+      "CPS",
+      "IoT",
+      "Edge Computing",
+      "Cloud"
+    ],
+    "methods": [],
+    "evaluationSetting": "lab case study",
+    "dataSource": "lab data",
+    "country": "China",
+    "industry": "Food packaging",
+    "metrics": "N/A",
+    "snowball": false
+  },
+  {
+    "id": 12,
+    "title": "A prescriptive maintenance system for intelligent production planning and control in a smart cyber-physical production line",
+    "year": 2021,
+    "doi": "https://doi.org/10.1016/j.procir.2021.11.307",
+    "bibtexKey": "Padovano2021A",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": null,
+    "technologies": [
+      "DT",
+      "RL"
+    ],
+    "methods": [],
+    "evaluationSetting": "simulation",
+    "dataSource": "industrial data+synthetic",
+    "country": "Italy",
+    "industry": "Metal & machining",
+    "metrics": "N/A",
+    "snowball": false
+  },
+  {
+    "id": 13,
+    "title": "Reinforcement Learning with Composite Rewards for Production Scheduling in a Smart Factory",
+    "year": 2021,
+    "doi": "https://doi.org/10.1109/ACCESS.2020.3046784",
+    "bibtexKey": "Zhou2021Reinforcement",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": null,
+    "technologies": [
+      "RL"
+    ],
+    "methods": [],
+    "evaluationSetting": "simulation",
+    "dataSource": "lab data",
+    "country": "China",
+    "industry": "Not specified",
+    "metrics": "Makespan minimisation",
+    "snowball": false
+  },
+  {
+    "id": 14,
+    "title": "Modeling and implementation of a digital twin of material flows based on physics simulation",
+    "year": 2021,
+    "doi": "https://doi.org/10.1016/j.jmsy.2020.04.015",
+    "bibtexKey": "Glatt2021Modeling",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Safe Materials Transportation",
+    "jobShopVariation": null,
+    "technologies": [
+      "DT",
+      "CPS",
+      "OPC UA"
+    ],
+    "methods": [],
+    "evaluationSetting": "lab case study",
+    "dataSource": "lab data",
+    "country": "Germany",
+    "industry": "Not specified",
+    "metrics": "Makespan minimsation",
+    "snowball": false
+  },
+  {
+    "id": 15,
+    "title": "Simulation optimization framework for online deployment and adjustment of reconfigurable machines in job shops",
+    "year": 2020,
+    "doi": "https://doi.org/10.1109/IEEM45057.2020.9309782",
+    "bibtexKey": "Feng2020Simulation",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Machine Configurations",
+    "jobShopVariation": null,
+    "technologies": [
+      "DT",
+      "RMS",
+      "CPS"
+    ],
+    "methods": [
+      "Optimisation",
+      "Simulation",
+      "Heuristic"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "synthetic",
+    "country": "China",
+    "industry": "Not specified",
+    "metrics": "Makespan minimisation?",
+    "snowball": false
+  },
+  {
+    "id": 16,
+    "title": "A Middleware Platform for Intelligent Automation: An Industrial Prototype Implementation",
+    "year": 2020,
+    "doi": "https://doi.org/10.1016/j.compind.2020.103329",
+    "bibtexKey": "Coito2020A",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Interoperability",
+    "jobShopVariation": null,
+    "technologies": [
+      "CPS",
+      "IoT",
+      "AI",
+      "OPC UA",
+      "Edge Computing"
+    ],
+    "methods": [],
+    "evaluationSetting": "lab case study",
+    "dataSource": "lab data+industrial data",
+    "country": "Portugal",
+    "industry": "Pharmaceutical",
+    "metrics": "Robustness --> delay rate, machine utilization rate, number of used machine, mean total waiting time (TWT)",
+    "snowball": false
+  },
+  {
+    "id": 17,
+    "title": "Uncertainty-aware power consumption prediction in customized stainless-steel manufacturing: A comparative study of hierarchical Bayesian and deep neural models",
+    "year": 2025,
+    "doi": "https://doi.org/10.1016/j.jmsy.2025.10.010",
+    "bibtexKey": "Chawalitanont2025Uncertaintyaware",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Power Consumption",
+    "jobShopVariation": null,
+    "technologies": [
+      "RL"
+    ],
+    "methods": [
+      "Bayesian Learning"
+    ],
+    "evaluationSetting": "static evaluation",
+    "dataSource": "Industrial data",
+    "country": "Germany",
+    "industry": "Metal & machining",
+    "metrics": "Energy Efficiency",
+    "snowball": false
+  },
+  {
+    "id": 18,
+    "title": "MAMHSAN: A multi-agent deep reinforcement learning framework based on multi-head self-attention network with heterogeneous graph embedding for flexible job shop scheduling",
+    "year": 2025,
+    "doi": "https://doi.org/10.1016/j.cie.2025.111466",
+    "bibtexKey": "Zhang2025MAMHSAN",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": "Flexible Job-Shop Scheduling",
+    "technologies": [
+      "RL"
+    ],
+    "methods": [
+      "GNN"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "synthetic+benchmark data  Barnes, Brandimarte, Dauzere, and Hurink (edata, rdata, vdata)",
+    "country": "China",
+    "industry": "Not specified",
+    "metrics": "Makespan minimisation",
+    "snowball": false
+  },
+  {
+    "id": 19,
+    "title": "Material delivery optimization for make-to-order reconfigurable job shops using an improved chaotic multi-verse algorithm",
+    "year": 2025,
+    "doi": "https://doi.org/10.1016/j.swevo.2025.102167",
+    "bibtexKey": "Xiao2025Material",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": "Reconfigurable Job-Shop Scheduling",
+    "technologies": [
+      "CPS"
+    ],
+    "methods": [
+      "Metaheuristic"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "synthetic",
+    "country": "China",
+    "industry": "Cylinder production",
+    "metrics": "Makespan minimisation / Machine utilisation",
+    "snowball": false
+  },
+  {
+    "id": 20,
+    "title": "A Multi-Trigger Mechanism Design for Rescheduling Decision Assistance in Smart Job Shops Based on Machine Learning",
+    "year": 2025,
+    "doi": "https://doi.org/10.3390/su17052198",
+    "bibtexKey": "Duan2025A",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": "Dynamic Job-Shop Scheduling",
+    "technologies": [
+      "ML",
+      "CPS"
+    ],
+    "methods": [
+      "Classification",
+      "Heuristic"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "industrial data+synthetic",
+    "country": "China",
+    "industry": "Not specified",
+    "metrics": "Robustness --> machine learning metrics: Confusion matrix, Accuracy, Precision, Recall, ROC curve, AUC",
+    "snowball": false
+  },
+  {
+    "id": 21,
+    "title": "Dynamic scheduling for multi-objective flexible job shop via deep reinforcement learning",
+    "year": 2025,
+    "doi": "https://doi.org/10.1016/j.asoc.2025.112787",
+    "bibtexKey": "Yuan2025Dynamic",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": "Dynamic Flexible Job-Shop Scheduling",
+    "technologies": [
+      "RL"
+    ],
+    "methods": [
+      "PPO"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "synthetic+benchmark data (Not typically used).",
+    "country": "China",
+    "industry": "Not specified",
+    "metrics": "Makespan",
+    "snowball": false
+  },
+  {
+    "id": 22,
+    "title": "Applying Decision Transformers to Enhance Neural Local Search on the Job Shop Scheduling Problem",
+    "year": 2025,
+    "doi": "https://doi.org/10.3390/ai6030048",
+    "bibtexKey": "WaubertdePuiseau2025Applying",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": "Job-Shop Scheduling",
+    "technologies": [
+      "ML"
+    ],
+    "methods": [
+      "Decision Transformer",
+      "Imitation Learning"
+    ],
+    "evaluationSetting": "static evaluation",
+    "dataSource": "synthetic+benchmark data taillard",
+    "country": "Germany",
+    "industry": "Not specified",
+    "metrics": "Makespan",
+    "snowball": false
+  },
+  {
+    "id": 23,
+    "title": "Smart scheduling of hanging workshop via digital twin and deep reinforcement learning",
+    "year": 2025,
+    "doi": "https://doi.org/10.1007/s10696-024-09543-z",
+    "bibtexKey": "Pan2025Smart",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": "Flexible Job-Shop Scheduling",
+    "technologies": [
+      "DT",
+      "RL"
+    ],
+    "methods": [],
+    "evaluationSetting": "simulation",
+    "dataSource": "synthetic+ benchmark mk (Brandimarte 1993) and la (Hurink et al. 1994)",
+    "country": "China",
+    "industry": "Not specified",
+    "metrics": "Makespan",
+    "snowball": false
+  },
+  {
+    "id": 24,
+    "title": "A Multi-Action Deep Reinforcement Learning Based on BiLSTM for Flexible Job Shop Scheduling Problem with Tight Time",
+    "year": 2025,
+    "doi": "https://doi.org/10.1145/3709026.3709038",
+    "bibtexKey": "Wang2025A",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": "Flexible Job-Shop Scheduling",
+    "technologies": [
+      "RL"
+    ],
+    "methods": [
+      "Decision Transformer"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "Synthetic",
+    "country": "China",
+    "industry": "Not specified",
+    "metrics": "Tardiness",
+    "snowball": false
+  },
+  {
+    "id": 25,
+    "title": "A Novel Mixed Integer Programming Model with Precedence Relation-Based Decision Variables for Non-Cyclic Scheduling of Cluster Tools",
+    "year": 2025,
+    "doi": "https://doi.org/10.1109/TASE.2024.3386562",
+    "bibtexKey": "Ahn2025A",
+    "manufacturingLevel": "L1",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": null,
+    "technologies": [
+      "CPS"
+    ],
+    "methods": [
+      "Petri Net",
+      "DES"
+    ],
+    "evaluationSetting": "static evaluation",
+    "dataSource": "Synthetic",
+    "country": "South Korea",
+    "industry": "Semiconductor",
+    "metrics": "Makespan",
+    "snowball": false
+  },
+  {
+    "id": 26,
+    "title": "A Hierarchical Multi-Action Deep Reinforcement Learning Method for Dynamic Distributed Job-Shop Scheduling Problem with Job Arrivals",
+    "year": 2025,
+    "doi": "https://doi.org/10.1109/TASE.2024.3380644",
+    "bibtexKey": "Huang2025A",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": "Dynamic Distributed Job-Shop Scheduling",
+    "technologies": [
+      "MAS",
+      "RL"
+    ],
+    "methods": [
+      "MARL"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "synthetic+industrial data",
+    "country": "China",
+    "industry": "Automotive",
+    "metrics": "Robustness --> makespan  and machine idle time (MIT)",
+    "snowball": false
+  },
+  {
+    "id": 27,
+    "title": "Hybrid Task Scheduling in Cloud Manufacturing With Sparse-Reward Deep Reinforcement Learning",
+    "year": 2025,
+    "doi": "https://doi.org/10.1109/TASE.2024.3371250",
+    "bibtexKey": "Wang2025Hybrid",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": null,
+    "technologies": [
+      "RL"
+    ],
+    "methods": [
+      "MDP"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "industrial data+synthetic+benchmark data (Not typically used).",
+    "country": "China",
+    "industry": "Not specified",
+    "metrics": "Makespan",
+    "snowball": false
+  },
+  {
+    "id": 28,
+    "title": "Real-Time Decision-Support System for High-Mix Low-Volume Production Scheduling in Industry 4.0",
+    "year": 2025,
+    "doi": "https://doi.org/10.3390/PR8080912",
+    "bibtexKey": "Long2025RealTime",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": null,
+    "technologies": [
+      "CPS"
+    ],
+    "methods": [],
+    "evaluationSetting": "simulation",
+    "dataSource": "synthetic+industrial data (survey)",
+    "country": "Hungary",
+    "industry": "Not specified",
+    "metrics": "Makespan",
+    "snowball": false
+  },
+  {
+    "id": 29,
+    "title": "Job shop rescheduling with rework and reconditioning in Industry 4.0: an event-driven approach",
+    "year": 2022,
+    "doi": "https://doi.org/10.1007/s00170-021-08163-3",
+    "bibtexKey": "Meja2022Job",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": "Job-Shop Scheduling",
+    "technologies": [
+      "CPS"
+    ],
+    "methods": [
+      "PPO"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "synthetic",
+    "country": "Colombia",
+    "industry": "Not specified",
+    "metrics": "Robustness --> Relative Peformance Difference (RPD) + stability metric",
+    "snowball": false
+  },
+  {
+    "id": 30,
+    "title": "Joint Optimization of Maintenance and Quality Inspection for Multi-Stage Manufacturing System Based on Genetic Reinforcement Learning",
+    "year": 2025,
+    "doi": "https://doi.org/10.1002/qre.70027",
+    "bibtexKey": "Wang2025Joint",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Product Quality",
+    "jobShopVariation": null,
+    "technologies": [
+      "CPS",
+      "RL"
+    ],
+    "methods": [
+      "DQN",
+      "Genetic Algorithm",
+      "Metaheuristic"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "synthetic",
+    "country": "China",
+    "industry": "Not specified",
+    "metrics": "robustness --> costs (maintenance, inspection, buffer penalties) and performance indcators Machine reliability + product quality (probability of producing defective items)",
+    "snowball": true
+  },
+  {
+    "id": 31,
+    "title": "Natural language-driven production planning: integrating large language models with automatic simulation model generation in manufacturing systems",
+    "year": 2025,
+    "doi": "https://doi.org/10.1007/s10845-025-02732-z",
+    "bibtexKey": "Elbasheer2025Natural",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Simulation Generation",
+    "jobShopVariation": null,
+    "technologies": [
+      "ML"
+    ],
+    "methods": [
+      "LLM",
+      "DES"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "synthetic",
+    "country": "Italy",
+    "industry": "Not specified",
+    "metrics": "Machine utilisation",
+    "snowball": true
+  },
+  {
+    "id": 32,
+    "title": "A refined two-stage fuzzy hybrid decision making support framework for enhancing logistics and manufacturing integration",
+    "year": 2025,
+    "doi": "https://doi.org/10.1016/j.aei.2025.103780",
+    "bibtexKey": "Yang2025Refined",
+    "manufacturingLevel": "L3",
+    "dssFocus": "Logistics",
+    "jobShopVariation": null,
+    "technologies": [
+      "RL"
+    ],
+    "methods": [
+      "Fuzzy Methods",
+      "MCDM"
+    ],
+    "evaluationSetting": "static evaluation",
+    "dataSource": "industrial data",
+    "country": "China",
+    "industry": "Not specified",
+    "metrics": "Robustness (resilience)  --> MULTIMOORA score (ranking-based)",
+    "snowball": true
+  },
+  {
+    "id": 33,
+    "title": "A multi-objective Bi-level leader-follower joint optimization for concurrent design of product family and assembly system",
+    "year": 2023,
+    "doi": "https://doi.org/10.1016/j.cie.2023.109035",
+    "bibtexKey": "Hossain2023Multiobjective",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Product Family Modularization",
+    "jobShopVariation": null,
+    "technologies": [],
+    "methods": [
+      "Mathematical Programming",
+      "Genetic Algorithm",
+      "Simulation",
+      "Metaheuristic",
+      "Optimisation"
+    ],
+    "evaluationSetting": "static evaluation",
+    "dataSource": "synthetic",
+    "country": "Australia",
+    "industry": "Not specified",
+    "metrics": "Makespan",
+    "snowball": true
+  },
+  {
+    "id": 34,
+    "title": "A deep reinforcement learning driven bi-population evolutionary optimization for precast concrete scheduling with production transportation",
+    "year": 2025,
+    "doi": "https://doi.org/10.1016/j.cie.2025.111354",
+    "bibtexKey": "Du2025Deep",
+    "manufacturingLevel": "L3",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": "Distributed Flexible Job-Shop Scheduling",
+    "technologies": [
+      "RL"
+    ],
+    "methods": [
+      "Evolutionary Algorithm"
+    ],
+    "evaluationSetting": "static evaluation",
+    "dataSource": "synthetic",
+    "country": "China",
+    "industry": "Precast concrete",
+    "metrics": "Makespan / Energy efficiency",
+    "snowball": true
+  },
+  {
+    "id": 35,
+    "title": "Dynamic integrated process planning and scheduling under multi-resource constraints in workshops with reconfigurable manufacturing cells: a novel hyper-heuristic approach",
+    "year": 2025,
+    "doi": "https://doi.org/10.1016/j.eswa.2025.128337",
+    "bibtexKey": "Guo2025Dynamic",
+    "manufacturingLevel": "L1",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": null,
+    "technologies": [
+      "RMS"
+    ],
+    "methods": [
+      "Hyper-Heuristic",
+      "Heuristic"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "synthetic",
+    "country": "China",
+    "industry": "Not specified",
+    "metrics": "Robustness --> makespan, total tardiness, total reconfiguraiton time, worker load balancing, equioment load balancing",
+    "snowball": true
+  },
+  {
+    "id": 36,
+    "title": "Transitioning trends into action: A simulation-based Digital Twin architecture for enhanced strategic and operational decision-making",
+    "year": 2024,
+    "doi": "https://doi.org/10.1016/j.cie.2024.110616",
+    "bibtexKey": "Santos2024Transitioning",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": null,
+    "technologies": [
+      "DT",
+      "IoT"
+    ],
+    "methods": [
+      "Metaheuristic",
+      "DES"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "lab data+synthetic",
+    "country": "Portugal",
+    "industry": "Not specified",
+    "metrics": "Makespan",
+    "snowball": false
+  },
+  {
+    "id": 37,
+    "title": "Learning-enabled flexible job-shop scheduling for scalable smart manufacturing",
+    "year": 2024,
+    "doi": "https://doi.org/10.1016/j.jmsy.2024.09.011",
+    "bibtexKey": "Moon2024Learningenabled",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": "Flexible Job-Shop Scheduling",
+    "technologies": [
+      "AGV/AMR"
+    ],
+    "methods": [
+      "GNN"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "synthetic+Public benchmark Brandimarte",
+    "country": "South Korea",
+    "industry": "Not specified",
+    "metrics": "Makespan",
+    "snowball": false
+  },
+  {
+    "id": 38,
+    "title": "A deep reinforcement learning based approach for dynamic job shop scheduling considering variable processing time",
+    "year": 2024,
+    "doi": "https://doi.org/10.1145/3690931.3690993",
+    "bibtexKey": "Yang2024A",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": "Dynamic Job-Shop Scheduling",
+    "technologies": [
+      "RL"
+    ],
+    "methods": [
+      "MDP"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "synthetic+Public benchmark ft06 Fisher",
+    "country": "China",
+    "industry": "Not specified",
+    "metrics": "Makespan",
+    "snowball": false
+  },
+  {
+    "id": 39,
+    "title": "A machine learning-based simulation metamodeling method for dynamic scheduling in smart manufacturing systems",
+    "year": 2024,
+    "doi": "https://doi.org/10.1016/j.cie.2024.110507",
+    "bibtexKey": "Nejati2024A",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": "Dynamic Flexible Job-Shop Scheduling",
+    "technologies": [
+      "DT",
+      "ML"
+    ],
+    "methods": [
+      "Simulation",
+      "Optimisation"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "synthetic",
+    "country": "Canada",
+    "industry": "Semiconductor",
+    "metrics": "Makespan",
+    "snowball": false
+  },
+  {
+    "id": 40,
+    "title": "Two-stage double deep Q-network algorithm considering external non-dominant set for multi-objective dynamic flexible job shop scheduling problems",
+    "year": 2024,
+    "doi": "https://doi.org/10.1016/j.swevo.2024.101660",
+    "bibtexKey": "Yue2024Twostage",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": "Dynamic Flexible Job-Shop Scheduling",
+    "technologies": [
+      "RL"
+    ],
+    "methods": [
+      "DQN"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "synthetic",
+    "country": "China",
+    "industry": "Not specified",
+    "metrics": "Robustness --> Total weighted tardiness (TWT) and Machine utilization",
+    "snowball": false
+  },
+  {
+    "id": 41,
+    "title": "A recurrent reinforcement learning strategy for optimal scheduling of partially observable job-shop and flow-shop batch chemical plants under uncertainty",
+    "year": 2024,
+    "doi": "https://doi.org/10.1016/j.compchemeng.2024.108748",
+    "bibtexKey": "RangelMartnez2024A",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": "Job-Shop Scheduling",
+    "technologies": [
+      "RL"
+    ],
+    "methods": [
+      "Q-Learning",
+      "GNN"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "synthetic",
+    "country": "Canada",
+    "industry": "Chemical",
+    "metrics": "Makespan",
+    "snowball": false
+  },
+  {
+    "id": 42,
+    "title": "Rainbow Versus Deep Q-Network: A Reinforcement Learning Comparison on the Flexible Job-Shop Problem",
+    "year": 2024,
+    "doi": "https://doi.org/10.1016/j.ifacol.2024.09.176",
+    "bibtexKey": "Corra2024Rainbow",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": "Flexible Job-Shop Scheduling",
+    "technologies": [
+      "RL"
+    ],
+    "methods": [
+      "DQN"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "benchmark dataset Brandimarte and Dauzere",
+    "country": "Portugal",
+    "industry": "Not specified",
+    "metrics": "Makespan",
+    "snowball": false
+  },
+  {
+    "id": 43,
+    "title": "Solving Flexible Job-Shop Scheduling Problem with Heterogeneous Graph Neural Network Based on Relation and Deep Reinforcement Learning",
+    "year": 2024,
+    "doi": "https://doi.org/10.3390/machines12080584",
+    "bibtexKey": "Tang2024Solving",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": "Flexible Job-Shop Scheduling",
+    "technologies": [
+      "RL"
+    ],
+    "methods": [
+      "Attention Mechanism",
+      "Feature Extraction",
+      "GNN",
+      "PPO"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "benchmark dataset mk (Brandimarte) and Hurink (edata, rdata, vdata",
+    "country": "China",
+    "industry": "Not specified",
+    "metrics": "Makespan",
+    "snowball": false
+  },
+  {
+    "id": 44,
+    "title": "The use of reinforcement learning for material flow control: An assessment by simulation",
+    "year": 2024,
+    "doi": "https://doi.org/10.1016/j.ijpe.2024.109312",
+    "bibtexKey": "He2024The",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Material Flow Control",
+    "jobShopVariation": null,
+    "technologies": [
+      "RL"
+    ],
+    "methods": [
+      "Simulation"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "synthetic",
+    "country": "China",
+    "industry": "Not specified",
+    "metrics": "Tardiness",
+    "snowball": false
+  },
+  {
+    "id": 45,
+    "title": "Smart scheduling of dynamic job shop based on discrete event simulation and deep reinforcement learning",
+    "year": 2024,
+    "doi": "https://doi.org/10.1007/s10845-023-02189-y",
+    "bibtexKey": "Wang2024Smart",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": "Dynamic Job-Shop Scheduling",
+    "technologies": [
+      "RL"
+    ],
+    "methods": [
+      "PPO",
+      "Reinforcement Learning",
+      "Optimisation"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "Synthetic",
+    "country": "China",
+    "industry": "Not specified",
+    "metrics": "Robustness --> mean Tardiness",
+    "snowball": false
+  },
+  {
+    "id": 46,
+    "title": "Fast Pareto set approximation for multi-objective flexible job shop scheduling via parallel preference-conditioned graph reinforcement learning",
+    "year": 2024,
+    "doi": "https://doi.org/10.1016/j.swevo.2024.101605",
+    "bibtexKey": "Su2024Fast",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": "Flexible Job-Shop Scheduling",
+    "technologies": [
+      "RL"
+    ],
+    "methods": [
+      "Reinforcement Learning",
+      "GNN"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "synthetic+ benchmark ft Fisher, la Hurink, orb,",
+    "country": "China",
+    "industry": "Not specified",
+    "metrics": "Makespan",
+    "snowball": false
+  },
+  {
+    "id": 47,
+    "title": "A Double Deep Q-Network framework for a flexible job shop scheduling problem with dynamic job arrivals and urgent job insertions",
+    "year": 2024,
+    "doi": "https://doi.org/10.1016/j.engappai.2024.108487",
+    "bibtexKey": "Lu2024A",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": "Flexible Job-Shop Scheduling",
+    "technologies": [
+      "RL"
+    ],
+    "methods": [
+      "Q-Learning",
+      "DQN",
+      "Optimisation"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "synthetic",
+    "country": "China",
+    "industry": "Semiconductor",
+    "metrics": "Makespan / Tardiness",
+    "snowball": false
+  },
+  {
+    "id": 48,
+    "title": "Introducing PetriRL: An innovative framework for JSSP resolution integrating Petri nets and event-based reinforcement learning",
+    "year": 2024,
+    "doi": "https://doi.org/10.1016/j.jmsy.2024.04.028",
+    "bibtexKey": "Lassoued2024Introducing",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": "Job-Shop Scheduling",
+    "technologies": [
+      "RL"
+    ],
+    "methods": [
+      "Reinforcement Learning",
+      "PPO"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "synthetic+benchmark dataset taillard",
+    "country": "Germany",
+    "industry": "Not specified",
+    "metrics": "Makespan",
+    "snowball": false
+  },
+  {
+    "id": 49,
+    "title": "Multi-Agent Reinforcement Learning for Job Shop Scheduling in Dynamic Environments",
+    "year": 2024,
+    "doi": "https://doi.org/10.3390/su16083234",
+    "bibtexKey": "Pu2024MultiAgent",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": "Job-Shop Scheduling",
+    "technologies": [
+      "RL"
+    ],
+    "methods": [
+      "GNN",
+      "Reinforcement Learning"
+    ],
+    "evaluationSetting": "lab case study",
+    "dataSource": "lab data+benchmark data dmu and  Brandimarte and Hurink",
+    "country": "China",
+    "industry": "Packaging",
+    "metrics": "Makespan",
+    "snowball": false
+  },
+  {
+    "id": 50,
+    "title": "An end-to-end deep reinforcement learning method based on graph neural network for distributed job-shop scheduling problem",
+    "year": 2023,
+    "doi": "https://doi.org/10.1016/j.eswa.2023.121756",
+    "bibtexKey": "Huang2024An",
+    "manufacturingLevel": "L3",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": "Distributed Job-Shop Scheduling",
+    "technologies": [
+      "RL"
+    ],
+    "methods": [
+      "Feature Extraction",
+      "GNN",
+      "MDP",
+      "PPO"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "benchmark dataset taillard",
+    "country": "China",
+    "industry": "Not specified",
+    "metrics": "Makespan",
+    "snowball": false
+  },
+  {
+    "id": 51,
+    "title": "Job shop smart manufacturing scheduling by deep reinforcement learning",
+    "year": 2024,
+    "doi": "https://doi.org/10.1016/j.jii.2024.100582",
+    "bibtexKey": "SerranoRuiz2024Job",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": "Job-Shop Scheduling",
+    "technologies": [
+      "DT",
+      "RL"
+    ],
+    "methods": [
+      "MDP",
+      "PPO"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "synthetic",
+    "country": "Spain",
+    "industry": "Not specified",
+    "metrics": "Makespan",
+    "snowball": false
+  },
+  {
+    "id": 52,
+    "title": "Flexible Job Shop Scheduling via Dual Attention Network-Based Reinforcement Learning",
+    "year": 2023,
+    "doi": "https://doi.org/10.1109/TNNLS.2023.3306421",
+    "bibtexKey": "Wang2024Flexible",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": "Flexible Job-Shop Scheduling",
+    "technologies": [
+      "RL"
+    ],
+    "methods": [
+      "Attention Mechanism",
+      "Feature Extraction",
+      "Reinforcement Learning"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "synthetic+benchmark dataset Brandimarte and Hurink",
+    "country": "China",
+    "industry": "Not specified",
+    "metrics": "Makespan",
+    "snowball": false
+  },
+  {
+    "id": 53,
+    "title": "A flexible job shop scheduling method based on heterogeneous disjunctive graph and deep reinforcement learning",
+    "year": 2025,
+    "doi": "https://doi.org/10.1016/j.engappai.2025.111356",
+    "bibtexKey": "Zhao2025A",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": "Flexible Job-Shop Scheduling",
+    "technologies": [
+      "RL"
+    ],
+    "methods": [
+      "Feature Extraction",
+      "Optimisation",
+      "PPO"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "synthetic+benchmark dataset Deroussi and Norre and Hurink",
+    "country": "China",
+    "industry": "Not specified",
+    "metrics": "Makespan",
+    "snowball": false
+  },
+  {
+    "id": 54,
+    "title": "Demand-driven hierarchical integrated planning-scheduling control for a mobile robot-operated flexible smart manufacturing system",
+    "year": 2025,
+    "doi": "https://doi.org/10.1016/j.rcim.2025.103015",
+    "bibtexKey": "Li2025Demanddriven",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": null,
+    "technologies": [
+      "Robotics",
+      "RL"
+    ],
+    "methods": [
+      "MDP",
+      "MARL",
+      "Policy Gradient"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "lab data",
+    "country": "USA",
+    "industry": "Not specified",
+    "metrics": "Robustness --> throughput, robot movement cost, permanent production loss, production count",
+    "snowball": false
+  },
+  {
+    "id": 55,
+    "title": "Optimizing Markov decision process state design for deep reinforcement learning manufacturing scheduling using Bayesian optimization",
+    "year": 2025,
+    "doi": "https://doi.org/10.1093/jcde/qwaf100",
+    "bibtexKey": "Yoo2025Optimizing",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": "Dynamic Flexible Job-Shop Scheduling",
+    "technologies": [
+      "RL"
+    ],
+    "methods": [
+      "Bayesian Learning",
+      "Optimisation",
+      "MDP",
+      "Supervised Learning"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "synthetic",
+    "country": "South Korea",
+    "industry": "Semiconductor",
+    "metrics": "Tardiness",
+    "snowball": false
+  },
+  {
+    "id": 56,
+    "title": "Inventory routing problem of automotive parts considering time-varying demands: A machine learning enhanced branch-and-price approach",
+    "year": 2025,
+    "doi": "https://doi.org/10.1016/j.tre.2025.104297",
+    "bibtexKey": "Wang2025Inventory",
+    "manufacturingLevel": "L3",
+    "dssFocus": "Logistics",
+    "jobShopVariation": null,
+    "technologies": [
+      "ML"
+    ],
+    "methods": [],
+    "evaluationSetting": "static evaluation",
+    "dataSource": "industrial data",
+    "country": "China",
+    "industry": "Automotive",
+    "metrics": "Tardiness(?) (Inventory and transportation cost)",
+    "snowball": false
+  },
+  {
+    "id": 57,
+    "title": "Dynamic multi-objective flexible job-shop scheduling via dynamic dual attention network-based deep reinforcement learning",
+    "year": 2025,
+    "doi": "https://doi.org/10.1007/s11227-025-07586-z",
+    "bibtexKey": "Zeng2025Dynamic",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": "Flexible Job-Shop Scheduling",
+    "technologies": [
+      "RL"
+    ],
+    "methods": [
+      "Reinforcement Learning"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "synthetic",
+    "country": "China",
+    "industry": "Aerospace",
+    "metrics": "Makespan / Tardiness",
+    "snowball": false
+  },
+  {
+    "id": 58,
+    "title": "EFJSP-IBDR: Energy-efficient flexible job shop scheduling under incentive-based demand response via graph reinforcement learning with dual attention mechanism",
+    "year": 2025,
+    "doi": "https://doi.org/10.1016/j.eswa.2025.127340",
+    "bibtexKey": "Liu2025EFJSPIBDR",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": "Flexible Job-Shop Scheduling",
+    "technologies": [
+      "RL"
+    ],
+    "methods": [
+      "Attention Mechanism",
+      "GNN",
+      "MDP",
+      "Optimisation"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "benchmark dataset kacem + Dauzere + Brandimarte  + lab data",
+    "country": "China",
+    "industry": "Metal & machining",
+    "metrics": "Energy Efficiency / Makespan",
+    "snowball": false
+  },
+  {
+    "id": 59,
+    "title": "Smart Reconfigurable Manufacturing System Based on Semantic Models and Multicriteria Decision Making",
+    "year": 2025,
+    "doi": "https://doi.org/10.1109/ACCESS.2025.3631334",
+    "bibtexKey": "Canciglieri2025Smart",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Reconfigurability",
+    "jobShopVariation": null,
+    "technologies": [
+      "IoT",
+      "AI"
+    ],
+    "methods": [
+      "Ontology",
+      "MCDM"
+    ],
+    "evaluationSetting": "lab case study",
+    "dataSource": "lab data",
+    "country": "Brazil",
+    "industry": "Laboratory",
+    "metrics": "Robustness(?) --> (quality, availability, cost, lead time)",
+    "snowball": false
+  },
+  {
+    "id": 60,
+    "title": "Experience Replay-Driven Evolutionary Reinforcement Learning for Dynamic Flexible Flow Shop Scheduling",
+    "year": 2025,
+    "doi": "https://doi.org/10.1109/DOCS67533.2025.11200734",
+    "bibtexKey": "Wang2025Experience",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": "Dynamic Flexible Flow-Shop Scheduling",
+    "technologies": [
+      "RL"
+    ],
+    "methods": [
+      "MDP"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "synthetic",
+    "country": "China",
+    "industry": "Not specified",
+    "metrics": "Machine utilisation",
+    "snowball": false
+  },
+  {
+    "id": 61,
+    "title": "Graph-Augmented Deep Reinforcement Learning for Key Feature Extraction in FJSP",
+    "year": 2025,
+    "doi": "https://doi.org/10.23919/CCC64809.2025.11178931",
+    "bibtexKey": "Du2025GraphAugmented",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": null,
+    "technologies": [
+      "RL"
+    ],
+    "methods": [
+      "Feature Extraction",
+      "MDP",
+      "PPO"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "synthetic+benchmark dataset Brandimarte",
+    "country": "China",
+    "industry": "Aerospace",
+    "metrics": "Makespan",
+    "snowball": false
+  },
+  {
+    "id": 62,
+    "title": "Data-driven advisory system for industrial manufacturing. Application to the aluminum extrusion process",
+    "year": 2024,
+    "doi": "https://doi.org/10.1016/j.knosys.2024.111631",
+    "bibtexKey": "Kochański2024Datadriven",
+    "manufacturingLevel": "L1",
+    "dssFocus": "Process Parameter Recommendation",
+    "jobShopVariation": null,
+    "technologies": [
+      "ML"
+    ],
+    "methods": [
+      "Data Mining",
+      "Recommendation System"
+    ],
+    "evaluationSetting": "static evaluation",
+    "dataSource": "industrial data",
+    "country": "Poland",
+    "industry": "Metal & machining",
+    "metrics": "Robustness (Zero defects) --> ML metrics: prediction accuracy (Qc, Qd), correlation coefficient (Pearson), classification accuracy, compatibility indices (Cc, Cd)",
+    "snowball": true
+  },
+  {
+    "id": 63,
+    "title": "Enhancing FMS Performance through Multi-Agent Systems in the Context of Industry 4.0",
+    "year": 2024,
+    "doi": "https://doi.org/10.24846/V33I2Y202401",
+    "bibtexKey": "Lefranc2024Enhancing",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Multi-agent Systems",
+    "jobShopVariation": null,
+    "technologies": [
+      "MAS",
+      "FMS"
+    ],
+    "methods": [
+      "DES"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "lab data",
+    "country": "Chile",
+    "industry": "Not specified",
+    "metrics": "Robustness (adaptability) --> Cycle time, Robot utilisation, production rate, assembly time, waiting time",
+    "snowball": true
+  },
+  {
+    "id": 64,
+    "title": "Multi-objective optimization of transfer line balancing problem considering cycle time and energy expenditure",
+    "year": 2024,
+    "doi": "https://doi.org/10.1016/j.procir.2024.10.255",
+    "bibtexKey": "Petersen2024Multiobjective",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": null,
+    "technologies": [],
+    "methods": [
+      "Optimization",
+      "NSGA-II"
+    ],
+    "evaluationSetting": "static evaluation",
+    "dataSource": "industrial data",
+    "country": "Germany",
+    "industry": "Automotive",
+    "metrics": "Makespan (cycle time) / Energy efficiency",
+    "snowball": true
+  },
+  {
+    "id": 65,
+    "title": "Out-of-Order Architecture for Real-Time Data-Driven Resilient Planning and Scheduling of Cyber-Physical Manufacturing Systems",
+    "year": 2024,
+    "doi": "https://doi.org/10.1109/TASE.2025.3563084",
+    "bibtexKey": "Li2026Outoforder",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Plant Layout",
+    "jobShopVariation": null,
+    "technologies": [
+      "CPS"
+    ],
+    "methods": [
+      "Data analytics"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "synthetic",
+    "country": "China",
+    "industry": "Not specified",
+    "metrics": "Robustness (resilience)  --> On-Time Delivery Rate (OTDR) of customer orders and Average Order Flow Time (AOFT)",
+    "snowball": true
+  },
+  {
+    "id": 66,
+    "title": "Self-decision mechanisms of smart production systems based on improved uncertainty theory and user-CFA",
+    "year": 2023,
+    "doi": "https://doi.org/10.1016/j.cie.2023.109453",
+    "bibtexKey": "Qu2023Selfdecision",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": null,
+    "technologies": [
+      "AGV/AMR"
+    ],
+    "methods": [],
+    "evaluationSetting": "static evaluation",
+    "dataSource": "synthetic",
+    "country": "China",
+    "industry": "Cylinder production",
+    "metrics": "Robustness --> total travel distance, number of AGV transport failures",
+    "snowball": true
+  },
+  {
+    "id": 67,
+    "title": "Increasing flexibility and productivity in Industry 4.0 production networks with autonomous mobile robots and smart intralogistics",
+    "year": 2022,
+    "doi": "https://doi.org/10.1007/s10479-020-03526-7",
+    "bibtexKey": "Fragapane2020Increasing",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Plant Layout",
+    "jobShopVariation": null,
+    "technologies": [
+      "AGV/AMR"
+    ],
+    "methods": [],
+    "evaluationSetting": "static evaluation",
+    "dataSource": "synthetic",
+    "country": "Norway",
+    "industry": "Not specified",
+    "metrics": "Robustness --> throughput, cost profit ratio , additional profit, additional cost",
+    "snowball": true
+  },
+  {
+    "id": 68,
+    "title": "Production intralogistics automation based on 3d simulation analysis",
+    "year": 2021,
+    "doi": "https://doi.org/10.36897/jme/137081",
+    "bibtexKey": "Mahmood2021Production",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Plant Layout",
+    "jobShopVariation": null,
+    "technologies": [
+      "AGV/AMR"
+    ],
+    "methods": [
+      "DES"
+    ],
+    "evaluationSetting": "industrial case study",
+    "dataSource": "Industrial data+synthetic",
+    "country": "Estonia",
+    "industry": "Food",
+    "metrics": "Tardiness",
+    "snowball": true
+  },
+  {
+    "id": 69,
+    "title": "Job Shop Scheduling Problem Using Proximal Policy Optimization",
+    "year": 2023,
+    "doi": "https://doi.org/10.1109/IEEM58616.2023.10406397",
+    "bibtexKey": "Wang2023Job",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": "Job-Shop Scheduling",
+    "technologies": [
+      "RL"
+    ],
+    "methods": [
+      "MDP",
+      "PPO"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "synthetic",
+    "country": "China",
+    "industry": "Not specified",
+    "metrics": "Tardiness",
+    "snowball": false
+  },
+  {
+    "id": 70,
+    "title": "Deep Learning Enabling Digital Twin Applications in Production Scheduling: Case of Flexible Job Shop Manufacturing Environment",
+    "year": 2023,
+    "doi": "https://doi.org/10.1109/WSC60868.2023.10407811",
+    "bibtexKey": "Ghasemi2023Deep",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": "Flexible Job-Shop Scheduling",
+    "technologies": [
+      "DT",
+      "DL"
+    ],
+    "methods": [
+      "Simulation"
+    ],
+    "evaluationSetting": "static evaluation",
+    "dataSource": "synthetic",
+    "country": "Netherlands",
+    "industry": "Semiconductor",
+    "metrics": "Makespan",
+    "snowball": false
+  },
+  {
+    "id": 71,
+    "title": "Deep Q Network Method for Dynamic Job Shop Scheduling Problem",
+    "year": 2023,
+    "doi": "https://doi.org/10.1007/978-3-031-43524-9_10",
+    "bibtexKey": "Workneh2023Deep",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": "Dynamic Job-Shop Scheduling",
+    "technologies": [
+      "RL"
+    ],
+    "methods": [
+      "DQN"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "synthetic+ benchmark ft Fisher, Lawrence, orb,",
+    "country": "Turkey",
+    "industry": "Not specified",
+    "metrics": "Makespan",
+    "snowball": false
+  },
+  {
+    "id": 72,
+    "title": "Learning to schedule (L2S): adaptive job shop scheduling using double deep Q network",
+    "year": 2023,
+    "doi": "https://doi.org/10.1080/23080477.2023.2187528",
+    "bibtexKey": "Workneh2023Learning",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": null,
+    "technologies": [
+      "RL"
+    ],
+    "methods": [
+      "DQN"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "benchmark ft Fisher, Lawrence, orb,",
+    "country": "Morocco",
+    "industry": "Not specified",
+    "metrics": "Makespan",
+    "snowball": false
+  },
+  {
+    "id": 73,
+    "title": "Dynamic job shop scheduling based on deep reinforcement learning for multi-agent manufacturing systems",
+    "year": 2022,
+    "doi": "https://doi.org/10.1016/j.rcim.2022.102412",
+    "bibtexKey": "Zhang2022Dynamic",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": "Dynamic Job-Shop Scheduling",
+    "technologies": [
+      "Edge Computing",
+      "RL"
+    ],
+    "methods": [
+      "MLP",
+      "PPO",
+      "Optimisation"
+    ],
+    "evaluationSetting": "lab case study",
+    "dataSource": "lab data",
+    "country": "China",
+    "industry": "Metal & machining",
+    "metrics": "Tardiness, Profit, Algorithm execution time",
+    "snowball": false
+  },
+  {
+    "id": 74,
+    "title": "A multi-dimensional cognitive framework for cognitive manufacturing based OAR model",
+    "year": 2022,
+    "doi": "https://doi.org/10.1016/j.jmsy.2022.09.019",
+    "bibtexKey": "Jiang2022A",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Systems Integration",
+    "jobShopVariation": null,
+    "technologies": [
+      "DT",
+      "AI"
+    ],
+    "methods": [
+      "Ontology"
+    ],
+    "evaluationSetting": "lab case study",
+    "dataSource": "lab data",
+    "country": "China",
+    "industry": "Not specified",
+    "metrics": "N/A",
+    "snowball": false
+  },
+  {
+    "id": 75,
+    "title": "Real-time scheduling for distributed permutation flowshops with dynamic job arrivals using deep reinforcement learning",
+    "year": 2022,
+    "doi": "https://doi.org/10.1016/j.aei.2022.101776",
+    "bibtexKey": "Yang2022Realtime",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": "Dynamic Distributed Job-Shop Scheduling",
+    "technologies": [
+      "RL"
+    ],
+    "methods": [],
+    "evaluationSetting": "simulation",
+    "dataSource": "synthetic",
+    "country": "China",
+    "industry": "Not specified",
+    "metrics": "Tardiness cost",
+    "snowball": false
+  },
+  {
+    "id": 76,
+    "title": "Solving job scheduling problems in a resource preemption environment with multi-agent reinforcement learning",
+    "year": 2022,
+    "doi": "https://doi.org/10.1016/j.rcim.2022.102324",
+    "bibtexKey": "Wang2022Solving",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": "Job-Shop Scheduling",
+    "technologies": [
+      "MAS",
+      "RL"
+    ],
+    "methods": [
+      "MARL"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "synthetic",
+    "country": "China",
+    "industry": "Automotive",
+    "metrics": "Makespan",
+    "snowball": false
+  },
+  {
+    "id": 77,
+    "title": "Digital twin-enabled dynamic scheduling with preventive maintenance using a double-layer Q-learning algorithm",
+    "year": 2022,
+    "doi": "https://doi.org/10.1016/j.cor.2022.105823",
+    "bibtexKey": "Yan2022Digital",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": "Flexible Job-Shop Scheduling",
+    "technologies": [
+      "RL",
+      "DT"
+    ],
+    "methods": [
+      "Q-Learning"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "synthetic+ benchmark mk (Brandimarte)",
+    "country": "China",
+    "industry": "Not specified",
+    "metrics": "Makespan",
+    "snowball": false
+  },
+  {
+    "id": 78,
+    "title": "An approach for joint scheduling of production and predictive maintenance activities",
+    "year": 2022,
+    "doi": "https://doi.org/10.1016/j.jmsy.2022.08.005",
+    "bibtexKey": "Bencheikh2022An",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": "Job-Shop Scheduling",
+    "technologies": [
+      "MAS"
+    ],
+    "methods": [
+      "Predictive Maintenance"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "synthetic",
+    "country": "France",
+    "industry": "Not specified",
+    "metrics": "Maintenance criteria",
+    "snowball": false
+  },
+  {
+    "id": 79,
+    "title": "Improving Delivery Performance in High-Mix Low-Volume Manufacturing by Model-Based and Data-Driven Methods",
+    "year": 2022,
+    "doi": "https://doi.org/10.3390/app12115618",
+    "bibtexKey": "Gdri2022Improving",
+    "manufacturingLevel": "L3",
+    "dssFocus": "Demand Forecasting",
+    "jobShopVariation": null,
+    "technologies": [
+      "ML"
+    ],
+    "methods": [
+      "DES",
+      "Clustering"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "industrial data+synthetic",
+    "country": "Hungary",
+    "industry": "Pneumatic components",
+    "metrics": "N/A",
+    "snowball": false
+  },
+  {
+    "id": 80,
+    "title": "Joint decision-making of parallel machine scheduling restricted in job-machine release time and preventive maintenance with remaining useful life constraints",
+    "year": 2022,
+    "doi": "https://doi.org/10.1016/j.ress.2022.108429",
+    "bibtexKey": "He2022Joint",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Predictive Maintenance",
+    "jobShopVariation": null,
+    "technologies": [
+      "RL"
+    ],
+    "methods": [
+      "Predictive Maintenance",
+      "Metaheuristic"
+    ],
+    "evaluationSetting": "static evaluation",
+    "dataSource": "lab data+synthetic (unspesified benchmark_data)",
+    "country": "China",
+    "industry": "Not specified",
+    "metrics": "Makespan + machining penalty",
+    "snowball": false
+  },
+  {
+    "id": 81,
+    "title": "Dynamic Scheduling Method for Job-Shop Manufacturing Systems by Deep Reinforcement Learning with Proximal Policy Optimization",
+    "year": 2022,
+    "doi": "https://doi.org/10.3390/su14095177",
+    "bibtexKey": "Zhang2022Dynamicb",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": "Dynamic Job-Shop Scheduling",
+    "technologies": [
+      "RL"
+    ],
+    "methods": [
+      "PPO",
+      "DES"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "synthetic+industrial data (structurel insperied).",
+    "country": "United Kingdom",
+    "industry": "Semiconductor",
+    "metrics": "N/A",
+    "snowball": false
+  },
+  {
+    "id": 82,
+    "title": "Real-time data-driven dynamic scheduling for flexible job shop with insufficient transportation resources using hybrid deep Q network",
+    "year": 2022,
+    "doi": "https://doi.org/10.1016/j.rcim.2021.102283",
+    "bibtexKey": "Li2022Realtime",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": "Dynamic Flexible Job-Shop Scheduling",
+    "technologies": [
+      "RL"
+    ],
+    "methods": [
+      "DQN",
+      "Genetic Algorithm",
+      "Metaheuristic",
+      "DES"
+    ],
+    "evaluationSetting": "static evaluation",
+    "dataSource": "synthetic+industrial data (structurel insperied).",
+    "country": "China",
+    "industry": "Not specified",
+    "metrics": "Makespan + Energy consumption",
+    "snowball": false
+  },
+  {
+    "id": 83,
+    "title": "Evolutionary experience-guided deep reinforcement learning for job shop scheduling with AGV transportation constraints in flexible manufacturing system",
+    "year": 2025,
+    "doi": "https://doi.org/10.1016/j.cie.2025.111465",
+    "bibtexKey": "Li2025Evolutionary",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": "Flexible Job-Shop Scheduling",
+    "technologies": [
+      "RL"
+    ],
+    "methods": [
+      "GNN"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "synthetic+benchmark Homayouni and Fontes (Fattahi using Brandimarte + Chambers and Barnes)",
+    "country": "China",
+    "industry": "Not specified",
+    "metrics": "Makespan",
+    "snowball": false
+  },
+  {
+    "id": 84,
+    "title": "Deep reinforcement learning based proximal policy optimization algorithm for dynamic job shop scheduling",
+    "year": 2025,
+    "doi": "https://doi.org/10.1016/j.cor.2025.107149",
+    "bibtexKey": "Yuan2025Deep",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": "Dynamic Job-Shop Scheduling",
+    "technologies": [
+      "RL"
+    ],
+    "methods": [
+      "PPO"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "synthetic+benchmark FT-crowston, LA, SWV",
+    "country": "China",
+    "industry": "Not specified",
+    "metrics": "Delay time + Process time",
+    "snowball": false
+  },
+  {
+    "id": 85,
+    "title": "Dynamic scheduling for dual-resource constrained flexible job-shop via semantic-aware graph modelling and deep reinforcement learning",
+    "year": 2025,
+    "doi": "https://doi.org/10.1016/j.knosys.2025.114192",
+    "bibtexKey": "Hu2025Dynamic",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": "Dynamic Flexible Job-Shop Scheduling",
+    "technologies": [
+      "RL"
+    ],
+    "methods": [
+      "PPO"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "synthetic",
+    "country": "China",
+    "industry": "Aerospace",
+    "metrics": "Makespan + production cost",
+    "snowball": false
+  },
+  {
+    "id": 86,
+    "title": "Production-logistics collaborative scheduling in dynamic flexible job shops using nested-hierarchical deep reinforcement learning",
+    "year": 2025,
+    "doi": "https://doi.org/10.1016/j.aei.2025.103195",
+    "bibtexKey": "Shi2025Productionlogistics",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": "Dynamic Flexible Job-Shop Scheduling",
+    "technologies": [
+      "RL"
+    ],
+    "methods": [
+      "Hierarchical RL"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "synthetic",
+    "country": "China",
+    "industry": "Not specified",
+    "metrics": "Makespan + Logistics cost",
+    "snowball": false
+  },
+  {
+    "id": 87,
+    "title": "Optimizing Dynamic Flexible Job Shop Scheduling Using an Evolutionary Multitask Optimization Framework and Genetic Programming",
+    "year": 2025,
+    "doi": "https://doi.org/10.1109/TEVC.2025.3543770",
+    "bibtexKey": "Chen2025Optimizing",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": "Dynamic Flexible Job-Shop Scheduling",
+    "technologies": [
+      "RL"
+    ],
+    "methods": [
+      "Genetic Algorithm",
+      "Metaheuristic"
+    ],
+    "evaluationSetting": "static evaluation",
+    "dataSource": "synthetic",
+    "country": "China",
+    "industry": "Not specified",
+    "metrics": "Makespan + Tardiness",
+    "snowball": false
+  },
+  {
+    "id": 88,
+    "title": "A Dynamic Scheduling Method Combining Iterative Optimization and Deep Reinforcement Learning to Solve Sudden Disturbance Events in a Flexible Manufacturing Process",
+    "year": 2025,
+    "doi": "https://doi.org/10.3390/math13010004",
+    "bibtexKey": "Yan2025A",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": "Dynamic Flexible Job-Shop Scheduling",
+    "technologies": [
+      "RL"
+    ],
+    "methods": [
+      "DQN",
+      "Genetic Algorithm",
+      "Metaheuristic",
+      "DES"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "synthetic+benchmark Kacem",
+    "country": "China",
+    "industry": "Not specified",
+    "metrics": "Makespan",
+    "snowball": false
+  },
+  {
+    "id": 89,
+    "title": "Cloud-fog-edge based computing architechture and a hierarchical decision approach for distributed synchronized manufacturing systems",
+    "year": 2025,
+    "doi": "https://doi.org/10.1016/j.aei.2025.103386",
+    "bibtexKey": "Hong2025Cloudfogedge",
+    "manufacturingLevel": "L3",
+    "dssFocus": "Logistics",
+    "jobShopVariation": null,
+    "technologies": [],
+    "methods": [
+      "Metaheuristic",
+      "Genetic Algorithm",
+      "ALNS",
+      "Tabu Search"
+    ],
+    "evaluationSetting": "static evaluation",
+    "dataSource": "synthetic+industrial data (operational parameters)",
+    "country": "China",
+    "industry": "Chemical",
+    "metrics": "Total system cost(production + distribution)",
+    "snowball": true
+  },
+  {
+    "id": 90,
+    "title": "Production-Logistics Collaborative Scheduling in Dynamic Flexible Job Shops via Multi-Objective Deep Reinforcement Learning",
+    "year": 2024,
+    "doi": "https://doi.org/10.1109/SMC54092.2024.10831278",
+    "bibtexKey": "Shi2024ProductionLogistics",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": "Dynamic Flexible Job-Shop Scheduling",
+    "technologies": [
+      "RL"
+    ],
+    "methods": [
+      "PPO"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "Synthetic",
+    "country": "China",
+    "industry": "Aerospace",
+    "metrics": "Minimise makespan & Total logistics cost",
+    "snowball": false
+  },
+  {
+    "id": 91,
+    "title": "Research on the Application of Evolutionary Algorithms Enhanced by Deep Learning in Intelligent Manufacturing Scheduling",
+    "year": 2024,
+    "doi": "https://doi.org/10.1109/ICMLCA63499.2024.10754379",
+    "bibtexKey": "Sun2024Research",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": "Flexible Job-Shop Scheduling",
+    "technologies": [
+      "RL"
+    ],
+    "methods": [
+      "Actor-Critic",
+      "MDP",
+      "Genetic Algorithm",
+      "Clustering",
+      "DNN"
+    ],
+    "evaluationSetting": "static evaluation",
+    "dataSource": "Hurink J benchmark and Behnke D benchmark",
+    "country": "India",
+    "industry": "Not specified",
+    "metrics": "Machine utilisation",
+    "snowball": false
+  },
+  {
+    "id": 92,
+    "title": "Digital twin-based multi-granularity synchronisation for production-warehousing under batch processing mode",
+    "year": 2024,
+    "doi": "https://doi.org/10.1080/00207543.2024.2408671",
+    "bibtexKey": "Zhang2024Digital",
+    "manufacturingLevel": "L3",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": null,
+    "technologies": [
+      "DT",
+      "Communication"
+    ],
+    "methods": [
+      "Genetic Algorithm",
+      "ALNS",
+      "Simulated Annealing",
+      "Metaheuristic"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "Synthetic",
+    "country": "China",
+    "industry": "Paint",
+    "metrics": "Production cost, production time, storage cost, storage time",
+    "snowball": false
+  },
+  {
+    "id": 93,
+    "title": "Deep Reinforcement Learning Based on Graph Neural Network for Flexible Job Shop Scheduling Problem with Lot Streaming",
+    "year": 2024,
+    "doi": "https://doi.org/10.1007/978-981-97-5675-9_8",
+    "bibtexKey": "He2024Deep",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": "Flexible Job-Shop Scheduling",
+    "technologies": [
+      "RL"
+    ],
+    "methods": [
+      "GNN",
+      "PPO"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "Synthetic",
+    "country": "China",
+    "industry": "Not specified",
+    "metrics": "Makespan minimisation",
+    "snowball": false
+  },
+  {
+    "id": 94,
+    "title": "A Multi-action Reinforcement Learning Framework via Pointer Graph Neural Network for Flexible Job-Shop Scheduling Problems with Resource Transfer",
+    "year": 2024,
+    "doi": "https://doi.org/10.1007/978-981-97-5581-3_15",
+    "bibtexKey": "Xu2024Ab",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": "Flexible Job-Shop Scheduling",
+    "technologies": [
+      "RL"
+    ],
+    "methods": [
+      "GNN",
+      "Optimisation",
+      "PPO"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "Synthetic",
+    "country": "China",
+    "industry": "Not specified",
+    "metrics": "Energy efficiency",
+    "snowball": false
+  },
+  {
+    "id": 95,
+    "title": "Energy Estimation and Production Scheduling in Job Shop Using Machine Learning",
+    "year": 2024,
+    "doi": "https://doi.org/10.1109/ACCESS.2024.3430218",
+    "bibtexKey": "Pereira2024Energy",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": "Job-Shop Scheduling",
+    "technologies": [
+      "ML"
+    ],
+    "methods": [
+      "Genetic Algorithm",
+      "Optimisation"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "Synthetic",
+    "country": "Brazil",
+    "industry": "Not specified",
+    "metrics": "Energy efficiency",
+    "snowball": false
+  },
+  {
+    "id": 96,
+    "title": "Deep Reinforcement Learning for Dynamic Flexible Job-Shop Scheduling with Automated Guided Vehicles",
+    "year": 2024,
+    "doi": "https://doi.org/10.1007/978-981-97-0194-0_11",
+    "bibtexKey": "Hou2024Deep",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": "Dynamic Flexible Job-Shop Scheduling",
+    "technologies": [
+      "AGV/AMR",
+      "RL"
+    ],
+    "methods": [
+      "DQN",
+      "MDP"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "Synthetic",
+    "country": "China",
+    "industry": "Not specified",
+    "metrics": "Tardiness",
+    "snowball": false
+  },
+  {
+    "id": 97,
+    "title": "Expert-Guided Deep Reinforcement Learning for Flexible Job Shop Scheduling Problem",
+    "year": 2024,
+    "doi": "https://doi.org/10.1007/978-981-97-2275-4_4",
+    "bibtexKey": "Zhang2024ExpertGuided",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": "Flexible Job-Shop Scheduling",
+    "technologies": [
+      "RL"
+    ],
+    "methods": [
+      "GNN"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "Synthetic",
+    "country": "China",
+    "industry": "Not specified",
+    "metrics": "Makespan minimisation",
+    "snowball": false
+  },
+  {
+    "id": 98,
+    "title": "Large-Scale Dynamic Scheduling for Flexible Job-Shop with Random Arrivals of New Jobs by Hierarchical Reinforcement Learning",
+    "year": 2024,
+    "doi": "https://doi.org/10.1109/TII.2023.3272661",
+    "bibtexKey": "Lei2024LargeScale",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": "Flexible Job-Shop Scheduling",
+    "technologies": [
+      "RL"
+    ],
+    "methods": [
+      "GNN",
+      "MDP",
+      "MLP",
+      "Optimisation"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "Synthetic",
+    "country": "China",
+    "industry": "Not specified",
+    "metrics": "Makespan minimisation",
+    "snowball": false
+  },
+  {
+    "id": 99,
+    "title": "Dynamic scheduling for flexible job shop with insufficient transportation resources via graph neural network and deep reinforcement learning",
+    "year": 2023,
+    "doi": "https://doi.org/10.1016/j.cie.2023.109718",
+    "bibtexKey": "Zhang2023Dynamic",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": "Dynamic Flexible Job-Shop Scheduling",
+    "technologies": [
+      "AGV/AMR",
+      "RL"
+    ],
+    "methods": [
+      "GNN"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "Synthetic+industrial data+Benchmark (HAM,2020 based on HUdata (Hurink,) flexible job shop (sdata, edata, rdata, vdata with 3 layouts))",
+    "country": "China",
+    "industry": "Electronics",
+    "metrics": "Makespan minimisation",
+    "snowball": false
+  },
+  {
+    "id": 100,
+    "title": "A cooperative hierarchical deep reinforcement learning based multi-agent method for distributed job shop scheduling problem with random job arrivals",
+    "year": 2023,
+    "doi": "https://doi.org/10.1016/j.cie.2023.109650",
+    "bibtexKey": "Huang2023A",
+    "manufacturingLevel": "L3",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": "Distributed Job-Shop Scheduling",
+    "technologies": [
+      "RL"
+    ],
+    "methods": [
+      "DQN",
+      "MDP"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "Synthetic+industrial data",
+    "country": "China",
+    "industry": "Automotive",
+    "metrics": "Makespan minimisation",
+    "snowball": false
+  },
+  {
+    "id": 101,
+    "title": "Multi-objective green scheduling of integrated flexible job shop and automated guided vehicles",
+    "year": 2023,
+    "doi": "https://doi.org/10.1016/j.engappai.2023.106864",
+    "bibtexKey": "Xu2023Multiobjective",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": "Flexible Job-Shop Scheduling",
+    "technologies": [
+      "AGV/AMR"
+    ],
+    "methods": [],
+    "evaluationSetting": "static evaluation",
+    "dataSource": "synthetic based on Expanded_benchmark instances Mk01-Mk15 from Braindimarte",
+    "country": "China",
+    "industry": "Not specified",
+    "metrics": "Energy efficiency",
+    "snowball": false
+  },
+  {
+    "id": 102,
+    "title": "Flexible Job-Shop Scheduling via Graph Neural Network and Deep Reinforcement Learning",
+    "year": 2023,
+    "doi": "https://doi.org/10.1109/TII.2022.3189725",
+    "bibtexKey": "Song2023Flexible",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": "Flexible Job-Shop Scheduling",
+    "technologies": [
+      "RL"
+    ],
+    "methods": [
+      "GNN"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "Synthetic+Benchmark data (Braindimarte mk01-mk10 and Hurink la instances (rdata, edata, and vdata)).",
+    "country": "China",
+    "industry": "Not specified",
+    "metrics": "Makespan minimisation",
+    "snowball": false
+  },
+  {
+    "id": 103,
+    "title": "Practical algorithms for weakly flexible job scheduling for smart mold component process",
+    "year": 2024,
+    "doi": "https://doi.org/10.1016/j.future.2024.05.058",
+    "bibtexKey": "Zhou2024Practical",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": "Flexible Job-Shop Scheduling",
+    "technologies": [],
+    "methods": [
+      "Genetic Algorithm"
+    ],
+    "evaluationSetting": "static evaluation",
+    "dataSource": "industrial data",
+    "country": "South Korea",
+    "industry": "Metal & machining",
+    "metrics": "machine utilisation",
+    "snowball": false
+  },
+  {
+    "id": 104,
+    "title": "Deep reinforcement learning for data-driven scheduling in multi-variety and small-batch flexible job shops: Integrating fluid models for enhanced optimization",
+    "year": 2025,
+    "doi": "https://doi.org/10.1016/j.cie.2025.111342",
+    "bibtexKey": "Ding2025Deep",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": "Flexible Job-Shop Scheduling",
+    "technologies": [
+      "RL",
+      "IoT"
+    ],
+    "methods": [
+      "DQN",
+      "Optimisation"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "indutrial data+Synethic+benchmark fattahi.",
+    "country": "China",
+    "industry": "Not specified",
+    "metrics": "Makespan minimisation",
+    "snowball": false
+  },
+  {
+    "id": 105,
+    "title": "Optimization Scheduling of Dynamic Industrial Systems Based on Reinforcement Learning",
+    "year": 2025,
+    "doi": "https://doi.org/10.3390/app151810108",
+    "bibtexKey": "Zhang2025Optimization",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": "Flexible Job-Shop Scheduling",
+    "technologies": [
+      "RL"
+    ],
+    "methods": [
+      "Feature Extraction",
+      "Optimisation",
+      "Policy Gradient"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "Synthetic+Benchmark dataset. (Brandimarte [40], Dauzère [41], Taillard [42], Demirkol [43], and Lawrence [44])",
+    "country": "China",
+    "industry": "Not specified",
+    "metrics": "tardiness",
+    "snowball": false
+  },
+  {
+    "id": 106,
+    "title": "Cognitive Digital Twin for Multiobjective Production Scheduling",
+    "year": 2025,
+    "doi": "https://doi.org/10.1115/1.4068980",
+    "bibtexKey": "Lee2025Cognitive",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": null,
+    "technologies": [
+      "DT"
+    ],
+    "methods": [
+      "Optimisation",
+      "Simulation"
+    ],
+    "evaluationSetting": "lab case study",
+    "dataSource": "lab data",
+    "country": "USA",
+    "industry": "Not specified",
+    "metrics": "Makespan minimisation",
+    "snowball": false
+  },
+  {
+    "id": 107,
+    "title": "Flexible job shop scheduling based on learnable graph convolutional attention networks and reinforcement learning",
+    "year": 2025,
+    "doi": "https://doi.org/10.1016/j.jfranklin.2025.107944",
+    "bibtexKey": "Zhong2025Flexible",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": "Flexible Job-Shop Scheduling",
+    "technologies": [
+      "RL"
+    ],
+    "methods": [
+      "Feature Extraction"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "Synthetic+benchmark datasets (Dauzere, Brandimarte, Hurink)",
+    "country": "China",
+    "industry": "Not specified",
+    "metrics": "Makespan minimisation",
+    "snowball": false
+  },
+  {
+    "id": 108,
+    "title": "A machine learning approach for engineer-to-order firms to predict supplier performance in critical supply chains",
+    "year": 2025,
+    "doi": "https://doi.org/10.1080/17509653.2025.2498119",
+    "bibtexKey": "Sherwin2025A",
+    "manufacturingLevel": "L3",
+    "dssFocus": "Risk Supplier Assessment",
+    "jobShopVariation": null,
+    "technologies": [
+      "ML"
+    ],
+    "methods": [
+      "Ensemble Methods",
+      "Logistic Regression",
+      "Random Forest",
+      "SVM"
+    ],
+    "evaluationSetting": "static evaluation",
+    "dataSource": "industrial data",
+    "country": "USA",
+    "industry": "Nuclear",
+    "metrics": "Supplier performance",
+    "snowball": false
+  },
+  {
+    "id": 109,
+    "title": "Energy-aware dynamic rescheduling of flexible manufacturing system using edge-cloud collaborative decision-making method",
+    "year": 2025,
+    "doi": "https://doi.org/10.1080/0951192X.2024.2343677",
+    "bibtexKey": "Li2025Energyaware",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": "Flexible Job-Shop Scheduling",
+    "technologies": [
+      "RL"
+    ],
+    "methods": [
+      "DQN"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "industrial data",
+    "country": "China",
+    "industry": "Metal & machining",
+    "metrics": "energy efficiency",
+    "snowball": false
+  },
+  {
+    "id": 110,
+    "title": "Agent-Based Communication for Fault Diagnosis in Skill-Based Production Environments Using Messages Based on I4.0 Language and Asset Administration Shells",
+    "year": 2025,
+    "doi": "https://doi.org/10.1007/978-3-031-86489-6_17",
+    "bibtexKey": "Rubel2025AgentBased",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Fault Detection",
+    "jobShopVariation": null,
+    "technologies": [
+      "CPS"
+    ],
+    "methods": [],
+    "evaluationSetting": "Other",
+    "dataSource": "lab data",
+    "country": "Germany",
+    "industry": "Not specified",
+    "metrics": "Fault detection",
+    "snowball": false
+  },
+  {
+    "id": 111,
+    "title": "Energy-efficient single-machine scheduling problem with controllable job processing times under differential electricity pricing",
+    "year": 2020,
+    "doi": "https://doi.org/10.1016/j.resconrec.2020.104902",
+    "bibtexKey": "Tsao2020Energyefficient",
+    "manufacturingLevel": "L0",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": null,
+    "technologies": [],
+    "methods": [
+      "Genetic Algorithm",
+      "Fuzzy Logic",
+      "MILP",
+      "Solver"
+    ],
+    "evaluationSetting": "static evaluation",
+    "dataSource": "synthetic",
+    "country": "Taiwan",
+    "industry": "Not specified",
+    "metrics": "total energy cost",
+    "snowball": true
+  },
+  {
+    "id": 112,
+    "title": "Idle time and capacity control for a single machine scheduling problem with dynamic electricity pricing",
+    "year": 2020,
+    "doi": "https://doi.org/10.1007/s12063-020-00156-x",
+    "bibtexKey": "Lee2020Idle",
+    "manufacturingLevel": "L0",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": null,
+    "technologies": [],
+    "methods": [
+      "MINLP"
+    ],
+    "evaluationSetting": "static evaluation",
+    "dataSource": "synthetic",
+    "country": "South Korea",
+    "industry": "Not specified",
+    "metrics": "Just-In-Time cost (too early or tardiness (too late)), total operations energy cost, idle energy cost, repair cost",
+    "snowball": true
+  },
+  {
+    "id": 113,
+    "title": "Smart Energy-Aware Manufacturing Plant Scheduling under Uncertainty: A Risk-Based Multi-Objective Robust Optimization Approach",
+    "year": 2020,
+    "doi": "https://doi.org/10.1016/j.energy.2020.118385",
+    "bibtexKey": "Golpira2020Smart",
+    "manufacturingLevel": "L3",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": null,
+    "technologies": [
+      "Other"
+    ],
+    "methods": [
+      "MILP",
+      "Solver"
+    ],
+    "evaluationSetting": "static evaluation",
+    "dataSource": "synthetic",
+    "country": "Iran",
+    "industry": "Not specified",
+    "metrics": "co2 emmision,  economic cost, comfort cost, (mb scenario expected cost + robustness penalties (want to ensure that shcedules performing well in general are those which is chossen)).",
+    "snowball": true
+  },
+  {
+    "id": 114,
+    "title": "Energy-efficient single-machine scheduling with release dates under time-of-use electricity tariffs",
+    "year": 2023,
+    "doi": "https://doi.org/10.1016/j.jclepro.2023.136228",
+    "bibtexKey": "Wu2023Energyefficient",
+    "manufacturingLevel": "L0",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": null,
+    "technologies": [],
+    "methods": [
+      "MILP",
+      "Heuristic",
+      "Tabu Search",
+      "Solver"
+    ],
+    "evaluationSetting": "static evaluation",
+    "dataSource": "synthetic+industrial data",
+    "country": "China",
+    "industry": "Not specified",
+    "metrics": "total electricity cost",
+    "snowball": true
+  },
+  {
+    "id": 115,
+    "title": "A multi-objective artificial bee colony algorithm for single machine scheduling with family setup under TOU tariffs",
+    "year": 2025,
+    "doi": "https://doi.org/10.1080/00207543.2024.2431178",
+    "bibtexKey": "Xue2025Multiobjective",
+    "manufacturingLevel": "L0",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": null,
+    "technologies": [],
+    "methods": [
+      "Metaheuristic",
+      "Metric",
+      "Solver"
+    ],
+    "evaluationSetting": "static evaluation",
+    "dataSource": "synthetic+industrial data",
+    "country": "China",
+    "industry": "Pressure vessels",
+    "metrics": "total electricity cost, tardiness",
+    "snowball": true
+  },
+  {
+    "id": 116,
+    "title": "A simheuristic approach to optimize energy consumption in the single-machine scheduling problem with stochastic processing times",
+    "year": 2025,
+    "doi": "https://doi.org/10.1016/j.cie.2025.111580",
+    "bibtexKey": "Bittencourt2025Simheuristic",
+    "manufacturingLevel": "L0",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": null,
+    "technologies": [],
+    "methods": [
+      "Simulated Annealing",
+      "GRASP",
+      "Monte Carlo Simulation",
+      "MILP",
+      "Solver"
+    ],
+    "evaluationSetting": "static evaluation",
+    "dataSource": "synthetic+industrial data",
+    "country": "Brazil",
+    "industry": "Not specified",
+    "metrics": "total energy consumption",
+    "snowball": true
+  },
+  {
+    "id": 117,
+    "title": "An efficient greedy insertion heuristic for energy-conscious single machine scheduling problem under time-of-use electricity tariffs",
+    "year": 2016,
+    "doi": "https://doi.org/10.1016/j.jclepro.2016.03.150",
+    "bibtexKey": "Che2016Efficient",
+    "manufacturingLevel": "L0",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": null,
+    "technologies": [],
+    "methods": [
+      "MILP",
+      "Solver"
+    ],
+    "evaluationSetting": "static evaluation",
+    "dataSource": "synthetic+industrial data",
+    "country": "China",
+    "industry": "Metal & machining",
+    "metrics": "total electricity cost",
+    "snowball": true
+  },
+  {
+    "id": 118,
+    "title": "Unleashing mixed-reality capability in Deep Reinforcement Learning-based robot motion generation towards safe human–robot collaboration",
+    "year": 2024,
+    "doi": "https://doi.org/10.1016/j.jmsy.2024.03.015",
+    "bibtexKey": "Li2024Unleashing",
+    "manufacturingLevel": "L0",
+    "dssFocus": "Human-Robot Collaboration",
+    "jobShopVariation": null,
+    "technologies": [
+      "HRC",
+      "RL",
+      "Robotics"
+    ],
+    "methods": [
+      "Simulation"
+    ],
+    "evaluationSetting": "lab case study",
+    "dataSource": "synthetic+lab data",
+    "country": "China",
+    "industry": "Not specified",
+    "metrics": "N/A",
+    "snowball": false
+  },
+  {
+    "id": 119,
+    "title": "RTMN 2.0—An Extension of Robot Task Modeling and Notation (RTMN) Focused on Human–Robot Collaboration",
+    "year": 2024,
+    "doi": "https://doi.org/10.3390/app14010283",
+    "bibtexKey": "ZhangSprenger2024RTMN",
+    "manufacturingLevel": "L0",
+    "dssFocus": "Human-Robot Collaboration",
+    "jobShopVariation": null,
+    "technologies": [
+      "HRC",
+      "Robotics"
+    ],
+    "methods": [],
+    "evaluationSetting": "Other",
+    "dataSource": "industrial data",
+    "country": "Switzerland",
+    "industry": "Electronics",
+    "metrics": "N/A",
+    "snowball": false
+  },
+  {
+    "id": 120,
+    "title": "Design and Optimization of SMT Reflow Soldering Curves Driven by Digital Twins",
+    "year": 2024,
+    "doi": "https://doi.org/10.1109/MSN63567.2024.00058",
+    "bibtexKey": "Yu2024Design",
+    "manufacturingLevel": "L0",
+    "dssFocus": "Process Monitoring",
+    "jobShopVariation": null,
+    "technologies": [
+      "DT"
+    ],
+    "methods": [
+      "Optimisation"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "industrial data+synthetic",
+    "country": "China",
+    "industry": "Electronics",
+    "metrics": "N/A (development time)",
+    "snowball": false
+  },
+  {
+    "id": 121,
+    "title": "Knowledge-driven framework for industrial robotic systems",
+    "year": 2023,
+    "doi": "https://doi.org/10.1007/s10845-021-01826-8",
+    "bibtexKey": "Hoebert2023Knowledgedriven",
+    "manufacturingLevel": "L0",
+    "dssFocus": "Production Setup",
+    "jobShopVariation": null,
+    "technologies": [
+      "Robotics"
+    ],
+    "methods": [],
+    "evaluationSetting": "lab case study",
+    "dataSource": "lab data",
+    "country": "Austria",
+    "industry": "Electronics",
+    "metrics": "Robustness --> Planning computation time, plan cost, object recognition precision, object recognition accuracy, qualitative metrics (flexibility, programming effort reduction, adaptability)",
+    "snowball": false
+  },
+  {
+    "id": 122,
+    "title": "Applied Reinforcement Learning for Decision Making in Industrial Simulation Environments",
+    "year": 2022,
+    "doi": "https://doi.org/10.1109/WSC57314.2022.10015282",
+    "bibtexKey": "Devanga2022Applied",
+    "manufacturingLevel": "L0",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": "Job-Shop Scheduling",
+    "technologies": [
+      "Robotics",
+      "RL"
+    ],
+    "methods": [
+      "DES"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "synthetic",
+    "country": "USA",
+    "industry": "Not specified",
+    "metrics": "N/A",
+    "snowball": false
+  },
+  {
+    "id": 123,
+    "title": "Toward a Collaborative Sensor Network Integration for SMEs’ Zero-Defect Manufacturing",
+    "year": 2022,
+    "doi": "https://doi.org/10.1007/978-3-031-14844-6_3",
+    "bibtexKey": "Tanane2022Toward",
+    "manufacturingLevel": "L0",
+    "dssFocus": "Defect Prevenetion",
+    "jobShopVariation": null,
+    "technologies": [
+      "IoT"
+    ],
+    "methods": [],
+    "evaluationSetting": "lab case study",
+    "dataSource": "industrial data",
+    "country": "France",
+    "industry": "Metal & machining",
+    "metrics": "N/A",
+    "snowball": false
+  },
+  {
+    "id": 124,
+    "title": "An Energy-Aware Multiobjective Optimization Framework to Minimize Total Tardiness and Energy Cost on a Single-Machine Nonpreemptive Scheduling",
+    "year": 2018,
+    "doi": "https://doi.org/10.1109/TEM.2018.2846627",
+    "bibtexKey": "Rubaiee2019An",
+    "manufacturingLevel": "L0",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": null,
+    "technologies": [
+      "IoT"
+    ],
+    "methods": [
+      "Genetic Algorithm",
+      "Optimisation"
+    ],
+    "evaluationSetting": "static evaluation",
+    "dataSource": "industrial data",
+    "country": "Turkey",
+    "industry": "Not specified",
+    "metrics": "Tardiness + energy cost",
+    "snowball": false
+  },
+  {
+    "id": 125,
+    "title": "Balancing heterogeneous assembly line with multi-skilled human-robot collaboration via Adaptive cooperative co-evolutionary algorithm",
+    "year": 2024,
+    "doi": "https://doi.org/10.1016/j.swevo.2024.101762",
+    "bibtexKey": "Tian2024Balancing",
+    "manufacturingLevel": "L1",
+    "dssFocus": "Human-Robot Collaboration",
+    "jobShopVariation": null,
+    "technologies": [
+      "HRC",
+      "Robotics",
+      "RL"
+    ],
+    "methods": [
+      "Evolutionary Algorithm",
+      "Metaheuristic",
+      "Q-Learning"
+    ],
+    "evaluationSetting": "static evaluation",
+    "dataSource": "litterature data+benchmark data scholl ALBP",
+    "country": "United Kingdom",
+    "industry": "Not specified",
+    "metrics": "Productivity + cost",
+    "snowball": false
+  },
+  {
+    "id": 126,
+    "title": "Data-driven simulation-based decision support system for resource allocation in industry 4.0 and smart manufacturing",
+    "year": 2024,
+    "doi": "https://doi.org/10.1016/j.jmsy.2023.11.019",
+    "bibtexKey": "Mahmoodi2024Datadriven",
+    "manufacturingLevel": "L1",
+    "dssFocus": "Operator Allocation",
+    "jobShopVariation": null,
+    "technologies": [
+      "ML"
+    ],
+    "methods": [
+      "Optimisation",
+      "Simulation"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "Industrial data",
+    "country": "Sweden",
+    "industry": "Marine engine",
+    "metrics": "Max. throughput, min. operators, min. number of forklifts",
+    "snowball": false
+  },
+  {
+    "id": 127,
+    "title": "Deep Reinforcement Learning With a Look-Ahead Search for Robotic Cell Scheduling",
+    "year": 2024,
+    "doi": "https://doi.org/10.1109/TSMC.2023.3317390",
+    "bibtexKey": "Kim2024Deep",
+    "manufacturingLevel": "L1",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": null,
+    "technologies": [
+      "Robotics",
+      "RL"
+    ],
+    "methods": [
+      "Search Algorithm",
+      "Reinforcement Learning",
+      "DQN"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "synthetic",
+    "country": "South Korea",
+    "industry": "Not specified",
+    "metrics": "Makespan",
+    "snowball": false
+  },
+  {
+    "id": 128,
+    "title": "Versatile information provisioning in a configure-to-order production environment; a case study",
+    "year": 2023,
+    "doi": "https://doi.org/10.1016/j.procir.2023.09.195",
+    "bibtexKey": "Slot2023Versatile",
+    "manufacturingLevel": "L0",
+    "dssFocus": "Dashboard Perspectives",
+    "jobShopVariation": null,
+    "technologies": [
+      "DT",
+      "IoT",
+      "Robotics",
+      "OPC UA"
+    ],
+    "methods": [],
+    "evaluationSetting": "industrial case study",
+    "dataSource": "Industrial data",
+    "country": "Netherlands",
+    "industry": "Bicycles",
+    "metrics": "N/A",
+    "snowball": false
+  },
+  {
+    "id": 129,
+    "title": "Production Task Allocation Decision Based on Cloud Robot Cell-Line",
+    "year": 2022,
+    "doi": "https://doi.org/10.1155/2022/5892943",
+    "bibtexKey": "Du2022Production",
+    "manufacturingLevel": "L1",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": null,
+    "technologies": [
+      "IoT",
+      "Robotics"
+    ],
+    "methods": [
+      "Optimisation"
+    ],
+    "evaluationSetting": "static evaluation",
+    "dataSource": "synthetic",
+    "country": "China",
+    "industry": "Electronics",
+    "metrics": "Transport cost + tardiness cost",
+    "snowball": false
+  },
+  {
+    "id": 130,
+    "title": "Monte Carlo Tree Search for online decision making in smart industrial production",
+    "year": 2021,
+    "doi": "https://doi.org/10.1016/j.compind.2021.103433",
+    "bibtexKey": "Senington2021Monte",
+    "manufacturingLevel": "L1",
+    "dssFocus": "Human-Robot Collaboration",
+    "jobShopVariation": null,
+    "technologies": [
+      "HRC"
+    ],
+    "methods": [
+      "Simulation",
+      "MCTS"
+    ],
+    "evaluationSetting": "lab case study",
+    "dataSource": "synthetic+lab data",
+    "country": "Sweden",
+    "industry": "Automotive",
+    "metrics": "Production cycle completition time",
+    "snowball": false
+  },
+  {
+    "id": 131,
+    "title": "Multi-agent cooperative multi-network group framework for energy-efficient distributed fuzzy flexible job shop scheduling problem",
+    "year": 2025,
+    "doi": "https://doi.org/10.1016/j.asoc.2025.113474",
+    "bibtexKey": "Zhang2025Multiagent",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": "Distributed Flexible Job-Shop Scheduling",
+    "technologies": [
+      "IoT",
+      "RL"
+    ],
+    "methods": [
+      "DQN",
+      "MDP",
+      "MARL"
+    ],
+    "evaluationSetting": "static evaluation",
+    "dataSource": "synthetic based on extended_benchmark dataset of (lei Lei01-Lei05 link1 and link2, Reman Remai01-Reman08, and Li FMK01-FMK10)",
+    "country": "China",
+    "industry": "Not specified",
+    "metrics": "Makespan + energy consumption",
+    "snowball": false
+  },
+  {
+    "id": 132,
+    "title": "Deep reinforcement learning approach for a dynamic flexible job shop problem with sequence dependent setup times",
+    "year": 2025,
+    "doi": "https://doi.org/10.1016/j.cie.2025.111310",
+    "bibtexKey": "Yan2025Deep",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": "Dynamic Flexible Job-Shop Scheduling",
+    "technologies": [
+      "RL"
+    ],
+    "methods": [
+      "Actor-Critic",
+      "DQN",
+      "MDP",
+      "Optimisation"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "synthetic",
+    "country": "China",
+    "industry": "Not specified",
+    "metrics": "Makespan",
+    "snowball": false
+  },
+  {
+    "id": 133,
+    "title": "Integrated heterogeneous graph and reinforcement learning enabled efficient scheduling for surface mount technology workshop",
+    "year": 2025,
+    "doi": "https://doi.org/10.1016/j.ins.2025.122023",
+    "bibtexKey": "Zhang2025Integrated",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": null,
+    "technologies": [
+      "ML",
+      "RL"
+    ],
+    "methods": [
+      "Federated Learning",
+      "GNN"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "synthetic",
+    "country": "China",
+    "industry": "Electronics",
+    "metrics": "N/A",
+    "snowball": false
+  },
+  {
+    "id": 134,
+    "title": "Pathfinder: Deep Reinforcement Learning-Based Scheduling for Multi-Robot Systems in Smart Factories with Mass Customization",
+    "year": 2025,
+    "doi": "https://doi.org/10.32604/cmc.2025.065153",
+    "bibtexKey": "Lyu2025Pathfinder",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": null,
+    "technologies": [
+      "Robotics",
+      "RL"
+    ],
+    "methods": [
+      "Reinforcement Learning"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "benchmark (ft06, ft10 (Fisher); orb1–orb5 (Applegate & Cook); la11–la30 (Lawrence); abz5, abz7–abz9 (Adams, Balas & Zawack); ta61–ta63, ta71–ta72 (Taillard))",
+    "country": "China",
+    "industry": "Not specified",
+    "metrics": "Utilisation",
+    "snowball": false
+  },
+  {
+    "id": 135,
+    "title": "Evolutionary Strategies with Dual Graph Reinforcement Learning for Flexible Job Shop Scheduling Problem",
+    "year": 2025,
+    "doi": "https://doi.org/10.1109/CEC65147.2025.11043017",
+    "bibtexKey": "Yang2025Evolutionary",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": "Flexible Job-Shop Scheduling",
+    "technologies": [
+      "RL"
+    ],
+    "methods": [
+      "GNN",
+      "Optimisation",
+      "Policy Gradient"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "synthetic",
+    "country": "China",
+    "industry": "Not specified",
+    "metrics": "Makespan",
+    "snowball": false
+  },
+  {
+    "id": 136,
+    "title": "Real-time integrated production-scheduling and maintenance-planning in a flexible job shop with machine deterioration and condition-based maintenance",
+    "year": 2021,
+    "doi": "https://doi.org/10.1016/j.jmsy.2021.09.018",
+    "bibtexKey": "Ghaleb2021Realtime",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": "Flexible Job-Shop Scheduling",
+    "technologies": [],
+    "methods": [
+      "Genetic Algorithm",
+      "Optimisation"
+    ],
+    "evaluationSetting": "static evaluation",
+    "dataSource": "synthetic based on extended_benchmark fattahi",
+    "country": "Canada",
+    "industry": "Not specified",
+    "metrics": "Tardiness cost + maintenance cost",
+    "snowball": false
+  },
+  {
+    "id": 137,
+    "title": "Job shop scheduling problem with a dual-gripper robot",
+    "year": 2025,
+    "doi": "https://doi.org/10.1080/24725854.2025.2561569",
+    "bibtexKey": "Mao2025Job",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": null,
+    "technologies": [
+      "Communication"
+    ],
+    "methods": [
+      "Mathematical Programming",
+      "MILP"
+    ],
+    "evaluationSetting": "static evaluation",
+    "dataSource": "synthetic",
+    "country": "China",
+    "industry": "Not specified",
+    "metrics": "Makespan + robot energy consumption",
+    "snowball": true
+  },
+  {
+    "id": 138,
+    "title": "Predictive model-based multi-objective optimization with life-long meta-learning for designing unreliable production systems",
+    "year": 2025,
+    "doi": "https://doi.org/10.1016/j.cor.2025.107011",
+    "bibtexKey": "Mahmoodi2025Predictive",
+    "manufacturingLevel": "L1",
+    "dssFocus": "Plant Layout",
+    "jobShopVariation": null,
+    "technologies": [
+      "ML"
+    ],
+    "methods": [
+      "DES",
+      "Multi-Objective Optimisation"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "synthetic+industrial data",
+    "country": "Sweden",
+    "industry": "Marine engine",
+    "metrics": "Max. Throughput, min. buffers, operators and AMRs",
+    "snowball": true
+  },
+  {
+    "id": 139,
+    "title": "The Spatio-Temporal Modeling and Integration of Manufacturing Big Data in Job Shop: An Ontology-Based Approach",
+    "year": 2020,
+    "doi": "https://doi.org/10.1109/ICIEA49774.2020.9101999",
+    "bibtexKey": "Fang2020The",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Data Collection and Visualization",
+    "jobShopVariation": null,
+    "technologies": [
+      "IoT"
+    ],
+    "methods": [],
+    "evaluationSetting": "lab case study",
+    "dataSource": "lab data",
+    "country": "China",
+    "industry": "Aerospace",
+    "metrics": "N/A",
+    "snowball": false
+  },
+  {
+    "id": 140,
+    "title": "Research on adaptive job shop scheduling problems based on dueling double DQN",
+    "year": 2020,
+    "doi": "https://doi.org/10.1109/ACCESS.2020.3029868",
+    "bibtexKey": "Han2020Research",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": "Adaptive Job-Shop Scheduling",
+    "technologies": [
+      "RL"
+    ],
+    "methods": [
+      "CNN",
+      "GNN",
+      "DQN"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "synthetic+benchmark data ft (Fisher and Thompson), abz (Adam, Balas and Zawack), la Lawrence, orb (Applegate and Cook), yn (Yamada and Nakano), swv (Storer, Wu and Vaccari), ta Taillard and dmu (Demirkol, Metha and Uzsoy).",
+    "country": "China",
+    "industry": "Not specified",
+    "metrics": "Makespan",
+    "snowball": false
+  },
+  {
+    "id": 141,
+    "title": "Prescriptive system for reconfigurable manufacturing systems considering variable demand and production rates",
+    "year": 2020,
+    "doi": "paper_6.pdf",
+    "bibtexKey": "Baltazar2020Prescriptive",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Reconfiguration Management",
+    "jobShopVariation": null,
+    "technologies": [
+      "AI",
+      "IoT"
+    ],
+    "methods": [
+      "Genetic Algorithm",
+      "Optimisation",
+      "Simulation"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "synthetic",
+    "country": "Portugal",
+    "industry": "Not specified",
+    "metrics": "Robustness --> differential (expected vs actual produced elements), availability, elements produced, processing time",
+    "snowball": false
+  },
+  {
+    "id": 142,
+    "title": "Performance assessment methodology for AI-supported decision-making in production management",
+    "year": 2020,
+    "doi": "https://doi.org/10.1016/j.procir.2020.03.047",
+    "bibtexKey": "Burggrf2020Performance",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": null,
+    "technologies": [
+      "AI",
+      "RL"
+    ],
+    "methods": [
+      "Optimisation"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "synthetic",
+    "country": "Germany",
+    "industry": "Not specified",
+    "metrics": "N/A",
+    "snowball": false
+  },
+  {
+    "id": 143,
+    "title": "The Research of Flexible Scheduling of Workshop Based on Artificial Fish Swarm Algorithm and Knowledge Mining",
+    "year": 2020,
+    "doi": "https://doi.org/10.1007/978-3-030-53956-6_10",
+    "bibtexKey": "Peng2020The",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": "Flexible Job-Shop Scheduling",
+    "technologies": [],
+    "methods": [
+      "Data Mining",
+      "Decision Tree",
+      "Optimisation"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "industrial data+synthetic",
+    "country": "China",
+    "industry": "Not specified",
+    "metrics": "Makespan",
+    "snowball": false
+  },
+  {
+    "id": 144,
+    "title": "An agent-based process mining architecture for emergent behavior analysis",
+    "year": 2019,
+    "doi": "https://doi.org/10.1109/EDOCW.2019.00022",
+    "bibtexKey": "Bemthuis2019An",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Logistics",
+    "jobShopVariation": null,
+    "technologies": [
+      "AGV/AMR",
+      "IoT"
+    ],
+    "methods": [
+      "Data Mining"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "synthetic+industrial data",
+    "country": "Netherlands",
+    "industry": "Not specified",
+    "metrics": "Tardiness",
+    "snowball": false
+  },
+  {
+    "id": 145,
+    "title": "Formulation and solution for the predictive maintenance integrated job shop scheduling problem",
+    "year": 2019,
+    "doi": "https://doi.org/10.1109/ICPHM.2019.8819397",
+    "bibtexKey": "Zhai2019Formulation",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": "Maintenance-Integrated Job-Shop Scheduling",
+    "technologies": [],
+    "methods": [
+      "Predictive Maintenance",
+      "Genetic Algorithm",
+      "Optimisation"
+    ],
+    "evaluationSetting": "static evaluation",
+    "dataSource": "Benchmark data Fisher",
+    "country": "Germany",
+    "industry": "Not specified",
+    "metrics": "Makespan",
+    "snowball": false
+  },
+  {
+    "id": 146,
+    "title": "A Multi-objective Reinforcement Learning Algorithm for JSSP",
+    "year": 2019,
+    "doi": "https://doi.org/10.1007/978-3-030-30487-4_44",
+    "bibtexKey": "MndezHernndez2019A",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": "Job-Shop Scheduling",
+    "technologies": [
+      "RL"
+    ],
+    "methods": [
+      "MARL",
+      "Optimisation"
+    ],
+    "evaluationSetting": "static evaluation",
+    "dataSource": "Benchmark data benchmark data ft (Fisher and Thompson), abz (Adam, Balas and Zawack), la Lawrence, orb (Applegate and Cook).",
+    "country": "China",
+    "industry": "Not specified",
+    "metrics": "Makespan+Tardiness",
+    "snowball": false
+  },
+  {
+    "id": 147,
+    "title": "Design, implementation and evaluation of reinforcement learning for an adaptive order dispatching in job shop manufacturing systems",
+    "year": 2019,
+    "doi": "https://doi.org/10.1016/j.procir.2019.03.041",
+    "bibtexKey": "Kuhnle2019Design",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": null,
+    "technologies": [
+      "RL"
+    ],
+    "methods": [
+      "Reinforcement Learning"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "synthetic+industrial data",
+    "country": "Germany",
+    "industry": "Not specified",
+    "metrics": "N/A",
+    "snowball": false
+  },
+  {
+    "id": 148,
+    "title": "Data analytics-based decision support workflow for high-mix low-volume production systems",
+    "year": 2019,
+    "doi": "https://doi.org/10.1016/j.cirp.2019.04.001",
+    "bibtexKey": "Gdri2019Data",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Demand Forecasting",
+    "jobShopVariation": null,
+    "technologies": [
+      "ML"
+    ],
+    "methods": [
+      "Simulation"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "industrial data",
+    "country": "Hungary",
+    "industry": "Not specified",
+    "metrics": "Makespan",
+    "snowball": false
+  },
+  {
+    "id": 149,
+    "title": "Solving the Job-Shop Scheduling Problem in the Industry 4.0 Era",
+    "year": 2018,
+    "doi": "https://doi.org/10.3390/technologies6040107",
+    "bibtexKey": "Leusin2018Solving",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": "Job-Shop Scheduling",
+    "technologies": [
+      "CPS",
+      "IoT"
+    ],
+    "methods": [
+      "Simulation"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "industrial data",
+    "country": "Germany",
+    "industry": "Automotive",
+    "metrics": "Robustness --> Work-in-Progress (WIP), number of setup operations, demand fulfillment (throughput vs demand), inventory level, machine utilization",
+    "snowball": false
+  },
+  {
+    "id": 150,
+    "title": "Research on Production Process Control Method of Discrete Manufacturing Digital Workshop",
+    "year": 2022,
+    "doi": "https://doi.org/10.1109/ICCNEA57056.2022.00091",
+    "bibtexKey": "Yang2022Research",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Data Collection and Visualization",
+    "jobShopVariation": null,
+    "technologies": [
+      "AI",
+      "IoT"
+    ],
+    "methods": [],
+    "evaluationSetting": "simulation",
+    "dataSource": "industrial data",
+    "country": "China",
+    "industry": "Automotive",
+    "metrics": "N/A",
+    "snowball": false
+  },
+  {
+    "id": 151,
+    "title": "Graph-based deep reinforcement learning for dynamic scheduling of flexible job-shop considering worker fatigue and multi-skill factors",
+    "year": 2025,
+    "doi": "https://doi.org/10.1016/j.asoc.2025.113712",
+    "bibtexKey": "Hu2025Graphbased",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": "Dynamic Flexible Job-Shop Scheduling",
+    "technologies": [
+      "RL"
+    ],
+    "methods": [
+      "Feature Extraction",
+      "GNN",
+      "MDP",
+      "Optimisation",
+      "PPO"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "industrial data+ synthetic based on benchmark data Brandimarte",
+    "country": "China",
+    "industry": "Aerospace",
+    "metrics": "makespan",
+    "snowball": false
+  },
+  {
+    "id": 152,
+    "title": "Solving industrial chain job scheduling problems through a deep reinforcement learning method with decay strategy",
+    "year": 2025,
+    "doi": "https://doi.org/10.1016/j.ins.2025.121906",
+    "bibtexKey": "Hua2025Solving",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": "Job-Shop Scheduling",
+    "technologies": [
+      "RL"
+    ],
+    "methods": [
+      "Optimisation",
+      "PPO"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "benchmark data taillard, dmu (Demirkol, Metha and Uzsoy), la, ft, abz, orb, swv",
+    "country": "China",
+    "industry": "Not specified",
+    "metrics": "makespan",
+    "snowball": false
+  },
+  {
+    "id": 153,
+    "title": "A self-imitation learning approach for scheduling evaporation and encapsulation stages of OLED display manufacturing systems",
+    "year": 2025,
+    "doi": "https://doi.org/10.1016/j.rcim.2024.102917",
+    "bibtexKey": "Lee2025A",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": "Job-Shop Scheduling",
+    "technologies": [
+      "RL"
+    ],
+    "methods": [],
+    "evaluationSetting": "simulation",
+    "dataSource": "synthetic",
+    "country": "South Korea",
+    "industry": "Electronics",
+    "metrics": "Tardiness",
+    "snowball": false
+  },
+  {
+    "id": 154,
+    "title": "Diverse policy generation for the flexible job-shop scheduling problem via deep reinforcement learning with a novel graph representation",
+    "year": 2025,
+    "doi": "https://doi.org/10.1016/j.engappai.2024.109488",
+    "bibtexKey": "Echeverria2025Diverse",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": "Flexible Job-Shop Scheduling",
+    "technologies": [
+      "RL"
+    ],
+    "methods": [
+      "GNN",
+      "MDP"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "benchmark data Behnke and vdata Hurink",
+    "country": "Spain",
+    "industry": "Not specified",
+    "metrics": "Makespan+Tardiness",
+    "snowball": false
+  },
+  {
+    "id": 155,
+    "title": "Leveraging Auto-generative Simulation for Decision Support in Engineer-to-Order Manufacturing",
+    "year": 2024,
+    "doi": "https://doi.org/10.1016/j.procs.2024.01.130",
+    "bibtexKey": "Elbasheer2024Leveraging",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Simulation Generation",
+    "jobShopVariation": null,
+    "technologies": [
+      "AI"
+    ],
+    "methods": [
+      "Simulation"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "synthetic",
+    "country": "Italy",
+    "industry": "Not specified",
+    "metrics": "N/A",
+    "snowball": false
+  },
+  {
+    "id": 156,
+    "title": "Exploring the Potential of LLM-based Chatbots for Task Scheduling in Robot Operations",
+    "year": 2024,
+    "doi": "https://doi.org/10.1109/ICARSC65809.2025.10970151",
+    "bibtexKey": "Rema2025Exploring",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": "Job-Shop Scheduling",
+    "technologies": [
+      "AI",
+      "AGV/AMR",
+      "Robotics"
+    ],
+    "methods": [
+      "Optimisation"
+    ],
+    "evaluationSetting": "static evaluation",
+    "dataSource": "synthetic",
+    "country": "Portugal",
+    "industry": "Not specified",
+    "metrics": "makespan",
+    "snowball": false
+  },
+  {
+    "id": 157,
+    "title": "A matheuristic method for the automated guided vehicle scheduling problem with flexible charging and job release",
+    "year": 2025,
+    "doi": "https://doi.org/10.1016/j.asoc.2025.113531",
+    "bibtexKey": "Zhou2025A",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": null,
+    "technologies": [
+      "AGV/AMR"
+    ],
+    "methods": [],
+    "evaluationSetting": "static evaluation",
+    "dataSource": "synthetic+benchmark data Boccia",
+    "country": "China",
+    "industry": "Not specified",
+    "metrics": "Makespan",
+    "snowball": false
+  },
+  {
+    "id": 158,
+    "title": "A Subgraph-Based Hierarchical Q-Learning Approach to Optimal Resource Scheduling for Complex Industrial Networks",
+    "year": 2024,
+    "doi": "https://doi.org/10.1109/TCSI.2023.3328901",
+    "bibtexKey": "Zhang2024Ab",
+    "manufacturingLevel": "L3",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": null,
+    "technologies": [
+      "RL"
+    ],
+    "methods": [
+      "DQN"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "synthetic",
+    "country": "China",
+    "industry": "Not specified",
+    "metrics": "makespan",
+    "snowball": false
+  },
+  {
+    "id": 159,
+    "title": "Learning to schedule dynamic distributed reconfigurable workshops using expected deep Q-network",
+    "year": 2024,
+    "doi": "https://doi.org/10.1016/j.aei.2023.102307",
+    "bibtexKey": "Yang2024Learning",
+    "manufacturingLevel": "L3",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": null,
+    "technologies": [
+      "RL"
+    ],
+    "methods": [
+      "DQN"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "synthetic",
+    "country": "China",
+    "industry": "Not specified",
+    "metrics": "Tardiness",
+    "snowball": false
+  },
+  {
+    "id": 160,
+    "title": "AI-Driven Data Analytics for Enhanced Mass Customization in Production",
+    "year": 2025,
+    "doi": "https://doi.org/10.1016/j.ifacol.2025.09.354",
+    "bibtexKey": "PatalasMaliszewska2025AIDriven",
+    "manufacturingLevel": "L3",
+    "dssFocus": "Customization Level Prediction",
+    "jobShopVariation": null,
+    "technologies": [
+      "ML"
+    ],
+    "methods": [
+      "Clustering",
+      "ANN"
+    ],
+    "evaluationSetting": "static evaluation",
+    "dataSource": "industrial data",
+    "country": "Poland",
+    "industry": "Automotive",
+    "metrics": "robustness --> classification accuracy, confusion matrix, clustering quality",
+    "snowball": false
+  },
+  {
+    "id": 161,
+    "title": "A Learning-Assisted Bi-Population Evolutionary Algorithm for Distributed Flexible Job-Shop Scheduling With Maintenance Decisions",
+    "year": 2025,
+    "doi": "https://doi.org/10.1109/TEVC.2024.3400043",
+    "bibtexKey": "Yan2025Ab",
+    "manufacturingLevel": "L3",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": "Distributed Flexible Job-Shop Scheduling",
+    "technologies": [
+      "RL"
+    ],
+    "methods": [
+      "Evolutionary Algorithm",
+      "Optimisation"
+    ],
+    "evaluationSetting": "static evaluation",
+    "dataSource": "synthetic+extended_benchmark data mk Brandimarte, DP01-10 Dauzere",
+    "country": "China",
+    "industry": "Not specified",
+    "metrics": "makespan+energy consumption",
+    "snowball": false
+  },
+  {
+    "id": 162,
+    "title": "Big data analytics for operations management in engineer-to-order manufacturing",
+    "year": 2018,
+    "doi": "https://doi.org/10.1016/j.procir.2018.03.098",
+    "bibtexKey": "Kozjek2018Big",
+    "manufacturingLevel": "L3",
+    "dssFocus": "Demand Forecasting",
+    "jobShopVariation": null,
+    "technologies": [
+      "ML"
+    ],
+    "methods": [
+      "Data Mining",
+      "Forecasting",
+      "Simulation"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "industrial data",
+    "country": "Slovenia",
+    "industry": "Not specified",
+    "metrics": "Robustness --> work-system work overload (WSO), prediction accuracy, forecasting error",
+    "snowball": false
+  },
+  {
+    "id": 163,
+    "title": "Manufacturing task data chain-driven production logistics trajectory analysis and optimization decision making method",
+    "year": 2024,
+    "doi": "https://doi.org/10.1007/s40436-023-00454-0",
+    "bibtexKey": "Ling2024Manufacturing",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Logistics",
+    "jobShopVariation": null,
+    "technologies": [],
+    "methods": [
+      "Optimisation"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "Industrial data",
+    "country": "China",
+    "industry": "Power equipment",
+    "metrics": "N/A",
+    "snowball": false
+  },
+  {
+    "id": 164,
+    "title": "Addressing distributional shifts in operations management: The case of order fulfillment in customized production",
+    "year": 2023,
+    "doi": "https://doi.org/10.1111/poms.14021",
+    "bibtexKey": "Senoner2023Addressing",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": null,
+    "technologies": [
+      "ML"
+    ],
+    "methods": [],
+    "evaluationSetting": "static evaluation",
+    "dataSource": "industrial data+synthetic",
+    "country": "Norway",
+    "industry": "Metal & machining",
+    "metrics": "Tardiness",
+    "snowball": false
+  },
+  {
+    "id": 165,
+    "title": "towards a trusted synchronized decision making method for social production logistics systems based on blockchain and digital twin",
+    "year": 2025,
+    "doi": "https://doi.org/10.1016/j.rcim.2025.102965",
+    "bibtexKey": "Zhang2025Trusted",
+    "manufacturingLevel": "L3",
+    "dssFocus": "Logistics",
+    "jobShopVariation": null,
+    "technologies": [
+      "DT",
+      "Blockchain"
+    ],
+    "methods": [],
+    "evaluationSetting": "simulation",
+    "dataSource": "industrial data",
+    "country": "China",
+    "industry": "Air conditioner",
+    "metrics": "robustness --> total production cost, total distribution cost, total warehousing cost, delay penalty cost, total system cost, completion time",
+    "snowball": true
+  },
+  {
+    "id": 166,
+    "title": "a digital twin and big data driven opti state control framework for production logistics synchronisation system",
+    "year": 2025,
+    "doi": "https://doi.org/10.1049/cim2.70024",
+    "bibtexKey": "Zhang2025Digital",
+    "manufacturingLevel": "L3",
+    "dssFocus": "Logistics",
+    "jobShopVariation": null,
+    "technologies": [
+      "DT"
+    ],
+    "methods": [],
+    "evaluationSetting": "industrial setting",
+    "dataSource": "industrial data",
+    "country": "China",
+    "industry": "None",
+    "metrics": "makespan",
+    "snowball": true
+  },
+  {
+    "id": 167,
+    "title": "digital twin based adaptive opti state control approach for production logistics synchronisation system",
+    "year": 2025,
+    "doi": "https://doi.org/10.1080/00207543.2025.2546030",
+    "bibtexKey": "Zhang2025Digitala",
+    "manufacturingLevel": "L3",
+    "dssFocus": "Logistics",
+    "jobShopVariation": null,
+    "technologies": [
+      "DT"
+    ],
+    "methods": [],
+    "evaluationSetting": "static evaluation",
+    "dataSource": "industrial data+synthetic",
+    "country": "China",
+    "industry": "Paint",
+    "metrics": "N/A",
+    "snowball": true
+  },
+  {
+    "id": 168,
+    "title": "Reinforcement learning for online optimization of job-shop scheduling in a smart manufacturing factory",
+    "year": 2022,
+    "doi": "https://doi.org/10.1177/16878132221086120",
+    "bibtexKey": "Zhou2022Reinforcement",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": "Job-Shop Scheduling",
+    "technologies": [
+      "RL"
+    ],
+    "methods": [
+      "Optimisation"
+    ],
+    "evaluationSetting": "lab case study",
+    "dataSource": "lab data",
+    "country": "China",
+    "industry": "Not specified",
+    "metrics": "Makespan+Tardiness",
+    "snowball": false
+  },
+  {
+    "id": 169,
+    "title": "Predictive maintenance integrated production scheduling by applying deep generative prognostics models: approach, formulation and solution",
+    "year": 2022,
+    "doi": "https://doi.org/10.1007/s11740-021-01064-0",
+    "bibtexKey": "Zhai2022Predictive",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": "Flexible Job-Shop Scheduling",
+    "technologies": [
+      "DL"
+    ],
+    "methods": [
+      "Predictive Maintenance",
+      "Genetic Algorithm",
+      "Metaheuristic"
+    ],
+    "evaluationSetting": "static evaluation",
+    "dataSource": "benchmark mk (Brandimarte)+industrial data+synthetic",
+    "country": "Germany",
+    "industry": "Not specified",
+    "metrics": "Makespan",
+    "snowball": false
+  },
+  {
+    "id": 170,
+    "title": "Artificial intelligence-based method for forecasting flowtime in job shops",
+    "year": 2024,
+    "doi": "https://doi.org/10.1108/VJIKMS-08-2021-0146",
+    "bibtexKey": "Modesti2024Artificial",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Lead Time Prediction",
+    "jobShopVariation": null,
+    "technologies": [
+      "AI",
+      "ML"
+    ],
+    "methods": [
+      "ANN",
+      "Forecasting"
+    ],
+    "evaluationSetting": "static evaluation",
+    "dataSource": "industrial data",
+    "country": "Brazil",
+    "industry": "Home appliances",
+    "metrics": "Makespan",
+    "snowball": false
+  },
+  {
+    "id": 171,
+    "title": "Unified DRL for Enhanced Flexible Job-Shop Scheduling with Transportation Constraints",
+    "year": 2024,
+    "doi": "https://doi.org/10.1109/CAC63892.2024.10864691",
+    "bibtexKey": "Wang2024Unified",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": "Flexible Job-Shop Scheduling",
+    "technologies": [
+      "AGV/AMR",
+      "RL"
+    ],
+    "methods": [
+      "Optimisation",
+      "PPO"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "synthetic+benchmark data (Which is not indicated)",
+    "country": "China",
+    "industry": "Not specified",
+    "metrics": "makespan",
+    "snowball": false
+  },
+  {
+    "id": 172,
+    "title": "Deep Reinforcement Learning based Actor-Critic Framework for Decision-Making Actions in Production Scheduling",
+    "year": 2021,
+    "doi": "https://doi.org/10.1109/ICICIS52592.2021.9694207",
+    "bibtexKey": "Elsayed2021Deep",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": "Flexible Job-Shop Scheduling",
+    "technologies": [
+      "RL"
+    ],
+    "methods": [
+      "Actor-Critic",
+      "CNN",
+      "LSTM"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "synthetic+benchmark data Demirkol",
+    "country": "Egypt",
+    "industry": "Not specified",
+    "metrics": "tardiness",
+    "snowball": false
+  },
+  {
+    "id": 173,
+    "title": "Autonomous decision-making method of transportation process for flexible job shop scheduling problem based on reinforcement learning",
+    "year": 2021,
+    "doi": "https://doi.org/10.1109/MLISE54096.2021.00049",
+    "bibtexKey": "Yan2021Autonomous",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": "Flexible Job-Shop Scheduling",
+    "technologies": [
+      "AGV/AMR",
+      "DL",
+      "RL"
+    ],
+    "methods": [
+      "DQN"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "benchmark kacem",
+    "country": "China",
+    "industry": "Not specified",
+    "metrics": "makespan",
+    "snowball": false
+  },
+  {
+    "id": 174,
+    "title": "Designing distributed decision-making authorities for smart factories–understanding the role of manufacturing network architecture",
+    "year": 2024,
+    "doi": "https://doi.org/10.1080/00207543.2023.2217285",
+    "bibtexKey": "Antons2024Designing",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Logistics",
+    "jobShopVariation": null,
+    "technologies": [
+      "CPS"
+    ],
+    "methods": [
+      "DES"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "synthetic",
+    "country": "Germany",
+    "industry": "Not specified",
+    "metrics": "robustness --> total production costs, logistics costs, makespan, computation time",
+    "snowball": false
+  },
+  {
+    "id": 175,
+    "title": "A deep multi-agent reinforcement learning approach to solve dynamic job shop scheduling problem",
+    "year": 2023,
+    "doi": "https://doi.org/10.1016/j.cor.2023.106294",
+    "bibtexKey": "Liu2023A",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": "Dynamic Job-Shop Scheduling",
+    "technologies": [
+      "RL"
+    ],
+    "methods": [
+      "Simulation"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "synthetic",
+    "country": "Singapore",
+    "industry": "Not specified",
+    "metrics": "N/A",
+    "snowball": false
+  },
+  {
+    "id": 176,
+    "title": "Optimization Experiment of Production Processes Using a Dynamic Decision Support Method: A Solution to Complex Problems in Industrial Manufacturing for Small and Medium-Sized Enterprises",
+    "year": 2023,
+    "doi": "https://doi.org/10.3390/s23094498",
+    "bibtexKey": "Skr2023Optimization",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Production Optimization",
+    "jobShopVariation": null,
+    "technologies": [
+      "IoT",
+      "Sensors"
+    ],
+    "methods": [
+      "Optimisation"
+    ],
+    "evaluationSetting": "static evaluation",
+    "dataSource": "industrial data",
+    "country": "Lithuania",
+    "industry": "Metal & machining",
+    "metrics": "makespan",
+    "snowball": false
+  },
+  {
+    "id": 177,
+    "title": "An LSTM network-based genetic algorithm for integrated procurement and scheduling optimisation",
+    "year": 2025,
+    "doi": "https://doi.org/10.1080/00207543.2024.2434948",
+    "bibtexKey": "Bubak2025An",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Supply Chain",
+    "jobShopVariation": null,
+    "technologies": [
+      "DL"
+    ],
+    "methods": [
+      "Genetic Algorithm",
+      "LSTM",
+      "RNN",
+      "Tabu Search"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "synthetic+industrial data",
+    "country": "Germany",
+    "industry": "Electronics",
+    "metrics": "tardiness",
+    "snowball": false
+  },
+  {
+    "id": 178,
+    "title": "Dynamic production scheduling and maintenance planning under opportunistic grouping",
+    "year": 2025,
+    "doi": "https://doi.org/10.1016/j.cie.2024.110646",
+    "bibtexKey": "Ouahabi2025Dynamic",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": "Flexible Job-Shop Scheduling",
+    "technologies": [
+      "DT",
+      "RL"
+    ],
+    "methods": [
+      "Hierarchical RL",
+      "DQN",
+      "Constraint Programming",
+      "Dispatching Rules"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "synthetic",
+    "country": "Morocco",
+    "industry": "Not specified",
+    "metrics": "makespan",
+    "snowball": false
+  },
+  {
+    "id": 179,
+    "title": "A hybrid data-driven optimization and decision-making approach for a digital twin environment: Towards customizing production platforms",
+    "year": 2025,
+    "doi": "https://doi.org/10.1016/j.ijpe.2024.109447",
+    "bibtexKey": "Lee2025Ab",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Plant Layout",
+    "jobShopVariation": null,
+    "technologies": [
+      "DT"
+    ],
+    "methods": [
+      "Simulation-Optimisation",
+      "Surrogate Model",
+      "Genetic Algorithm",
+      "MCDM"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "industrial data+synthetic+expert knowledge",
+    "country": "Singapore",
+    "industry": "Electronics",
+    "metrics": "makespan",
+    "snowball": false
+  },
+  {
+    "id": 180,
+    "title": "Research on Multi-objective Scheduling Optimization of Flexible Workshop Considering the Transportation Energy Consumption of AGV",
+    "year": 2025,
+    "doi": "https://doi.org/10.1109/ICESEP66633.2025.11155526",
+    "bibtexKey": "Ma2025Research",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": "Flexible Job-Shop Scheduling",
+    "technologies": [
+      "AGV/AMR"
+    ],
+    "methods": [
+      "Multi-Objective Optimisation",
+      "NSGA-II",
+      "Genetic Algorithm"
+    ],
+    "evaluationSetting": "static evaluation",
+    "dataSource": "industrial data",
+    "country": "China",
+    "industry": "Automotive",
+    "metrics": "makespan+energy consumption",
+    "snowball": false
+  },
+  {
+    "id": 181,
+    "title": "A Flexible Job Shop Scheduling Method via a Hybrid Dual Attention Network and Mamba Approach",
+    "year": 2025,
+    "doi": "https://doi.org/10.1109/FASTA65681.2025.11138246",
+    "bibtexKey": "Li2025Ab",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": "Flexible Job-Shop Scheduling",
+    "technologies": [
+      "RL",
+      "CPS"
+    ],
+    "methods": [
+      "Attention Mechanism",
+      "State-Space Model",
+      "PPO"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "synthetic+benchmark data mk Brandimarte and hurink rdata,vdata,edata",
+    "country": "China",
+    "industry": "Not specified",
+    "metrics": "makespan",
+    "snowball": false
+  },
+  {
+    "id": 182,
+    "title": "Navigating demand forecasting in make-to-order manufacturing: the role of global models and intermittent time-series",
+    "year": 2025,
+    "doi": "https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1991113&dswid=8075",
+    "bibtexKey": "Flyckt2025Navigating",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Demand Forecasting",
+    "jobShopVariation": null,
+    "technologies": [
+      "DL"
+    ],
+    "methods": [
+      "Forecasting"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "industrial data+synthetic",
+    "country": "Vietnam",
+    "industry": "Not specified",
+    "metrics": "N/A",
+    "snowball": false
+  },
+  {
+    "id": 183,
+    "title": "Dynamic flexible job shop scheduling problem considering multiple types of dynamic events",
+    "year": 2025,
+    "doi": "https://doi.org/10.1080/00207543.2025.2550454",
+    "bibtexKey": "Yi2025Dynamic",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": "Dynamic Flexible Job-Shop Scheduling",
+    "technologies": [
+      "RL"
+    ],
+    "methods": [
+      "DQN",
+      "Dispatching Rules"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "synthetic",
+    "country": "China",
+    "industry": "Not specified",
+    "metrics": "makespan+tardiness",
+    "snowball": false
+  },
+  {
+    "id": 184,
+    "title": "Permutation-Invariant and Equivariant Multiagent Reinforcement Learning for Flexible Manufacturing in Industrial IoT",
+    "year": 2025,
+    "doi": "https://doi.org/10.1109/JIOT.2025.3584811",
+    "bibtexKey": "Zeng2025PermutationInvariant",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": "Dynamic Flexible Job-Shop Scheduling",
+    "technologies": [
+      "IoT",
+      "RL",
+      "MAS"
+    ],
+    "methods": [],
+    "evaluationSetting": "simulation",
+    "dataSource": "synthetic",
+    "country": "China",
+    "industry": "Not specified",
+    "metrics": "N/A",
+    "snowball": false
+  },
+  {
+    "id": 185,
+    "title": "Multi-Objective Scheduling for Green Flexible Assembly Job-Shop System via Multi-Agent Deep Reinforcement Learning With Game Theory",
+    "year": 2025,
+    "doi": "https://doi.org/10.1109/ACCESS.2025.3577044",
+    "bibtexKey": "Wang2025MultiObjective",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": "Flexible Assembly Job-Shop Scheduling",
+    "technologies": [
+      "RL",
+      "MAS"
+    ],
+    "methods": [
+      "Game Theory"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "benchmark mk Brandimarte+synthetic+industrial data",
+    "country": "China",
+    "industry": "Pump manufacturing",
+    "metrics": "makespan",
+    "snowball": false
+  },
+  {
+    "id": 186,
+    "title": "Solving flexible job-shop problem considering skilled workers via multi-domain graph attention network",
+    "year": 2025,
+    "doi": "https://doi.org/10.1080/00207543.2025.2512226",
+    "bibtexKey": "Zhong2025Solving",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": "Flexible Job-Shop Scheduling",
+    "technologies": [
+      "RL",
+      "HRC"
+    ],
+    "methods": [
+      "GNN"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "synthetic",
+    "country": "China",
+    "industry": "Not specified",
+    "metrics": "makespan",
+    "snowball": false
+  },
+  {
+    "id": 187,
+    "title": "Long-sighted dispatching rules for manufacturing scheduling problem in Industry 4.0 hybrid approach",
+    "year": 2024,
+    "doi": "https://doi.org/10.1016/j.cie.2024.110006",
+    "bibtexKey": "Salatiello2024Longsighted",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": null,
+    "technologies": [
+      "MES"
+    ],
+    "methods": [
+      "Dispatching Rules",
+      "Heuristic"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "synthetic",
+    "country": "Italy",
+    "industry": "Not specified",
+    "metrics": "makespan+energy consumption",
+    "snowball": false
+  },
+  {
+    "id": 188,
+    "title": "An innovative meta–heuristic for balancing and scheduling human–robot collaborative assembly lines in Industry 5.0",
+    "year": 2026,
+    "doi": "https://doi.org/10.1080/21681015.2025.2533436",
+    "bibtexKey": "Zhang2025Innovative",
+    "manufacturingLevel": "L1",
+    "dssFocus": "Human-Robot Collaboration",
+    "jobShopVariation": "No (assembly Line Balancing Problem)",
+    "technologies": [
+      "HRC"
+    ],
+    "methods": [
+      "Heuristic",
+      "Metaheuristic",
+      "Simulated Annealing"
+    ],
+    "evaluationSetting": "static evaluation",
+    "dataSource": "industrial+synthetic",
+    "country": "Japan",
+    "industry": "Automotive",
+    "metrics": "N/A",
+    "snowball": true
+  },
+  {
+    "id": 189,
+    "title": "Deep reinforcement learning for scheduling semiconductor cluster tools in varying configurations",
+    "year": 2025,
+    "doi": "https://doi.org/10.1038/s41598-025-31722-7",
+    "bibtexKey": "Choi2025Deep",
+    "manufacturingLevel": "L1",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": null,
+    "technologies": [
+      "RL"
+    ],
+    "methods": [
+      "DQN",
+      "MARL",
+      "DES",
+      "Simulation"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "synthetic",
+    "country": "South Korea",
+    "industry": "Semiconductor",
+    "metrics": "makespan",
+    "snowball": true
+  },
+  {
+    "id": 190,
+    "title": "Knowledge Guided DRL for Intelligent Reconfiguration and Scheduling in Customized and Personalized Manufacturing Workshop",
+    "year": 2026,
+    "doi": "https://doi.org/10.1109/TII.2025.3610442",
+    "bibtexKey": "Lan2026Knowledge",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": null,
+    "technologies": [
+      "RL"
+    ],
+    "methods": [
+      "PPO"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "synthetic",
+    "country": "China",
+    "industry": "Not specified",
+    "metrics": "makespan",
+    "snowball": true
+  },
+  {
+    "id": 191,
+    "title": "Unrelated parallel machine scheduling problem with setup times and additional resources: an enhanced metaheuristic to address resource-related infeasibilities",
+    "year": 2026,
+    "doi": "https://doi.org/10.1007/s10479-026-07065-5",
+    "bibtexKey": "Yepes-borrero2026Unrelated",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": "No (unrelated Parallel Machine Scheduling Problem)",
+    "technologies": [],
+    "methods": [
+      "GRASP",
+      "Metaheuristic",
+      "Optimisation"
+    ],
+    "evaluationSetting": "static evaluation",
+    "dataSource": "synthetic based on_benchmark Taillard (1993), Vallada and Ruiz (2011), Báez et al. (2019), Berthier et\nal. (2022), Fanjul-Peyró et al. (2019)",
+    "country": "Spain",
+    "industry": "Food",
+    "metrics": "makespan",
+    "snowball": true
+  },
+  {
+    "id": 192,
+    "title": "A Framework for 3D Plant Simulation of Meal-Kit-Packaging Robot Automation System",
+    "year": 2025,
+    "doi": "https://doi.org/10.3390/app15084116",
+    "bibtexKey": "Kim2025Framework",
+    "manufacturingLevel": "L2",
+    "dssFocus": "3d Simulation",
+    "jobShopVariation": null,
+    "technologies": [
+      "Robotics",
+      "Sensors"
+    ],
+    "methods": [
+      "Simulation"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "industrial data",
+    "country": "South Korea",
+    "industry": "Food",
+    "metrics": "N/A",
+    "snowball": true
+  },
+  {
+    "id": 193,
+    "title": "A Learning-Based Assembly Sequence Planning Method Using Neural Combinatorial Optimization With Satisfactory Generalization Ability",
+    "year": 2025,
+    "doi": "https://doi.org/10.1109/TASE.2024.3493617",
+    "bibtexKey": "Hou2025Learningbased",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Assembly Planning",
+    "jobShopVariation": "No (sequence Planning Problem)",
+    "technologies": [
+      "RL"
+    ],
+    "methods": [
+      "Neural Combinatorial Optimisation"
+    ],
+    "evaluationSetting": "lab case study",
+    "dataSource": "lab data",
+    "country": "China",
+    "industry": "Electronics",
+    "metrics": "robustness --> movement distance, angular rotation time, total time consumption",
+    "snowball": true
+  },
+  {
+    "id": 194,
+    "title": "A dual spatial temporal neural network for bottleneck prediction in manufacturing systems",
+    "year": 2025,
+    "doi": "https://doi.org/10.1016/j.engappai.2025.111586",
+    "bibtexKey": "Cen2025Dual",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Bottleneck Prediction",
+    "jobShopVariation": null,
+    "technologies": [
+      "DL"
+    ],
+    "methods": [
+      "Neural Network"
+    ],
+    "evaluationSetting": "static evaluation",
+    "dataSource": "synthetic",
+    "country": "Singapore",
+    "industry": "Not specified",
+    "metrics": "N/A",
+    "snowball": true
+  },
+  {
+    "id": 195,
+    "title": "A hybrid optimization approach integrating genetic algorithm and Monte Carlo tree search for multi-machine scheduling in manufacturing irregular solid wood furniture parts",
+    "year": 2025,
+    "doi": "https://doi.org/10.1080/17480272.2025.2505133",
+    "bibtexKey": "Fu2025Hybrid",
+    "manufacturingLevel": "L3",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": null,
+    "technologies": [],
+    "methods": [
+      "Genetic Algorithm",
+      "MCTS",
+      "Metaheuristic"
+    ],
+    "evaluationSetting": "static evaluation",
+    "dataSource": "industrial data",
+    "country": "China",
+    "industry": "Furniture",
+    "metrics": "makespan",
+    "snowball": true
+  },
+  {
+    "id": 196,
+    "title": "Collaborative optimization of intelligent manufacturing system and industrial design based on improved genetic algorithm",
+    "year": 2025,
+    "doi": "https://doi.org/10.1007/s12008-025-02316-4",
+    "bibtexKey": "Wang2025Collaborative",
+    "manufacturingLevel": "L3",
+    "dssFocus": "Combined Design And Production Optimization",
+    "jobShopVariation": null,
+    "technologies": [],
+    "methods": [
+      "Genetic Algorithm",
+      "Metaheuristic"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "synthetic",
+    "country": "China",
+    "industry": "Aerospace",
+    "metrics": "robustness --> production efficiency (output per unit time), total cost (materials + equipment + labor), defect rate",
+    "snowball": true
+  },
+  {
+    "id": 197,
+    "title": "Data-driven layout design for smart remanufacturing: a flexible optimization model and a case study",
+    "year": 2025,
+    "doi": "https://doi.org/10.1007/s12008-025-02296-5",
+    "bibtexKey": "Afari2025Datadriven",
+    "manufacturingLevel": "L3",
+    "dssFocus": "Plant Layout",
+    "jobShopVariation": null,
+    "technologies": [
+      "MAS"
+    ],
+    "methods": [
+      "MILP",
+      "Mathematical Programming",
+      "Metaheuristic"
+    ],
+    "evaluationSetting": "static evaluation",
+    "dataSource": "industrial data+synthetic",
+    "country": "USA",
+    "industry": "Not specified",
+    "metrics": "N/A",
+    "snowball": true
+  },
+  {
+    "id": 198,
+    "title": "From black box to analytical insight: A data-driven evaluation of technological sustainability in manufacturing supply chains",
+    "year": 2025,
+    "doi": "https://doi.org/10.1016/j.sca.2025.100171",
+    "bibtexKey": "Vacchi2025Black",
+    "manufacturingLevel": "L3",
+    "dssFocus": "Supply Chain",
+    "jobShopVariation": null,
+    "technologies": [
+      "ERP",
+      "SCADA",
+      "KPI systems"
+    ],
+    "methods": [],
+    "evaluationSetting": "static evaluation",
+    "dataSource": "industrial data",
+    "country": "Italy",
+    "industry": "Ceramic tile",
+    "metrics": "N/A",
+    "snowball": true
+  },
+  {
+    "id": 199,
+    "title": "Generative AI-powered planning: A hybrid graph-diffusion approach for demand-driven flexible manufacturing systems",
+    "year": 2025,
+    "doi": "https://doi.org/10.1016/j.jmsy.2025.08.016",
+    "bibtexKey": "Li2025Generative",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Demand Forecasting",
+    "jobShopVariation": null,
+    "technologies": [
+      "DL"
+    ],
+    "methods": [
+      "GNN"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "synthetic",
+    "country": "China",
+    "industry": "Not specified",
+    "metrics": "robustness --> demand satisfaction rate, yield/output, resource utilization (number of workstations/buffers/robots), resource efficiency, Permanent Production Loss (PPL), ICC alignment rate (%), topology constraint adherence (%), material flow continuity rate, robustness under disruptions (yield under downtime)",
+    "snowball": true
+  },
+  {
+    "id": 200,
+    "title": "Hybrid Deep Learning-Reinforcement Learning for Adaptive Human-Robot Task Allocation in Industry 5.0",
+    "year": 2025,
+    "doi": "https://doi.org/10.3390/systems13080631",
+    "bibtexKey": "Urrea2025Hybrid",
+    "manufacturingLevel": "L1",
+    "dssFocus": "Human-Robot Collaboration",
+    "jobShopVariation": null,
+    "technologies": [
+      "DL"
+    ],
+    "methods": [
+      "DQN",
+      "CNN"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "synthetic",
+    "country": "Chile",
+    "industry": "Not specified",
+    "metrics": "throughput, mental workload (fatigue), Safety (completed tasks without collission)",
+    "snowball": true
+  },
+  {
+    "id": 201,
+    "title": "Real-time scheduling for production-logistics collaborative environment using multi-agent deep reinforcement learning",
+    "year": 2025,
+    "doi": "https://doi.org/10.1016/j.aei.2025.103216",
+    "bibtexKey": "Li2025Realtime",
+    "manufacturingLevel": "L3",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": "Jssp (kinda, Same Math But Quite Different Case, I Will Still Count It As Jssp)",
+    "technologies": [
+      "AGV/AMR",
+      "IoT",
+      "Edge Computing",
+      "Cloud",
+      "RL"
+    ],
+    "methods": [
+      "MARL"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "synthetic+ industrial data",
+    "country": "China",
+    "industry": "Ship components",
+    "metrics": "total tardiness",
+    "snowball": true
+  },
+  {
+    "id": 202,
+    "title": "Dynamic scheduling for flexible job-shop with reconfigurable manufacturing cells considering dynamic job arrivals based on deep reinforcement learning",
+    "year": 2025,
+    "doi": "https://doi.org/10.1080/00207543.2025.2497961",
+    "bibtexKey": "Zheng2025Dynamic",
+    "manufacturingLevel": "L2",
+    "dssFocus": "Scheduling",
+    "jobShopVariation": "Dynamic Flexible Jssp",
+    "technologies": [
+      "RMS",
+      "RL"
+    ],
+    "methods": [
+      "DQN",
+      "Dispatching Rules"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "synthetic",
+    "country": "China",
+    "industry": "Electronics",
+    "metrics": "makespan, total tardiness",
+    "snowball": true
+  },
+  {
+    "id": 203,
+    "title": "Collaborative contracting for Manufacturing-as-a-Service (MaaS) by information content measurement and decision tree learning",
+    "year": 2023,
+    "doi": "https://doi.org/10.1016/j.aei.2023.101911",
+    "bibtexKey": "Gong2023Collaborative",
+    "manufacturingLevel": "L3",
+    "dssFocus": "Manufacturing Service Selection",
+    "jobShopVariation": null,
+    "technologies": [
+      "ML"
+    ],
+    "methods": [
+      "Decision Tree",
+      "Fuzzy Methods",
+      "Uncertainty Modelling"
+    ],
+    "evaluationSetting": "static evaluation",
+    "dataSource": "synthetic",
+    "country": "USA",
+    "industry": "Orthodontic brace",
+    "metrics": "Robustness --> Degree of Satisfaction",
+    "snowball": false
+  },
+  {
+    "id": 204,
+    "title": "Enhancing internal supply chain management in manufacturing through a simulation-based digital twin platform",
+    "year": 2024,
+    "doi": "https://doi.org/10.1016/j.cie.2024.110670",
+    "bibtexKey": "Cimino2024Enhancing",
+    "manufacturingLevel": "L3",
+    "dssFocus": "Production Planning",
+    "jobShopVariation": null,
+    "technologies": [
+      "DT"
+    ],
+    "methods": [
+      "Simulation",
+      "DES"
+    ],
+    "evaluationSetting": "simulation",
+    "dataSource": "industrial data",
+    "country": "Italy",
+    "industry": "Oil and gas",
+    "metrics": "Robustness --> Flow Time, Tardiness, Number of Late Orders",
+    "snowball": false
+  }
+]
