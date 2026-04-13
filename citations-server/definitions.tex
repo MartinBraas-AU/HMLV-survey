@@ -1,0 +1,295 @@
+% ------------- Links -------------
+\newcommand{\repo}{\url{https://github.com/xx}\xspace}
+
+
+% ------------- Needed for math -------------
+\input xintexpr.sty\relax % compile with etex or pdftex
+% macro to use \xinttheiexpr which will round to the nearest whole number.
+\def\roundandprint #1{\xinttheiexpr #1 \relax }
+
+% macro to use \xintthefloatexpr which will round to n decimals.
+\def\roundandprintf #1{\xintthefloatexpr round(#1, 1) \relax }
+
+\def\rap #1{\roundandprintf{#1}}
+
+% ------------- Put in raw numbers here -------------
+\def\rawIncludedPapers{206}
+\def\rawQueryIdentifiedPapers{616} % Before 662
+
+%% Not that these numbers should add up to \rawIncludedPapers
+\def\rawProcessPapers{14}
+\def\rawLinePapers{12}
+\def\rawFactoryPapers{154}
+\def\rawEnterprisePapers{22}
+
+%% By industry
+\def\rawNoIndustryPapers{124}
+\def\rawIndustryIdentifiedPapers{78}
+\def\rawElectronicsPapers{19}
+\def\rawMetalAndMachiningPapers{13}
+\def\rawAutomotivePapers{13}
+\def\rawProcessIndustryPapers{10}
+\def\rawMachineryAndEquipmentPapers{9}
+\def\rawAerospacePapers{7}
+
+% By decision support focus
+\def\rawSchedulingPapers{141}
+\def\rawlogisticsPapers{13} % Logistics and supply chain
+\def\rawPlantLayoutPapers{12} % Plant playout and reconfiguration
+\def\rawForecastingPapers{9} % Forecasting and prediction
+\def\rawVisAndSimPapers{7} % Visualization and simulation
+\def\rawQualityPapers{6} % Quality and maintenance
+\def\rawHumanRobotPapers{6} % Human-robot collaboration
+
+% By year
+\newcommand{\twentyPapers}{10\xspace}
+\newcommand{\twentyOnePapers}{12\xspace}
+\newcommand{\twentyTwoPapers}{24\xspace}
+\newcommand{\twentyThreePapers}{18\xspace}
+\newcommand{\twentyFourPapers}{44\xspace}
+\newcommand{\twentyFivePapers}{80\xspace}
+\newcommand{\twentySixPapers}{3\xspace}
+
+% By country
+\newcommand{\chinaPapers}{109\xspace}
+\newcommand{\germanyPapers}{14\xspace}
+
+% By evaluation setting
+\newcommand{\simulationEvalCount}{130\xspace}
+\newcommand{\staticEvalCount}{54\xspace}
+\newcommand{\labEvalCount}{16\xspace}
+\newcommand{\industrialEvalCount}{4\xspace}
+\newcommand{\otherEvalCount}{2\xspace}
+
+\def\rawSimulationEvalPapers{130}
+\def\rawStaticEvalPapers{54}
+\def\rawLabEvalPapers{16}
+\def\rawIndustrialEvalPapers{4}
+\def\rawOtherEvalPapers{2}
+
+% By data source
+\newcommand{\syntheticDataCount}{144\xspace}
+\newcommand{\industrialDataCount}{65\xspace}
+\newcommand{\benchmarkDataCount}{45\xspace}
+\newcommand{\labDataCount}{22\xspace}
+
+\def\rawSyntheticDataPapers{144}
+\def\rawIndustrialDataPapers{65}
+\def\rawBenchmarkDataPapers{45}
+\def\rawLabDataPapers{22}
+
+\def\rawSyntheticDataPapersPct{\xintexpr \rawSyntheticDataPapers / \rawIncludedPapers * 100 \relax}
+\def\rawIndustrialDataPapersPct{\xintexpr \rawIndustrialDataPapers / \rawIncludedPapers * 100 \relax}
+\def\rawBenchmarkDataPapersPct{\xintexpr \rawBenchmarkDataPapers / \rawIncludedPapers * 100 \relax}
+\def\rawLabDataPapersPct{\xintexpr \rawLabDataPapers / \rawIncludedPapers * 100 \relax}
+
+% ------------- Some automatic calculations -------------
+\def\rawProcessPapersPct{\xintexpr \rawProcessPapers / \rawIncludedPapers * 100 \relax}
+\def\rawLinePapersPct{\xintexpr \rawLinePapers / \rawIncludedPapers * 100 \relax}
+\def\rawFactoryPapersPct{\xintexpr \rawFactoryPapers / \rawIncludedPapers * 100 \relax}
+\def\rawEnterprisePapersPct{\xintexpr \rawEnterprisePapers / \rawIncludedPapers * 100 \relax}
+
+\def\rawSchedulingPapersPct{\xintexpr \rawSchedulingPapers / \rawIncludedPapers * 100 \relax}
+\def\rawNoIndustryPapersPct{\xintexpr \rawNoIndustryPapers / \rawIncludedPapers * 100 \relax}
+
+
+% By industry calculations
+\def\rawNoIndustryPapersPct{\xintexpr \rawNoIndustryPapers / \rawIncludedPapers * 100 \relax}
+\def\rawIndustryIdentifiedPapersPct{\xintexpr \rawIndustryIdentifiedPapers / \rawIncludedPapers * 100 \relax}
+\def\rawElectronicsPapersPct{\xintexpr \rawElectronicsPapers / \rawIndustryIdentifiedPapers * 100 \relax}
+\def\rawMetalAndMachiningPapersPct{\xintexpr \rawMetalAndMachiningPapers / \rawIndustryIdentifiedPapers * 100 \relax}
+\def\rawAutomotivePapersPct{\xintexpr \rawAutomotivePapers / \rawIndustryIdentifiedPapers * 100 \relax}
+\def\rawProcessIndustryPapersPct{\xintexpr \rawProcessIndustryPapers / \rawIndustryIdentifiedPapers * 100 \relax}
+\def\rawMachineryAndEquipmentPapersPct{\xintexpr \rawMachineryAndEquipmentPapers / \rawIndustryIdentifiedPapers * 100 \relax}
+\def\rawAerospacePapersPct{\xintexpr \rawAerospacePapers / \rawIndustryIdentifiedPapers * 100 \relax}
+
+
+% By decision support focus calculations
+\def\rawlogisticsPapersPct{\xintexpr \rawlogisticsPapers / \rawIncludedPapers * 100 \relax}
+\def\rawPlantLayoutPapersPct{\xintexpr \rawPlantLayoutPapers / \rawIncludedPapers * 100 \relax}
+\def\rawForecastingPapersPct{\xintexpr \rawForecastingPapers / \rawIncludedPapers * 100 \relax}
+\def\rawVisAndSimPapersPct{\xintexpr \rawVisAndSimPapers / \rawIncludedPapers * 100 \relax}
+\def\rawQualityPapersPct{\xintexpr \rawQualityPapers / \rawIncludedPapers * 100 \relax}
+\def\rawHumanRobotPapersPct{\xintexpr \rawHumanRobotPapers / \rawIncludedPapers * 100 \relax}
+
+% By evaluation setting calculations
+\def\rawSimulationEvalPapersPct{\xintexpr \rawSimulationEvalPapers / \rawIncludedPapers * 100 \relax}
+\def\rawStaticEvalPapersPct{\xintexpr \rawStaticEvalPapers / \rawIncludedPapers * 100 \relax}
+\def\rawLabEvalPapersPct{\xintexpr \rawLabEvalPapers / \rawIncludedPapers * 100 \relax}
+\def\rawOtherEvalPapersPct{\xintexpr \rawOtherEvalPapers / \rawIncludedPapers * 100 \relax}
+\def\rawIndustrialEvalPapersPct{\xintexpr \rawIndustrialEvalPapers / \rawIncludedPapers * 100 \relax}
+
+
+% ------------- Use these commands 'in the document' -------------
+% \xspace ensture proper spacing to the next word, . and so on.
+\newcommand{\includedPapers}{\rap{\rawIncludedPapers}\xspace} 
+\newcommand{\queryIdentifiedPapers}{\rap{\rawQueryIdentifiedPapers}\xspace} 
+
+%% L0 - Process level
+\newcommand{\processPapers}{\rap{\rawProcessPapers}\xspace}
+\newcommand{\processPapersPct}{\rap{\rawProcessPapersPct}\%\xspace} 
+
+%% L1 - Line level
+\newcommand{\linePapers}{\rap{\rawLinePapers}\xspace}
+\newcommand{\linePapersPct}{\rap{\rawLinePapersPct}\%\xspace} 
+
+%% L2 - Factory level
+\newcommand{\factoryPapers}{\rap{\rawFactoryPapers}\xspace}
+\newcommand{\factoryPapersPct}{\rap{\rawFactoryPapersPct}\%\xspace} 
+
+%% L3 - Enterprise level
+\newcommand{\enterprisePapers}{\rap{\rawEnterprisePapers}\xspace}
+\newcommand{\enterprisePapersPct}{\rap{\rawEnterprisePapersPct}\%\xspace} 
+
+%% By industry
+\newcommand{\noIndustryPapers}{\rap{\rawNoIndustryPapers}\xspace}
+\newcommand{\noIndustryPapersPct}{\rap{\rawNoIndustryPapersPct}\%\xspace}
+
+\newcommand{\industryIdentifiedPapers}{\rap{\rawIndustryIdentifiedPapers}\xspace}
+\newcommand{\industryIdentifiedPapersPct}{\rap{\rawIndustryIdentifiedPapersPct\%}\xspace}
+
+\newcommand{\electronicsPapers}{\rap{\rawElectronicsPapers}\xspace}
+\newcommand{\electronicsPapersPct}{\rap{\rawElectronicsPapersPct}\%\xspace}
+
+\newcommand{\metalAndMachiningPapers}{\rap{\rawMetalAndMachiningPapers}\xspace}
+\newcommand{\metalAndMachiningPapersPct}{\rap{\rawMetalAndMachiningPapersPct}\%\xspace}
+
+\newcommand{\automotivePapers}{\rap{\rawAutomotivePapers}\xspace}
+\newcommand{\automotivePapersPct}{\rap{\rawAutomotivePapersPct}\%\xspace}
+
+\newcommand{\processIndustryPapers}{\rap{\rawProcessIndustryPapers}\xspace}
+\newcommand{\processIndustryPapersPct}{\rap{\rawProcessIndustryPapersPct}\%\xspace}
+
+\newcommand{\machineryAndEquipmentPapers}{\rap{\rawMachineryAndEquipmentPapers}\xspace}
+\newcommand{\machineryAndEquipmentPapersPct}{\rap{\rawMachineryAndEquipmentPapersPct}\%\xspace}
+
+\newcommand{\aerospacePapers}{\rap{\rawAerospacePapers}\xspace}
+\newcommand{\aerospacePapersPct}{\rap{\rawAerospacePapersPct}\%\xspace}
+
+
+% By decision support focus
+\newcommand{\schedulingPapers}{\rap{\rawSchedulingPapers}\xspace}
+\newcommand{\schedulingPapersPct}{\rap{\rawSchedulingPapersPct}\%\xspace}
+
+\newcommand{\logisticsPapers}{\rap{\rawlogisticsPapers}\xspace}
+\newcommand{\logisticsPapersPct}{\rap{\rawlogisticsPapersPct}\%\xspace}
+
+\newcommand{\plantLayoutPapers}{\rap{\rawPlantLayoutPapers}\xspace}
+\newcommand{\plantLayoutPapersPct}{\rap{\rawPlantLayoutPapersPct}\%\xspace}
+
+\newcommand{\forecastingPapers}{\rap{\rawForecastingPapers}\xspace}
+\newcommand{\forecastingPapersPct}{\rap{\rawForecastingPapersPct}\%\xspace}
+
+\newcommand{\visAndSimPapers}{\rap{\rawVisAndSimPapers}\xspace}
+\newcommand{\visAndSimPapersPct}{\rap{\rawVisAndSimPapersPct}\%\xspace}
+
+\newcommand{\qualityPapers}{\rap{\rawQualityPapers}\xspace}
+\newcommand{\qualityPapersPct}{\rap{\rawQualityPapersPct}\%\xspace}
+
+\newcommand{\humanRobotPapers}{\rap{\rawHumanRobotPapers}\xspace}
+\newcommand{\humanRobotPapersPct}{\rap{\rawHumanRobotPapersPct}\%\xspace}
+
+%% By evaluation setting and data sources
+\newcommand{\simulationEvalPapers}{\rap{\rawSimulationEvalPapers}\xspace}
+\newcommand{\simulationEvalPapersPct}{\rap{\rawSimulationEvalPapersPct}\%\xspace}
+
+\newcommand{\staticEvalPapers}{\rap{\rawStaticEvalPapers}\xspace}
+\newcommand{\staticEvalPapersPct}{\rap{\rawStaticEvalPapersPct}\%\xspace}
+
+\newcommand{\labEvalPapers}{\rap{\rawLabEvalPapers}\xspace}
+\newcommand{\labEvalPapersPct}{\rap{\rawLabEvalPapersPct}\%\xspace}
+
+\newcommand{\industrialEvalPapers}{\rap{\rawIndustrialEvalPapers}\xspace}
+\newcommand{\industrialEvalPapersPct}{\rap{\rawIndustrialEvalPapersPct}\%\xspace}
+
+
+% ------------- Factory level (L2) specific numbers -------------
+% Scheduling vs non-scheduling
+\def\rawFactorySchedulingPapers{118}
+\def\rawFactoryNonSchedulingPapers{37}
+
+% Job-shop variants
+\def\rawFJSPPapers{43}
+\def\rawJSPPapers{18}
+\def\rawDFJSPPapers{18}
+\def\rawDJSPPapers{8}
+\def\rawDistributedPapers{2}
+
+% Objectives
+\def\rawFactoryMakespanPapers{60}
+\def\rawFactoryRobustnessPapers{15}
+\def\rawFactoryTardinessPapers{15}
+\def\rawFactoryEnergyPapers{5}
+\def\rawFactoryUtilisationPapers{4}
+
+% Technologies
+\def\rawFactoryRLPapers{78}
+\def\rawFactoryDLPapers{31}
+\def\rawFactoryMLPapers{22}
+\def\rawFactoryAIPapers{21}
+\def\rawFactoryCPSPapers{15}
+\def\rawFactoryIoTPapers{15}
+\def\rawFactoryDTPapers{13}
+\def\rawFactoryAGVPapers{13}
+
+% Methods
+\def\rawFactoryPPOPapers{21}
+\def\rawFactoryDQNPapers{19}
+\def\rawFactoryGNNPapers{22}
+\def\rawFactoryMARLPapers{6}
+\def\rawFactoryGAPapers{15}
+
+% Evaluation
+\def\rawFactorySimulationEval{82}
+\def\rawFactoryStaticEval{57}
+\def\rawFactoryLabEval{12}
+\def\rawFactoryIndustrialEval{2}
+
+% Data source
+\newcommand{\syntheticDataPapers}{\rap{\rawSyntheticDataPapers}\xspace}
+\newcommand{\syntheticDataPapersPct}{\rap{\rawSyntheticDataPapersPct}\%\xspace}
+
+\newcommand{\industrialDataPapers}{\rap{\rawIndustrialDataPapers}\xspace}
+\newcommand{\industrialDataPapersPct}{\rap{\rawIndustrialDataPapersPct}\%\xspace}
+
+\newcommand{\benchmarkDataPapers}{\rap{\rawBenchmarkDataPapers}\xspace}
+\newcommand{\benchmarkDataPapersPct}{\rap{\rawBenchmarkDataPapersPct}\%\xspace}
+
+\newcommand{\labDataPapers}{\rap{\rawLabDataPapers}\xspace}
+\newcommand{\labDataPapersPct}{\rap{\rawLabDataPapersPct}\%\xspace}
+
+% ------------- Factory level commands -------------
+\newcommand{\factorySchedulingPapers}{\rap{\rawFactorySchedulingPapers}\xspace}
+\newcommand{\factoryNonSchedulingPapers}{\rap{\rawFactoryNonSchedulingPapers}\xspace}
+
+\newcommand{\fjspPapers}{\rap{\rawFJSPPapers}\xspace}
+\newcommand{\jspPapers}{\rap{\rawJSPPapers}\xspace}
+\newcommand{\dfjspPapers}{\rap{\rawDFJSPPapers}\xspace}
+\newcommand{\djspPapers}{\rap{\rawDJSPPapers}\xspace}
+\newcommand{\distributedPapers}{\rap{\rawDistributedPapers}\xspace}
+
+\newcommand{\factoryMakespanPapers}{\rap{\rawFactoryMakespanPapers}\xspace}
+\newcommand{\factoryRobustnessPapers}{\rap{\rawFactoryRobustnessPapers}\xspace}
+\newcommand{\factoryTardinessPapers}{\rap{\rawFactoryTardinessPapers}\xspace}
+\newcommand{\factoryEnergyPapers}{\rap{\rawFactoryEnergyPapers}\xspace}
+\newcommand{\factoryUtilisationPapers}{\rap{\rawFactoryUtilisationPapers}\xspace}
+
+\newcommand{\factoryRLPapers}{\rap{\rawFactoryRLPapers}\xspace}
+\newcommand{\factoryDLPapers}{\rap{\rawFactoryDLPapers}\xspace}
+\newcommand{\factoryMLPapers}{\rap{\rawFactoryMLPapers}\xspace}
+\newcommand{\factoryAIPapers}{\rap{\rawFactoryAIPapers}\xspace}
+\newcommand{\factoryCPSPapers}{\rap{\rawFactoryCPSPapers}\xspace}
+\newcommand{\factoryIoTPapers}{\rap{\rawFactoryIoTPapers}\xspace}
+\newcommand{\factoryDTPapers}{\rap{\rawFactoryDTPapers}\xspace}
+\newcommand{\factoryAGVPapers}{\rap{\rawFactoryAGVPapers}\xspace}
+
+\newcommand{\factoryPPOPapers}{\rap{\rawFactoryPPOPapers}\xspace}
+\newcommand{\factoryDQNPapers}{\rap{\rawFactoryDQNPapers}\xspace}
+\newcommand{\factoryGNNPapers}{\rap{\rawFactoryGNNPapers}\xspace}
+\newcommand{\factoryMARLPapers}{\rap{\rawFactoryMARLPapers}\xspace}
+\newcommand{\factoryGAPapers}{\rap{\rawFactoryGAPapers}\xspace}
+
+\newcommand{\factorySimulationEval}{\rap{\rawFactorySimulationEval}\xspace}
+\newcommand{\factoryStaticEval}{\rap{\rawFactoryStaticEval}\xspace}
+\newcommand{\factoryLabEval}{\rap{\rawFactoryLabEval}\xspace}
+\newcommand{\factoryIndustrialEval}{\rap{\rawFactoryIndustrialEval}\xspace}
