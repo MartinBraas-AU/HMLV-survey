@@ -9,9 +9,11 @@ import { PaperDetail } from "./pages/PaperDetail";
 
 const papers: Paper[] = papersData as Paper[];
 
+const basename = import.meta.env.BASE_URL.replace(/\/$/, "");
+
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={basename}>
       <div className="app">
         <Routes>
           <Route path="/" element={<LevelSelect papers={papers} />} />

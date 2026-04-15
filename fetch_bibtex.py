@@ -199,5 +199,5 @@ if __name__ == "__main__":
     if len(sys.argv) >= 3 and sys.argv[1] == "--rekey":
         rekey_bibfile(sys.argv[2])
     else:
-        path = sys.argv[1] if len(sys.argv) > 1 else "Master_sheet.xlsx"
+        path = sys.argv[1] if len(sys.argv) > 1 else "data/Master sheet.xlsx"
         main(path)

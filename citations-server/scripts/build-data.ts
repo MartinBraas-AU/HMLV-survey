@@ -128,7 +128,7 @@ function normalizeLevel(raw: string | undefined): string {
 }
 
 function main() {
-  const xlsxPath = resolve(__dirname, "../data/Master sheet.xlsx");
+  const xlsxPath = resolve(__dirname, "../../data/Master sheet.xlsx");
   const buf = readFileSync(xlsxPath);
   const workbook = XLSX.read(buf);
   const sheet = workbook.Sheets["Cleaned Master sheet"];

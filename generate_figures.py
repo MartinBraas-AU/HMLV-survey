@@ -30,7 +30,7 @@ import matplotlib.colors as mcolors
 # ================================================================
 # CONFIG
 # ================================================================
-EXCEL_PATH = sys.argv[1] if len(sys.argv) > 1 else "Master_sheet_cleaned.xlsx"
+EXCEL_PATH = sys.argv[1] if len(sys.argv) > 1 else "data/Master sheet.xlsx"
 OUTPUT_DIR = Path(sys.argv[2]) if len(sys.argv) > 2 else Path("figures")
 SHEET_NAME = "Cleaned Master sheet"
 DPI = 300
