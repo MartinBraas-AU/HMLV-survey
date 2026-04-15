@@ -1,7 +1,11 @@
 {
   "permissions": {
     "allow": [
-      "Bash(npm run *)"
+      "Bash(npm run *)",
+      "Bash(gh run *)",
+      "Bash(\"C:/Program Files/GitHub CLI/gh.exe\" --version)",
+      "Bash(rm -v citations-server/public/404.html .github/workflows/deploy.yml)",
+      "Bash(rmdir .github/workflows .github)"
     ]
   }
 }
