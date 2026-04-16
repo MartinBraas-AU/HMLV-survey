@@ -1,0 +1,50 @@
+\contentsline {chapter}{\numberline {1}Introduction}{2}{chapter.1}%
+\contentsline {chapter}{\numberline {2}Methodology}{3}{chapter.2}%
+\contentsline {chapter}{\numberline {3}Industry 3.0}{4}{chapter.3}%
+\contentsline {section}{\numberline {3.1}OEE}{4}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Simulation and Scheduling}{4}{section.3.2}%
+\contentsline {section}{\numberline {3.3}SPC}{4}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Lean Manufacturing}{4}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Product Line Design / Group Technology}{4}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Layout and Flow Optimization}{4}{section.3.6}%
+\contentsline {chapter}{\numberline {4}Industry 4.0}{5}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Cyber-Physical Systems}{5}{section.4.1}%
+\contentsline {subsection}{\numberline {4.1.1}Role of CPS in Manufacturing}{5}{subsection.4.1.1}%
+\contentsline {subsection}{\numberline {4.1.2}Framework and Tools}{6}{subsection.4.1.2}%
+\contentsline {subsection}{\numberline {4.1.3}Surveys and Applications}{6}{subsection.4.1.3}%
+\contentsline {subsection}{\numberline {4.1.4}Challenges and Future Directions}{6}{subsection.4.1.4}%
+\contentsline {section}{\numberline {4.2}Internet of Things \& Industrial Connectivity}{7}{section.4.2}%
+\contentsline {subsection}{\numberline {4.2.1}Role in HMLV Manufacturing}{7}{subsection.4.2.1}%
+\contentsline {subsection}{\numberline {4.2.2}Key Enabling Technologies and Standards}{7}{subsection.4.2.2}%
+\contentsline {subsection}{\numberline {4.2.3}Challenges and Outlook}{7}{subsection.4.2.3}%
+\contentsline {section}{\numberline {4.3}Big Data \& Analytics}{8}{section.4.3}%
+\contentsline {subsection}{\numberline {4.3.1}Role in HMLV Manufacturing}{8}{subsection.4.3.1}%
+\contentsline {subsection}{\numberline {4.3.2}Analytical Approaches and Trends}{8}{subsection.4.3.2}%
+\contentsline {subsection}{\numberline {4.3.3}Challenges and Outlook}{8}{subsection.4.3.3}%
+\contentsline {section}{\numberline {4.4}Advanced Robotics \& Automation}{9}{section.4.4}%
+\contentsline {subsection}{\numberline {4.4.1}From Fixed Automation to Flexible Systems}{9}{subsection.4.4.1}%
+\contentsline {subsection}{\numberline {4.4.2}Intelligence and Adaptivity in Automation}{9}{subsection.4.4.2}%
+\contentsline {subsection}{\numberline {4.4.3}Networked and Cloud Robotics}{9}{subsection.4.4.3}%
+\contentsline {subsection}{\numberline {4.4.4}Challenges and Future Directions}{9}{subsection.4.4.4}%
+\contentsline {section}{\numberline {4.5}Decision Support}{10}{section.4.5}%
+\contentsline {subsection}{\numberline {4.5.1}AI-based}{10}{subsection.4.5.1}%
+\contentsline {subsection}{\numberline {4.5.2}Predictive Maintenance}{10}{subsection.4.5.2}%
+\contentsline {section}{\numberline {4.6}MLOps}{10}{section.4.6}%
+\contentsline {section}{\numberline {4.7}Cloud and Edge Computer}{10}{section.4.7}%
+\contentsline {subsection}{\numberline {4.7.1}VM / Virtualization}{10}{subsection.4.7.1}%
+\contentsline {chapter}{\numberline {5}Industry 5.0}{11}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Digital Twins}{11}{section.5.1}%
+\contentsline {subsection}{\numberline {5.1.1}Digital Twins}{11}{subsection.5.1.1}%
+\contentsline {subsection}{\numberline {5.1.2}Case Studies and Architectures}{11}{subsection.5.1.2}%
+\contentsline {subsection}{\numberline {5.1.3}Enabling Technologies}{12}{subsection.5.1.3}%
+\contentsline {subsection}{\numberline {5.1.4}Surveys}{12}{subsection.5.1.4}%
+\contentsline {subsection}{\numberline {5.1.5}DTaaS}{13}{subsection.5.1.5}%
+\contentsline {subsection}{\numberline {5.1.6}What-if (offline)}{13}{subsection.5.1.6}%
+\contentsline {subsection}{\numberline {5.1.7}Digital Twin Challenges and Future Directions}{13}{subsection.5.1.7}%
+\contentsline {section}{\numberline {5.2}Human Centric}{14}{section.5.2}%
+\contentsline {subsection}{\numberline {5.2.1}Enabling technologies}{14}{subsection.5.2.1}%
+\contentsline {section}{\numberline {5.3}Resilience and Adaptability}{14}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Sustainability and Circularity}{14}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Ethics and Trustworthy AI}{14}{section.5.5}%
+\contentsline {section}{\numberline {5.6}Co-bots}{14}{section.5.6}%
+\contentsline {chapter}{\numberline {6}Conclusion}{15}{chapter.6}%
