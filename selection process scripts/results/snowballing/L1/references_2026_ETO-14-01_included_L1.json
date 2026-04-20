@@ -1,0 +1,1470 @@
+{
+  "2024_balancing_heterogeneous_assembly_line_with_multi-skilled_human-robot_collaboration_via_adaptive_cooperative_co-evolutionary_algorithm": {
+    "key_id": "2024_balancing_heterogeneous_assembly_line_with_multi-skilled_human-robot_collaboration_via_adaptive_cooperative_co-evolutionary_algorithm",
+    "title": "Balancing heterogeneous assembly line with multi-skilled human-robot collaboration via Adaptive cooperative co-evolutionary algorithm",
+    "year": "2024",
+    "doi": "",
+    "scopus_id": "85208484988",
+    "references": [
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85208486540"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85208469531"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85142266613"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85142305497"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85102805372"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85085196740"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85177648419"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85143116946"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "84874540167"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85102843170"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "84892557305"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "84907979385"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85089158388"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85083195320"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85122478755"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85098717855"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85130478396"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85162084798"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85064930046"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85103313449"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85086027787"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "84923007425"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "84953361453"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "38049000847"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "84865675579"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "84928286270"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "84866148241"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "84959140999"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85037365294"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "40649088035"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "84855786580"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85092531155"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "33645703494"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85063190419"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85117441404"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85153063242"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85074367339"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85063760026"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85084844775"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85064696858"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85114646468"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "84908690034"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85160663257"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "84862191686"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85208472901"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85132304719"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85028571206"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85140922062"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85178584365"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85166239423"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85208498783"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85081547269"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85133411021"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85052883657"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85071723046"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85146557087"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85168991265"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85119590458"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85137582306"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "0003545561"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "84984700614"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85019150642"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "84873740873"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "84989941539"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "0036530772"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85022190420"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "84959106886"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85156200529"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85049735292"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "84935015365"
+      }
+    ]
+  },
+  "2024_data-driven_simulation-based_decision_support_system_for_resource_allocation_in_industry_4.0_and_smart_manufacturing": {
+    "key_id": "2024_data-driven_simulation-based_decision_support_system_for_resource_allocation_in_industry_4.0_and_smart_manufacturing",
+    "title": "Data-driven simulation-based decision support system for resource allocation in industry 4.0 and smart manufacturing",
+    "year": "2024",
+    "doi": "",
+    "scopus_id": "85183766753",
+    "references": [
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85123486874"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85104107284"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85141831196"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85101508372"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85138163515"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85091194972"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85057063260"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85105884393"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85110486414"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85102693068"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85104130109"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85124170627"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85126615703"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85087514607"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85102771034"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "84965036163"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85133278793"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85108556475"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "84922989592"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85141775244"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85147847425"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85075026715"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85095705670"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85125870683"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85103475235"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85122624651"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "0242652022"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "0033318004"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85183785604"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "80054734459"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "84859031894"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85103880731"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85098971476"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85108196995"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85107389143"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85116759538"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85183705124"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85122241752"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85143881517"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85029411320"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85183731174"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85103786419"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85122478755"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85101312240"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85104270423"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85134692547"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85117289816"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "84995977095"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85092641891"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85130893911"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "0003990308"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85102893170"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85105954789"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85044525166"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "22544468661"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85107471126"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85171985258"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85169837304"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85143224043"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "46149124592"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "84949218935"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85113630024"
+      }
+    ]
+  },
+  "2024_deep_reinforcement_learning_with_a_look-ahead_search_for_robotic_cell_scheduling": {
+    "key_id": "2024_deep_reinforcement_learning_with_a_look-ahead_search_for_robotic_cell_scheduling",
+    "title": "Deep Reinforcement Learning With a Look-Ahead Search for Robotic Cell Scheduling",
+    "year": "2024",
+    "doi": "",
+    "scopus_id": "85174810744",
+    "references": [
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "28244489538"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85012896361"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85034662605"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85027947961"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "84946762512"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "84899086961"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85017589791"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85057175047"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "9644286254"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "84926106654"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85030097791"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "84884276459"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "84959322709"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85019975083"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85064833116"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85100256602"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "0028481573"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "84938863925"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85084401966"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "84926410059"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "0031272146"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "0033312656"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "0031142587"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "84880232795"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "55849147638"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85033722492"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "3543073493"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "0030134958"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "0002868454"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "84962859061"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "84979710716"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "0034367676"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "23944522312"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "5144232236"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "70350574656"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85099733436"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85101246821"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85150257983"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85092596955"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "84887067395"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "84991032307"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85027926490"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "84871811802"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85087543072"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85079694318"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85086939555"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85048864239"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85097121658"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "0003511389"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85015628981"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "0004102479"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "84924051598"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85052138781"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85039155486"
+      }
+    ]
+  },
+  "2023_versatile_information_provisioning_in_a_configure-to-order_production_environment;_a_case_study": {
+    "key_id": "2023_versatile_information_provisioning_in_a_configure-to-order_production_environment;_a_case_study",
+    "title": "Versatile information provisioning in a configure-to-order production environment; a case study",
+    "year": "2023",
+    "doi": "",
+    "scopus_id": "85184600948",
+    "references": [
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85053219390"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "84890827112"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "84865685395"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "84883862088"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85105579731"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85169909520"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85133547382"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85044297204"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85107869872"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "84953861813"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85049578129"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85073116667"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85076737884"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85128794480"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85079071242"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85086008293"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "84871553314"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85056196331"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85007016275"
+      }
+    ]
+  },
+  "2022_production_task_allocation_decision_based_on_cloud_robot_cell-line": {
+    "key_id": "2022_production_task_allocation_decision_based_on_cloud_robot_cell-line",
+    "title": "Production Task Allocation Decision Based on Cloud Robot Cell-Line",
+    "year": "2022",
+    "doi": "",
+    "scopus_id": "85127509127",
+    "references": [
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "84962050559"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "84962385700"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "79954557948"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "34047202335"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "80155163973"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "84947596235"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85121461943"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85083050109"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "25144478543"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "77949906705"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85128288091"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "84870521649"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85060701799"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85128261416"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "84866250555"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "84874544129"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "84866251438"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "84973327101"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "84960798549"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "84944194675"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "84953838050"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "84951739685"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "84866241782"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "84935429746"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85128300080"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85128307704"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "84942307022"
+      }
+    ]
+  },
+  "2021_monte_carlo_tree_search_for_online_decision_making_in_smart_industrial_production": {
+    "key_id": "2021_monte_carlo_tree_search_for_online_decision_making_in_smart_industrial_production",
+    "title": "Monte Carlo Tree Search for online decision making in smart industrial production",
+    "year": "2021",
+    "doi": "",
+    "scopus_id": "85102784041",
+    "references": [
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "84880899304"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85102794605"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "84902513084"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85102831050"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "84858960516"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "84874013957"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "77955681360"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "55249127519"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "34547971839"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85031816050"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "84999484457"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85049556913"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85046436952"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "84889806832"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "0004058039"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85033406486"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85025675707"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "84871941752"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85049579752"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85084401966"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85049584481"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "68249099005"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "84910088567"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "84921637763"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "84963949906"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "84951069388"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85102822266"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "84977489374"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85102815299"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "84869223063"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85102842009"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "84963668063"
+      }
+    ]
+  },
+  "2018_mobile_robot_scheduling_for_cycle_time_optimization_in_flow-shop_cells,_a_case_study": {
+    "key_id": "2018_mobile_robot_scheduling_for_cycle_time_optimization_in_flow-shop_cells,_a_case_study",
+    "title": "Mobile robot scheduling for cycle time optimization in flow-shop cells, a case study",
+    "year": "2018",
+    "doi": "",
+    "scopus_id": "85039699175",
+    "references": [
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "84155169083"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "23944522312"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "69249206751"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85041594104"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85039743018"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85044386978"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85015717374"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "52049112175"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "79960904016"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "84999027875"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "84993143397"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "79960909295"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "84968909147"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85044394993"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "0000222016"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "84867399875"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "75749089533"
+      }
+    ]
+  }
+}

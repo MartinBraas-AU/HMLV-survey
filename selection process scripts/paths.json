@@ -1,0 +1,95 @@
+{
+  "inputs": [
+    "./data/scopus_export_with_abstract_ETO_2026-05-01.csv",
+    "./results/relevance_scored_2026_ETO-14-01.csv",
+    "./results/relevance_scored_2026_ETO-14-01_w_key_id.json",
+    "./results/relevance_scored_2026_ETO-14-01.json",
+    "./results/relevance_scored_2026_ETO-14-01-failed-ones.json",
+    "./results/first_review_process/included_L3L4.json",
+    "./results/first_review_process/excluded_relevance_scored_2026_ETO-14-01.json",
+    "./results/snowballing/references_2026_ETO-14-01.json",
+    "./results/snowballing/references_2026_ETO-14-01_w_key_id.json",
+    "./results/snowballing/references_2026_ETO-14-01_included.json",
+    "./results/snowballing/L3_L4/references_2026_ETO-14-01_included_L3L4.json",
+    "./results/snowballing/L0/references_2026_ETO-14-01_included_L0.json",
+    "./results/snowballing/L0/references_info_2026_ETO-14-01_included_L0.json",
+    "./results/snowballing/L1/references_2026_ETO-14-01_included_L1.json",
+    "./citers/citing_hmlv.json"
+  ],
+  "script_outputs": [
+    "./results/relevance_scored_2026_ETO-14-01.csv",
+    "./results/relevance_scored_2026_ETO-14-01_w_key_id.json",
+    "./citers/snowballing/citing_2026_ETO-15-01-fourth-truncated.json",
+    "./results/snowballing/references_2026_ETO-14-01_w_key_id.json",
+    "./results/snowballing/references_2026_ETO-14-01_included.json",
+    "./results/snowballing/L3_L4/references_2026_ETO-14-01_included_L3L4.json",
+    "./results/snowballing/L0/references_2026_ETO-14-01_included_L0.json",
+    "./results/snowballing/L0/references_info_2026_ETO-14-01_included_L0.json",
+    "./results/snowballing/L1/references_2026_ETO-14-01_included_L1.json"
+  ],
+  "scripts": [
+    "./scripts/relevance_score.py",
+    "./scripts/scored_csv_to_json.py",
+    "./scripts/fetch_citing_papers.py",
+    "./scripts/snowball/forward/fetch_citing_papers_level.py",
+    "./scripts/snowball/forward/citing_papers_analysis.py",
+    "./scripts/snowball/backward/fetch_references_backward.py",
+    "./scripts/snowball/backward/remove_excluded.py",
+    "./scripts/snowball/backward/keep_level_papers.py",
+    "./scripts/snowball/backward/fetch_info_refferences.py",
+    "./scripts/snowball/backward/fetch_info_refferences_level.py",
+    "./scripts/snowball/backward/references_analysis.py"
+  ],
+  "defaults": {
+    "relevance_score": {
+      "input_file": "./data/scopus_export_with_abstract_ETO_2026-05-01.csv",
+      "output_file": "./results/relevance_scored_2026_ETO-14-01.csv",
+      "sheet_name": "Automated Selection and Details"
+    },
+    "scored_csv_to_json": {
+      "input_file": "./results/relevance_scored_2026_ETO-14-01.csv",
+      "output_file": "./results/relevance_scored_2026_ETO-14-01_w_key_id.json"
+    },
+    "fetch_citing_papers": {
+      "input_non_failed": "./results/relevance_scored_2026_ETO-14-01.json",
+      "input_failed": "./results/relevance_scored_2026_ETO-14-01-failed-ones.json",
+      "output_json": "./citers/snowballing/citing_2026_ETO-15-01-fourth-truncated.json"
+    },
+    "fetch_citing_papers_level": {
+      "input_json": "./results/relevance_scored_2026_ETO-14-01.json",
+      "filter_json": "./results/first_review_process/included_L3L4.json",
+      "output_json": "./citers/snowballing/citing_2026_ETO-15-01-L3L4.json"
+    },
+    "citing_papers_analysis": {
+      "citer_json_primary": "./citers/snowballing/citing_2026_ETO-15-01-fourth.json",
+      "citer_json_secondary": "./citers/snowballing/citing_2026_ETO-15-01-truncated.json"
+    },
+    "fetch_references_backward": {
+      "input_json": "./results/relevance_scored_2026_ETO-14-01_w_key_id.json",
+      "output_json": "./results/snowballing/references_2026_ETO-14-01_w_key_id.json"
+    },
+    "remove_excluded": {
+      "reference_json": "./results/snowballing/references_2026_ETO-14-01.json",
+      "excluded_json": "./results/first_review_process/excluded_relevance_scored_2026_ETO-14-01.json",
+      "output_json": "./results/snowballing/references_2026_ETO-14-01_included.json"
+    },
+    "keep_level_papers": {
+      "reference_json": "./results/snowballing/references_2026_ETO-14-01_w_key_id.json",
+      "included_json": "./results/first_review_process/included_L3L4.json",
+      "output_json": "./results/snowballing/L3_L4/references_2026_ETO-14-01_included_L3L4.json"
+    },
+    "fetch_info_refferences": {
+      "reference_json": "./results/snowballing/references_2026_ETO-14-01_included.json",
+      "output_json": "./results/snowballing/references_info_2026_ETO-14-01_included.json"
+    },
+    "fetch_info_refferences_level": {
+      "reference_json": "./results/snowballing/L0/references_2026_ETO-14-01_included_L0.json",
+      "output_json": "./results/snowballing/L0/references_info_2026_ETO-14-01_included_L0.json"
+    },
+    "references_analysis": {
+      "reference_json": "./results/snowballing/references_2026_ETO-14-01_included.json",
+      "level_label": "L0",
+      "threshold": 15
+    }
+  }
+}

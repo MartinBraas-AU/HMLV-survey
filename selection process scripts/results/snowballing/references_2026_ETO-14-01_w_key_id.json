@@ -1,0 +1,341 @@
+{
+  "2025_uncertainty-aware_power_consumption_prediction_in_customized_stainless-steel_manufacturing:_a_comparative_study_of_hierarchical_bayesian_and_deep_neural_models": {
+    "key_id": "2025_uncertainty-aware_power_consumption_prediction_in_customized_stainless-steel_manufacturing:_a_comparative_study_of_hierarchical_bayesian_and_deep_neural_models",
+    "title": "Uncertainty-aware power consumption prediction in customized stainless-steel manufacturing: A comparative study of hierarchical Bayesian and deep neural models",
+    "year": "2025",
+    "doi": "",
+    "scopus_id": "105020863011",
+    "references": [
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "84867989480"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85045300529"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85129269764"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "84896075388"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85062444641"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85210537885"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "84966564899"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85189788017"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85072983298"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85099829245"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85020729685"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85162878927"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85181443925"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85125737988"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85172726580"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85086592523"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85087342101"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "69349103766"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85135566148"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85177432166"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85143553782"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "105020569174"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "84901687683"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "84965158671"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85018878907"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85084401966"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85088632506"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "105020848280"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "84949524878"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "84990949328"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85019721409"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85214995599"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "84867581156"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "84993971833"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85065118406"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85181832869"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "84997079451"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85043587805"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "84994868503"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "76649131245"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85027323447"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "105009402080"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85065256723"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85018979863"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "34250170125"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85041417712"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85029097165"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85028732010"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85062957095"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85214233948"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85062984680"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85147952861"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "105002863051"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85156204535"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85143149976"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "84876963722"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85105178273"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85185539927"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85189181874"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "9444224436"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85170642360"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85102316063"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85081295690"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85121209962"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "33847399672"
+      },
+      {
+        "title": "",
+        "doi": "",
+        "scopus_id": "85192512087"
+      }
+    ]
+  }
+}

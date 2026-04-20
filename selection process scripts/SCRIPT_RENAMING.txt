@@ -1,0 +1,92 @@
+================================================================================
+SCRIPT RENAMING DOCUMENTATION
+Minimal GitHub Repository - Systematic Literature Review Pipeline
+================================================================================
+
+PURPOSE:
+This document tracks script renames and folder reorganization made to improve
+workflow clarity.
+
+RENAMING LOG:
+================================================================================
+
+1. count_citation.py -> citing_papers_analysis.py
+   New location: scripts/snowball/forward/
+   Reason: Clearer description of forward-citation analysis.
+
+2. refference_stats.py -> references_analysis.py
+   New location: scripts/snowball/backward/
+   Reason: Standardized naming and spelling.
+
+3. 0_csv_to_json.py -> scored_csv_to_json.py
+   New location: scripts/
+   Reason: Clarifies this converts scored CSV output into JSON with key_id.
+
+4. ref_snowballing.py -> fetch_references_backward.py
+   New location: scripts/snowball/backward/
+   Reason: Makes direction explicit (backward snowballing).
+
+5. 4_fetch_citing_papers_class.py -> fetch_citing_papers.py
+   New location: scripts/
+   Reason: Cleaner, non-numeric script name.
+
+FOLDER REORGANIZATION:
+================================================================================
+
+Snowball scripts were split into direction-specific folders:
+
+- scripts/snowball/forward/
+   - fetch_citing_papers_level.py
+   - citing_papers_analysis.py
+  - Purpose: Forward snowballing (papers citing yours)
+
+- scripts/snowball/backward/
+  - fetch_references_backward.py
+  - remove_excluded.py
+  - keep_level_papers.py
+  - fetch_info_refferences.py
+  - fetch_info_refferences_level.py
+  - references_analysis.py
+  - Purpose: Backward snowballing (papers your set references)
+
+WORKFLOW SEQUENCE (updated):
+================================================================================
+
+1. relevance_score.py
+   -> Scores papers from Scopus CSV for relevance to HMLV/DSS
+
+2. scored_csv_to_json.py
+   -> Converts scored CSV to JSON with unique key_id identifiers
+
+3. snowball/backward/fetch_references_backward.py
+   -> Fetches references (backward snowballing) for scored papers
+
+4. fetch_citing_papers.py
+   -> Fetches papers citing your papers (forward snowballing)
+
+5. snowball/backward/remove_excluded.py
+   -> Filters excluded papers from backward reference chain
+
+6. snowball/backward/keep_level_papers.py
+   -> Filters papers by relevance level (L0, L3, L4)
+
+7. snowball/backward/fetch_info_refferences.py
+   -> Enriches backward reference data with metadata
+
+8. snowball/forward/fetch_citing_papers_level.py
+   -> Forward snowballing for selected level-filtered papers
+
+9. snowball/forward/citing_papers_analysis.py
+   -> Analyzes impact and distribution of citing papers
+
+10. snowball/backward/references_analysis.py
+    -> Analyzes statistics on referenced papers
+
+IMPLEMENTATION NOTES:
+================================================================================
+
+- All moved scripts were updated to the new folder depth for relative paths.
+- Remaining 2025 output naming in forward script was updated to 2026.
+- Script logic/classes were unchanged where possible; updates are naming/path only.
+
+================================================================================

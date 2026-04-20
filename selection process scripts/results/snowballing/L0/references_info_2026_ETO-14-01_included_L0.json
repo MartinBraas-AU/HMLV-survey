@@ -1,0 +1,1248 @@
+[
+  {
+    "title": "Industry 4.0 and Industry 5.0\u2014Inception, conception and perception",
+    "doi": "10.1016/j.jmsy.2021.10.006",
+    "year": 2021,
+    "scopus_id": "85117209815",
+    "citation_count": "1869"
+  },
+  {
+    "title": "Symbiotic human-robot collaborative assembly",
+    "doi": "10.1016/j.cirp.2019.05.002",
+    "year": 2019,
+    "scopus_id": "85066821991",
+    "citation_count": "504"
+  },
+  {
+    "title": "A collaborative intelligence-based approach for handling human-robot collaboration uncertainties",
+    "doi": "10.1016/j.cirp.2023.04.057",
+    "year": 2023,
+    "scopus_id": "85152565656",
+    "citation_count": "40"
+  },
+  {
+    "title": "Neural reactive path planning with Riemannian motion policies for robotic silicone sealing",
+    "doi": "10.1016/j.rcim.2022.102518",
+    "year": 2023,
+    "scopus_id": "85145661513",
+    "citation_count": "15"
+  },
+  {
+    "title": "Task-oriented safety field for robot control in human-robot collaborative assembly based on residual learning",
+    "doi": "10.1016/j.eswa.2023.121946",
+    "year": 2024,
+    "scopus_id": "85173267416",
+    "citation_count": "15"
+  },
+  {
+    "title": "Towards Safe Human-Robot Collaboration Using Deep Reinforcement Learning",
+    "doi": "10.1109/ICRA40945.2020.9196924",
+    "year": 2020,
+    "scopus_id": "85092718092",
+    "citation_count": "63"
+  },
+  {
+    "title": "Provably Safe Deep Reinforcement Learning for Robotic Manipulation in Human Environments",
+    "doi": "10.1109/ICRA46639.2022.9811698",
+    "year": 2022,
+    "scopus_id": "85136325477",
+    "citation_count": "42"
+  },
+  {
+    "title": "Motion Planning for Human-Robot Collaboration based on Reinforcement Learning",
+    "doi": "10.1109/CASE49997.2022.9926471",
+    "year": 2022,
+    "scopus_id": "85141722323",
+    "citation_count": "7"
+  },
+  {
+    "title": "A state-of-the-art survey on Augmented Reality-assisted Digital Twin for futuristic human-centric industry transformation",
+    "doi": "10.1016/j.rcim.2022.102515",
+    "year": 2023,
+    "scopus_id": "85145257966",
+    "citation_count": "228"
+  },
+  {
+    "title": "An AR-assisted Deep Reinforcement Learning-based approach towards mutual-cognitive safe human-robot interaction",
+    "doi": "10.1016/j.rcim.2022.102471",
+    "year": 2023,
+    "scopus_id": "85139873087",
+    "citation_count": "91"
+  },
+  {
+    "title": "Virtual reality in manufacturing: immersive and collaborative artificial-reality in design of human-robot workspace",
+    "doi": "10.1080/0951192X.2019.1690685",
+    "year": 2020,
+    "scopus_id": "85075731315",
+    "citation_count": "188"
+  },
+  {
+    "title": "An integrated mixed reality system for safety-aware human-robot collaboration using deep learning and digital twin generation",
+    "doi": "10.1016/j.rcim.2021.102258",
+    "year": 2022,
+    "scopus_id": "85114915832",
+    "citation_count": "213"
+  },
+  {
+    "title": "Bi-directional navigation intent communication using spatial augmented reality and eye-tracking glasses for improved safety in human\u2013robot interaction",
+    "doi": "10.1016/j.rcim.2019.101830",
+    "year": 2020,
+    "scopus_id": "85070732550",
+    "citation_count": "84"
+  },
+  {
+    "title": "An augmented reality software suite enabling seamless human robot interaction",
+    "doi": "10.1080/0951192X.2022.2104459",
+    "year": 2023,
+    "scopus_id": "85135142378",
+    "citation_count": "48"
+  },
+  {
+    "title": "AR-based interaction for human-robot collaborative manufacturing",
+    "doi": "10.1016/j.rcim.2019.101891",
+    "year": 2020,
+    "scopus_id": "85075263958",
+    "citation_count": "218"
+  },
+  {
+    "title": "Human-robot contactless collaboration with mixed reality interface",
+    "doi": "10.1016/j.rcim.2020.102030",
+    "year": 2021,
+    "scopus_id": "85088913156",
+    "citation_count": "48"
+  },
+  {
+    "title": "Deep reinforcement learning in smart manufacturing: A review and prospects",
+    "doi": "10.1016/j.cirpj.2022.11.003",
+    "year": 2023,
+    "scopus_id": "85143500675",
+    "citation_count": "268"
+  },
+  {
+    "title": "OptLayer - Practical Constrained Optimization for Deep Reinforcement Learning in the Real World",
+    "doi": "10.1109/ICRA.2018.8460547",
+    "year": 2018,
+    "scopus_id": "85062258932",
+    "citation_count": "124"
+  },
+  {
+    "title": "Safe Reinforcement Learning for Autonomous Lane Changing Using Set-Based Prediction",
+    "doi": "10.1109/ITSC45102.2020.9294259",
+    "year": 2020,
+    "scopus_id": "85099661844",
+    "citation_count": "80"
+  },
+  {
+    "title": "SaRA: A Tool for Safe Human-Robot Coexistence and Collaboration through Reachability Analysis",
+    "doi": "10.1109/ICRA46639.2022.9811952",
+    "year": 2022,
+    "scopus_id": "85130516645",
+    "citation_count": "22"
+  },
+  {
+    "title": "Deep Reinforcement Learning Based Trajectory Planning Under Uncertain Constraints",
+    "doi": "10.3389/fnbot.2022.883562",
+    "year": 2022,
+    "scopus_id": "85130018027",
+    "citation_count": "56"
+  },
+  {
+    "title": "AR-assisted digital twin-enabled robot collaborative manufacturing system with human-in-the-loop",
+    "doi": "10.1016/j.rcim.2022.102321",
+    "year": 2022,
+    "scopus_id": "85124244817",
+    "citation_count": "191"
+  },
+  {
+    "title": "Human-level control through deep reinforcement learning",
+    "doi": "10.1038/nature14236",
+    "year": 2015,
+    "scopus_id": "84924051598",
+    "citation_count": "26351"
+  },
+  {
+    "title": "Human Digital Twin in the context of Industry 5.0",
+    "doi": "10.1016/j.rcim.2023.102626",
+    "year": 2024,
+    "scopus_id": "85166028251",
+    "citation_count": "315"
+  },
+  {
+    "title": "Reachability Constrained Reinforcement Learning",
+    "doi": "",
+    "year": 2022,
+    "scopus_id": "85139024996",
+    "citation_count": "55"
+  },
+  {
+    "title": "Robotic Process Automation with Ontology-enabled Skill-based Robot Task Model and Notation (RTMN)",
+    "doi": "10.1109/RAAI56146.2022.10092996",
+    "year": 2022,
+    "scopus_id": "85156089748",
+    "citation_count": "5"
+  },
+  {
+    "title": "Human-robot collaboration based on motion intention estimation",
+    "doi": "10.1109/TMECH.2013.2264533",
+    "year": 2014,
+    "scopus_id": "84899002065",
+    "citation_count": "302"
+  },
+  {
+    "title": "Cobots in Industry 4.0: A Roadmap for Future Practice Studies on Human-Robot Collaboration",
+    "doi": "10.1109/THMS.2021.3092684",
+    "year": 2021,
+    "scopus_id": "85111070979",
+    "citation_count": "185"
+  },
+  {
+    "title": "Effects of voice-adaptation and social dialogue on perceptions of a robotic learning companion",
+    "doi": "10.1109/HRI.2016.7451760",
+    "year": 2016,
+    "scopus_id": "84964815984",
+    "citation_count": "68"
+  },
+  {
+    "title": "Measurement of trust in human-robot collaboration",
+    "doi": "10.1109/CTS.2007.4621745",
+    "year": 2007,
+    "scopus_id": "57849146110",
+    "citation_count": "268"
+  },
+  {
+    "title": "Survey of Human-Robot Collaboration in Industrial Settings: Awareness, Intelligence, and Compliance",
+    "doi": "10.1109/TSMC.2020.3041231",
+    "year": 2021,
+    "scopus_id": "85098779553",
+    "citation_count": "192"
+  },
+  {
+    "title": "Robot concept for scalable, flexible assembly automation: A technology study on a harmless dual-armed robot",
+    "doi": "10.1109/ISAM.2011.5942358",
+    "year": 2011,
+    "scopus_id": "80052060477",
+    "citation_count": "72"
+  },
+  {
+    "title": "Human-robot collaboration in manufacturing applications: A review",
+    "doi": "10.3390/robotics8040100",
+    "year": 2019,
+    "scopus_id": "85078308161",
+    "citation_count": "569"
+  },
+  {
+    "title": "Survey on human\u2013robot collaboration in industrial settings: Safety, intuitive interfaces and applications",
+    "doi": "10.1016/j.mechatronics.2018.02.009",
+    "year": 2018,
+    "scopus_id": "85042561832",
+    "citation_count": "1036"
+  },
+  {
+    "title": "Human - Robot collaboration in industry",
+    "doi": "10.17973/MMSJ.2016_06_201611",
+    "year": 2016,
+    "scopus_id": "84973458229",
+    "citation_count": "206"
+  },
+  {
+    "title": "Skill-based Dynamic Task Allocation in Human-Robot-Cooperation with the Example of Welding Application",
+    "doi": "10.1016/j.promfg.2017.07.113",
+    "year": 2017,
+    "scopus_id": "85029846601",
+    "citation_count": "68"
+  },
+  {
+    "title": "Symbiotic human-robot collaborative assembly",
+    "doi": "10.1016/j.cirp.2019.05.002",
+    "year": 2019,
+    "scopus_id": "85066821991",
+    "citation_count": "504"
+  },
+  {
+    "title": "Process-oriented Task Assignment for Assembly Processes with Human-robot Interaction",
+    "doi": "10.1016/j.procir.2016.02.080",
+    "year": 2016,
+    "scopus_id": "84994157730",
+    "citation_count": "94"
+  },
+  {
+    "title": "Human\u2013robot collaborative assembly in cyber-physical production: Classification framework and implementation",
+    "doi": "10.1016/j.cirp.2017.04.101",
+    "year": 2017,
+    "scopus_id": "85018707276",
+    "citation_count": "222"
+  },
+  {
+    "title": "Cooperation of human and machines in assembly lines",
+    "doi": "10.1016/j.cirp.2009.09.009",
+    "year": 2009,
+    "scopus_id": "70449518083",
+    "citation_count": "733"
+  },
+  {
+    "title": "Towards user-oriented programming of skill-based automation systems using a domain-specific meta-modeling approach",
+    "doi": "10.1109/INDIN41052.2019.8972318",
+    "year": 2019,
+    "scopus_id": "85079036232",
+    "citation_count": "10"
+  },
+  {
+    "title": "Novel Approach using Risk Analysis Component to Continuously Update Collaborative Robotics Applications in the Smart, Connected Factory Model",
+    "doi": "10.3390/app12115639",
+    "year": 2022,
+    "scopus_id": "85131797752",
+    "citation_count": "10"
+  },
+  {
+    "title": "The 24th IEEE International Conference on Emerging Technologies and Factory Automation Held in Zaragoza, Spain [Society News]",
+    "doi": "10.1109/MIE.2019.2949845",
+    "year": 2019,
+    "scopus_id": "85077196779",
+    "citation_count": "1"
+  },
+  {
+    "title": "Adaptive task sharing in human-robot interaction in assembly",
+    "doi": "10.1109/IEEM45057.2020.9309971",
+    "year": 2020,
+    "scopus_id": "85099772475",
+    "citation_count": "32"
+  },
+  {
+    "title": "Hazard analysis of human-robot interactions with HAZOP-UML",
+    "doi": "10.1016/j.ssci.2015.12.017",
+    "year": 2016,
+    "scopus_id": "84954270898",
+    "citation_count": "74"
+  },
+  {
+    "title": "A UML-based method for risk analysis of human-robot interactions",
+    "doi": "10.1145/2401736.2401740",
+    "year": 2010,
+    "scopus_id": "84859160020",
+    "citation_count": "29"
+  },
+  {
+    "title": "Toward a human-centered UML for risk analysis: Application to a medical robot",
+    "doi": "",
+    "year": 2004,
+    "scopus_id": "79951901679",
+    "citation_count": "10"
+  },
+  {
+    "title": "Model-based safety analysis of human-robot interactions: The MIRAS walking assistance robot",
+    "doi": "10.1109/ICORR.2013.6650433",
+    "year": 2013,
+    "scopus_id": "84891124867",
+    "citation_count": "17"
+  },
+  {
+    "title": "Development of Mobile Robots based on Wireless Robotic Components using UML and Hierarchical Colored Petri Nets",
+    "doi": "10.1007/s10846-021-01549-1",
+    "year": 2022,
+    "scopus_id": "85127952744",
+    "citation_count": "8"
+  },
+  {
+    "title": "A SysML representation of the wireless factory work cell: Enabling real-time observation and control by modeling significant architecture, components, and information flows",
+    "doi": "10.1007/s00170-019-03629-x",
+    "year": 2019,
+    "scopus_id": "85066143693",
+    "citation_count": "8"
+  },
+  {
+    "title": "Generalized Behavior Framework for Mobile Robots Teaming With Humans in Harsh Environments",
+    "doi": "10.3389/frobt.2022.898366",
+    "year": 2022,
+    "scopus_id": "85134175064",
+    "citation_count": "8"
+  },
+  {
+    "title": "Petri Nets",
+    "doi": "10.1145/356698.356702",
+    "year": 1977,
+    "scopus_id": "0017538857",
+    "citation_count": "1088"
+  },
+  {
+    "title": "Optimal Scheduling of Human-Robot Collaborative Assembly Operations With Time Petri Nets",
+    "doi": "10.1109/TASE.2019.2932150",
+    "year": 2021,
+    "scopus_id": "85071571121",
+    "citation_count": "89"
+  },
+  {
+    "title": "Timed Petri nets for fluent turn-taking over multimodal interaction resources in human-robot collaboration",
+    "doi": "10.1177/0278364915627291",
+    "year": 2016,
+    "scopus_id": "84985996175",
+    "citation_count": "34"
+  },
+  {
+    "title": "How to work and play with robots: An approach to modeling human-robot interaction",
+    "doi": "10.1016/j.chb.2011.08.011",
+    "year": 2012,
+    "scopus_id": "80255131425",
+    "citation_count": "17"
+  },
+  {
+    "title": "Human-robot collaborative assembly: a use-case application",
+    "doi": "10.1016/j.ifacol.2018.08.257",
+    "year": 2018,
+    "scopus_id": "85054145763",
+    "citation_count": "34"
+  },
+  {
+    "title": "An overview of BPMN 2.0 and its potential use",
+    "doi": "10.1007/978-3-642-16298-5_3",
+    "year": 2010,
+    "scopus_id": "84871217737",
+    "citation_count": "27"
+  },
+  {
+    "title": "A Systematic Classification of Key Performance Indicators in Human-Robot Collaboration",
+    "doi": "10.1007/978-3-031-18645-5_30",
+    "year": 2023,
+    "scopus_id": "85142726407",
+    "citation_count": "9"
+  },
+  {
+    "title": "Behavior Trees based Flexible Task Planner Built on ROS2 Framework",
+    "doi": "10.1109/ETFA52439.2022.9921683",
+    "year": 2022,
+    "scopus_id": "85141439675",
+    "citation_count": "2"
+  },
+  {
+    "title": "Toward preprototype user acceptance testing of new information systems: Implications for software project management",
+    "doi": "10.1109/TEM.2003.822468",
+    "year": 2004,
+    "scopus_id": "1542285944",
+    "citation_count": "431"
+  },
+  {
+    "title": "Perceived usefulness, perceived ease of use, and user acceptance of information technology",
+    "doi": "10.2307/249008",
+    "year": 1989,
+    "scopus_id": "55249087535",
+    "citation_count": "45970"
+  },
+  {
+    "title": "Can you trust your robot?",
+    "doi": "10.1177/1064804611415045",
+    "year": 2011,
+    "scopus_id": "84859666000",
+    "citation_count": "173"
+  },
+  {
+    "title": "What should we want from a robot ethic?",
+    "doi": "10.4324/9781003074991-10",
+    "year": 2020,
+    "scopus_id": "85095929094",
+    "citation_count": "5"
+  },
+  {
+    "title": "Effect of multiple reflow cycles on intermetallic compound creation",
+    "doi": "10.1109/ISSE.2015.7247995",
+    "year": 2015,
+    "scopus_id": "84958177504",
+    "citation_count": "17"
+  },
+  {
+    "title": "Make more digital twins",
+    "doi": "10.1038/d41586-019-02849-1",
+    "year": 2019,
+    "scopus_id": "85072672277",
+    "citation_count": "695"
+  },
+  {
+    "title": "Digital twin driven prognostics and health management for complex equipment",
+    "doi": "10.1016/j.cirp.2018.04.055",
+    "year": 2018,
+    "scopus_id": "85047291024",
+    "citation_count": "891"
+  },
+  {
+    "title": "Digital twin for CNC machine tool: modeling and using strategy",
+    "doi": "10.1007/s12652-018-0946-5",
+    "year": 2019,
+    "scopus_id": "85050765931",
+    "citation_count": "337"
+  },
+  {
+    "title": "Ontology-based modeling of part digital twin oriented to assembly",
+    "doi": "10.1177/0954405420941160",
+    "year": 2022,
+    "scopus_id": "85088290108",
+    "citation_count": "63"
+  },
+  {
+    "title": "A enhanced interaction framework based on VR, AR and MR in digital twin",
+    "doi": "10.1016/j.procir.2019.04.103",
+    "year": 2019,
+    "scopus_id": "85070548938",
+    "citation_count": "95"
+  },
+  {
+    "title": "Towards a Model-Driven Architecture for Interactive Digital Twin Cockpits",
+    "doi": "10.1007/978-3-030-62522-1_28",
+    "year": 2020,
+    "scopus_id": "85097375593",
+    "citation_count": "56"
+  },
+  {
+    "title": "Digital Twin for Human\u2013Robot Interactions by Means of Industry 4.0 Enabling Technologies",
+    "doi": "10.3390/s22134950",
+    "year": 2022,
+    "scopus_id": "85133139174",
+    "citation_count": "87"
+  },
+  {
+    "title": "Simulation-based Analysis of the Interaction of a Physical and a Digital Twin in a Cyber-Physical Production System",
+    "doi": "10.1016/j.ifacol.2019.11.383",
+    "year": 2019,
+    "scopus_id": "85078895573",
+    "citation_count": "28"
+  },
+  {
+    "title": "Digital Twin Driven Service",
+    "doi": "10.1016/C2020-0-04513-5",
+    "year": 2022,
+    "scopus_id": "85132966442",
+    "citation_count": "13"
+  },
+  {
+    "title": "Digital twin design for real-time monitoring\u2013a case study of die cutting machine",
+    "doi": "10.1080/00207543.2020.1817999",
+    "year": 2021,
+    "scopus_id": "85090962625",
+    "citation_count": "148"
+  },
+  {
+    "title": "Digital twin-the simulation aspect",
+    "doi": "10.1007/978-3-319-32156-1_5",
+    "year": 2016,
+    "scopus_id": "85016457439",
+    "citation_count": "1193"
+  },
+  {
+    "title": "Digital twin-driven remaining useful life prediction for gear performance degradation: A review",
+    "doi": "10.1115/1.4049537",
+    "year": 2021,
+    "scopus_id": "85105819867",
+    "citation_count": "94"
+  },
+  {
+    "title": "Machine Learning based Digital Twin Framework for Production Optimization in Petrochemical Industry",
+    "doi": "10.1016/j.ijinfomgt.2019.05.020",
+    "year": 2019,
+    "scopus_id": "85066307148",
+    "citation_count": "437"
+  },
+  {
+    "title": "Overcoming decision paralysis\u2014A digital twin for decision making in energy system design",
+    "doi": "10.1016/j.apenergy.2021.117954",
+    "year": 2022,
+    "scopus_id": "85118787986",
+    "citation_count": "75"
+  },
+  {
+    "title": "Web-based digital twin modeling and remote control of cyber-physical production systems",
+    "doi": "10.1016/j.rcim.2020.101956",
+    "year": 2020,
+    "scopus_id": "85079532714",
+    "citation_count": "209"
+  },
+  {
+    "title": "Generic digital twin architecture for industrial energy systems",
+    "doi": "10.3390/app10248903",
+    "year": 2020,
+    "scopus_id": "85099477890",
+    "citation_count": "122"
+  },
+  {
+    "title": "Integrating robot task planner with common-sense knowledge base to improve the efficiency of planning",
+    "doi": "10.1016/j.procs.2013.09.097",
+    "year": 2013,
+    "scopus_id": "84896971021",
+    "citation_count": "18"
+  },
+  {
+    "title": "Robot planning in the real world: Research challenges and opportunities",
+    "doi": "10.1609/aimag.v37i2.2651",
+    "year": 2016,
+    "scopus_id": "85020001919",
+    "citation_count": "68"
+  },
+  {
+    "title": "Artificial cognition in production systems",
+    "doi": "10.1109/TASE.2010.2053534",
+    "year": 2011,
+    "scopus_id": "78651075251",
+    "citation_count": "105"
+  },
+  {
+    "title": "A knowledge-based architecture supporting declarative action representation for manipulation of everyday objects",
+    "doi": "10.1145/3022099.3022105",
+    "year": 2016,
+    "scopus_id": "85018240491",
+    "citation_count": "6"
+  },
+  {
+    "title": "Defining positioning in a core ontology for robotics",
+    "doi": "10.1109/IROS.2013.6696603",
+    "year": 2013,
+    "scopus_id": "84893761334",
+    "citation_count": "28"
+  },
+  {
+    "title": "Rosplan: Planning in the robot operating system",
+    "doi": "10.1609/icaps.v25i1.13699",
+    "year": 2015,
+    "scopus_id": "84943271321",
+    "citation_count": "260"
+  },
+  {
+    "title": "Object modelling by registration of multiple range images",
+    "doi": "10.1016/0262-8856(92)90066-C",
+    "year": 1992,
+    "scopus_id": "44049122968",
+    "citation_count": "2732"
+  },
+  {
+    "title": "PMK\u2014A knowledge processing framework for autonomous robotics perception and manipulation",
+    "doi": "10.3390/s19051166",
+    "year": 2019,
+    "scopus_id": "85062861582",
+    "citation_count": "61"
+  },
+  {
+    "title": "PDDL2.1: An extension to PDDL for expressing temporal planning domains",
+    "doi": "10.1613/jair.1129",
+    "year": 2003,
+    "scopus_id": "27444434099",
+    "citation_count": "1411"
+  },
+  {
+    "title": "An optimization model for cyclic scheduling problem in flexible robotic cells",
+    "doi": "10.1007/s00170-017-1470-z",
+    "year": 2018,
+    "scopus_id": "85039743018",
+    "citation_count": "24"
+  },
+  {
+    "title": "Process sequencing for a pick-and-place robot in a real-life flexible robotic cell",
+    "doi": "10.1007/s00170-019-03739-6",
+    "year": 2019,
+    "scopus_id": "85065309230",
+    "citation_count": "26"
+  },
+  {
+    "title": "Toward principles for the design of ontologies used for knowledge sharing",
+    "doi": "10.1006/ijhc.1995.1081",
+    "year": 1995,
+    "scopus_id": "58149365542",
+    "citation_count": "4811"
+  },
+  {
+    "title": "Cloud-Based Digital Twin for Industrial Robotics",
+    "doi": "10.1007/978-3-030-27878-6_9",
+    "year": 2019,
+    "scopus_id": "85077112227",
+    "citation_count": "32"
+  },
+  {
+    "title": "Pick and place operations in logistics using a mobile manipulator controlled with deep reinforcement learning",
+    "doi": "10.3390/app9020348",
+    "year": 2019,
+    "scopus_id": "85060279999",
+    "citation_count": "68"
+  },
+  {
+    "title": "Bridging the Gap between Semantics and Control for Industry 4.0 and Autonomous Production",
+    "doi": "10.1109/COASE.2019.8843174",
+    "year": 2019,
+    "scopus_id": "85072988493",
+    "citation_count": "13"
+  },
+  {
+    "title": "RoboPlanner: a pragmatic task planning framework for autonomous robots",
+    "doi": "10.1049/ccs.2019.0025",
+    "year": 2020,
+    "scopus_id": "85113189564",
+    "citation_count": "14"
+  },
+  {
+    "title": "Capturing industrial information models with ontologies and constraints",
+    "doi": "10.1007/978-3-319-46547-0_30",
+    "year": 2016,
+    "scopus_id": "84992663852",
+    "citation_count": "46"
+  },
+  {
+    "title": "Implementation of an ontology-based approach to enable agility in kit building applications",
+    "doi": "10.1142/S1793351X18400019",
+    "year": 2018,
+    "scopus_id": "85051521581",
+    "citation_count": "9"
+  },
+  {
+    "title": "Towards robust assembly with knowledge representation for the planning domain definition language (PDDL)",
+    "doi": "10.1016/j.rcim.2014.08.006",
+    "year": 2015,
+    "scopus_id": "85027944589",
+    "citation_count": "50"
+  },
+  {
+    "title": "Description logics",
+    "doi": "10.1109/MIS.2013.123",
+    "year": 2014,
+    "scopus_id": "84899704181",
+    "citation_count": "40"
+  },
+  {
+    "title": "Toward self-reconfiguration of manufacturing systems using automation agents",
+    "doi": "10.1109/TSMCC.2010.2059012",
+    "year": 2011,
+    "scopus_id": "80051783421",
+    "citation_count": "164"
+  },
+  {
+    "title": "Evaluation of flexible automation for small batch production",
+    "doi": "10.1016/j.promfg.2018.06.072",
+    "year": 2018,
+    "scopus_id": "85065675594",
+    "citation_count": "30"
+  },
+  {
+    "title": "Ontology-based knowledge representation in robotic systems: A survey oriented toward applications",
+    "doi": "10.3390/app11104324",
+    "year": 2021,
+    "scopus_id": "85106594672",
+    "citation_count": "61"
+  },
+  {
+    "title": "Knowledge-based cyber-physical systems for assembly automation",
+    "doi": "10.1080/21693277.2019.1618746",
+    "year": 2019,
+    "scopus_id": "85067083686",
+    "citation_count": "28"
+  },
+  {
+    "title": "A review and comparison of ontology-based approaches to robot autonomy",
+    "doi": "10.1017/S0269888919000237",
+    "year": 2019,
+    "scopus_id": "85077379888",
+    "citation_count": "104"
+  },
+  {
+    "title": "Production scheduling in the context of Industry 4.0: review and trends",
+    "doi": "10.1080/00207543.2020.1718794",
+    "year": 2020,
+    "scopus_id": "85079242819",
+    "citation_count": "190"
+  },
+  {
+    "title": "SMErobotics: Smart robots for flexible manufacturing",
+    "doi": "10.1109/MRA.2018.2879747",
+    "year": 2019,
+    "scopus_id": "85059640531",
+    "citation_count": "90"
+  },
+  {
+    "title": "An ontology for CAD data and geometric constraints as a link between product models and semantic robot task descriptions",
+    "doi": "10.1109/IROS.2015.7353971",
+    "year": 2015,
+    "scopus_id": "84958160675",
+    "citation_count": "71"
+  },
+  {
+    "title": "The Canonical Robot Command Language (CRCL)",
+    "doi": "10.1108/IR-01-2016-0037",
+    "year": 2016,
+    "scopus_id": "84986586460",
+    "citation_count": "23"
+  },
+  {
+    "title": "Improved Domain Modeling for Realistic Automated Planning and Scheduling in Discrete Manufacturing",
+    "doi": "10.1109/ETFA.2018.8502631",
+    "year": 2018,
+    "scopus_id": "85057238824",
+    "citation_count": "18"
+  },
+  {
+    "title": "3D is here: Point Cloud Library (PCL)",
+    "doi": "10.1109/ICRA.2011.5980567",
+    "year": 2011,
+    "scopus_id": "84871699277",
+    "citation_count": "4443"
+  },
+  {
+    "title": "Fast 3D recognition and pose using the viewpoint feature histogram",
+    "doi": "10.1109/IROS.2010.5651280",
+    "year": 2010,
+    "scopus_id": "78651518184",
+    "citation_count": "831"
+  },
+  {
+    "title": "Ontologies for industry 4.0",
+    "doi": "10.1017/S0269888919000109",
+    "year": 2019,
+    "scopus_id": "85082812338",
+    "citation_count": "109"
+  },
+  {
+    "title": "Review on state-of-the-art dynamic task allocation strategies for multiple-robot systems",
+    "doi": "10.1108/IR-04-2020-0073",
+    "year": 2020,
+    "scopus_id": "85091318908",
+    "citation_count": "118"
+  },
+  {
+    "title": "An IEEE standard Ontology for Robotics and Automation",
+    "doi": "10.1109/IROS.2012.6385518",
+    "year": 2012,
+    "scopus_id": "84872340460",
+    "citation_count": "111"
+  },
+  {
+    "title": "An efficient global point cloud descriptor for object recognition and pose estimation",
+    "doi": "10.1109/SIBGRAPI.2016.017",
+    "year": 2017,
+    "scopus_id": "85013812373",
+    "citation_count": "46"
+  },
+  {
+    "title": "Knowledge-based instruction of manipulation tasks for industrial robotics",
+    "doi": "10.1016/j.rcim.2014.07.004",
+    "year": 2015,
+    "scopus_id": "85027922369",
+    "citation_count": "95"
+  },
+  {
+    "title": "A review of domain knowledge representation for robot task planning",
+    "doi": "10.1145/3325730.3325756",
+    "year": 2019,
+    "scopus_id": "85068866149",
+    "citation_count": "6"
+  },
+  {
+    "title": "KnowRob: A knowledge processing infrastructure for cognition-enabled robots",
+    "doi": "10.1177/0278364913481635",
+    "year": 2013,
+    "scopus_id": "84878084306",
+    "citation_count": "334"
+  },
+  {
+    "title": "Production planning with IEC 62264 and PDDL",
+    "doi": "10.1109/INDIN41052.2019.8972050",
+    "year": 2019,
+    "scopus_id": "85079063108",
+    "citation_count": "21"
+  },
+  {
+    "title": "An improved point cloud descriptor for vision based robotic grasping system",
+    "doi": "10.3390/s19102225",
+    "year": 2019,
+    "scopus_id": "85066351041",
+    "citation_count": "22"
+  },
+  {
+    "title": "Actor based simulation for closed loop control of supply chain using reinforcement learning",
+    "doi": "",
+    "year": 2019,
+    "scopus_id": "85074360666",
+    "citation_count": "33"
+  },
+  {
+    "title": "Intelligent simulation: Integration of SIMIO and MATLAB to deploy decision support systems to simulation environment",
+    "doi": "10.1016/j.simpat.2016.08.007",
+    "year": 2017,
+    "scopus_id": "84996798684",
+    "citation_count": "56"
+  },
+  {
+    "title": "Reinforcement Learning in Anylogic Simulation Models: A Guiding Example Using Pathmind",
+    "doi": "10.1109/WSC48552.2020.9383916",
+    "year": 2020,
+    "scopus_id": "85103893652",
+    "citation_count": "9"
+  },
+  {
+    "title": "Real-Time Decision Making for a Car Manufacturing Process Using Deep Reinforcement Learning",
+    "doi": "10.1109/WSC48552.2020.9383884",
+    "year": 2020,
+    "scopus_id": "85103878644",
+    "citation_count": "16"
+  },
+  {
+    "title": "Deep reinforcement learning with double Q-Learning",
+    "doi": "",
+    "year": 2016,
+    "scopus_id": "85007210890",
+    "citation_count": "6475"
+  },
+  {
+    "title": "Transforming Cooling Optimization for Green Data Center via Deep Reinforcement Learning",
+    "doi": "10.1109/TCYB.2019.2927410",
+    "year": 2020,
+    "scopus_id": "85071908443",
+    "citation_count": "174"
+  },
+  {
+    "title": "A review On reinforcement learning: Introduction and applications in industrial process control",
+    "doi": "10.1016/j.compchemeng.2020.106886",
+    "year": 2020,
+    "scopus_id": "85084367877",
+    "citation_count": "581"
+  },
+  {
+    "title": "A Tutorial on how to Connect Python with Different Simulation Software to Develop Rich Simheuristics",
+    "doi": "10.1109/WSC52266.2021.9715511",
+    "year": 2021,
+    "scopus_id": "85126097530",
+    "citation_count": "8"
+  },
+  {
+    "title": "Routing and schedule simulation of a biomass energy supply chain through SimPy simulation package",
+    "doi": "10.1016/j.aci.2018.06.004",
+    "year": 2021,
+    "scopus_id": "85106356876",
+    "citation_count": "14"
+  },
+  {
+    "title": "Virtual-to-real deep reinforcement learning: Continuous control of mobile robots for mapless navigation",
+    "doi": "10.1109/IROS.2017.8202134",
+    "year": 2017,
+    "scopus_id": "85041946430",
+    "citation_count": "713"
+  },
+  {
+    "title": "5GPy: A SimPy-based simulator for performance evaluations in 5G hybrid Cloud-Fog RAN architectures",
+    "doi": "10.1016/j.simpat.2019.102030",
+    "year": 2020,
+    "scopus_id": "85076580399",
+    "citation_count": "32"
+  },
+  {
+    "title": "Technical Note: Q-Learning",
+    "doi": "10.1023/A:1022676722315",
+    "year": 1992,
+    "scopus_id": "34249833101",
+    "citation_count": "12763"
+  },
+  {
+    "title": "Industry 4.0 technologies: Implementation patterns in manufacturing companies",
+    "doi": "10.1016/j.ijpe.2019.01.004",
+    "year": 2019,
+    "scopus_id": "85060082633",
+    "citation_count": "2330"
+  },
+  {
+    "title": "Uncertainty evaluation in the prediction of defects and costs for quality inspection planning in low-volume productions",
+    "doi": "10.1007/s00170-020-05356-0",
+    "year": 2020,
+    "scopus_id": "85086845766",
+    "citation_count": "24"
+  },
+  {
+    "title": "An approach for integrating legacy systems in the manufacturing industry",
+    "doi": "10.1109/INDIN.2016.7819247",
+    "year": 2016,
+    "scopus_id": "85012917691",
+    "citation_count": "16"
+  },
+  {
+    "title": "Industry 4.0",
+    "doi": "10.1007/s12599-014-0334-4",
+    "year": 2014,
+    "scopus_id": "84926457128",
+    "citation_count": "3839"
+  },
+  {
+    "title": "IoT-based automatic non-conformity detection: A metalworking sme use case",
+    "doi": "10.1007/978-3-030-13693-2_13",
+    "year": 2019,
+    "scopus_id": "85065236452",
+    "citation_count": "4"
+  },
+  {
+    "title": "Industry 4.0: Adoption challenges and benefits for SMEs",
+    "doi": "10.1016/j.compind.2020.103261",
+    "year": 2020,
+    "scopus_id": "85086709010",
+    "citation_count": "533"
+  },
+  {
+    "title": "The intelligent industry of the future: A survey on emerging trends, research challenges and opportunities in Industry 4.0",
+    "doi": "10.3233/AIS-170432",
+    "year": 2017,
+    "scopus_id": "85017503754",
+    "citation_count": "171"
+  },
+  {
+    "title": "A generic methodology and a digital twin for zero defect manufacturing (ZDM) performance mapping towards design for ZDM",
+    "doi": "10.1016/j.jmsy.2021.03.021",
+    "year": 2021,
+    "scopus_id": "85103694293",
+    "citation_count": "105"
+  },
+  {
+    "title": "Zero defect manufacturing: state-of-the-art review, shortcomings and future directions in research",
+    "doi": "10.1080/00207543.2019.1605228",
+    "year": 2020,
+    "scopus_id": "85072947204",
+    "citation_count": "336"
+  },
+  {
+    "title": "Machine vision systems for industrial quality control inspections",
+    "doi": "10.1007/978-3-030-01614-2_58",
+    "year": 2018,
+    "scopus_id": "85058519464",
+    "citation_count": "43"
+  },
+  {
+    "title": "Smart manufacturing systems for Industry 4.0: Conceptual framework, scenarios, and future perspectives",
+    "doi": "10.1007/s11465-018-0499-5",
+    "year": 2018,
+    "scopus_id": "85040866293",
+    "citation_count": "882"
+  },
+  {
+    "title": "A new shop scheduling approach in support of sustainable manufacturing",
+    "doi": "10.1007/978-3-642-19692-8_53",
+    "year": 2011,
+    "scopus_id": "80052124788",
+    "citation_count": "97"
+  },
+  {
+    "title": "A novel mathematical model and multi-objective method for the low-carbon flexible job shop scheduling problem",
+    "doi": "10.1016/j.suscom.2016.11.002",
+    "year": 2017,
+    "scopus_id": "85008185842",
+    "citation_count": "207"
+  },
+  {
+    "title": "Operational methods for minimization of energy consumption of manufacturing equipment",
+    "doi": "10.1080/00207540701450013",
+    "year": 2007,
+    "scopus_id": "34548395445",
+    "citation_count": "572"
+  },
+  {
+    "title": "Modeling household energy expenditure in the United States",
+    "doi": "10.1016/j.rser.2016.11.183",
+    "year": 2017,
+    "scopus_id": "84999622397",
+    "citation_count": "73"
+  },
+  {
+    "title": "Greenhouse gases by sector",
+    "doi": "10.1007/978-3-319-31655-0_2",
+    "year": 2017,
+    "scopus_id": "85008875270",
+    "citation_count": "5"
+  },
+  {
+    "title": "An investigation into minimising total energy consumption and total weighted tardiness in job shops",
+    "doi": "10.1016/j.jclepro.2013.07.060",
+    "year": 2014,
+    "scopus_id": "84893758734",
+    "citation_count": "270"
+  },
+  {
+    "title": "Energy-efficient permutation flow shop scheduling problem using a hybrid multi-objective backtracking search algorithm",
+    "doi": "10.1016/j.jclepro.2017.01.011",
+    "year": 2017,
+    "scopus_id": "85010877486",
+    "citation_count": "272"
+  },
+  {
+    "title": "Internet of things in industries: A survey",
+    "doi": "10.1109/TII.2014.2300753",
+    "year": 2014,
+    "scopus_id": "84906834039",
+    "citation_count": "4472"
+  },
+  {
+    "title": "Single-machine sustainable production planning to minimize total energy consumption and total completion time using a multiple objective genetic algorithm",
+    "doi": "10.1109/TEM.2011.2171055",
+    "year": 2012,
+    "scopus_id": "84867843497",
+    "citation_count": "173"
+  },
+  {
+    "title": "Multi-objective optimization of material delivery for mixed model assembly lines with energy consideration",
+    "doi": "10.1016/j.jclepro.2018.04.251",
+    "year": 2018,
+    "scopus_id": "85056445597",
+    "citation_count": "85"
+  },
+  {
+    "title": "A two-stage optimization method for energy-saving flexible job-shop scheduling based on energy dynamic characterization",
+    "doi": "10.1016/j.jclepro.2018.03.254",
+    "year": 2018,
+    "scopus_id": "85047493844",
+    "citation_count": "137"
+  },
+  {
+    "title": "A green scheduling algorithm for flexible job shop with energy-saving measures",
+    "doi": "10.1016/j.jclepro.2017.10.342",
+    "year": 2018,
+    "scopus_id": "85038884946",
+    "citation_count": "246"
+  },
+  {
+    "title": "BRANCH AND BOUND ALGORITHM FOR THE TOTAL WEIGHTED TARDINESS PROBLEM.",
+    "doi": "10.1287/opre.33.2.363",
+    "year": 1985,
+    "scopus_id": "0022023671",
+    "citation_count": "240"
+  },
+  {
+    "title": "Dynamic programming and decomposition approaches for the single machine total tardiness problem",
+    "doi": "10.1016/S0377-2217(87)80008-5",
+    "year": 1987,
+    "scopus_id": "0023565502",
+    "citation_count": "72"
+  },
+  {
+    "title": "Minimizing energy consumption and tardiness penalty for fuzzy flow shop scheduling with state-dependent setup time",
+    "doi": "10.1016/j.jclepro.2016.12.044",
+    "year": 2017,
+    "scopus_id": "85013763753",
+    "citation_count": "93"
+  },
+  {
+    "title": "A Novel Teaching-Learning-Based Optimization Algorithm for Energy-Efficient Scheduling in Hybrid Flow Shop",
+    "doi": "10.1109/TEM.2017.2774281",
+    "year": 2018,
+    "scopus_id": "85038840298",
+    "citation_count": "149"
+  },
+  {
+    "title": "Optimizing the production scheduling of a single machine to minimize total energy consumption costs",
+    "doi": "10.1016/j.jclepro.2013.12.024",
+    "year": 2014,
+    "scopus_id": "84894049604",
+    "citation_count": "438"
+  },
+  {
+    "title": "Machine and production scheduling under electricity time varying prices",
+    "doi": "10.1109/IEEM.2016.7798026",
+    "year": 2016,
+    "scopus_id": "85009841625",
+    "citation_count": "12"
+  },
+  {
+    "title": "Energy-conscious flow shop scheduling under time-of-use electricity tariffs",
+    "doi": "10.1016/j.cirp.2014.03.011",
+    "year": 2014,
+    "scopus_id": "84902550696",
+    "citation_count": "173"
+  },
+  {
+    "title": "Scheduling on a single machine under time-of-use electricity tariffs",
+    "doi": "10.1007/s10479-015-2003-5",
+    "year": 2016,
+    "scopus_id": "84959128210",
+    "citation_count": "112"
+  },
+  {
+    "title": "Bi-objective optimization for single-machine batch scheduling considering energy cost",
+    "doi": "10.1109/CoDIT.2014.6996899",
+    "year": 2014,
+    "scopus_id": "84921377361",
+    "citation_count": "17"
+  },
+  {
+    "title": "An efficient greedy insertion heuristic for energy-conscious single machine scheduling problem under time-of-use electricity tariffs",
+    "doi": "10.1016/j.jclepro.2016.03.150",
+    "year": 2016,
+    "scopus_id": "84992299293",
+    "citation_count": "139"
+  },
+  {
+    "title": "Bi-objective optimization of a single machine batch scheduling problem with energy cost consideration",
+    "doi": "10.1016/j.jclepro.2016.07.206",
+    "year": 2016,
+    "scopus_id": "84990961120",
+    "citation_count": "110"
+  },
+  {
+    "title": "Multi-machine energy-aware scheduling",
+    "doi": "10.1007/s13675-016-0072-0",
+    "year": 2017,
+    "scopus_id": "85027962161",
+    "citation_count": "10"
+  },
+  {
+    "title": "Energy-efficient bi-objective single-machine scheduling with power-down mechanism",
+    "doi": "10.1016/j.cor.2017.04.004",
+    "year": 2017,
+    "scopus_id": "85018656197",
+    "citation_count": "130"
+  },
+  {
+    "title": "Optimized response to electricity time-of-use tariff of a compressed natural gas fuelling station",
+    "doi": "10.1016/j.apenergy.2018.04.017",
+    "year": 2018,
+    "scopus_id": "85045078080",
+    "citation_count": "27"
+  },
+  {
+    "title": "A framework to minimise total energy consumption and total tardiness on a single machine",
+    "doi": "10.1080/19397030802257236",
+    "year": 2008,
+    "scopus_id": "78650636006",
+    "citation_count": "312"
+  },
+  {
+    "title": "Adaptive weighted-sum method for bi-objective optimization: Pareto front generation",
+    "doi": "10.1007/s00158-004-0465-1",
+    "year": 2005,
+    "scopus_id": "17444403970",
+    "citation_count": "586"
+  },
+  {
+    "title": "A model for the multiperiod multiobjective power generation expansion problem",
+    "doi": "10.1109/TPWRS.2007.895178",
+    "year": 2007,
+    "scopus_id": "34248592608",
+    "citation_count": "175"
+  },
+  {
+    "title": "Genetic search strategies in multicriterion optimal design",
+    "doi": "10.1007/BF01759923",
+    "year": 1992,
+    "scopus_id": "34249839613",
+    "citation_count": "512"
+  },
+  {
+    "title": "A fast and elitist multiobjective genetic algorithm: NSGA-II",
+    "doi": "10.1109/4235.996017",
+    "year": 2002,
+    "scopus_id": "0036530772",
+    "citation_count": "44857"
+  },
+  {
+    "title": "A new dominance rule for the total weighted tardiness problem",
+    "doi": "10.1080/095372899233299",
+    "year": 1999,
+    "scopus_id": "0033097033",
+    "citation_count": "14"
+  },
+  {
+    "title": "Bi-objective partial flexible job shop scheduling problem: NSGA-II, NRGA, MOGA and PAES approaches",
+    "doi": "10.1080/00207543.2011.648280",
+    "year": 2012,
+    "scopus_id": "84866014952",
+    "citation_count": "111"
+  },
+  {
+    "title": "An extension of TOPSIS for group decision making",
+    "doi": "10.1016/j.mcm.2006.03.023",
+    "year": 2007,
+    "scopus_id": "33845571095",
+    "citation_count": "1297"
+  }
+]
