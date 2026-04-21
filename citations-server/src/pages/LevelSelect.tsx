@@ -4,12 +4,10 @@ import { papersByLevel, sortLevels } from "../utils/normalize";
 import { CategoryCard } from "../components/CategoryCard";
 
 const LEVEL_DESCRIPTIONS: Record<string, string> = {
-  L0: "Enterprise / Supply Chain",
-  L1: "Factory / Plant",
-  L2: "Production Line / Cell",
-  L3: "Machine / Station",
-  "L3/L4": "Machine-Device Boundary",
-  L4: "Device / Sensor",
+  L0: "Process",
+  L1: "Line / Cell",
+  L2: "Factory",
+  L3: "Enterprise / Supply Chain",
 };
 
 export function LevelSelect({ papers }: { papers: Paper[] }) {

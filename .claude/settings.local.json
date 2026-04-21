@@ -5,7 +5,10 @@
       "Bash(gh run *)",
       "Bash(\"C:/Program Files/GitHub CLI/gh.exe\" --version)",
       "Bash(rm -v citations-server/public/404.html .github/workflows/deploy.yml)",
-      "Bash(rmdir .github/workflows .github)"
+      "Bash(rmdir .github/workflows .github)",
+      "Bash(python3 -c \"import json,sys; d=json.load\\(sys.stdin\\); print\\(f'Total papers: {len\\(d\\)}'\\); print\\('Levels:', sorted\\(set\\(p['manufacturingLevel'] for p in d\\)\\)\\); print\\('DSS Focus:', sorted\\(set\\(p['dssFocus'] for p in d\\)\\)\\); print\\('Countries:', len\\(set\\(p['country'] for p in d\\)\\)\\); print\\('Technologies:', sorted\\(set\\(t for p in d for t in p['technologies']\\)\\)\\); print\\('Years:', sorted\\(set\\(p['year'] for p in d\\)\\)\\)\")",
+      "Bash(npx tsc:*)",
+      "Bash(npm install:*)"
     ]
   }
 }

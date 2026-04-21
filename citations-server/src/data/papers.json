@@ -314,7 +314,7 @@
     "doi": "https://doi.org/10.1016/j.jmsy.2020.04.015",
     "bibtexKey": "Glatt2021Modeling",
     "manufacturingLevel": "L2",
-    "dssFocus": "Safe Materials Transportation",
+    "dssFocus": "Simulation Generation",
     "jobShopVariation": null,
     "technologies": [
       "DT",
@@ -336,7 +336,7 @@
     "doi": "https://doi.org/10.1109/IEEM45057.2020.9309782",
     "bibtexKey": "Feng2020Simulation",
     "manufacturingLevel": "L2",
-    "dssFocus": "Machine Configurations",
+    "dssFocus": "Reconfigurability",
     "jobShopVariation": null,
     "technologies": [
       "DT",
@@ -362,7 +362,7 @@
     "doi": "https://doi.org/10.1016/j.compind.2020.103329",
     "bibtexKey": "Coito2020A",
     "manufacturingLevel": "L2",
-    "dssFocus": "Interoperability",
+    "dssFocus": "Data Collection and Visualization",
     "jobShopVariation": null,
     "technologies": [
       "CPS",
@@ -386,7 +386,7 @@
     "doi": "https://doi.org/10.1016/j.jmsy.2025.10.010",
     "bibtexKey": "Chawalitanont2025Uncertaintyaware",
     "manufacturingLevel": "L2",
-    "dssFocus": "Power Consumption",
+    "dssFocus": "Power Consumption Prediction",
     "jobShopVariation": null,
     "technologies": [
       "RL"
@@ -674,7 +674,7 @@
     "doi": "https://doi.org/10.1002/qre.70027",
     "bibtexKey": "Wang2025Joint",
     "manufacturingLevel": "L2",
-    "dssFocus": "Product Quality",
+    "dssFocus": "Predictive Maintenance",
     "jobShopVariation": null,
     "technologies": [
       "CPS",
@@ -1444,7 +1444,7 @@
     "doi": "https://doi.org/10.24846/V33I2Y202401",
     "bibtexKey": "Lefranc2024Enhancing",
     "manufacturingLevel": "L2",
-    "dssFocus": "Multi-agent Systems",
+    "dssFocus": "Reconfigurability",
     "jobShopVariation": null,
     "technologies": [
       "MAS",
@@ -1687,7 +1687,7 @@
     "doi": "https://doi.org/10.1016/j.jmsy.2022.09.019",
     "bibtexKey": "Jiang2022A",
     "manufacturingLevel": "L2",
-    "dssFocus": "Systems Integration",
+    "dssFocus": "Data Collection and Visualization",
     "jobShopVariation": null,
     "technologies": [
       "DT",
@@ -3218,7 +3218,7 @@
     "doi": "paper_6.pdf",
     "bibtexKey": "Baltazar2020Prescriptive",
     "manufacturingLevel": "L2",
-    "dssFocus": "Reconfiguration Management",
+    "dssFocus": "Reconfigurarbility",
     "jobShopVariation": null,
     "technologies": [
       "AI",
@@ -4026,7 +4026,7 @@
     "doi": "https://doi.org/10.1080/00207543.2024.2434948",
     "bibtexKey": "Bubak2025An",
     "manufacturingLevel": "L2",
-    "dssFocus": "Supply Chain",
+    "dssFocus": "Scheduling",
     "jobShopVariation": null,
     "technologies": [
       "DL"
@@ -4150,7 +4150,7 @@
     "year": 2025,
     "doi": "https://www.diva-portal.org/smash/record.jsf?pid=diva2%3A1991113&dswid=8075",
     "bibtexKey": "Flyckt2025Navigating",
-    "manufacturingLevel": "L2",
+    "manufacturingLevel": "L3",
     "dssFocus": "Demand Forecasting",
     "jobShopVariation": null,
     "technologies": [
@@ -4380,7 +4380,7 @@
     "doi": "https://doi.org/10.3390/app15084116",
     "bibtexKey": "Kim2025Framework",
     "manufacturingLevel": "L2",
-    "dssFocus": "3d Simulation",
+    "dssFocus": "Simulation Generation",
     "jobShopVariation": null,
     "technologies": [
       "Robotics",
@@ -4403,7 +4403,7 @@
     "doi": "https://doi.org/10.1109/TASE.2024.3493617",
     "bibtexKey": "Hou2025Learningbased",
     "manufacturingLevel": "L2",
-    "dssFocus": "Assembly Planning",
+    "dssFocus": "Production Optimization",
     "jobShopVariation": "No (sequence Planning Problem)",
     "technologies": [
       "RL"
@@ -4446,7 +4446,7 @@
     "year": 2025,
     "doi": "https://doi.org/10.1080/17480272.2025.2505133",
     "bibtexKey": "Fu2025Hybrid",
-    "manufacturingLevel": "L3",
+    "manufacturingLevel": "L1",
     "dssFocus": "Scheduling",
     "jobShopVariation": null,
     "technologies": [],
@@ -4522,7 +4522,7 @@
       "KPI systems"
     ],
     "methods": [],
-    "evaluationSetting": "static evaluation",
+    "evaluationSetting": "industrial setting",
     "dataSource": "industrial data",
     "country": "Italy",
     "industry": "Ceramic tile",

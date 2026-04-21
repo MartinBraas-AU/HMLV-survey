@@ -1,4 +1,5 @@
-import { useParams, useNavigate } from "react-router-dom";
+import { useMemo } from "react";
+import { useParams, useNavigate, Link } from "react-router-dom";
 import type { Paper } from "../types";
 import { Breadcrumb } from "../components/Breadcrumb";
 
@@ -89,9 +90,56 @@ export function PaperDetail({ papers }: { papers: Paper[] }) {
         <Field label="Snowball" value={paper.snowball ? "Yes" : "No"} />
       </dl>
 
+      <RelatedPapers paper={paper} allPapers={papers} />
+
       <button className="back-btn" onClick={() => navigate(-1)}>
         Back
       </button>
+    </div>
+  );
+}
+
+function RelatedPapers({ paper, allPapers }: { paper: Paper; allPapers: Paper[] }) {
+  const related = useMemo(() => {
+    const scored = allPapers
+      .filter((p) => p.id !== paper.id)
+      .map((p) => {
+        let score = 0;
+        // Shared technologies
+        for (const t of p.technologies) {
+          if (paper.technologies.includes(t)) score += 2;
+        }
+        // Shared methods
+        for (const m of p.methods) {
+          if (paper.methods.includes(m)) score += 1;
+        }
+        // Same DSS focus
+        if (p.dssFocus === paper.dssFocus) score += 3;
+        // Same level
+        if (p.manufacturingLevel === paper.manufacturingLevel) score += 1;
+        return { paper: p, score };
+      })
+      .filter((r) => r.score > 0)
+      .sort((a, b) => b.score - a.score)
+      .slice(0, 5);
+    return scored;
+  }, [paper, allPapers]);
+
+  if (related.length === 0) return null;
+
+  return (
+    <div className="related-papers">
+      <h2>Related Papers</h2>
+      <ul className="related-list">
+        {related.map(({ paper: p }) => (
+          <li key={p.id}>
+            <Link to={`/paper/${p.id}`}>{p.title}</Link>
+            <span className="related-meta">
+              {p.year} · {p.manufacturingLevel} · {p.dssFocus}
+            </span>
+          </li>
+        ))}
+      </ul>
     </div>
   );
 }
