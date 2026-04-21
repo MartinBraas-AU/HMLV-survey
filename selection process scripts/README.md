@@ -4,17 +4,13 @@ Academic survey link placeholder: TBD
 
 Replace with publication URL/DOI when available.
 
-This repository contains the official scripts used in the PRISMA workflow for
+This repository contains the scripts used in the PRISMA workflow for
 the academic systematic literature review. It supports:
 
-- rule-based relevance screening (PRISMA screening support)
-- backward snowballing (references cited by included papers)
-- forward snowballing (papers citing included papers)
-- basic analysis of citation and reference connectivity
-
-The current default topic configuration is HMLV decision support, but the
-workflow can be reused in other review domains by editing keyword logic and
-input files.
+- Rule-based relevance screening (PRISMA screening support)
+- Backward snowballing (references cited by included papers)
+- Forward snowballing (papers citing included papers)
+- Basic analysis of citation and reference connectivity
 
 ## Survey objective
 
@@ -25,10 +21,10 @@ used, and how effects are evaluated.
 
 In short, the review aims to:
 
-- outline current decision support approaches and key problem characteristics
-- provide an overview of support areas across manufacturing levels
-- identify the most widely used technologies and methods
-- highlight research gaps in current approaches
+- Outline current decision support approaches and key problem characteristics
+- Provide an overview of support areas across manufacturing levels
+- Identify the most widely used technologies and methods
+- Highlight research gaps in current approaches
 
 ## Research metadata placeholders
 
@@ -51,20 +47,20 @@ Fill this section when preparing manuscript/repository release.
 
 ## Intended users
 
-- researchers running systematic literature reviews
-- practitioners performing evidence mapping in a structured way
-- teams that need transparent, script-based review steps
+- Researchers running systematic literature reviews
+- Practitioners performing evidence mapping in a structured way
+- Peer reviewers who need visibility into the scripts used in the PRISMA selection process
 
 ## Workflow overview
 
 The pipeline is designed to align with PRISMA-style filtering and snowballing:
 
-1. import query results (CSV)
-2. score relevance with transparent rule-based filters
-3. convert scored output to JSON with stable `key_id`
-4. run backward snowballing on included papers
-5. run forward snowballing on included papers
-6. analyze highly connected papers from forward and backward results
+1. Import query results (CSV)
+2. Score relevance with transparent rule-based filters
+3. Convert scored output to JSON with stable `key_id`
+4. Run backward snowballing on included papers
+5. Run forward snowballing on included papers
+6. Analyze highly connected papers from forward and backward results
 
 ## Project structure
 
@@ -181,12 +177,9 @@ To reuse this workflow for another review topic:
 
 ## Output interpretation
 
-- forward analysis highlights papers that cite multiple papers from your review set
-- backward analysis highlights papers repeatedly referenced across included papers
-- both are indicators of connectivity and influence, not quality by themselves
-
-Use these outputs as decision support for screening and synthesis, not as a
-single automatic inclusion criterion.
+- Forward analysis highlights papers that cite multiple papers from your review set
+- Backward analysis highlights papers repeatedly referenced across included papers
+- Both are indicators of connectivity and influence, not quality by themselves
 
 ## File index
 
