@@ -32,7 +32,7 @@ from matplotlib.patches import Patch
 # CONFIG
 # ================================================================
 EXCEL_PATH = sys.argv[1] if len(sys.argv) > 1 else "data/Master sheet.xlsx"
-OUTPUT_DIR = Path(sys.argv[2]) if len(sys.argv) > 2 else Path("figures")
+OUTPUT_DIR = Path(sys.argv[2]) if len(sys.argv) > 2 else Path("figures/2026-04-20")
 SHEET_NAME = "Cleaned Master sheet"
 DPI = 300
 FIG_FORMAT = "pdf"  # Change to "png" if needed
