@@ -26,15 +26,6 @@ export function papersByDSSFocus(papers: Paper[]): Map<string, Paper[]> {
   return groupBy(papers, (p) => p.dssFocus);
 }
 
-export function papersByJobShopVariant(papers: Paper[]): Map<string, Paper[]> {
-  const scheduling = papers.filter((p) => p.jobShopVariation);
-  const noVariant = papers.filter((p) => !p.jobShopVariation);
-  const map = groupBy(scheduling, (p) => p.jobShopVariation!);
-  if (noVariant.length > 0) {
-    map.set("Other Scheduling", noVariant);
-  }
-  return map;
-}
 
 const LEVEL_ORDER = ["L0", "L1", "L2", "L3", "L3/L4", "L4"];
 

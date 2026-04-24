@@ -2,7 +2,7 @@
 
 ## Overview
 
-A React + Vite app for browsing 205 papers from a systematic literature review on HMLV manufacturing decision support systems. Navigation: Level (L0–L3) → DSS Focus → Papers → Paper Detail. Scheduling papers have an extra sub-category for job-shop variations.
+A React + Vite app for browsing 205 papers from a systematic literature review on HMLV manufacturing decision support systems. Navigation: Level (L0–L3) → DSS Focus → Papers → Paper Detail.
 
 An overview of the included papers and extracted data is provided in \surveydata.
 The interactive interface enables researchers and practitioners to explore the corpus of papers across manufacturing levels, with filtering by decision area, year, technologies and methods, and manufacturing level.

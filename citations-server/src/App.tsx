@@ -4,7 +4,7 @@ import type { Paper } from "./types";
 import { Layout } from "./components/Layout";
 import { LevelSelect } from "./pages/LevelSelect";
 import { DSSFocusSelect } from "./pages/DSSFocusSelect";
-import { SubCategorySelect, VariantPaperList } from "./pages/SubCategorySelect";
+import { SubCategorySelect } from "./pages/SubCategorySelect";
 import { PaperList } from "./pages/PaperList";
 import { PaperDetail } from "./pages/PaperDetail";
 import { SearchResults } from "./pages/SearchResults";
@@ -32,9 +32,9 @@ function App() {
           <Route path="/year" element={<YearIndex papers={papers} />} />
           <Route path="/year/:year" element={<YearPapers papers={papers} />} />
           <Route path="/level/:level" element={<DSSFocusSelect papers={papers} />} />
-          <Route path="/level/:level/focus/:focus" element={<SubCategorySelect papers={papers} />} />
+          <Route path="/level/:level/focus/:focus" element={<SubCategorySelect />} />
           <Route path="/level/:level/focus/:focus/papers" element={<PaperList papers={papers} />} />
-          <Route path="/level/:level/focus/:focus/variant/:variant" element={<VariantPaperList papers={papers} />} />
+
           <Route path="/paper/:id" element={<PaperDetail papers={papers} />} />
         </Route>
       </Routes>
