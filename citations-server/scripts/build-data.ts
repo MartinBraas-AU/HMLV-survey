@@ -14,6 +14,7 @@ interface Paper {
   bibtexKey: string;
   manufacturingLevel: string;
   dssFocus: string;
+  dssFocusGrouped: string;
   jobShopVariation: string | null;
   technologies: string[];
   methods: string[];
@@ -24,6 +25,23 @@ interface Paper {
   metrics: string;
   snowball: boolean;
 }
+
+const DSS_FOCUS_GROUPED_COLUMNS = [
+  "DSS focus (grouped)",
+  "DSS focus (broard groups)",
+  "DSS focus (broad groups)",
+];
+
+const DSS_FOCUS_GROUP_NORMALIZE: Record<string, string> = {
+  scheduling: "Scheduling",
+  "forecasting & prediction": "Forecasting & prediction",
+  "plant layout & reconfiguration": "Plant layout & reconfiguration",
+  "logistics & supply chain": "Logistics & supply chain",
+  "visualization & simulation": "Visualization & simulation",
+  "human-robot collaboration": "Human-robot collaboration",
+  "quality & maintenance": "Quality & maintenance",
+  other: "Other",
+};
 
 function titleCase(s: string): string {
   return s
@@ -61,6 +79,12 @@ function normalizeDSSFocus(raw: string | undefined): string {
     "material flow control": "Material Flow Control",
   };
   return mapping[lower] ?? titleCase(trimmed);
+}
+
+function normalizeDSSFocusGroup(raw: unknown): string {
+  if (!raw) return "";
+  const trimmed = String(raw).trim();
+  return DSS_FOCUS_GROUP_NORMALIZE[trimmed.toLowerCase()] ?? trimmed;
 }
 
 function normalizeJobShop(raw: string | undefined): string | null {
@@ -151,6 +175,7 @@ function main() {
     const bibtexKey = (row["Bibtex ref"] as string) ?? "";
     const yearRaw = row["Date"];
     const year = typeof yearRaw === "number" ? yearRaw : parseInt(String(yearRaw), 10) || 0;
+    const dssFocusGroupedColumn = DSS_FOCUS_GROUPED_COLUMNS.find((col) => row[col]);
 
     papers.push({
       id: id++,
@@ -162,6 +187,9 @@ function main() {
         row["Manufacturing level (L0,L1,L2,L3/L4)"] as string
       ),
       dssFocus: normalizeDSSFocus(row["DSS focus"] as string),
+      dssFocusGrouped: dssFocusGroupedColumn
+        ? normalizeDSSFocusGroup(row[dssFocusGroupedColumn])
+        : "",
       jobShopVariation: normalizeJobShop(row["Job-shop variations"] as string),
       technologies: splitList(row["Technologies"] as string),
       methods: splitList(row["Methods"] as string),

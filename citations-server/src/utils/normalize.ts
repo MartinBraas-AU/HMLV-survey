@@ -1,4 +1,5 @@
 import type { Paper } from "../types";
+import { getDSSFocusGroup } from "./groupings";
 
 export function groupBy<T>(items: T[], key: (item: T) => string): Map<string, T[]> {
   const map = new Map<string, T[]>();
@@ -23,7 +24,7 @@ export function papersByLevel(papers: Paper[]): Map<string, Paper[]> {
 }
 
 export function papersByDSSFocus(papers: Paper[]): Map<string, Paper[]> {
-  return groupBy(papers, (p) => p.dssFocus);
+  return groupBy(papers, (p) => p.dssFocusGrouped || getDSSFocusGroup(p.dssFocus));
 }
 
 

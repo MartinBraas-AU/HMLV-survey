@@ -6,6 +6,7 @@ export interface Paper {
   bibtexKey: string;
   manufacturingLevel: string;
   dssFocus: string;
+  dssFocusGrouped?: string;
   jobShopVariation: string | null;
   technologies: string[];
   methods: string[];
