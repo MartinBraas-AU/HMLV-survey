@@ -92,7 +92,7 @@ function matchesFilters(paper: Paper, filters: Filters): boolean {
     return false;
   if (
     filters.dssFocusGroups.size > 0 &&
-    !filters.dssFocusGroups.has(getDSSFocusGroup(paper.dssFocus))
+    !filters.dssFocusGroups.has(paper.dssFocusGrouped || getDSSFocusGroup(paper.dssFocus))
   )
     return false;
   if (

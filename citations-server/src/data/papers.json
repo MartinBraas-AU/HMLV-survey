@@ -7,13 +7,16 @@
     "bibtexKey": "Ghasemi2022Demonstration",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": null,
     "technologies": [
-      "ML",
-      "MES"
+      "classic ML",
+      "MES",
+      "hyper-/meta-heuristic"
     ],
     "methods": [
-      "Optimisation"
+      "GP",
+      "OO"
     ],
     "evaluationSetting": "static evaluation",
     "dataSource": "Industrial data",
@@ -30,13 +33,12 @@
     "bibtexKey": "Herkes2022Using",
     "manufacturingLevel": "L2",
     "dssFocus": "Lead Time Prediction",
+    "dssFocusGrouped": "Forecasting & prediction",
     "jobShopVariation": null,
     "technologies": [
       "DT"
     ],
-    "methods": [
-      "Optimisation"
-    ],
+    "methods": [],
     "evaluationSetting": "industrial case study",
     "dataSource": "Industrial data",
     "country": "Netherlands",
@@ -52,10 +54,10 @@
     "bibtexKey": "Tremblet2022Predicting",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Flexible Job-Shop Scheduling",
     "technologies": [
-      "ML",
-      "AI"
+      "classic ML"
     ],
     "methods": [
       "Random Forest"
@@ -75,11 +77,16 @@
     "bibtexKey": "Kim2022A",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Flexible Job-Shop Scheduling",
-    "technologies": [],
+    "technologies": [
+      "AGV/AMR",
+      "heuristics"
+    ],
     "methods": [
       "MDP",
-      "Heuristic"
+      "Costum Heuristic",
+      "dynamic programming"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "synthetic+industrial data",
@@ -96,13 +103,16 @@
     "bibtexKey": "ElSayed2022Deep",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Job-Shop Scheduling",
     "technologies": [
-      "RL"
+      "ML"
     ],
     "methods": [
       "GNN",
-      "MDP"
+      "MDP",
+      "A2C",
+      "RL"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "benchmark data (ft06, ft10 (Fisher);  (Applegate & Cook); (Lawrence))",
@@ -119,12 +129,14 @@
     "bibtexKey": "Klar2022Scalability",
     "manufacturingLevel": "L2",
     "dssFocus": "Plant Layout",
+    "dssFocusGrouped": "Plant layout & reconfiguration",
     "jobShopVariation": null,
     "technologies": [
-      "RL"
+      "ML"
     ],
     "methods": [
-      "DQN"
+      "DQN",
+      "RL"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "Synthetic",
@@ -141,12 +153,16 @@
     "bibtexKey": "Feng2022Predictive",
     "manufacturingLevel": "L2",
     "dssFocus": "Predictive Maintenance",
+    "dssFocusGrouped": "Forecasting & prediction",
     "jobShopVariation": null,
     "technologies": [
-      "RL"
+      "ML"
     ],
     "methods": [
-      "Predictive Maintenance"
+      "ADP",
+      "Experience replay",
+      "markov chain model",
+      "RL"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "synthetic",
@@ -163,12 +179,16 @@
     "bibtexKey": "He2022Simultaneous",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": null,
     "technologies": [
-      "FMS"
+      "heuristic"
     ],
     "methods": [
-      "Heuristic"
+      "Costum Heuristic",
+      "SRPT",
+      "SPT",
+      "EDD"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "synthetic",
@@ -185,14 +205,17 @@
     "bibtexKey": "Zhou2021Multiagent",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": null,
     "technologies": [
       "CPS",
       "IoT",
-      "RL"
+      "ML",
+      "MAS",
+      "AGV/AMR"
     ],
     "methods": [
-      "MARL"
+      "RL"
     ],
     "evaluationSetting": "lab case study",
     "dataSource": "lab data",
@@ -209,12 +232,15 @@
     "bibtexKey": "Zhang2021Datadriven",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Job-Shop Scheduling",
     "technologies": [
-      "ML",
-      "CPS"
+      "metaheuristic"
     ],
-    "methods": [],
+    "methods": [
+      "IGEP",
+      "Discovered dispatching rules"
+    ],
     "evaluationSetting": "simulation",
     "dataSource": "synthetic",
     "country": "China",
@@ -230,12 +256,15 @@
     "bibtexKey": "Wang2021Evolutionary",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Flexible Job-Shop Scheduling",
     "technologies": [
       "IoT",
       "Edge Computing"
     ],
-    "methods": [],
+    "methods": [
+      "Evolutionary Game"
+    ],
     "evaluationSetting": "simulation",
     "dataSource": "synthetic+industrial data",
     "country": "China",
@@ -251,14 +280,20 @@
     "bibtexKey": "Wan2021ArtificialIntelligenceDriven",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": null,
     "technologies": [
+      "AI",
       "CPS",
       "IoT",
       "Edge Computing",
-      "Cloud"
+      "Cloud Computing",
+      "AGV/AMR",
+      "OPC UA"
     ],
-    "methods": [],
+    "methods": [
+      "systems engineering"
+    ],
     "evaluationSetting": "lab case study",
     "dataSource": "lab data",
     "country": "China",
@@ -274,12 +309,15 @@
     "bibtexKey": "Padovano2021A",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": null,
     "technologies": [
       "DT",
-      "RL"
+      "heuristic"
     ],
-    "methods": [],
+    "methods": [
+      "heuristic"
+    ],
     "evaluationSetting": "simulation",
     "dataSource": "industrial data+synthetic",
     "country": "Italy",
@@ -295,11 +333,17 @@
     "bibtexKey": "Zhou2021Reinforcement",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": null,
     "technologies": [
+      "ML"
+    ],
+    "methods": [
+      "Q-learning",
+      "Composite Reward Modeling",
+      "MDP",
       "RL"
     ],
-    "methods": [],
     "evaluationSetting": "simulation",
     "dataSource": "lab data",
     "country": "China",
@@ -315,13 +359,18 @@
     "bibtexKey": "Glatt2021Modeling",
     "manufacturingLevel": "L2",
     "dssFocus": "Simulation Generation",
+    "dssFocusGrouped": "Visualization & simulation",
     "jobShopVariation": null,
     "technologies": [
       "DT",
       "CPS",
-      "OPC UA"
+      "OPC UA",
+      "Simulation"
     ],
-    "methods": [],
+    "methods": [
+      "systems engineering",
+      "UML modeling"
+    ],
     "evaluationSetting": "lab case study",
     "dataSource": "lab data",
     "country": "Germany",
@@ -337,15 +386,14 @@
     "bibtexKey": "Feng2020Simulation",
     "manufacturingLevel": "L2",
     "dssFocus": "Reconfigurability",
+    "dssFocusGrouped": "Plant layout & reconfiguration",
     "jobShopVariation": null,
     "technologies": [
       "DT",
-      "RMS",
-      "CPS"
+      "CPS",
+      "Simulation"
     ],
     "methods": [
-      "Optimisation",
-      "Simulation",
       "Heuristic"
     ],
     "evaluationSetting": "simulation",
@@ -363,15 +411,21 @@
     "bibtexKey": "Coito2020A",
     "manufacturingLevel": "L2",
     "dssFocus": "Data Collection and Visualization",
+    "dssFocusGrouped": "Visualization & simulation",
     "jobShopVariation": null,
     "technologies": [
       "CPS",
       "IoT",
       "AI",
       "OPC UA",
-      "Edge Computing"
+      "Edge Computing",
+      "SCADA",
+      "ERP",
+      "MES"
     ],
-    "methods": [],
+    "methods": [
+      "costume scheduling method"
+    ],
     "evaluationSetting": "lab case study",
     "dataSource": "lab data+industrial data",
     "country": "Portugal",
@@ -387,12 +441,20 @@
     "bibtexKey": "Chawalitanont2025Uncertaintyaware",
     "manufacturingLevel": "L2",
     "dssFocus": "Power Consumption Prediction",
+    "dssFocusGrouped": "Forecasting & prediction",
     "jobShopVariation": null,
     "technologies": [
-      "RL"
+      "ML"
     ],
     "methods": [
-      "Bayesian Learning"
+      "HBLR",
+      "HBNN",
+      "FCN",
+      "1D-CNN",
+      "NUTS",
+      "ADVI",
+      "SVGD",
+      "DL"
     ],
     "evaluationSetting": "static evaluation",
     "dataSource": "Industrial data",
@@ -409,12 +471,17 @@
     "bibtexKey": "Zhang2025MAMHSAN",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Flexible Job-Shop Scheduling",
     "technologies": [
-      "RL"
+      "ML"
     ],
     "methods": [
-      "GNN"
+      "GNN",
+      "HGE",
+      "MDP",
+      "PPO",
+      "RL"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "synthetic+benchmark data  Barnes, Brandimarte, Dauzere, and Hurink (edata, rdata, vdata)",
@@ -431,13 +498,13 @@
     "bibtexKey": "Xiao2025Material",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Reconfigurable Job-Shop Scheduling",
     "technologies": [
-      "CPS"
+      "AGV/AMR",
+      "metaheuristic"
     ],
-    "methods": [
-      "Metaheuristic"
-    ],
+    "methods": [],
     "evaluationSetting": "simulation",
     "dataSource": "synthetic",
     "country": "China",
@@ -453,14 +520,15 @@
     "bibtexKey": "Duan2025A",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Dynamic Job-Shop Scheduling",
     "technologies": [
-      "ML",
-      "CPS"
+      "ML"
     ],
     "methods": [
-      "Classification",
-      "Heuristic"
+      "MLP",
+      "classification",
+      "DL"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "industrial data+synthetic",
@@ -477,12 +545,15 @@
     "bibtexKey": "Yuan2025Dynamic",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Dynamic Flexible Job-Shop Scheduling",
     "technologies": [
-      "RL"
+      "ML"
     ],
     "methods": [
-      "PPO"
+      "PPO",
+      "MDP",
+      "RL"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "synthetic+benchmark data (Not typically used).",
@@ -499,13 +570,16 @@
     "bibtexKey": "WaubertdePuiseau2025Applying",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Job-Shop Scheduling",
     "technologies": [
       "ML"
     ],
     "methods": [
       "Decision Transformer",
-      "Imitation Learning"
+      "Imitation Learning",
+      "Neural Local Search",
+      "RL"
     ],
     "evaluationSetting": "static evaluation",
     "dataSource": "synthetic+benchmark data taillard",
@@ -522,12 +596,19 @@
     "bibtexKey": "Pan2025Smart",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Flexible Job-Shop Scheduling",
     "technologies": [
       "DT",
+      "ML"
+    ],
+    "methods": [
+      "PPO",
+      "MDP",
+      "graph embedding",
+      "GNN",
       "RL"
     ],
-    "methods": [],
     "evaluationSetting": "simulation",
     "dataSource": "synthetic+ benchmark mk (Brandimarte 1993) and la (Hurink et al. 1994)",
     "country": "China",
@@ -543,12 +624,16 @@
     "bibtexKey": "Wang2025A",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Flexible Job-Shop Scheduling",
     "technologies": [
-      "RL"
+      "ML"
     ],
     "methods": [
-      "Decision Transformer"
+      "MDP",
+      "PPO",
+      "BiLSTM",
+      "RL"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "Synthetic",
@@ -565,13 +650,12 @@
     "bibtexKey": "Ahn2025A",
     "manufacturingLevel": "L1",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": null,
-    "technologies": [
-      "CPS"
-    ],
+    "technologies": [],
     "methods": [
-      "Petri Net",
-      "DES"
+      "TPN",
+      "MIP"
     ],
     "evaluationSetting": "static evaluation",
     "dataSource": "Synthetic",
@@ -588,13 +672,17 @@
     "bibtexKey": "Huang2025A",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Dynamic Distributed Job-Shop Scheduling",
     "technologies": [
-      "MAS",
-      "RL"
+      "ML"
     ],
     "methods": [
-      "MARL"
+      "MDP",
+      "GNN",
+      "PPO",
+      "RL",
+      "MAS"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "synthetic+industrial data",
@@ -611,12 +699,16 @@
     "bibtexKey": "Wang2025Hybrid",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": null,
     "technologies": [
-      "RL"
+      "ML"
     ],
     "methods": [
-      "MDP"
+      "MDP",
+      "Twin DDPG",
+      "HER",
+      "RL"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "industrial data+synthetic+benchmark data (Not typically used).",
@@ -633,11 +725,15 @@
     "bibtexKey": "Long2025RealTime",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": null,
     "technologies": [
-      "CPS"
+      "metaheuristic"
     ],
-    "methods": [],
+    "methods": [
+      "MB",
+      "GA"
+    ],
     "evaluationSetting": "simulation",
     "dataSource": "synthetic+industrial data (survey)",
     "country": "Hungary",
@@ -653,12 +749,14 @@
     "bibtexKey": "Meja2022Job",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Job-Shop Scheduling",
-    "technologies": [
-      "CPS"
-    ],
+    "technologies": [],
     "methods": [
-      "PPO"
+      "TPN",
+      "SPT",
+      "LPT",
+      "BAS"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "synthetic",
@@ -675,15 +773,15 @@
     "bibtexKey": "Wang2025Joint",
     "manufacturingLevel": "L2",
     "dssFocus": "Predictive Maintenance",
+    "dssFocusGrouped": "Forecasting & prediction",
     "jobShopVariation": null,
     "technologies": [
-      "CPS",
-      "RL"
+      "ML"
     ],
     "methods": [
-      "DQN",
-      "Genetic Algorithm",
-      "Metaheuristic"
+      "GLR",
+      "MDP",
+      "RL"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "synthetic",
@@ -700,13 +798,15 @@
     "bibtexKey": "Elbasheer2025Natural",
     "manufacturingLevel": "L2",
     "dssFocus": "Simulation Generation",
+    "dssFocusGrouped": "Visualization & simulation",
     "jobShopVariation": null,
     "technologies": [
-      "ML"
+      "AI"
     ],
     "methods": [
       "LLM",
-      "DES"
+      "DES",
+      "ASMG"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "synthetic",
@@ -723,13 +823,14 @@
     "bibtexKey": "Yang2025Refined",
     "manufacturingLevel": "L3",
     "dssFocus": "Logistics",
+    "dssFocusGrouped": "Logistics & supply chain",
     "jobShopVariation": null,
-    "technologies": [
-      "RL"
-    ],
+    "technologies": [],
     "methods": [
-      "Fuzzy Methods",
-      "MCDM"
+      "QFD",
+      "DEMATEL",
+      "MULTIMOORA",
+      "IVTFN"
     ],
     "evaluationSetting": "static evaluation",
     "dataSource": "industrial data",
@@ -746,14 +847,16 @@
     "bibtexKey": "Hossain2023Multiobjective",
     "manufacturingLevel": "L2",
     "dssFocus": "Product Family Modularization",
+    "dssFocusGrouped": "Plant layout & reconfiguration",
     "jobShopVariation": null,
-    "technologies": [],
+    "technologies": [
+      "metaheuristic"
+    ],
     "methods": [
-      "Mathematical Programming",
-      "Genetic Algorithm",
-      "Simulation",
-      "Metaheuristic",
-      "Optimisation"
+      "MOBLP",
+      "LFJO",
+      "custom GA",
+      "DSM"
     ],
     "evaluationSetting": "static evaluation",
     "dataSource": "synthetic",
@@ -770,12 +873,20 @@
     "bibtexKey": "Du2025Deep",
     "manufacturingLevel": "L3",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Distributed Flexible Job-Shop Scheduling",
     "technologies": [
-      "RL"
+      "ML",
+      "metaheuristic"
     ],
     "methods": [
-      "Evolutionary Algorithm"
+      "Evolutionary Algorithm",
+      "MILP",
+      "DQN",
+      "MDP",
+      "Costum heuristic operators",
+      "RL",
+      "MAS"
     ],
     "evaluationSetting": "static evaluation",
     "dataSource": "synthetic",
@@ -792,13 +903,14 @@
     "bibtexKey": "Guo2025Dynamic",
     "manufacturingLevel": "L1",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": null,
     "technologies": [
-      "RMS"
+      "metaheuristic"
     ],
     "methods": [
-      "Hyper-Heuristic",
-      "Heuristic"
+      "GP",
+      "Bloat control"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "synthetic",
@@ -815,13 +927,14 @@
     "bibtexKey": "Santos2024Transitioning",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": null,
     "technologies": [
       "DT",
-      "IoT"
+      "IoT",
+      "AMR/AGV"
     ],
     "methods": [
-      "Metaheuristic",
       "DES"
     ],
     "evaluationSetting": "simulation",
@@ -839,12 +952,16 @@
     "bibtexKey": "Moon2024Learningenabled",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Flexible Job-Shop Scheduling",
     "technologies": [
-      "AGV/AMR"
+      "AGV/AMR",
+      "ML"
     ],
     "methods": [
-      "GNN"
+      "GNN",
+      "MDP",
+      "RL"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "synthetic+Public benchmark Brandimarte",
@@ -861,12 +978,14 @@
     "bibtexKey": "Yang2024A",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Dynamic Job-Shop Scheduling",
     "technologies": [
-      "RL"
+      "ML"
     ],
     "methods": [
-      "MDP"
+      "MDP",
+      "RL"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "synthetic+Public benchmark ft06 Fisher",
@@ -883,14 +1002,15 @@
     "bibtexKey": "Nejati2024A",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Dynamic Flexible Job-Shop Scheduling",
     "technologies": [
-      "DT",
-      "ML"
+      "classic ML",
+      "DT"
     ],
     "methods": [
       "Simulation",
-      "Optimisation"
+      "Adaptive Boosting Regressor"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "synthetic",
@@ -907,12 +1027,16 @@
     "bibtexKey": "Yue2024Twostage",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Dynamic Flexible Job-Shop Scheduling",
     "technologies": [
-      "RL"
+      "ML"
     ],
     "methods": [
-      "DQN"
+      "DQN",
+      "MDP",
+      "PPO",
+      "RL"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "synthetic",
@@ -929,13 +1053,16 @@
     "bibtexKey": "RangelMartnez2024A",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Job-Shop Scheduling",
     "technologies": [
-      "RL"
+      "ML"
     ],
     "methods": [
-      "Q-Learning",
-      "GNN"
+      "DQN",
+      "MDP",
+      "PPO",
+      "RL"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "synthetic",
@@ -952,12 +1079,16 @@
     "bibtexKey": "Corra2024Rainbow",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Flexible Job-Shop Scheduling",
     "technologies": [
-      "RL"
+      "ML"
     ],
     "methods": [
-      "DQN"
+      "DQN",
+      "MDP",
+      "RAINBOW",
+      "RL"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "benchmark dataset Brandimarte and Dauzere",
@@ -974,15 +1105,17 @@
     "bibtexKey": "Tang2024Solving",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Flexible Job-Shop Scheduling",
     "technologies": [
-      "RL"
+      "ML"
     ],
     "methods": [
-      "Attention Mechanism",
-      "Feature Extraction",
       "GNN",
-      "PPO"
+      "HGNNR",
+      "PPO",
+      "MDP",
+      "RL"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "benchmark dataset mk (Brandimarte) and Hurink (edata, rdata, vdata",
@@ -999,12 +1132,14 @@
     "bibtexKey": "He2024The",
     "manufacturingLevel": "L2",
     "dssFocus": "Material Flow Control",
+    "dssFocusGrouped": "Visualization & simulation",
     "jobShopVariation": null,
     "technologies": [
-      "RL"
+      "ML"
     ],
     "methods": [
-      "Simulation"
+      "DES",
+      "RL"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "synthetic",
@@ -1021,14 +1156,15 @@
     "bibtexKey": "Wang2024Smart",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Dynamic Job-Shop Scheduling",
     "technologies": [
-      "RL"
+      "ML"
     ],
     "methods": [
       "PPO",
-      "Reinforcement Learning",
-      "Optimisation"
+      "DES",
+      "RL"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "Synthetic",
@@ -1045,13 +1181,17 @@
     "bibtexKey": "Su2024Fast",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Flexible Job-Shop Scheduling",
     "technologies": [
-      "RL"
+      "ML"
     ],
     "methods": [
-      "Reinforcement Learning",
-      "GNN"
+      "GNN",
+      "MDP",
+      "PPO",
+      "Pareto",
+      "RL"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "synthetic+ benchmark ft Fisher, la Hurink, orb,",
@@ -1068,14 +1208,15 @@
     "bibtexKey": "Lu2024A",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Flexible Job-Shop Scheduling",
     "technologies": [
-      "RL"
+      "ML"
     ],
     "methods": [
-      "Q-Learning",
       "DQN",
-      "Optimisation"
+      "MDP",
+      "RL"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "synthetic",
@@ -1092,13 +1233,15 @@
     "bibtexKey": "Lassoued2024Introducing",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Job-Shop Scheduling",
     "technologies": [
-      "RL"
+      "ML"
     ],
     "methods": [
-      "Reinforcement Learning",
-      "PPO"
+      "MDP",
+      "PPO",
+      "RL"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "synthetic+benchmark dataset taillard",
@@ -1115,13 +1258,17 @@
     "bibtexKey": "Pu2024MultiAgent",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Job-Shop Scheduling",
     "technologies": [
-      "RL"
+      "ML"
     ],
     "methods": [
       "GNN",
-      "Reinforcement Learning"
+      "MDP",
+      "MAPPO",
+      "RL",
+      "MAS"
     ],
     "evaluationSetting": "lab case study",
     "dataSource": "lab data+benchmark data dmu and  Brandimarte and Hurink",
@@ -1138,15 +1285,16 @@
     "bibtexKey": "Huang2024An",
     "manufacturingLevel": "L3",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Distributed Job-Shop Scheduling",
     "technologies": [
-      "RL"
+      "ML"
     ],
     "methods": [
-      "Feature Extraction",
       "GNN",
       "MDP",
-      "PPO"
+      "PPO",
+      "RL"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "benchmark dataset taillard",
@@ -1163,14 +1311,17 @@
     "bibtexKey": "SerranoRuiz2024Job",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Job-Shop Scheduling",
     "technologies": [
       "DT",
-      "RL"
+      "ML"
     ],
     "methods": [
       "MDP",
-      "PPO"
+      "PPO",
+      "DES",
+      "RL"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "synthetic",
@@ -1187,14 +1338,15 @@
     "bibtexKey": "Wang2024Flexible",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Flexible Job-Shop Scheduling",
     "technologies": [
-      "RL"
+      "ML"
     ],
     "methods": [
-      "Attention Mechanism",
-      "Feature Extraction",
-      "Reinforcement Learning"
+      "DAN",
+      "PPO",
+      "RL"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "synthetic+benchmark dataset Brandimarte and Hurink",
@@ -1211,14 +1363,18 @@
     "bibtexKey": "Zhao2025A",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Flexible Job-Shop Scheduling",
     "technologies": [
-      "RL"
+      "ML",
+      "AGV/AMR"
     ],
     "methods": [
-      "Feature Extraction",
-      "Optimisation",
-      "PPO"
+      "PPO",
+      "MLP embedding",
+      "MDP",
+      "GNN",
+      "RL"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "synthetic+benchmark dataset Deroussi and Norre and Hurink",
@@ -1235,15 +1391,17 @@
     "bibtexKey": "Li2025Demanddriven",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": null,
     "technologies": [
-      "Robotics",
-      "RL"
+      "AGV/AMR",
+      "FMS",
+      "ML"
     ],
     "methods": [
       "MDP",
-      "MARL",
-      "Policy Gradient"
+      "MAS",
+      "RL"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "lab data",
@@ -1260,15 +1418,15 @@
     "bibtexKey": "Yoo2025Optimizing",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Dynamic Flexible Job-Shop Scheduling",
     "technologies": [
-      "RL"
+      "ML"
     ],
     "methods": [
-      "Bayesian Learning",
-      "Optimisation",
+      "BO",
       "MDP",
-      "Supervised Learning"
+      "RL"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "synthetic",
@@ -1285,9 +1443,10 @@
     "bibtexKey": "Wang2025Inventory",
     "manufacturingLevel": "L3",
     "dssFocus": "Logistics",
+    "dssFocusGrouped": "Logistics & supply chain",
     "jobShopVariation": null,
     "technologies": [
-      "ML"
+      "IP"
     ],
     "methods": [],
     "evaluationSetting": "static evaluation",
@@ -1305,12 +1464,15 @@
     "bibtexKey": "Zeng2025Dynamic",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Flexible Job-Shop Scheduling",
     "technologies": [
-      "RL"
+      "ML"
     ],
     "methods": [
-      "Reinforcement Learning"
+      "DAN",
+      "RL",
+      "MAS"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "synthetic",
@@ -1327,15 +1489,16 @@
     "bibtexKey": "Liu2025EFJSPIBDR",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Flexible Job-Shop Scheduling",
     "technologies": [
-      "RL"
+      "ML"
     ],
     "methods": [
       "Attention Mechanism",
       "GNN",
       "MDP",
-      "Optimisation"
+      "RL"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "benchmark dataset kacem + Dauzere + Brandimarte  + lab data",
@@ -1352,14 +1515,13 @@
     "bibtexKey": "Canciglieri2025Smart",
     "manufacturingLevel": "L2",
     "dssFocus": "Reconfigurability",
+    "dssFocusGrouped": "Plant layout & reconfiguration",
     "jobShopVariation": null,
     "technologies": [
-      "IoT",
-      "AI"
+      "RMS"
     ],
     "methods": [
-      "Ontology",
-      "MCDM"
+      "Ontology"
     ],
     "evaluationSetting": "lab case study",
     "dataSource": "lab data",
@@ -1376,12 +1538,14 @@
     "bibtexKey": "Wang2025Experience",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Dynamic Flexible Flow-Shop Scheduling",
     "technologies": [
-      "RL"
+      "ML"
     ],
     "methods": [
-      "MDP"
+      "MDP",
+      "RL"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "synthetic",
@@ -1398,14 +1562,17 @@
     "bibtexKey": "Du2025GraphAugmented",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": null,
     "technologies": [
-      "RL"
+      "ML"
     ],
     "methods": [
-      "Feature Extraction",
       "MDP",
-      "PPO"
+      "PPO",
+      "GNN",
+      "IB",
+      "RL"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "synthetic+benchmark dataset Brandimarte",
@@ -1422,13 +1589,14 @@
     "bibtexKey": "Kochański2024Datadriven",
     "manufacturingLevel": "L1",
     "dssFocus": "Process Parameter Recommendation",
+    "dssFocusGrouped": "Forecasting & prediction",
     "jobShopVariation": null,
     "technologies": [
       "ML"
     ],
     "methods": [
       "Data Mining",
-      "Recommendation System"
+      "DL"
     ],
     "evaluationSetting": "static evaluation",
     "dataSource": "industrial data",
@@ -1445,13 +1613,14 @@
     "bibtexKey": "Lefranc2024Enhancing",
     "manufacturingLevel": "L2",
     "dssFocus": "Reconfigurability",
+    "dssFocusGrouped": "Plant layout & reconfiguration",
     "jobShopVariation": null,
     "technologies": [
-      "MAS",
       "FMS"
     ],
     "methods": [
-      "DES"
+      "DES",
+      "MAS"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "lab data",
@@ -1468,11 +1637,15 @@
     "bibtexKey": "Petersen2024Multiobjective",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": null,
-    "technologies": [],
+    "technologies": [
+      "metaheuristic"
+    ],
     "methods": [
-      "Optimization",
-      "NSGA-II"
+      "NSGA-II",
+      "Pareto",
+      "MILP"
     ],
     "evaluationSetting": "static evaluation",
     "dataSource": "industrial data",
@@ -1489,13 +1662,10 @@
     "bibtexKey": "Li2026Outoforder",
     "manufacturingLevel": "L2",
     "dssFocus": "Plant Layout",
+    "dssFocusGrouped": "Plant layout & reconfiguration",
     "jobShopVariation": null,
-    "technologies": [
-      "CPS"
-    ],
-    "methods": [
-      "Data analytics"
-    ],
+    "technologies": [],
+    "methods": [],
     "evaluationSetting": "simulation",
     "dataSource": "synthetic",
     "country": "China",
@@ -1511,11 +1681,15 @@
     "bibtexKey": "Qu2023Selfdecision",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": null,
     "technologies": [
-      "AGV/AMR"
+      "AGV/AMR",
+      "metaheuristic"
     ],
-    "methods": [],
+    "methods": [
+      "GA"
+    ],
     "evaluationSetting": "static evaluation",
     "dataSource": "synthetic",
     "country": "China",
@@ -1531,9 +1705,11 @@
     "bibtexKey": "Fragapane2020Increasing",
     "manufacturingLevel": "L2",
     "dssFocus": "Plant Layout",
+    "dssFocusGrouped": "Plant layout & reconfiguration",
     "jobShopVariation": null,
     "technologies": [
-      "AGV/AMR"
+      "AGV/AMR",
+      "FMS"
     ],
     "methods": [],
     "evaluationSetting": "static evaluation",
@@ -1551,6 +1727,7 @@
     "bibtexKey": "Mahmood2021Production",
     "manufacturingLevel": "L2",
     "dssFocus": "Plant Layout",
+    "dssFocusGrouped": "Plant layout & reconfiguration",
     "jobShopVariation": null,
     "technologies": [
       "AGV/AMR"
@@ -1573,13 +1750,15 @@
     "bibtexKey": "Wang2023Job",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Job-Shop Scheduling",
     "technologies": [
-      "RL"
+      "ML"
     ],
     "methods": [
       "MDP",
-      "PPO"
+      "PPO",
+      "RL"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "synthetic",
@@ -1596,13 +1775,18 @@
     "bibtexKey": "Ghasemi2023Deep",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Flexible Job-Shop Scheduling",
     "technologies": [
       "DT",
-      "DL"
+      "ML"
     ],
     "methods": [
-      "Simulation"
+      "surrogate modling",
+      "RNN",
+      "MLP",
+      "MHA",
+      "DL"
     ],
     "evaluationSetting": "static evaluation",
     "dataSource": "synthetic",
@@ -1619,12 +1803,16 @@
     "bibtexKey": "Workneh2023Deep",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Dynamic Job-Shop Scheduling",
     "technologies": [
-      "RL"
+      "ML"
     ],
     "methods": [
-      "DQN"
+      "DQN",
+      "MDP",
+      "Q-learning",
+      "RL"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "synthetic+ benchmark ft Fisher, Lawrence, orb,",
@@ -1641,12 +1829,16 @@
     "bibtexKey": "Workneh2023Learning",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": null,
     "technologies": [
-      "RL"
+      "ML"
     ],
     "methods": [
-      "DQN"
+      "DQN",
+      "MDP",
+      "Q-learning",
+      "RL"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "benchmark ft Fisher, Lawrence, orb,",
@@ -1663,15 +1855,25 @@
     "bibtexKey": "Zhang2022Dynamic",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Dynamic Job-Shop Scheduling",
     "technologies": [
       "Edge Computing",
-      "RL"
+      "ML",
+      "AGV/AMR",
+      "Robot",
+      "cloud computing",
+      "IoT",
+      "CPS"
     ],
     "methods": [
       "MLP",
       "PPO",
-      "Optimisation"
+      "MDP",
+      "distributed decision-making",
+      "CNP",
+      "RL",
+      "MAS"
     ],
     "evaluationSetting": "lab case study",
     "dataSource": "lab data",
@@ -1688,13 +1890,19 @@
     "bibtexKey": "Jiang2022A",
     "manufacturingLevel": "L2",
     "dssFocus": "Data Collection and Visualization",
+    "dssFocusGrouped": "Visualization & simulation",
     "jobShopVariation": null,
     "technologies": [
       "DT",
-      "AI"
+      "ML"
     ],
     "methods": [
-      "Ontology"
+      "Ontology",
+      "OAR",
+      "LSTM",
+      "Markov Chain",
+      "Bayesian Network",
+      "DL"
     ],
     "evaluationSetting": "lab case study",
     "dataSource": "lab data",
@@ -1711,11 +1919,17 @@
     "bibtexKey": "Yang2022Realtime",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Dynamic Distributed Job-Shop Scheduling",
     "technologies": [
+      "ML"
+    ],
+    "methods": [
+      "MDP",
+      "DQN",
+      "A2C",
       "RL"
     ],
-    "methods": [],
     "evaluationSetting": "simulation",
     "dataSource": "synthetic",
     "country": "China",
@@ -1731,13 +1945,16 @@
     "bibtexKey": "Wang2022Solving",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Job-Shop Scheduling",
     "technologies": [
-      "MAS",
-      "RL"
+      "ML"
     ],
     "methods": [
-      "MARL"
+      "MDP",
+      "QMIX",
+      "RL",
+      "MAS"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "synthetic",
@@ -1754,13 +1971,16 @@
     "bibtexKey": "Yan2022Digital",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Flexible Job-Shop Scheduling",
     "technologies": [
-      "RL",
+      "ML",
       "DT"
     ],
     "methods": [
-      "Q-Learning"
+      "Q-Learning",
+      "MDP",
+      "RL"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "synthetic+ benchmark mk (Brandimarte)",
@@ -1777,12 +1997,15 @@
     "bibtexKey": "Bencheikh2022An",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Job-Shop Scheduling",
     "technologies": [
-      "MAS"
+      "heuristic"
     ],
     "methods": [
-      "Predictive Maintenance"
+      "Contract-Net Protocol",
+      "FIFO",
+      "MAS"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "synthetic",
@@ -1799,13 +2022,15 @@
     "bibtexKey": "Gdri2022Improving",
     "manufacturingLevel": "L3",
     "dssFocus": "Demand Forecasting",
+    "dssFocusGrouped": "Forecasting & prediction",
     "jobShopVariation": null,
     "technologies": [
-      "ML"
+      "ML",
+      "Plant Simulation software"
     ],
     "methods": [
       "DES",
-      "Clustering"
+      "k-means"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "industrial data+synthetic",
@@ -1822,13 +2047,18 @@
     "bibtexKey": "He2022Joint",
     "manufacturingLevel": "L2",
     "dssFocus": "Predictive Maintenance",
+    "dssFocusGrouped": "Forecasting & prediction",
     "jobShopVariation": null,
     "technologies": [
-      "RL"
+      "ML",
+      "CHECK"
     ],
     "methods": [
-      "Predictive Maintenance",
-      "Metaheuristic"
+      "TLBO",
+      "GRU",
+      "1D CNN",
+      "MIP",
+      "RL"
     ],
     "evaluationSetting": "static evaluation",
     "dataSource": "lab data+synthetic (unspesified benchmark_data)",
@@ -1845,13 +2075,16 @@
     "bibtexKey": "Zhang2022Dynamicb",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Dynamic Job-Shop Scheduling",
     "technologies": [
-      "RL"
+      "ML"
     ],
     "methods": [
       "PPO",
-      "DES"
+      "DES",
+      "MDP",
+      "RL"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "synthetic+industrial data (structurel insperied).",
@@ -1868,15 +2101,16 @@
     "bibtexKey": "Li2022Realtime",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Dynamic Flexible Job-Shop Scheduling",
     "technologies": [
-      "RL"
+      "ML",
+      "AGV/AMR"
     ],
     "methods": [
       "DQN",
-      "Genetic Algorithm",
-      "Metaheuristic",
-      "DES"
+      "MDP",
+      "RL"
     ],
     "evaluationSetting": "static evaluation",
     "dataSource": "synthetic+industrial data (structurel insperied).",
@@ -1893,12 +2127,18 @@
     "bibtexKey": "Li2025Evolutionary",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Flexible Job-Shop Scheduling",
     "technologies": [
-      "RL"
+      "ML",
+      "AGV/AMR",
+      "metaheuristic"
     ],
     "methods": [
-      "GNN"
+      "GNN",
+      "MDP",
+      "GA",
+      "RL"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "synthetic+benchmark Homayouni and Fontes (Fattahi using Brandimarte + Chambers and Barnes)",
@@ -1915,12 +2155,16 @@
     "bibtexKey": "Yuan2025Deep",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Dynamic Job-Shop Scheduling",
     "technologies": [
-      "RL"
+      "ML"
     ],
     "methods": [
-      "PPO"
+      "PPO",
+      "MDP",
+      "PPO",
+      "RL"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "synthetic+benchmark FT-crowston, LA, SWV",
@@ -1937,12 +2181,17 @@
     "bibtexKey": "Hu2025Dynamic",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Dynamic Flexible Job-Shop Scheduling",
     "technologies": [
-      "RL"
+      "ML"
     ],
     "methods": [
-      "PPO"
+      "PPO",
+      "KG",
+      "MDP",
+      "GNN",
+      "RL"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "synthetic",
@@ -1959,12 +2208,17 @@
     "bibtexKey": "Shi2025Productionlogistics",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Dynamic Flexible Job-Shop Scheduling",
     "technologies": [
-      "RL"
+      "ML",
+      "AGV/AMR"
     ],
     "methods": [
-      "Hierarchical RL"
+      "MDP",
+      "PPO",
+      "RL",
+      "MAS"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "synthetic",
@@ -1981,13 +2235,14 @@
     "bibtexKey": "Chen2025Optimizing",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Dynamic Flexible Job-Shop Scheduling",
     "technologies": [
-      "RL"
+      "Crane",
+      "metaheuristic"
     ],
     "methods": [
-      "Genetic Algorithm",
-      "Metaheuristic"
+      "GA"
     ],
     "evaluationSetting": "static evaluation",
     "dataSource": "synthetic",
@@ -2004,15 +2259,18 @@
     "bibtexKey": "Yan2025A",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Dynamic Flexible Job-Shop Scheduling",
     "technologies": [
-      "RL"
+      "ML",
+      "AVG/AMR",
+      "metaheuristic"
     ],
     "methods": [
       "DQN",
-      "Genetic Algorithm",
-      "Metaheuristic",
-      "DES"
+      "GA",
+      "MDP",
+      "RL"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "synthetic+benchmark Kacem",
@@ -2029,13 +2287,22 @@
     "bibtexKey": "Hong2025Cloudfogedge",
     "manufacturingLevel": "L3",
     "dssFocus": "Logistics",
+    "dssFocusGrouped": "Logistics & supply chain",
     "jobShopVariation": null,
-    "technologies": [],
+    "technologies": [
+      "DT",
+      "cloud computing",
+      "fog computing",
+      "edge computing",
+      "metaheuristic"
+    ],
     "methods": [
-      "Metaheuristic",
-      "Genetic Algorithm",
+      "GA",
       "ALNS",
-      "Tabu Search"
+      "TS",
+      "ATC",
+      "HSC",
+      "Interior-point method"
     ],
     "evaluationSetting": "static evaluation",
     "dataSource": "synthetic+industrial data (operational parameters)",
@@ -2052,12 +2319,17 @@
     "bibtexKey": "Shi2024ProductionLogistics",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Dynamic Flexible Job-Shop Scheduling",
     "technologies": [
-      "RL"
+      "ML"
     ],
     "methods": [
-      "PPO"
+      "PPO",
+      "weight-decomposition",
+      "neighborhood-inheritance",
+      "RL",
+      "MAS"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "Synthetic",
@@ -2074,16 +2346,19 @@
     "bibtexKey": "Sun2024Research",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Flexible Job-Shop Scheduling",
     "technologies": [
-      "RL"
+      "ML",
+      "metaheuristic"
     ],
     "methods": [
-      "Actor-Critic",
+      "A2C",
       "MDP",
-      "Genetic Algorithm",
-      "Clustering",
-      "DNN"
+      "GA",
+      "K-means clustering",
+      "DNN",
+      "RL"
     ],
     "evaluationSetting": "static evaluation",
     "dataSource": "Hurink J benchmark and Behnke D benchmark",
@@ -2100,16 +2375,15 @@
     "bibtexKey": "Zhang2024Digital",
     "manufacturingLevel": "L3",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": null,
     "technologies": [
       "DT",
-      "Communication"
+      "metaheuristic"
     ],
     "methods": [
-      "Genetic Algorithm",
-      "ALNS",
-      "Simulated Annealing",
-      "Metaheuristic"
+      "GA",
+      "ALNS"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "Synthetic",
@@ -2126,13 +2400,16 @@
     "bibtexKey": "He2024Deep",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Flexible Job-Shop Scheduling",
     "technologies": [
-      "RL"
+      "ML"
     ],
     "methods": [
       "GNN",
-      "PPO"
+      "PPO",
+      "MDP",
+      "RL"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "Synthetic",
@@ -2149,14 +2426,16 @@
     "bibtexKey": "Xu2024Ab",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Flexible Job-Shop Scheduling",
     "technologies": [
-      "RL"
+      "ML"
     ],
     "methods": [
       "GNN",
-      "Optimisation",
-      "PPO"
+      "PPO",
+      "MDP",
+      "RL"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "Synthetic",
@@ -2173,13 +2452,16 @@
     "bibtexKey": "Pereira2024Energy",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Job-Shop Scheduling",
     "technologies": [
-      "ML"
+      "ML",
+      "Plant Simulation software",
+      "metaheuristic"
     ],
     "methods": [
       "Genetic Algorithm",
-      "Optimisation"
+      "DL"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "Synthetic",
@@ -2196,14 +2478,27 @@
     "bibtexKey": "Hou2024Deep",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Dynamic Flexible Job-Shop Scheduling",
     "technologies": [
       "AGV/AMR",
-      "RL"
+      "ML"
     ],
     "methods": [
       "DQN",
-      "MDP"
+      "MDP",
+      "DQN",
+      "SPT",
+      "LPT",
+      "SRT",
+      "LRT",
+      "SDT",
+      "SRWT",
+      "MMUR",
+      "SMPT",
+      "SRTT",
+      "MAUR",
+      "RL"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "Synthetic",
@@ -2220,12 +2515,19 @@
     "bibtexKey": "Zhang2024ExpertGuided",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Flexible Job-Shop Scheduling",
     "technologies": [
-      "RL"
+      "ML"
     ],
     "methods": [
-      "GNN"
+      "GNN",
+      "MDP",
+      "FIFO",
+      "SPT",
+      "MOR",
+      "MWKR",
+      "RL"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "Synthetic",
@@ -2242,15 +2544,17 @@
     "bibtexKey": "Lei2024LargeScale",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Flexible Job-Shop Scheduling",
     "technologies": [
-      "RL"
+      "ML"
     ],
     "methods": [
       "GNN",
       "MDP",
       "MLP",
-      "Optimisation"
+      "MAS",
+      "RL"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "Synthetic",
@@ -2267,13 +2571,18 @@
     "bibtexKey": "Zhang2023Dynamic",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Dynamic Flexible Job-Shop Scheduling",
     "technologies": [
       "AGV/AMR",
-      "RL"
+      "ML"
     ],
     "methods": [
-      "GNN"
+      "GNN",
+      "Graph embidding",
+      "MDP",
+      "PPO",
+      "RL"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "Synthetic+industrial data+Benchmark (HAM,2020 based on HUdata (Hurink,) flexible job shop (sdata, edata, rdata, vdata with 3 layouts))",
@@ -2290,13 +2599,16 @@
     "bibtexKey": "Huang2023A",
     "manufacturingLevel": "L3",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Distributed Job-Shop Scheduling",
     "technologies": [
-      "RL"
+      "ML"
     ],
     "methods": [
       "DQN",
-      "MDP"
+      "MDP",
+      "RL",
+      "MAS"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "Synthetic+industrial data",
@@ -2313,11 +2625,16 @@
     "bibtexKey": "Xu2023Multiobjective",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Flexible Job-Shop Scheduling",
     "technologies": [
-      "AGV/AMR"
+      "AGV/AMR",
+      "metaheuristic"
     ],
-    "methods": [],
+    "methods": [
+      "MMIP",
+      "costum NSGA-II heuristic (EHA)"
+    ],
     "evaluationSetting": "static evaluation",
     "dataSource": "synthetic based on Expanded_benchmark instances Mk01-Mk15 from Braindimarte",
     "country": "China",
@@ -2333,12 +2650,17 @@
     "bibtexKey": "Song2023Flexible",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Flexible Job-Shop Scheduling",
     "technologies": [
-      "RL"
+      "ML"
     ],
     "methods": [
-      "GNN"
+      "GNN",
+      "MDP",
+      "PPO",
+      "MLP",
+      "RL"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "Synthetic+Benchmark data (Braindimarte mk01-mk10 and Hurink la instances (rdata, edata, and vdata)).",
@@ -2355,10 +2677,14 @@
     "bibtexKey": "Zhou2024Practical",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Flexible Job-Shop Scheduling",
-    "technologies": [],
+    "technologies": [
+      "metaheuristic"
+    ],
     "methods": [
-      "Genetic Algorithm"
+      "Genetic Algorithm",
+      "rule based?"
     ],
     "evaluationSetting": "static evaluation",
     "dataSource": "industrial data",
@@ -2375,14 +2701,17 @@
     "bibtexKey": "Ding2025Deep",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Flexible Job-Shop Scheduling",
     "technologies": [
-      "RL",
+      "ML",
       "IoT"
     ],
     "methods": [
       "DQN",
-      "Optimisation"
+      "fluid model",
+      "DES",
+      "RL"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "indutrial data+Synethic+benchmark fattahi.",
@@ -2399,14 +2728,16 @@
     "bibtexKey": "Zhang2025Optimization",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Flexible Job-Shop Scheduling",
     "technologies": [
-      "RL"
+      "ML"
     ],
     "methods": [
-      "Feature Extraction",
-      "Optimisation",
-      "Policy Gradient"
+      "PPO",
+      "MDP",
+      "Masking",
+      "RL"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "Synthetic+Benchmark dataset. (Brandimarte [40], Dauzère [41], Taillard [42], Demirkol [43], and Lawrence [44])",
@@ -2423,14 +2754,13 @@
     "bibtexKey": "Lee2025Cognitive",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": null,
     "technologies": [
-      "DT"
+      "DT",
+      "AGV/AMR"
     ],
-    "methods": [
-      "Optimisation",
-      "Simulation"
-    ],
+    "methods": [],
     "evaluationSetting": "lab case study",
     "dataSource": "lab data",
     "country": "USA",
@@ -2446,12 +2776,17 @@
     "bibtexKey": "Zhong2025Flexible",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Flexible Job-Shop Scheduling",
     "technologies": [
-      "RL"
+      "ML"
     ],
     "methods": [
-      "Feature Extraction"
+      "GNN",
+      "MDP",
+      "DBSCAN",
+      "MLP",
+      "RL"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "Synthetic+benchmark datasets (Dauzere, Brandimarte, Hurink)",
@@ -2468,15 +2803,17 @@
     "bibtexKey": "Sherwin2025A",
     "manufacturingLevel": "L3",
     "dssFocus": "Risk Supplier Assessment",
+    "dssFocusGrouped": "Logistics & supply chain",
     "jobShopVariation": null,
     "technologies": [
-      "ML"
+      "Classic ML"
     ],
     "methods": [
       "Ensemble Methods",
-      "Logistic Regression",
-      "Random Forest",
-      "SVM"
+      "Gradient Boosting",
+      "SMOTE",
+      "Randomized Search",
+      "5-fold cross-validation"
     ],
     "evaluationSetting": "static evaluation",
     "dataSource": "industrial data",
@@ -2493,12 +2830,18 @@
     "bibtexKey": "Li2025Energyaware",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Flexible Job-Shop Scheduling",
     "technologies": [
-      "RL"
+      "ML",
+      "Cloud computing",
+      "Edge computing"
     ],
     "methods": [
-      "DQN"
+      "DQN",
+      "MDP",
+      "composite rules",
+      "RL"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "industrial data",
@@ -2515,11 +2858,14 @@
     "bibtexKey": "Rubel2025AgentBased",
     "manufacturingLevel": "L2",
     "dssFocus": "Fault Detection",
+    "dssFocusGrouped": "Forecasting & prediction",
     "jobShopVariation": null,
     "technologies": [
       "CPS"
     ],
-    "methods": [],
+    "methods": [
+      "MAS"
+    ],
     "evaluationSetting": "Other",
     "dataSource": "lab data",
     "country": "Germany",
@@ -2535,13 +2881,15 @@
     "bibtexKey": "Tsao2020Energyefficient",
     "manufacturingLevel": "L0",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": null,
-    "technologies": [],
+    "technologies": [
+      "Metaheuristic"
+    ],
     "methods": [
       "Genetic Algorithm",
       "Fuzzy Logic",
-      "MILP",
-      "Solver"
+      "MILP"
     ],
     "evaluationSetting": "static evaluation",
     "dataSource": "synthetic",
@@ -2558,10 +2906,14 @@
     "bibtexKey": "Lee2020Idle",
     "manufacturingLevel": "L0",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": null,
-    "technologies": [],
+    "technologies": [
+      "Heuristic"
+    ],
     "methods": [
-      "MINLP"
+      "MINLP",
+      "costume heuristic"
     ],
     "evaluationSetting": "static evaluation",
     "dataSource": "synthetic",
@@ -2578,13 +2930,13 @@
     "bibtexKey": "Golpira2020Smart",
     "manufacturingLevel": "L3",
     "dssFocus": "Scheduling",
-    "jobShopVariation": null,
-    "technologies": [
-      "Other"
-    ],
+    "dssFocusGrouped": "Scheduling",
+    "jobShopVariation": "Job-Shop Scheduling",
+    "technologies": [],
     "methods": [
       "MILP",
-      "Solver"
+      "conditional value at risk (CVaR)",
+      "robust optimization"
     ],
     "evaluationSetting": "static evaluation",
     "dataSource": "synthetic",
@@ -2601,13 +2953,14 @@
     "bibtexKey": "Wu2023Energyefficient",
     "manufacturingLevel": "L0",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": null,
-    "technologies": [],
+    "technologies": [
+      "Heuristic"
+    ],
     "methods": [
       "MILP",
-      "Heuristic",
-      "Tabu Search",
-      "Solver"
+      "Tabu Search"
     ],
     "evaluationSetting": "static evaluation",
     "dataSource": "synthetic+industrial data",
@@ -2624,12 +2977,16 @@
     "bibtexKey": "Xue2025Multiobjective",
     "manufacturingLevel": "L0",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": null,
-    "technologies": [],
+    "technologies": [
+      "Metaheuristic"
+    ],
     "methods": [
-      "Metaheuristic",
-      "Metric",
-      "Solver"
+      "Multi-objective Artificial Bee Colony (MABC)",
+      "Hypervolume indicator",
+      "Local Integer Programming",
+      "Heuristic neighbourhood search"
     ],
     "evaluationSetting": "static evaluation",
     "dataSource": "synthetic+industrial data",
@@ -2646,14 +3003,16 @@
     "bibtexKey": "Bittencourt2025Simheuristic",
     "manufacturingLevel": "L0",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": null,
-    "technologies": [],
+    "technologies": [
+      "Metaheuristic"
+    ],
     "methods": [
       "Simulated Annealing",
       "GRASP",
       "Monte Carlo Simulation",
-      "MILP",
-      "Solver"
+      "MILP"
     ],
     "evaluationSetting": "static evaluation",
     "dataSource": "synthetic+industrial data",
@@ -2670,11 +3029,14 @@
     "bibtexKey": "Che2016Efficient",
     "manufacturingLevel": "L0",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": null,
-    "technologies": [],
+    "technologies": [
+      "heuristic"
+    ],
     "methods": [
       "MILP",
-      "Solver"
+      "Greedy priority rule"
     ],
     "evaluationSetting": "static evaluation",
     "dataSource": "synthetic+industrial data",
@@ -2691,14 +3053,19 @@
     "bibtexKey": "Li2024Unleashing",
     "manufacturingLevel": "L0",
     "dssFocus": "Human-Robot Collaboration",
+    "dssFocusGrouped": "Human-robot collaboration",
     "jobShopVariation": null,
     "technologies": [
-      "HRC",
-      "RL",
-      "Robotics"
+      "ML",
+      "Robot",
+      "MR-HMD"
     ],
     "methods": [
-      "Simulation"
+      "Simulation",
+      "SAC (soft A2C)",
+      "MDP",
+      "IK",
+      "RL"
     ],
     "evaluationSetting": "lab case study",
     "dataSource": "synthetic+lab data",
@@ -2715,10 +3082,10 @@
     "bibtexKey": "ZhangSprenger2024RTMN",
     "manufacturingLevel": "L0",
     "dssFocus": "Human-Robot Collaboration",
+    "dssFocusGrouped": "Human-robot collaboration",
     "jobShopVariation": null,
     "technologies": [
-      "HRC",
-      "Robotics"
+      "Robot"
     ],
     "methods": [],
     "evaluationSetting": "Other",
@@ -2736,13 +3103,12 @@
     "bibtexKey": "Yu2024Design",
     "manufacturingLevel": "L0",
     "dssFocus": "Process Monitoring",
+    "dssFocusGrouped": "Forecasting & prediction",
     "jobShopVariation": null,
     "technologies": [
       "DT"
     ],
-    "methods": [
-      "Optimisation"
-    ],
+    "methods": [],
     "evaluationSetting": "simulation",
     "dataSource": "industrial data+synthetic",
     "country": "China",
@@ -2758,11 +3124,15 @@
     "bibtexKey": "Hoebert2023Knowledgedriven",
     "manufacturingLevel": "L0",
     "dssFocus": "Production Setup",
+    "dssFocusGrouped": "Plant layout & reconfiguration",
     "jobShopVariation": null,
     "technologies": [
-      "Robotics"
+      "Robot",
+      "camera"
     ],
-    "methods": [],
+    "methods": [
+      "ontology"
+    ],
     "evaluationSetting": "lab case study",
     "dataSource": "lab data",
     "country": "Austria",
@@ -2778,13 +3148,17 @@
     "bibtexKey": "Devanga2022Applied",
     "manufacturingLevel": "L0",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Job-Shop Scheduling",
     "technologies": [
-      "Robotics",
-      "RL"
+      "ML",
+      "Simio simulation"
     ],
     "methods": [
-      "DES"
+      "DES",
+      "DQN",
+      "MDP",
+      "RL"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "synthetic",
@@ -2801,9 +3175,11 @@
     "bibtexKey": "Tanane2022Toward",
     "manufacturingLevel": "L0",
     "dssFocus": "Defect Prevenetion",
+    "dssFocusGrouped": "Forecasting & prediction",
     "jobShopVariation": null,
     "technologies": [
-      "IoT"
+      "IoT",
+      "CPS"
     ],
     "methods": [],
     "evaluationSetting": "lab case study",
@@ -2821,13 +3197,15 @@
     "bibtexKey": "Rubaiee2019An",
     "manufacturingLevel": "L0",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": null,
     "technologies": [
-      "IoT"
+      "Metaheuristic"
     ],
     "methods": [
       "Genetic Algorithm",
-      "Optimisation"
+      "MIP",
+      "WSM"
     ],
     "evaluationSetting": "static evaluation",
     "dataSource": "industrial data",
@@ -2844,16 +3222,19 @@
     "bibtexKey": "Tian2024Balancing",
     "manufacturingLevel": "L1",
     "dssFocus": "Human-Robot Collaboration",
+    "dssFocusGrouped": "Human-robot collaboration",
     "jobShopVariation": null,
     "technologies": [
-      "HRC",
-      "Robotics",
-      "RL"
+      "Robot",
+      "ML",
+      "Metaheuristic"
     ],
     "methods": [
-      "Evolutionary Algorithm",
-      "Metaheuristic",
-      "Q-Learning"
+      "Co-Evolutionary Algorithm",
+      "MILP",
+      "MDP",
+      "Q-learning",
+      "RL"
     ],
     "evaluationSetting": "static evaluation",
     "dataSource": "litterature data+benchmark data scholl ALBP",
@@ -2870,13 +3251,15 @@
     "bibtexKey": "Mahmoodi2024Datadriven",
     "manufacturingLevel": "L1",
     "dssFocus": "Operator Allocation",
+    "dssFocusGrouped": "Forecasting & prediction",
     "jobShopVariation": null,
     "technologies": [
-      "ML"
+      "FACTs Analyzer simulation",
+      "metaheuristic"
     ],
     "methods": [
-      "Optimisation",
-      "Simulation"
+      "costume NSGA-ll",
+      "meta-learning"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "Industrial data",
@@ -2893,15 +3276,16 @@
     "bibtexKey": "Kim2024Deep",
     "manufacturingLevel": "L1",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": null,
     "technologies": [
-      "Robotics",
-      "RL"
+      "Robot",
+      "ML"
     ],
     "methods": [
-      "Search Algorithm",
-      "Reinforcement Learning",
-      "DQN"
+      "LAS",
+      "DQN",
+      "RL"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "synthetic",
@@ -2918,11 +3302,12 @@
     "bibtexKey": "Slot2023Versatile",
     "manufacturingLevel": "L0",
     "dssFocus": "Dashboard Perspectives",
+    "dssFocusGrouped": "Visualization & simulation",
     "jobShopVariation": null,
     "technologies": [
       "DT",
       "IoT",
-      "Robotics",
+      "Robot",
       "OPC UA"
     ],
     "methods": [],
@@ -2941,13 +3326,14 @@
     "bibtexKey": "Du2022Production",
     "manufacturingLevel": "L1",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": null,
     "technologies": [
-      "IoT",
-      "Robotics"
+      "Robot",
+      "metahueristic"
     ],
     "methods": [
-      "Optimisation"
+      "QFA"
     ],
     "evaluationSetting": "static evaluation",
     "dataSource": "synthetic",
@@ -2964,12 +3350,14 @@
     "bibtexKey": "Senington2021Monte",
     "manufacturingLevel": "L1",
     "dssFocus": "Human-Robot Collaboration",
+    "dssFocusGrouped": "Human-robot collaboration",
     "jobShopVariation": null,
     "technologies": [
-      "HRC"
+      "Robot",
+      "AGV/AMR"
     ],
     "methods": [
-      "Simulation",
+      "simulation",
       "MCTS"
     ],
     "evaluationSetting": "lab case study",
@@ -2987,15 +3375,16 @@
     "bibtexKey": "Zhang2025Multiagent",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Distributed Flexible Job-Shop Scheduling",
     "technologies": [
-      "IoT",
-      "RL"
+      "ML"
     ],
     "methods": [
       "DQN",
       "MDP",
-      "MARL"
+      "RL",
+      "MAS"
     ],
     "evaluationSetting": "static evaluation",
     "dataSource": "synthetic based on extended_benchmark dataset of (lei Lei01-Lei05 link1 and link2, Reman Remai01-Reman08, and Li FMK01-FMK10)",
@@ -3012,15 +3401,18 @@
     "bibtexKey": "Yan2025Deep",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Dynamic Flexible Job-Shop Scheduling",
     "technologies": [
-      "RL"
+      "ML"
     ],
     "methods": [
-      "Actor-Critic",
+      "A2C",
       "DQN",
       "MDP",
-      "Optimisation"
+      "MILP",
+      "MDP",
+      "RL"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "synthetic",
@@ -3037,14 +3429,16 @@
     "bibtexKey": "Zhang2025Integrated",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
-    "jobShopVariation": null,
+    "dssFocusGrouped": "Scheduling",
+    "jobShopVariation": "Distributed Flowshop",
     "technologies": [
-      "ML",
-      "RL"
+      "ML"
     ],
     "methods": [
-      "Federated Learning",
-      "GNN"
+      "GNN",
+      "DQN",
+      "MDP",
+      "RL"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "synthetic",
@@ -3061,13 +3455,16 @@
     "bibtexKey": "Lyu2025Pathfinder",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": null,
     "technologies": [
-      "Robotics",
-      "RL"
+      "Robot",
+      "ML"
     ],
     "methods": [
-      "Reinforcement Learning"
+      "DQN",
+      "MDP",
+      "RL"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "benchmark (ft06, ft10 (Fisher); orb1–orb5 (Applegate & Cook); la11–la30 (Lawrence); abz5, abz7–abz9 (Adams, Balas & Zawack); ta61–ta63, ta71–ta72 (Taillard))",
@@ -3084,14 +3481,17 @@
     "bibtexKey": "Yang2025Evolutionary",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Flexible Job-Shop Scheduling",
     "technologies": [
-      "RL"
+      "ML"
     ],
     "methods": [
       "GNN",
-      "Optimisation",
-      "Policy Gradient"
+      "Policy Gradient",
+      "MDP",
+      "ES",
+      "RL"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "synthetic",
@@ -3108,11 +3508,14 @@
     "bibtexKey": "Ghaleb2021Realtime",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Flexible Job-Shop Scheduling",
-    "technologies": [],
+    "technologies": [
+      "Metaheuristic"
+    ],
     "methods": [
-      "Genetic Algorithm",
-      "Optimisation"
+      "HGA",
+      "Markov chains"
     ],
     "evaluationSetting": "static evaluation",
     "dataSource": "synthetic based on extended_benchmark fattahi",
@@ -3129,13 +3532,14 @@
     "bibtexKey": "Mao2025Job",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
-    "jobShopVariation": null,
+    "dssFocusGrouped": "Scheduling",
+    "jobShopVariation": "Job-Shop Scheduling",
     "technologies": [
-      "Communication"
+      "metahueristic"
     ],
     "methods": [
-      "Mathematical Programming",
-      "MILP"
+      "MILP",
+      "SA"
     ],
     "evaluationSetting": "static evaluation",
     "dataSource": "synthetic",
@@ -3152,13 +3556,20 @@
     "bibtexKey": "Mahmoodi2025Predictive",
     "manufacturingLevel": "L1",
     "dssFocus": "Plant Layout",
+    "dssFocusGrouped": "Plant layout & reconfiguration",
     "jobShopVariation": null,
     "technologies": [
-      "ML"
+      "ML",
+      "AGV/AMR",
+      "metaheuristic"
     ],
     "methods": [
       "DES",
-      "Multi-Objective Optimisation"
+      "costume NSGA-ll",
+      "random forest regressor",
+      "VNS",
+      "LLML",
+      "DL"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "synthetic+industrial data",
@@ -3175,10 +3586,9 @@
     "bibtexKey": "Fang2020The",
     "manufacturingLevel": "L2",
     "dssFocus": "Data Collection and Visualization",
+    "dssFocusGrouped": "Visualization & simulation",
     "jobShopVariation": null,
-    "technologies": [
-      "IoT"
-    ],
+    "technologies": [],
     "methods": [],
     "evaluationSetting": "lab case study",
     "dataSource": "lab data",
@@ -3195,14 +3605,16 @@
     "bibtexKey": "Han2020Research",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Adaptive Job-Shop Scheduling",
     "technologies": [
-      "RL"
+      "ML"
     ],
     "methods": [
       "CNN",
-      "GNN",
-      "DQN"
+      "MDP",
+      "DQN",
+      "RL"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "synthetic+benchmark data ft (Fisher and Thompson), abz (Adam, Balas and Zawack), la Lawrence, orb (Applegate and Cook), yn (Yamada and Nakano), swv (Storer, Wu and Vaccari), ta Taillard and dmu (Demirkol, Metha and Uzsoy).",
@@ -3219,15 +3631,14 @@
     "bibtexKey": "Baltazar2020Prescriptive",
     "manufacturingLevel": "L2",
     "dssFocus": "Reconfigurarbility",
+    "dssFocusGrouped": "Plant layout & reconfiguration",
     "jobShopVariation": null,
     "technologies": [
-      "AI",
-      "IoT"
+      "RMS",
+      "metaheuristic"
     ],
     "methods": [
-      "Genetic Algorithm",
-      "Optimisation",
-      "Simulation"
+      "GA"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "synthetic",
@@ -3244,13 +3655,14 @@
     "bibtexKey": "Burggrf2020Performance",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": null,
     "technologies": [
-      "AI",
-      "RL"
+      "ML"
     ],
     "methods": [
-      "Optimisation"
+      "MDP",
+      "RL"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "synthetic",
@@ -3267,12 +3679,13 @@
     "bibtexKey": "Peng2020The",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Flexible Job-Shop Scheduling",
-    "technologies": [],
+    "technologies": [
+      "metaheuristic"
+    ],
     "methods": [
-      "Data Mining",
-      "Decision Tree",
-      "Optimisation"
+      "Artificial fish swarm"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "industrial data+synthetic",
@@ -3289,13 +3702,14 @@
     "bibtexKey": "Bemthuis2019An",
     "manufacturingLevel": "L2",
     "dssFocus": "Logistics",
+    "dssFocusGrouped": "Logistics & supply chain",
     "jobShopVariation": null,
     "technologies": [
-      "AGV/AMR",
-      "IoT"
+      "AGV/AMR"
     ],
     "methods": [
-      "Data Mining"
+      "Data Mining",
+      "MAS"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "synthetic+industrial data",
@@ -3312,12 +3726,14 @@
     "bibtexKey": "Zhai2019Formulation",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Maintenance-Integrated Job-Shop Scheduling",
-    "technologies": [],
+    "technologies": [
+      "Metaheuristic"
+    ],
     "methods": [
-      "Predictive Maintenance",
-      "Genetic Algorithm",
-      "Optimisation"
+      "GA",
+      "SA"
     ],
     "evaluationSetting": "static evaluation",
     "dataSource": "Benchmark data Fisher",
@@ -3334,13 +3750,15 @@
     "bibtexKey": "MndezHernndez2019A",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Job-Shop Scheduling",
     "technologies": [
-      "RL"
+      "ML"
     ],
     "methods": [
-      "MARL",
-      "Optimisation"
+      "Pareto",
+      "RL",
+      "MAS"
     ],
     "evaluationSetting": "static evaluation",
     "dataSource": "Benchmark data benchmark data ft (Fisher and Thompson), abz (Adam, Balas and Zawack), la Lawrence, orb (Applegate and Cook).",
@@ -3357,12 +3775,14 @@
     "bibtexKey": "Kuhnle2019Design",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": null,
     "technologies": [
-      "RL"
+      "ML"
     ],
     "methods": [
-      "Reinforcement Learning"
+      "ANN",
+      "RL"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "synthetic+industrial data",
@@ -3379,12 +3799,14 @@
     "bibtexKey": "Gdri2019Data",
     "manufacturingLevel": "L2",
     "dssFocus": "Demand Forecasting",
+    "dssFocusGrouped": "Forecasting & prediction",
     "jobShopVariation": null,
     "technologies": [
-      "ML"
+      "classic ML"
     ],
     "methods": [
-      "Simulation"
+      "DES",
+      "k-means"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "industrial data",
@@ -3401,13 +3823,14 @@
     "bibtexKey": "Leusin2018Solving",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Job-Shop Scheduling",
     "technologies": [
-      "CPS",
-      "IoT"
+      "heuristic"
     ],
     "methods": [
-      "Simulation"
+      "MAS",
+      "heuristic"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "industrial data",
@@ -3424,11 +3847,9 @@
     "bibtexKey": "Yang2022Research",
     "manufacturingLevel": "L2",
     "dssFocus": "Data Collection and Visualization",
+    "dssFocusGrouped": "Visualization & simulation",
     "jobShopVariation": null,
-    "technologies": [
-      "AI",
-      "IoT"
-    ],
+    "technologies": [],
     "methods": [],
     "evaluationSetting": "simulation",
     "dataSource": "industrial data",
@@ -3445,16 +3866,16 @@
     "bibtexKey": "Hu2025Graphbased",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Dynamic Flexible Job-Shop Scheduling",
     "technologies": [
-      "RL"
+      "ML"
     ],
     "methods": [
-      "Feature Extraction",
       "GNN",
       "MDP",
-      "Optimisation",
-      "PPO"
+      "PPO",
+      "RL"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "industrial data+ synthetic based on benchmark data Brandimarte",
@@ -3471,13 +3892,16 @@
     "bibtexKey": "Hua2025Solving",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Job-Shop Scheduling",
     "technologies": [
-      "RL"
+      "ML"
     ],
     "methods": [
-      "Optimisation",
-      "PPO"
+      "GNN",
+      "PPO",
+      "MDP",
+      "RL"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "benchmark data taillard, dmu (Demirkol, Metha and Uzsoy), la, ft, abz, orb, swv",
@@ -3494,11 +3918,16 @@
     "bibtexKey": "Lee2025A",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Job-Shop Scheduling",
     "technologies": [
+      "ML"
+    ],
+    "methods": [
+      "MDP",
+      "CNN",
       "RL"
     ],
-    "methods": [],
     "evaluationSetting": "simulation",
     "dataSource": "synthetic",
     "country": "South Korea",
@@ -3514,13 +3943,16 @@
     "bibtexKey": "Echeverria2025Diverse",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Flexible Job-Shop Scheduling",
     "technologies": [
-      "RL"
+      "ML"
     ],
     "methods": [
       "GNN",
-      "MDP"
+      "MDP",
+      "PPO",
+      "RL"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "benchmark data Behnke and vdata Hurink",
@@ -3537,12 +3969,11 @@
     "bibtexKey": "Elbasheer2024Leveraging",
     "manufacturingLevel": "L2",
     "dssFocus": "Simulation Generation",
+    "dssFocusGrouped": "Visualization & simulation",
     "jobShopVariation": null,
-    "technologies": [
-      "AI"
-    ],
+    "technologies": [],
     "methods": [
-      "Simulation"
+      "DES"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "synthetic",
@@ -3559,15 +3990,13 @@
     "bibtexKey": "Rema2025Exploring",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Job-Shop Scheduling",
     "technologies": [
-      "AI",
-      "AGV/AMR",
-      "Robotics"
+      "LLM",
+      "AGV/AMR"
     ],
-    "methods": [
-      "Optimisation"
-    ],
+    "methods": [],
     "evaluationSetting": "static evaluation",
     "dataSource": "synthetic",
     "country": "Portugal",
@@ -3583,11 +4012,16 @@
     "bibtexKey": "Zhou2025A",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": null,
     "technologies": [
-      "AGV/AMR"
+      "AGV/AMR",
+      "metaheuristic"
     ],
-    "methods": [],
+    "methods": [
+      "MILP",
+      "SA"
+    ],
     "evaluationSetting": "static evaluation",
     "dataSource": "synthetic+benchmark data Boccia",
     "country": "China",
@@ -3603,12 +4037,14 @@
     "bibtexKey": "Zhang2024Ab",
     "manufacturingLevel": "L3",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": null,
     "technologies": [
-      "RL"
+      "ML"
     ],
     "methods": [
-      "DQN"
+      "DQN",
+      "RL"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "synthetic",
@@ -3625,12 +4061,16 @@
     "bibtexKey": "Yang2024Learning",
     "manufacturingLevel": "L3",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": null,
     "technologies": [
-      "RL"
+      "ML",
+      "RMS"
     ],
     "methods": [
-      "DQN"
+      "DQN",
+      "MILP",
+      "RL"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "synthetic",
@@ -3647,13 +4087,15 @@
     "bibtexKey": "PatalasMaliszewska2025AIDriven",
     "manufacturingLevel": "L3",
     "dssFocus": "Customization Level Prediction",
+    "dssFocusGrouped": "Forecasting & prediction",
     "jobShopVariation": null,
     "technologies": [
       "ML"
     ],
     "methods": [
       "Clustering",
-      "ANN"
+      "ANN",
+      "DL"
     ],
     "evaluationSetting": "static evaluation",
     "dataSource": "industrial data",
@@ -3670,13 +4112,16 @@
     "bibtexKey": "Yan2025Ab",
     "manufacturingLevel": "L3",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Distributed Flexible Job-Shop Scheduling",
     "technologies": [
-      "RL"
+      "metaheuristic"
     ],
     "methods": [
-      "Evolutionary Algorithm",
-      "Optimisation"
+      "EA",
+      "heuristics",
+      "MILP",
+      "RL"
     ],
     "evaluationSetting": "static evaluation",
     "dataSource": "synthetic+extended_benchmark data mk Brandimarte, DP01-10 Dauzere",
@@ -3693,14 +4138,15 @@
     "bibtexKey": "Kozjek2018Big",
     "manufacturingLevel": "L3",
     "dssFocus": "Demand Forecasting",
+    "dssFocusGrouped": "Forecasting & prediction",
     "jobShopVariation": null,
     "technologies": [
-      "ML"
+      "Classic ML"
     ],
     "methods": [
-      "Data Mining",
-      "Forecasting",
-      "Simulation"
+      "Heuristics",
+      "simulation",
+      "random-forrest"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "industrial data",
@@ -3717,11 +4163,10 @@
     "bibtexKey": "Ling2024Manufacturing",
     "manufacturingLevel": "L2",
     "dssFocus": "Logistics",
+    "dssFocusGrouped": "Logistics & supply chain",
     "jobShopVariation": null,
     "technologies": [],
-    "methods": [
-      "Optimisation"
-    ],
+    "methods": [],
     "evaluationSetting": "simulation",
     "dataSource": "Industrial data",
     "country": "China",
@@ -3737,11 +4182,16 @@
     "bibtexKey": "Senoner2023Addressing",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": null,
     "technologies": [
       "ML"
     ],
-    "methods": [],
+    "methods": [
+      "GAN",
+      "MILP",
+      "DL"
+    ],
     "evaluationSetting": "static evaluation",
     "dataSource": "industrial data+synthetic",
     "country": "Norway",
@@ -3757,12 +4207,15 @@
     "bibtexKey": "Zhang2025Trusted",
     "manufacturingLevel": "L3",
     "dssFocus": "Logistics",
+    "dssFocusGrouped": "Logistics & supply chain",
     "jobShopVariation": null,
     "technologies": [
       "DT",
       "Blockchain"
     ],
-    "methods": [],
+    "methods": [
+      "Simulation"
+    ],
     "evaluationSetting": "simulation",
     "dataSource": "industrial data",
     "country": "China",
@@ -3778,12 +4231,17 @@
     "bibtexKey": "Zhang2025Digital",
     "manufacturingLevel": "L3",
     "dssFocus": "Logistics",
+    "dssFocusGrouped": "Logistics & supply chain",
     "jobShopVariation": null,
     "technologies": [
-      "DT"
+      "DT",
+      "Heuristic"
     ],
-    "methods": [],
-    "evaluationSetting": "industrial setting",
+    "methods": [
+      "Heuristics",
+      "simulation"
+    ],
+    "evaluationSetting": "industrial case study",
     "dataSource": "industrial data",
     "country": "China",
     "industry": "None",
@@ -3798,11 +4256,14 @@
     "bibtexKey": "Zhang2025Digitala",
     "manufacturingLevel": "L3",
     "dssFocus": "Logistics",
+    "dssFocusGrouped": "Logistics & supply chain",
     "jobShopVariation": null,
     "technologies": [
       "DT"
     ],
-    "methods": [],
+    "methods": [
+      "GA"
+    ],
     "evaluationSetting": "static evaluation",
     "dataSource": "industrial data+synthetic",
     "country": "China",
@@ -3818,12 +4279,16 @@
     "bibtexKey": "Zhou2022Reinforcement",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Job-Shop Scheduling",
     "technologies": [
-      "RL"
+      "ML",
+      "AGV/AMR"
     ],
     "methods": [
-      "Optimisation"
+      "MDP",
+      "DQN",
+      "RL"
     ],
     "evaluationSetting": "lab case study",
     "dataSource": "lab data",
@@ -3840,14 +4305,14 @@
     "bibtexKey": "Zhai2022Predictive",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Flexible Job-Shop Scheduling",
     "technologies": [
-      "DL"
+      "metaheuristic"
     ],
     "methods": [
-      "Predictive Maintenance",
-      "Genetic Algorithm",
-      "Metaheuristic"
+      "GA",
+      "simulation"
     ],
     "evaluationSetting": "static evaluation",
     "dataSource": "benchmark mk (Brandimarte)+industrial data+synthetic",
@@ -3864,14 +4329,15 @@
     "bibtexKey": "Modesti2024Artificial",
     "manufacturingLevel": "L2",
     "dssFocus": "Lead Time Prediction",
+    "dssFocusGrouped": "Forecasting & prediction",
     "jobShopVariation": null,
     "technologies": [
-      "AI",
       "ML"
     ],
     "methods": [
+      "DL",
       "ANN",
-      "Forecasting"
+      "MLP"
     ],
     "evaluationSetting": "static evaluation",
     "dataSource": "industrial data",
@@ -3888,14 +4354,18 @@
     "bibtexKey": "Wang2024Unified",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Flexible Job-Shop Scheduling",
     "technologies": [
       "AGV/AMR",
-      "RL"
+      "ML"
     ],
     "methods": [
-      "Optimisation",
-      "PPO"
+      "PPO",
+      "GNN",
+      "Attention mechanism",
+      "MDP",
+      "RL"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "synthetic+benchmark data (Which is not indicated)",
@@ -3912,14 +4382,17 @@
     "bibtexKey": "Elsayed2021Deep",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Flexible Job-Shop Scheduling",
     "technologies": [
-      "RL"
+      "ML"
     ],
     "methods": [
-      "Actor-Critic",
+      "RL",
+      "A2C",
       "CNN",
-      "LSTM"
+      "LSTM",
+      "MDP"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "synthetic+benchmark data Demirkol",
@@ -3936,14 +4409,15 @@
     "bibtexKey": "Yan2021Autonomous",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Flexible Job-Shop Scheduling",
     "technologies": [
       "AGV/AMR",
-      "DL",
-      "RL"
+      "ML"
     ],
     "methods": [
-      "DQN"
+      "DQN",
+      "RL"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "benchmark kacem",
@@ -3960,12 +4434,13 @@
     "bibtexKey": "Antons2024Designing",
     "manufacturingLevel": "L2",
     "dssFocus": "Logistics",
+    "dssFocusGrouped": "Logistics & supply chain",
     "jobShopVariation": null,
-    "technologies": [
-      "CPS"
-    ],
+    "technologies": [],
     "methods": [
-      "DES"
+      "DES",
+      "MILP",
+      "MAS"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "synthetic",
@@ -3982,12 +4457,16 @@
     "bibtexKey": "Liu2023A",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Dynamic Job-Shop Scheduling",
     "technologies": [
-      "RL"
+      "ML"
     ],
     "methods": [
-      "Simulation"
+      "Simulation",
+      "MDP",
+      "RL",
+      "MAS"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "synthetic",
@@ -4004,14 +4483,12 @@
     "bibtexKey": "Skr2023Optimization",
     "manufacturingLevel": "L2",
     "dssFocus": "Production Optimization",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": null,
     "technologies": [
-      "IoT",
-      "Sensors"
+      "Blockchain"
     ],
-    "methods": [
-      "Optimisation"
-    ],
+    "methods": [],
     "evaluationSetting": "static evaluation",
     "dataSource": "industrial data",
     "country": "Lithuania",
@@ -4027,14 +4504,16 @@
     "bibtexKey": "Bubak2025An",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": null,
     "technologies": [
-      "DL"
+      "ML",
+      "metaheuristic"
     ],
     "methods": [
-      "Genetic Algorithm",
+      "DL",
+      "GA",
       "LSTM",
-      "RNN",
       "Tabu Search"
     ],
     "evaluationSetting": "simulation",
@@ -4052,16 +4531,16 @@
     "bibtexKey": "Ouahabi2025Dynamic",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Flexible Job-Shop Scheduling",
     "technologies": [
       "DT",
-      "RL"
+      "ML"
     ],
     "methods": [
-      "Hierarchical RL",
       "DQN",
-      "Constraint Programming",
-      "Dispatching Rules"
+      "MDP",
+      "RL"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "synthetic",
@@ -4078,15 +4557,14 @@
     "bibtexKey": "Lee2025Ab",
     "manufacturingLevel": "L2",
     "dssFocus": "Plant Layout",
+    "dssFocusGrouped": "Plant layout & reconfiguration",
     "jobShopVariation": null,
     "technologies": [
       "DT"
     ],
     "methods": [
-      "Simulation-Optimisation",
-      "Surrogate Model",
-      "Genetic Algorithm",
-      "MCDM"
+      "GA",
+      "Simulation"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "industrial data+synthetic+expert knowledge",
@@ -4103,14 +4581,15 @@
     "bibtexKey": "Ma2025Research",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Flexible Job-Shop Scheduling",
     "technologies": [
-      "AGV/AMR"
+      "AGV/AMR",
+      "metaheuristic"
     ],
     "methods": [
-      "Multi-Objective Optimisation",
-      "NSGA-II",
-      "Genetic Algorithm"
+      "Pareto",
+      "NSGA-II"
     ],
     "evaluationSetting": "static evaluation",
     "dataSource": "industrial data",
@@ -4127,15 +4606,16 @@
     "bibtexKey": "Li2025Ab",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Flexible Job-Shop Scheduling",
     "technologies": [
-      "RL",
-      "CPS"
+      "ML"
     ],
     "methods": [
-      "Attention Mechanism",
-      "State-Space Model",
-      "PPO"
+      "DAN",
+      "PPO",
+      "MDP",
+      "RL"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "synthetic+benchmark data mk Brandimarte and hurink rdata,vdata,edata",
@@ -4152,12 +4632,14 @@
     "bibtexKey": "Flyckt2025Navigating",
     "manufacturingLevel": "L3",
     "dssFocus": "Demand Forecasting",
+    "dssFocusGrouped": "Forecasting & prediction",
     "jobShopVariation": null,
     "technologies": [
-      "DL"
+      "Classic ML"
     ],
     "methods": [
-      "Forecasting"
+      "TSB",
+      "Prophet"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "industrial data+synthetic",
@@ -4174,13 +4656,17 @@
     "bibtexKey": "Yi2025Dynamic",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Dynamic Flexible Job-Shop Scheduling",
     "technologies": [
-      "RL"
+      "ML"
     ],
     "methods": [
       "DQN",
-      "Dispatching Rules"
+      "Dispatching Rules",
+      "PPO",
+      "MDP",
+      "RL"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "synthetic",
@@ -4197,13 +4683,17 @@
     "bibtexKey": "Zeng2025PermutationInvariant",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Dynamic Flexible Job-Shop Scheduling",
     "technologies": [
-      "IoT",
+      "ML"
+    ],
+    "methods": [
+      "GNN",
+      "MDP",
       "RL",
       "MAS"
     ],
-    "methods": [],
     "evaluationSetting": "simulation",
     "dataSource": "synthetic",
     "country": "China",
@@ -4219,13 +4709,16 @@
     "bibtexKey": "Wang2025MultiObjective",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Flexible Assembly Job-Shop Scheduling",
     "technologies": [
-      "RL",
-      "MAS"
+      "ML"
     ],
     "methods": [
-      "Game Theory"
+      "Pareto",
+      "MDP",
+      "RL",
+      "MAS"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "benchmark mk Brandimarte+synthetic+industrial data",
@@ -4242,13 +4735,16 @@
     "bibtexKey": "Zhong2025Solving",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Flexible Job-Shop Scheduling",
     "technologies": [
-      "RL",
-      "HRC"
+      "ML"
     ],
     "methods": [
-      "GNN"
+      "RL",
+      "GNN",
+      "attention mechanism",
+      "MDP"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "synthetic",
@@ -4265,13 +4761,13 @@
     "bibtexKey": "Salatiello2024Longsighted",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": null,
     "technologies": [
-      "MES"
+      "Heuristic"
     ],
     "methods": [
-      "Dispatching Rules",
-      "Heuristic"
+      "Dispatching Rules"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "synthetic",
@@ -4288,14 +4784,15 @@
     "bibtexKey": "Zhang2025Innovative",
     "manufacturingLevel": "L1",
     "dssFocus": "Human-Robot Collaboration",
+    "dssFocusGrouped": "Human-robot collaboration",
     "jobShopVariation": "No (assembly Line Balancing Problem)",
     "technologies": [
-      "HRC"
+      "Robot",
+      "FMS",
+      "Metaheuristic"
     ],
     "methods": [
-      "Heuristic",
-      "Metaheuristic",
-      "Simulated Annealing"
+      "SA"
     ],
     "evaluationSetting": "static evaluation",
     "dataSource": "industrial+synthetic",
@@ -4312,15 +4809,17 @@
     "bibtexKey": "Choi2025Deep",
     "manufacturingLevel": "L1",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": null,
     "technologies": [
-      "RL"
+      "ML"
     ],
     "methods": [
       "DQN",
-      "MARL",
       "DES",
-      "Simulation"
+      "PPO",
+      "RL",
+      "MAS"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "synthetic",
@@ -4337,12 +4836,15 @@
     "bibtexKey": "Lan2026Knowledge",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": null,
     "technologies": [
-      "RL"
+      "ML"
     ],
     "methods": [
-      "PPO"
+      "RL",
+      "PPO",
+      "MDP"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "synthetic",
@@ -4359,12 +4861,13 @@
     "bibtexKey": "Yepes-borrero2026Unrelated",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "No (unrelated Parallel Machine Scheduling Problem)",
-    "technologies": [],
+    "technologies": [
+      "Metaheuristic"
+    ],
     "methods": [
-      "GRASP",
-      "Metaheuristic",
-      "Optimisation"
+      "costume metaheuristic"
     ],
     "evaluationSetting": "static evaluation",
     "dataSource": "synthetic based on_benchmark Taillard (1993), Vallada and Ruiz (2011), Báez et al. (2019), Berthier et\nal. (2022), Fanjul-Peyró et al. (2019)",
@@ -4381,10 +4884,10 @@
     "bibtexKey": "Kim2025Framework",
     "manufacturingLevel": "L2",
     "dssFocus": "Simulation Generation",
+    "dssFocusGrouped": "Visualization & simulation",
     "jobShopVariation": null,
     "technologies": [
-      "Robotics",
-      "Sensors"
+      "CAD"
     ],
     "methods": [
       "Simulation"
@@ -4404,11 +4907,13 @@
     "bibtexKey": "Hou2025Learningbased",
     "manufacturingLevel": "L2",
     "dssFocus": "Production Optimization",
+    "dssFocusGrouped": "Forecasting & prediction",
     "jobShopVariation": "No (sequence Planning Problem)",
     "technologies": [
-      "RL"
+      "ML"
     ],
     "methods": [
+      "RL",
       "Neural Combinatorial Optimisation"
     ],
     "evaluationSetting": "lab case study",
@@ -4426,12 +4931,14 @@
     "bibtexKey": "Cen2025Dual",
     "manufacturingLevel": "L2",
     "dssFocus": "Bottleneck Prediction",
+    "dssFocusGrouped": "Forecasting & prediction",
     "jobShopVariation": null,
     "technologies": [
-      "DL"
+      "ML"
     ],
     "methods": [
-      "Neural Network"
+      "DL",
+      "GRU"
     ],
     "evaluationSetting": "static evaluation",
     "dataSource": "synthetic",
@@ -4448,12 +4955,14 @@
     "bibtexKey": "Fu2025Hybrid",
     "manufacturingLevel": "L1",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": null,
-    "technologies": [],
-    "methods": [
-      "Genetic Algorithm",
-      "MCTS",
+    "technologies": [
       "Metaheuristic"
+    ],
+    "methods": [
+      "GA",
+      "MCTS"
     ],
     "evaluationSetting": "static evaluation",
     "dataSource": "industrial data",
@@ -4470,11 +4979,13 @@
     "bibtexKey": "Wang2025Collaborative",
     "manufacturingLevel": "L3",
     "dssFocus": "Combined Design And Production Optimization",
+    "dssFocusGrouped": "Plant layout & reconfiguration",
     "jobShopVariation": null,
-    "technologies": [],
+    "technologies": [
+      "metaheuristic"
+    ],
     "methods": [
-      "Genetic Algorithm",
-      "Metaheuristic"
+      "GA"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "synthetic",
@@ -4491,14 +5002,16 @@
     "bibtexKey": "Afari2025Datadriven",
     "manufacturingLevel": "L3",
     "dssFocus": "Plant Layout",
+    "dssFocusGrouped": "Plant layout & reconfiguration",
     "jobShopVariation": null,
     "technologies": [
-      "MAS"
+      "RMS",
+      "Metaheuristic"
     ],
     "methods": [
       "MILP",
-      "Mathematical Programming",
-      "Metaheuristic"
+      "simulation",
+      "SA"
     ],
     "evaluationSetting": "static evaluation",
     "dataSource": "industrial data+synthetic",
@@ -4515,14 +5028,11 @@
     "bibtexKey": "Vacchi2025Black",
     "manufacturingLevel": "L3",
     "dssFocus": "Supply Chain",
+    "dssFocusGrouped": "Logistics & supply chain",
     "jobShopVariation": null,
-    "technologies": [
-      "ERP",
-      "SCADA",
-      "KPI systems"
-    ],
+    "technologies": [],
     "methods": [],
-    "evaluationSetting": "industrial setting",
+    "evaluationSetting": "industrial case study",
     "dataSource": "industrial data",
     "country": "Italy",
     "industry": "Ceramic tile",
@@ -4537,12 +5047,17 @@
     "bibtexKey": "Li2025Generative",
     "manufacturingLevel": "L2",
     "dssFocus": "Demand Forecasting",
+    "dssFocusGrouped": "Forecasting & prediction",
     "jobShopVariation": null,
     "technologies": [
-      "DL"
+      "FMS",
+      "AGV/AMR",
+      "ML"
     ],
     "methods": [
-      "GNN"
+      "DL",
+      "GNN",
+      "Diffusion"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "synthetic",
@@ -4559,13 +5074,16 @@
     "bibtexKey": "Urrea2025Hybrid",
     "manufacturingLevel": "L1",
     "dssFocus": "Human-Robot Collaboration",
+    "dssFocusGrouped": "Human-robot collaboration",
     "jobShopVariation": null,
     "technologies": [
-      "DL"
+      "ML"
     ],
     "methods": [
       "DQN",
-      "CNN"
+      "CNN",
+      "PPO",
+      "RL"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "synthetic",
@@ -4580,18 +5098,18 @@
     "year": 2025,
     "doi": "https://doi.org/10.1016/j.aei.2025.103216",
     "bibtexKey": "Li2025Realtime",
-    "manufacturingLevel": "L3",
+    "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Jssp (kinda, Same Math But Quite Different Case, I Will Still Count It As Jssp)",
     "technologies": [
       "AGV/AMR",
-      "IoT",
-      "Edge Computing",
-      "Cloud",
-      "RL"
+      "ML"
     ],
     "methods": [
-      "MARL"
+      "MAPPO",
+      "MAS",
+      "RL"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "synthetic+ industrial data",
@@ -4608,14 +5126,16 @@
     "bibtexKey": "Zheng2025Dynamic",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
+    "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Dynamic Flexible Jssp",
     "technologies": [
       "RMS",
-      "RL"
+      "ML"
     ],
     "methods": [
+      "RL",
       "DQN",
-      "Dispatching Rules"
+      "MDP"
     ],
     "evaluationSetting": "simulation",
     "dataSource": "synthetic",
@@ -4632,14 +5152,13 @@
     "bibtexKey": "Gong2023Collaborative",
     "manufacturingLevel": "L3",
     "dssFocus": "Manufacturing Service Selection",
+    "dssFocusGrouped": "Logistics & supply chain",
     "jobShopVariation": null,
     "technologies": [
-      "ML"
+      "Classic ML"
     ],
     "methods": [
-      "Decision Tree",
-      "Fuzzy Methods",
-      "Uncertainty Modelling"
+      "Decision Tree"
     ],
     "evaluationSetting": "static evaluation",
     "dataSource": "synthetic",
@@ -4656,12 +5175,12 @@
     "bibtexKey": "Cimino2024Enhancing",
     "manufacturingLevel": "L3",
     "dssFocus": "Production Planning",
+    "dssFocusGrouped": "Logistics & supply chain",
     "jobShopVariation": null,
     "technologies": [
       "DT"
     ],
     "methods": [
-      "Simulation",
       "DES"
     ],
     "evaluationSetting": "simulation",

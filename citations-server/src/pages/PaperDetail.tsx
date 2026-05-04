@@ -2,6 +2,7 @@ import { useMemo } from "react";
 import { useParams, useNavigate, Link } from "react-router-dom";
 import type { Paper } from "../types";
 import { Breadcrumb } from "../components/Breadcrumb";
+import { getDSSFocusGroup } from "../utils/groupings";
 
 function Field({ label, value }: { label: string; value: string | null | undefined }) {
   if (!value) return null;
@@ -45,6 +46,8 @@ export function PaperDetail({ papers }: { papers: Paper[] }) {
     );
   }
 
+  const dssFocusGroup = paper.dssFocusGrouped || getDSSFocusGroup(paper.dssFocus);
+
   return (
     <div className="page">
       <Breadcrumb
@@ -55,8 +58,8 @@ export function PaperDetail({ papers }: { papers: Paper[] }) {
             to: `/level/${encodeURIComponent(paper.manufacturingLevel)}`,
           },
           {
-            label: paper.dssFocus,
-            to: `/level/${encodeURIComponent(paper.manufacturingLevel)}/focus/${encodeURIComponent(paper.dssFocus)}`,
+            label: dssFocusGroup,
+            to: `/level/${encodeURIComponent(paper.manufacturingLevel)}/focus/${encodeURIComponent(dssFocusGroup)}`,
           },
           { label: "Paper" },
         ]}
@@ -67,6 +70,7 @@ export function PaperDetail({ papers }: { papers: Paper[] }) {
       <dl className="detail-grid">
         <Field label="Year" value={String(paper.year)} />
         <Field label="Manufacturing Level" value={paper.manufacturingLevel} />
+        <Field label="DSS Focus Group" value={dssFocusGroup} />
         <Field label="DSS Focus" value={paper.dssFocus} />
         <Field label="Job-Shop Variation" value={paper.jobShopVariation} />
         <Field label="Country" value={paper.country} />
@@ -101,9 +105,11 @@ export function PaperDetail({ papers }: { papers: Paper[] }) {
 
 function RelatedPapers({ paper, allPapers }: { paper: Paper; allPapers: Paper[] }) {
   const related = useMemo(() => {
+    const paperDSSFocusGroup = paper.dssFocusGrouped || getDSSFocusGroup(paper.dssFocus);
     const scored = allPapers
       .filter((p) => p.id !== paper.id)
       .map((p) => {
+        const dssFocusGroup = p.dssFocusGrouped || getDSSFocusGroup(p.dssFocus);
         let score = 0;
         // Shared technologies
         for (const t of p.technologies) {
@@ -113,8 +119,8 @@ function RelatedPapers({ paper, allPapers }: { paper: Paper; allPapers: Paper[] 
         for (const m of p.methods) {
           if (paper.methods.includes(m)) score += 1;
         }
-        // Same DSS focus
-        if (p.dssFocus === paper.dssFocus) score += 3;
+        // Same DSS focus group
+        if (dssFocusGroup === paperDSSFocusGroup) score += 3;
         // Same level
         if (p.manufacturingLevel === paper.manufacturingLevel) score += 1;
         return { paper: p, score };
@@ -135,7 +141,7 @@ function RelatedPapers({ paper, allPapers }: { paper: Paper; allPapers: Paper[] 
           <li key={p.id}>
             <Link to={`/paper/${p.id}`}>{p.title}</Link>
             <span className="related-meta">
-              {p.year} · {p.manufacturingLevel} · {p.dssFocus}
+              {p.year} · {p.manufacturingLevel} · {p.dssFocusGrouped || getDSSFocusGroup(p.dssFocus)}
             </span>
           </li>
         ))}

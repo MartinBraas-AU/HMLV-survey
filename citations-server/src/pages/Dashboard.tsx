@@ -9,7 +9,8 @@ import type { Paper } from "../types";
 import { Breadcrumb } from "../components/Breadcrumb";
 import {
   countBy, countMulti,
-  getDSSFocusGroup, getIndustryGroup,
+  getDSSFocusGroup,
+  getIndustryGroup,
   normalizeDataSource,
 } from "../utils/groupings";
 
@@ -101,7 +102,7 @@ export function Dashboard({ papers }: { papers: Paper[] }) {
   );
 
   const dssFocusData = useMemo(
-    () => countBy(papers, (p) => getDSSFocusGroup(p.dssFocus)),
+    () => countBy(papers, (p) => p.dssFocusGrouped || getDSSFocusGroup(p.dssFocus)),
     [papers]
   );
 
@@ -397,4 +398,3 @@ function WordCloud({ data, onWordClick }: { data: { name: string; count: number 
     </div>
   );
 }
-

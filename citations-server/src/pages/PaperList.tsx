@@ -4,6 +4,7 @@ import type { Paper } from "../types";
 import { Breadcrumb } from "../components/Breadcrumb";
 import { FilterBar } from "../components/FilterBar";
 import { useFilteredPapers } from "../hooks/useFilteredPapers";
+import { getDSSFocusGroup } from "../utils/groupings";
 
 type SortKey = "title" | "year" | "country" | "technologies" | "methods";
 type SortDir = "asc" | "desc";
@@ -99,7 +100,9 @@ export function PaperList({ papers }: { papers: Paper[] }) {
   const preFiltered = useMemo(() => {
     let result = papers;
     if (!isAllLevel) result = result.filter((p) => p.manufacturingLevel === level);
-    if (!isAllFocus) result = result.filter((p) => p.dssFocus === focus);
+    if (!isAllFocus) {
+      result = result.filter((p) => (p.dssFocusGrouped || getDSSFocusGroup(p.dssFocus)) === focus);
+    }
     return result;
   }, [papers, level, focus, isAllLevel, isAllFocus]);
 

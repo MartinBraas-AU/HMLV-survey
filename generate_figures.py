@@ -19,13 +19,11 @@ import textwrap
 from pathlib import Path
 
 import pandas as pd
-import geopandas as gpd
 import matplotlib
 
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 import matplotlib.ticker as mticker
-import matplotlib.colors as mcolors
 
 # ================================================================
 # CONFIG
@@ -35,6 +33,21 @@ OUTPUT_DIR = Path(sys.argv[2]) if len(sys.argv) > 2 else Path("figures")
 SHEET_NAME = "Cleaned Master sheet"
 DPI = 300
 FIG_FORMAT = "pdf"  # Change to "png" if needed
+DSS_FOCUS_GROUPED_COLUMNS = (
+    "DSS focus (grouped)",
+    "DSS focus (broard groups)",
+    "DSS focus (broad groups)",
+)
+DSS_FOCUS_GROUP_NORMALIZE = {
+    "scheduling": "Scheduling",
+    "forecasting & prediction": "Forecasting & prediction",
+    "plant layout & reconfiguration": "Plant layout & reconfiguration",
+    "logistics & supply chain": "Logistics & supply chain",
+    "visualization & simulation": "Visualization & simulation",
+    "human-robot collaboration": "Human-robot collaboration",
+    "quality & maintenance": "Quality & maintenance",
+    "other": "Other",
+}
 
 # Publication-friendly style
 plt.rcParams.update(
@@ -500,13 +513,21 @@ def load_data(path=EXCEL_PATH, sheet=SHEET_NAME):
         lambda x: JOBSHOP_MAP.get(x, "Other") if pd.notna(x) else x
     )
 
-    # High-level groupings for Industry and DSS focus
+    # High-level groupings for Industry and DSS focus.
+    # Prefer the curated workbook column when present; fall back to the local
+    # mapping so older workbook versions remain reproducible.
     df["Industry (grouped)"] = df["Industry"].map(
         lambda x: INDUSTRY_GROUP_MAP.get(x, "Other") if pd.notna(x) else x
     )
-    df["DSS focus (grouped)"] = df["DSS focus"].map(
-        lambda x: DSS_FOCUS_GROUP_MAP.get(x, "Other") if pd.notna(x) else x
-    )
+    dss_group_col = next((col for col in DSS_FOCUS_GROUPED_COLUMNS if col in df.columns), None)
+    if dss_group_col:
+        df["DSS focus (grouped)"] = df[dss_group_col].astype("string").str.strip()
+        df["DSS focus (grouped)"] = df["DSS focus (grouped)"].replace("", pd.NA)
+        df["DSS focus (grouped)"] = df["DSS focus (grouped)"].map(normalize_dss_focus_group)
+    else:
+        df["DSS focus (grouped)"] = df["DSS focus"].map(
+            lambda x: DSS_FOCUS_GROUP_MAP.get(x, "Other") if pd.notna(x) else x
+        )
 
     print(f"Loaded {len(df)} papers from '{sheet}'")
     return df
@@ -550,6 +571,7 @@ def save_fig(fig, name):
     fig.savefig(path, format=FIG_FORMAT)
     plt.close(fig)
     print(f"  Saved: {path}")
+    return path
 
 
 def bar_counts(series, ax, color=COLORS["primary"], horizontal=False, top_n=None):
@@ -573,38 +595,84 @@ def wrap_labels(labels, width=18):
     return [textwrap.fill(str(l), width) for l in labels]
 
 
+def normalize_dss_focus_group(value):
+    if pd.isna(value):
+        return value
+    value = str(value).strip()
+    return DSS_FOCUS_GROUP_NORMALIZE.get(value.lower(), value)
+
+
 # ================================================================
 # FIGURE FUNCTIONS
 # ================================================================
 
 
 def fig_publication_timeline(df):
-    """Fig 1: Publication count per year."""
+    """Fig 1: Publication count per year, stacked by manufacturing level."""
     fig, ax = plt.subplots(figsize=(7, 3.5))
+
     years = df["Year"].dropna().astype(int)
     year_range = range(years.min(), years.max() + 1)
-    counts = years.value_counts().reindex(year_range, fill_value=0).sort_index()
+    level_col = "Manufacturing level (L0,L1,L2,L3/L4)"
 
-    bars = ax.bar(
-        counts.index.astype(str),
-        counts.values,
-        color=COLORS["primary"],
-        edgecolor="white",
-        linewidth=0.5,
+    tmp = df[["Year", level_col]].dropna(subset=["Year", level_col]).copy()
+    tmp["Year"] = tmp["Year"].astype(int)
+    tmp["_level"] = (
+        tmp[level_col]
+        .astype("string")
+        .str.strip()
+        .replace({"L3/L4": "L3", "L4": "L3"})
     )
-    for bar, cnt in zip(bars, counts.values):
-        if cnt > 0:
-            ax.text(
-                bar.get_x() + bar.get_width() / 2,
-                cnt + 0.5,
-                str(cnt),
-                ha="center",
-                fontsize=9,
-            )
 
+    by_year_level = tmp.groupby(["Year", "_level"]).size().unstack(fill_value=0)
+    by_year_level = by_year_level.reindex(list(year_range), fill_value=0)
+    by_year_level = by_year_level.reindex(columns=["L0", "L1", "L2", "L3"], fill_value=0)
+    by_year_level = by_year_level.loc[by_year_level.sum(axis=1) > 0]
+
+    x = range(len(by_year_level.index))
+    bottoms = [0] * len(by_year_level.index)
+    level_colors = {
+        "L0": PALETTE[0],
+        "L1": PALETTE[3],
+        "L2": PALETTE[4],
+        "L3": PALETTE[1],
+    }
+    hatches = {"L0": "", "L1": "", "L2": "///", "L3": ""}
+
+    with plt.rc_context({"hatch.linewidth": 0.1}):
+        for level in ["L0", "L1", "L2", "L3"]:
+            values = by_year_level[level].to_numpy()
+            bars = ax.bar(
+                x,
+                values,
+                bottom=bottoms,
+                color=level_colors[level],
+                edgecolor="white",
+                linewidth=0.6,
+                label=level,
+            )
+            for bar in bars:
+                bar.set_hatch(hatches[level])
+                bar.set_edgecolor(COLORS["primary"])
+                bar.set_linewidth(0)
+            bottoms = [bottom + value for bottom, value in zip(bottoms, values)]
+
+    for xi, total in zip(x, bottoms):
+        if total > 0:
+            ax.text(xi, total + 0.3, str(int(total)), ha="center", va="bottom", fontsize=8)
+
+    ax.set_xticks(list(x))
+    ax.set_xticklabels(by_year_level.index.astype(int))
     ax.set_xlabel("Publication year")
     ax.set_ylabel("Number of papers")
-    # ax.set_title("Distribution of publications by year")
+    ax.grid(axis="y", linestyle=":", alpha=0.5)
+    ax.set_axisbelow(True)
+    ax.legend(
+        title="Manufacturing level",
+        bbox_to_anchor=(1.02, 1),
+        loc="upper left",
+        frameon=False,
+    )
     ax.yaxis.set_major_locator(mticker.MaxNLocator(integer=True))
     fig.tight_layout()
     save_fig(fig, "01_publication_timeline")
@@ -1212,10 +1280,16 @@ def fig_dss_by_mfg_level(df):
 # MAIN
 # ================================================================
 def main():
+    global OUTPUT_DIR
+
     import argparse
+
     parser = argparse.ArgumentParser()
     parser.add_argument("excel", nargs="?", default=EXCEL_PATH)
+    parser.add_argument("output_dir", nargs="?", default=OUTPUT_DIR)
     args = parser.parse_args()
+
+    OUTPUT_DIR = Path(args.output_dir)
 
     print(f"Reading: {args.excel}")
     print(f"Output:  {OUTPUT_DIR}/")
@@ -1224,24 +1298,12 @@ def main():
     df = load_data(path=args.excel)
     print(f"\nGenerating figures...\n")
 
-    fig_publication_timeline(df)
-    fig_manufacturing_level(df)
-    fig_country_distribution(df)
-    fig_country_choropleth(df)
-    fig_technology_landscape(df)
-    fig_methods_landscape(df)
-    fig_methods_tech_wordcloud(df)
-    fig_dss_focus(df)
-    fig_jobshop_variants(df)
-    fig_evaluation_setting(df)
-    fig_data_source(df)
-    fig_snowball(df)
-    fig_industry(df)
-    fig_tech_by_year(df)
-    fig_tech_by_mfg_level(df)
-    fig_dss_by_mfg_level(df)
+    generated = [
+        fig_publication_timeline(df),
+        fig_dss_focus(df),
+    ]
 
-    print(f"\nDone! {len(list(OUTPUT_DIR.glob(f'*.{FIG_FORMAT}')))} figures generated.")
+    print(f"\nDone! {len(generated)} figures generated.")
 
 
 if __name__ == "__main__":
