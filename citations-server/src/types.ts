@@ -11,7 +11,7 @@ export interface Paper {
   technologies: string[];
   methods: string[];
   evaluationSetting: string;
-  dataSource: string;
+  dataSource: string[];
   country: string;
   industry: string;
   metrics: string;

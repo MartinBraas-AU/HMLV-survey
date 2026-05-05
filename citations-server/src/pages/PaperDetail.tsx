@@ -78,7 +78,7 @@ export function PaperDetail({ papers }: { papers: Paper[] }) {
         <ListField label="Technologies" items={paper.technologies} />
         <ListField label="Methods" items={paper.methods} />
         <Field label="Evaluation Setting" value={paper.evaluationSetting} />
-        <Field label="Data Source" value={paper.dataSource} />
+        <Field label="Data Source" value={paper.dataSource.join(" + ")} />
         <Field label="Metrics" value={paper.metrics} />
         <Field label="BibTeX Key" value={paper.bibtexKey} />
         {paper.doi && (

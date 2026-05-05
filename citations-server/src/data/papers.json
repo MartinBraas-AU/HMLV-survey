@@ -19,7 +19,9 @@
       "OO"
     ],
     "evaluationSetting": "static evaluation",
-    "dataSource": "Industrial data",
+    "dataSource": [
+      "Industrial data"
+    ],
     "country": "Netherlands",
     "industry": "Semiconductor",
     "metrics": "makespan minisation",
@@ -40,7 +42,9 @@
     ],
     "methods": [],
     "evaluationSetting": "industrial case study",
-    "dataSource": "Industrial data",
+    "dataSource": [
+      "Industrial data"
+    ],
     "country": "Netherlands",
     "industry": "Metal & machining",
     "metrics": "Tardiness",
@@ -63,7 +67,9 @@
       "Random Forest"
     ],
     "evaluationSetting": "static evaluation",
-    "dataSource": "synthetic",
+    "dataSource": [
+      "synthetic"
+    ],
     "country": "France",
     "industry": "Not specified",
     "metrics": "Makespan minimisation",
@@ -89,7 +95,10 @@
       "dynamic programming"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "synthetic+industrial data",
+    "dataSource": [
+      "synthetic",
+      "industrial data"
+    ],
     "country": "South Korea",
     "industry": "Automotive",
     "metrics": "Makespan minimisation",
@@ -115,7 +124,9 @@
       "RL"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "benchmark data (ft06, ft10 (Fisher);  (Applegate & Cook); (Lawrence))",
+    "dataSource": [
+      "benchmark data (ft06, ft10 (Fisher);  (Applegate & Cook); (Lawrence))"
+    ],
     "country": "Egypt",
     "industry": "Not specified",
     "metrics": "Makespan minimisation",
@@ -139,7 +150,9 @@
       "RL"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "Synthetic",
+    "dataSource": [
+      "Synthetic"
+    ],
     "country": "Germany",
     "industry": "Not specified",
     "metrics": "Machine utilisation",
@@ -165,7 +178,9 @@
       "RL"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "synthetic",
+    "dataSource": [
+      "synthetic"
+    ],
     "country": "China",
     "industry": "Not specified",
     "metrics": "Tardiness",
@@ -191,7 +206,9 @@
       "EDD"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "synthetic",
+    "dataSource": [
+      "synthetic"
+    ],
     "country": "China",
     "industry": "Semiconductor",
     "metrics": "Machine utilisation",
@@ -218,7 +235,9 @@
       "RL"
     ],
     "evaluationSetting": "lab case study",
-    "dataSource": "lab data",
+    "dataSource": [
+      "lab data"
+    ],
     "country": "China",
     "industry": "Not specified",
     "metrics": "Makespan minimisation",
@@ -242,7 +261,9 @@
       "Discovered dispatching rules"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "synthetic",
+    "dataSource": [
+      "synthetic"
+    ],
     "country": "China",
     "industry": "Not specified",
     "metrics": "Makespan & Tardiness",
@@ -266,7 +287,10 @@
       "Evolutionary Game"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "synthetic+industrial data",
+    "dataSource": [
+      "synthetic",
+      "industrial data"
+    ],
     "country": "China",
     "industry": "Automotive",
     "metrics": "Makespan",
@@ -295,7 +319,9 @@
       "systems engineering"
     ],
     "evaluationSetting": "lab case study",
-    "dataSource": "lab data",
+    "dataSource": [
+      "lab data"
+    ],
     "country": "China",
     "industry": "Food packaging",
     "metrics": "N/A",
@@ -319,7 +345,10 @@
       "heuristic"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "industrial data+synthetic",
+    "dataSource": [
+      "industrial data",
+      "synthetic"
+    ],
     "country": "Italy",
     "industry": "Metal & machining",
     "metrics": "N/A",
@@ -345,7 +374,9 @@
       "RL"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "lab data",
+    "dataSource": [
+      "lab data"
+    ],
     "country": "China",
     "industry": "Not specified",
     "metrics": "Makespan minimisation",
@@ -365,14 +396,16 @@
       "DT",
       "CPS",
       "OPC UA",
-      "Simulation software"
+      "Simulation"
     ],
     "methods": [
       "systems engineering",
       "UML modeling"
     ],
     "evaluationSetting": "lab case study",
-    "dataSource": "lab data",
+    "dataSource": [
+      "lab data"
+    ],
     "country": "Germany",
     "industry": "Not specified",
     "metrics": "Makespan minimsation",
@@ -391,13 +424,15 @@
     "technologies": [
       "DT",
       "CPS",
-      "Simulation software"
+      "Simulation"
     ],
     "methods": [
       "Heuristic"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "synthetic",
+    "dataSource": [
+      "synthetic"
+    ],
     "country": "China",
     "industry": "Not specified",
     "metrics": "Makespan minimisation?",
@@ -427,7 +462,10 @@
       "costume scheduling method"
     ],
     "evaluationSetting": "lab case study",
-    "dataSource": "lab data+industrial data",
+    "dataSource": [
+      "lab data",
+      "industrial data"
+    ],
     "country": "Portugal",
     "industry": "Pharmaceutical",
     "metrics": "Robustness --> delay rate, machine utilization rate, number of used machine, mean total waiting time (TWT)",
@@ -457,7 +495,9 @@
       "DL"
     ],
     "evaluationSetting": "static evaluation",
-    "dataSource": "Industrial data",
+    "dataSource": [
+      "Industrial data"
+    ],
     "country": "Germany",
     "industry": "Metal & machining",
     "metrics": "Energy Efficiency",
@@ -484,7 +524,10 @@
       "RL"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "synthetic+benchmark data  Barnes, Brandimarte, Dauzere, and Hurink (edata, rdata, vdata)",
+    "dataSource": [
+      "synthetic",
+      "benchmark data  Barnes, Brandimarte, Dauzere, and Hurink (edata, rdata, vdata)"
+    ],
     "country": "China",
     "industry": "Not specified",
     "metrics": "Makespan minimisation",
@@ -506,7 +549,9 @@
     ],
     "methods": [],
     "evaluationSetting": "simulation",
-    "dataSource": "synthetic",
+    "dataSource": [
+      "synthetic"
+    ],
     "country": "China",
     "industry": "Cylinder production",
     "metrics": "Makespan minimisation / Machine utilisation",
@@ -531,7 +576,10 @@
       "DL"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "industrial data+synthetic",
+    "dataSource": [
+      "industrial data",
+      "synthetic"
+    ],
     "country": "China",
     "industry": "Not specified",
     "metrics": "Robustness --> machine learning metrics: Confusion matrix, Accuracy, Precision, Recall, ROC curve, AUC",
@@ -556,7 +604,10 @@
       "RL"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "synthetic+benchmark data (Not typically used).",
+    "dataSource": [
+      "synthetic",
+      "benchmark data (Not typically used)."
+    ],
     "country": "China",
     "industry": "Not specified",
     "metrics": "Makespan",
@@ -582,7 +633,10 @@
       "RL"
     ],
     "evaluationSetting": "static evaluation",
-    "dataSource": "synthetic+benchmark data taillard",
+    "dataSource": [
+      "synthetic",
+      "benchmark data taillard"
+    ],
     "country": "Germany",
     "industry": "Not specified",
     "metrics": "Makespan",
@@ -610,7 +664,10 @@
       "RL"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "synthetic+ benchmark mk (Brandimarte 1993) and la (Hurink et al. 1994)",
+    "dataSource": [
+      "synthetic",
+      "benchmark mk (Brandimarte 1993) and la (Hurink et al. 1994)"
+    ],
     "country": "China",
     "industry": "Not specified",
     "metrics": "Makespan",
@@ -636,7 +693,9 @@
       "RL"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "Synthetic",
+    "dataSource": [
+      "Synthetic"
+    ],
     "country": "China",
     "industry": "Not specified",
     "metrics": "Tardiness",
@@ -658,7 +717,9 @@
       "MIP"
     ],
     "evaluationSetting": "static evaluation",
-    "dataSource": "Synthetic",
+    "dataSource": [
+      "Synthetic"
+    ],
     "country": "South Korea",
     "industry": "Semiconductor",
     "metrics": "Makespan",
@@ -685,7 +746,10 @@
       "MAS"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "synthetic+industrial data",
+    "dataSource": [
+      "synthetic",
+      "industrial data"
+    ],
     "country": "China",
     "industry": "Automotive",
     "metrics": "Robustness --> makespan  and machine idle time (MIT)",
@@ -711,7 +775,11 @@
       "RL"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "industrial data+synthetic+benchmark data (Not typically used).",
+    "dataSource": [
+      "industrial data",
+      "synthetic",
+      "benchmark data (Not typically used)."
+    ],
     "country": "China",
     "industry": "Not specified",
     "metrics": "Makespan",
@@ -735,7 +803,10 @@
       "GA"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "synthetic+industrial data (survey)",
+    "dataSource": [
+      "synthetic",
+      "industrial data (survey)"
+    ],
     "country": "Hungary",
     "industry": "Not specified",
     "metrics": "Makespan",
@@ -759,7 +830,9 @@
       "BAS"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "synthetic",
+    "dataSource": [
+      "synthetic"
+    ],
     "country": "Colombia",
     "industry": "Not specified",
     "metrics": "Robustness --> Relative Peformance Difference (RPD) + stability metric",
@@ -784,7 +857,9 @@
       "RL"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "synthetic",
+    "dataSource": [
+      "synthetic"
+    ],
     "country": "China",
     "industry": "Not specified",
     "metrics": "robustness --> costs (maintenance, inspection, buffer penalties) and performance indcators Machine reliability + product quality (probability of producing defective items)",
@@ -809,7 +884,9 @@
       "ASMG"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "synthetic",
+    "dataSource": [
+      "synthetic"
+    ],
     "country": "Italy",
     "industry": "Not specified",
     "metrics": "Machine utilisation",
@@ -833,7 +910,9 @@
       "IVTFN"
     ],
     "evaluationSetting": "static evaluation",
-    "dataSource": "industrial data",
+    "dataSource": [
+      "industrial data"
+    ],
     "country": "China",
     "industry": "Not specified",
     "metrics": "Robustness (resilience)  --> MULTIMOORA score (ranking-based)",
@@ -859,7 +938,9 @@
       "DSM"
     ],
     "evaluationSetting": "static evaluation",
-    "dataSource": "synthetic",
+    "dataSource": [
+      "synthetic"
+    ],
     "country": "Australia",
     "industry": "Not specified",
     "metrics": "Makespan",
@@ -889,7 +970,9 @@
       "MAS"
     ],
     "evaluationSetting": "static evaluation",
-    "dataSource": "synthetic",
+    "dataSource": [
+      "synthetic"
+    ],
     "country": "China",
     "industry": "Precast concrete",
     "metrics": "Makespan / Energy efficiency",
@@ -913,7 +996,9 @@
       "Bloat control"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "synthetic",
+    "dataSource": [
+      "synthetic"
+    ],
     "country": "China",
     "industry": "Not specified",
     "metrics": "Robustness --> makespan, total tardiness, total reconfiguraiton time, worker load balancing, equioment load balancing",
@@ -938,7 +1023,10 @@
       "DES"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "lab data+synthetic",
+    "dataSource": [
+      "lab data",
+      "synthetic"
+    ],
     "country": "Portugal",
     "industry": "Not specified",
     "metrics": "Makespan",
@@ -964,7 +1052,10 @@
       "RL"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "synthetic+Public benchmark Brandimarte",
+    "dataSource": [
+      "synthetic",
+      "Public benchmark Brandimarte"
+    ],
     "country": "South Korea",
     "industry": "Not specified",
     "metrics": "Makespan",
@@ -988,7 +1079,10 @@
       "RL"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "synthetic+Public benchmark ft06 Fisher",
+    "dataSource": [
+      "synthetic",
+      "Public benchmark ft06 Fisher"
+    ],
     "country": "China",
     "industry": "Not specified",
     "metrics": "Makespan",
@@ -1013,7 +1107,9 @@
       "Adaptive Boosting Regressor"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "synthetic",
+    "dataSource": [
+      "synthetic"
+    ],
     "country": "Canada",
     "industry": "Semiconductor",
     "metrics": "Makespan",
@@ -1039,7 +1135,9 @@
       "RL"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "synthetic",
+    "dataSource": [
+      "synthetic"
+    ],
     "country": "China",
     "industry": "Not specified",
     "metrics": "Robustness --> Total weighted tardiness (TWT) and Machine utilization",
@@ -1065,7 +1163,9 @@
       "RL"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "synthetic",
+    "dataSource": [
+      "synthetic"
+    ],
     "country": "Canada",
     "industry": "Chemical",
     "metrics": "Makespan",
@@ -1091,7 +1191,9 @@
       "RL"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "benchmark dataset Brandimarte and Dauzere",
+    "dataSource": [
+      "benchmark dataset Brandimarte and Dauzere"
+    ],
     "country": "Portugal",
     "industry": "Not specified",
     "metrics": "Makespan",
@@ -1118,7 +1220,9 @@
       "RL"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "benchmark dataset mk (Brandimarte) and Hurink (edata, rdata, vdata",
+    "dataSource": [
+      "benchmark dataset mk (Brandimarte) and Hurink (edata, rdata, vdata"
+    ],
     "country": "China",
     "industry": "Not specified",
     "metrics": "Makespan",
@@ -1142,7 +1246,9 @@
       "RL"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "synthetic",
+    "dataSource": [
+      "synthetic"
+    ],
     "country": "China",
     "industry": "Not specified",
     "metrics": "Tardiness",
@@ -1167,7 +1273,9 @@
       "RL"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "Synthetic",
+    "dataSource": [
+      "Synthetic"
+    ],
     "country": "China",
     "industry": "Not specified",
     "metrics": "Robustness --> mean Tardiness",
@@ -1194,7 +1302,10 @@
       "RL"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "synthetic+ benchmark ft Fisher, la Hurink, orb,",
+    "dataSource": [
+      "synthetic",
+      "benchmark ft Fisher, la Hurink, orb,"
+    ],
     "country": "China",
     "industry": "Not specified",
     "metrics": "Makespan",
@@ -1219,7 +1330,9 @@
       "RL"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "synthetic",
+    "dataSource": [
+      "synthetic"
+    ],
     "country": "China",
     "industry": "Semiconductor",
     "metrics": "Makespan / Tardiness",
@@ -1244,7 +1357,10 @@
       "RL"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "synthetic+benchmark dataset taillard",
+    "dataSource": [
+      "synthetic",
+      "benchmark dataset taillard"
+    ],
     "country": "Germany",
     "industry": "Not specified",
     "metrics": "Makespan",
@@ -1271,7 +1387,10 @@
       "MAS"
     ],
     "evaluationSetting": "lab case study",
-    "dataSource": "lab data+benchmark data dmu and  Brandimarte and Hurink",
+    "dataSource": [
+      "lab data",
+      "benchmark data dmu and  Brandimarte and Hurink"
+    ],
     "country": "China",
     "industry": "Packaging",
     "metrics": "Makespan",
@@ -1297,7 +1416,9 @@
       "RL"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "benchmark dataset taillard",
+    "dataSource": [
+      "benchmark dataset taillard"
+    ],
     "country": "China",
     "industry": "Not specified",
     "metrics": "Makespan",
@@ -1324,7 +1445,9 @@
       "RL"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "synthetic",
+    "dataSource": [
+      "synthetic"
+    ],
     "country": "Spain",
     "industry": "Not specified",
     "metrics": "Makespan",
@@ -1349,7 +1472,10 @@
       "RL"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "synthetic+benchmark dataset Brandimarte and Hurink",
+    "dataSource": [
+      "synthetic",
+      "benchmark dataset Brandimarte and Hurink"
+    ],
     "country": "China",
     "industry": "Not specified",
     "metrics": "Makespan",
@@ -1377,7 +1503,10 @@
       "RL"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "synthetic+benchmark dataset Deroussi and Norre and Hurink",
+    "dataSource": [
+      "synthetic",
+      "benchmark dataset Deroussi and Norre and Hurink"
+    ],
     "country": "China",
     "industry": "Not specified",
     "metrics": "Makespan",
@@ -1404,7 +1533,9 @@
       "RL"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "lab data",
+    "dataSource": [
+      "lab data"
+    ],
     "country": "USA",
     "industry": "Not specified",
     "metrics": "Robustness --> throughput, robot movement cost, permanent production loss, production count",
@@ -1429,7 +1560,9 @@
       "RL"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "synthetic",
+    "dataSource": [
+      "synthetic"
+    ],
     "country": "South Korea",
     "industry": "Semiconductor",
     "metrics": "Tardiness",
@@ -1450,7 +1583,9 @@
     ],
     "methods": [],
     "evaluationSetting": "static evaluation",
-    "dataSource": "industrial data",
+    "dataSource": [
+      "industrial data"
+    ],
     "country": "China",
     "industry": "Automotive",
     "metrics": "Tardiness(?) (Inventory and transportation cost)",
@@ -1475,7 +1610,9 @@
       "MAS"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "synthetic",
+    "dataSource": [
+      "synthetic"
+    ],
     "country": "China",
     "industry": "Aerospace",
     "metrics": "Makespan / Tardiness",
@@ -1501,7 +1638,12 @@
       "RL"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "benchmark dataset kacem + Dauzere + Brandimarte  + lab data",
+    "dataSource": [
+      "benchmark dataset kacem",
+      "Dauzere",
+      "Brandimarte",
+      "lab data"
+    ],
     "country": "China",
     "industry": "Metal & machining",
     "metrics": "Energy Efficiency / Makespan",
@@ -1524,7 +1666,9 @@
       "Ontology"
     ],
     "evaluationSetting": "lab case study",
-    "dataSource": "lab data",
+    "dataSource": [
+      "lab data"
+    ],
     "country": "Brazil",
     "industry": "Laboratory",
     "metrics": "Robustness(?) --> (quality, availability, cost, lead time)",
@@ -1548,7 +1692,9 @@
       "RL"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "synthetic",
+    "dataSource": [
+      "synthetic"
+    ],
     "country": "China",
     "industry": "Not specified",
     "metrics": "Machine utilisation",
@@ -1575,7 +1721,10 @@
       "RL"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "synthetic+benchmark dataset Brandimarte",
+    "dataSource": [
+      "synthetic",
+      "benchmark dataset Brandimarte"
+    ],
     "country": "China",
     "industry": "Aerospace",
     "metrics": "Makespan",
@@ -1599,7 +1748,9 @@
       "DL"
     ],
     "evaluationSetting": "static evaluation",
-    "dataSource": "industrial data",
+    "dataSource": [
+      "industrial data"
+    ],
     "country": "Poland",
     "industry": "Metal & machining",
     "metrics": "Robustness (Zero defects) --> ML metrics: prediction accuracy (Qc, Qd), correlation coefficient (Pearson), classification accuracy, compatibility indices (Cc, Cd)",
@@ -1623,7 +1774,9 @@
       "MAS"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "lab data",
+    "dataSource": [
+      "lab data"
+    ],
     "country": "Chile",
     "industry": "Not specified",
     "metrics": "Robustness (adaptability) --> Cycle time, Robot utilisation, production rate, assembly time, waiting time",
@@ -1648,7 +1801,9 @@
       "MILP"
     ],
     "evaluationSetting": "static evaluation",
-    "dataSource": "industrial data",
+    "dataSource": [
+      "industrial data"
+    ],
     "country": "Germany",
     "industry": "Automotive",
     "metrics": "Makespan (cycle time) / Energy efficiency",
@@ -1667,7 +1822,9 @@
     "technologies": [],
     "methods": [],
     "evaluationSetting": "simulation",
-    "dataSource": "synthetic",
+    "dataSource": [
+      "synthetic"
+    ],
     "country": "China",
     "industry": "Not specified",
     "metrics": "Robustness (resilience)  --> On-Time Delivery Rate (OTDR) of customer orders and Average Order Flow Time (AOFT)",
@@ -1691,7 +1848,9 @@
       "GA"
     ],
     "evaluationSetting": "static evaluation",
-    "dataSource": "synthetic",
+    "dataSource": [
+      "synthetic"
+    ],
     "country": "China",
     "industry": "Cylinder production",
     "metrics": "Robustness --> total travel distance, number of AGV transport failures",
@@ -1713,7 +1872,9 @@
     ],
     "methods": [],
     "evaluationSetting": "static evaluation",
-    "dataSource": "synthetic",
+    "dataSource": [
+      "synthetic"
+    ],
     "country": "Norway",
     "industry": "Not specified",
     "metrics": "Robustness --> throughput, cost profit ratio , additional profit, additional cost",
@@ -1736,7 +1897,10 @@
       "DES"
     ],
     "evaluationSetting": "industrial case study",
-    "dataSource": "Industrial data+synthetic",
+    "dataSource": [
+      "Industrial data",
+      "synthetic"
+    ],
     "country": "Estonia",
     "industry": "Food",
     "metrics": "Tardiness",
@@ -1761,7 +1925,9 @@
       "RL"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "synthetic",
+    "dataSource": [
+      "synthetic"
+    ],
     "country": "China",
     "industry": "Not specified",
     "metrics": "Tardiness",
@@ -1789,7 +1955,9 @@
       "DL"
     ],
     "evaluationSetting": "static evaluation",
-    "dataSource": "synthetic",
+    "dataSource": [
+      "synthetic"
+    ],
     "country": "Netherlands",
     "industry": "Semiconductor",
     "metrics": "Makespan",
@@ -1815,7 +1983,10 @@
       "RL"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "synthetic+ benchmark ft Fisher, Lawrence, orb,",
+    "dataSource": [
+      "synthetic",
+      "benchmark ft Fisher, Lawrence, orb,"
+    ],
     "country": "Turkey",
     "industry": "Not specified",
     "metrics": "Makespan",
@@ -1841,7 +2012,9 @@
       "RL"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "benchmark ft Fisher, Lawrence, orb,",
+    "dataSource": [
+      "benchmark ft Fisher, Lawrence, orb,"
+    ],
     "country": "Morocco",
     "industry": "Not specified",
     "metrics": "Makespan",
@@ -1876,7 +2049,9 @@
       "MAS"
     ],
     "evaluationSetting": "lab case study",
-    "dataSource": "lab data",
+    "dataSource": [
+      "lab data"
+    ],
     "country": "China",
     "industry": "Metal & machining",
     "metrics": "Tardiness, Profit, Algorithm execution time",
@@ -1905,7 +2080,9 @@
       "DL"
     ],
     "evaluationSetting": "lab case study",
-    "dataSource": "lab data",
+    "dataSource": [
+      "lab data"
+    ],
     "country": "China",
     "industry": "Not specified",
     "metrics": "N/A",
@@ -1931,7 +2108,9 @@
       "RL"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "synthetic",
+    "dataSource": [
+      "synthetic"
+    ],
     "country": "China",
     "industry": "Not specified",
     "metrics": "Tardiness cost",
@@ -1957,7 +2136,9 @@
       "MAS"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "synthetic",
+    "dataSource": [
+      "synthetic"
+    ],
     "country": "China",
     "industry": "Automotive",
     "metrics": "Makespan",
@@ -1983,7 +2164,10 @@
       "RL"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "synthetic+ benchmark mk (Brandimarte)",
+    "dataSource": [
+      "synthetic",
+      "benchmark mk (Brandimarte)"
+    ],
     "country": "China",
     "industry": "Not specified",
     "metrics": "Makespan",
@@ -2008,7 +2192,9 @@
       "MAS"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "synthetic",
+    "dataSource": [
+      "synthetic"
+    ],
     "country": "France",
     "industry": "Not specified",
     "metrics": "Maintenance criteria",
@@ -2026,14 +2212,17 @@
     "jobShopVariation": null,
     "technologies": [
       "ML",
-      "Simulation software"
+      "Plant Simulation software"
     ],
     "methods": [
       "DES",
       "k-means"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "industrial data+synthetic",
+    "dataSource": [
+      "industrial data",
+      "synthetic"
+    ],
     "country": "Hungary",
     "industry": "Pneumatic components",
     "metrics": "N/A",
@@ -2061,7 +2250,10 @@
       "RL"
     ],
     "evaluationSetting": "static evaluation",
-    "dataSource": "lab data+synthetic (unspesified benchmark_data)",
+    "dataSource": [
+      "lab data",
+      "synthetic (unspesified benchmark_data)"
+    ],
     "country": "China",
     "industry": "Not specified",
     "metrics": "Makespan + machining penalty",
@@ -2087,7 +2279,10 @@
       "RL"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "synthetic+industrial data (structurel insperied).",
+    "dataSource": [
+      "synthetic",
+      "industrial data (structurel insperied)."
+    ],
     "country": "United Kingdom",
     "industry": "Semiconductor",
     "metrics": "N/A",
@@ -2113,7 +2308,10 @@
       "RL"
     ],
     "evaluationSetting": "static evaluation",
-    "dataSource": "synthetic+industrial data (structurel insperied).",
+    "dataSource": [
+      "synthetic",
+      "industrial data (structurel insperied)."
+    ],
     "country": "China",
     "industry": "Not specified",
     "metrics": "Makespan + Energy consumption",
@@ -2141,7 +2339,11 @@
       "RL"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "synthetic+benchmark Homayouni and Fontes (Fattahi using Brandimarte + Chambers and Barnes)",
+    "dataSource": [
+      "synthetic",
+      "benchmark Homayouni and Fontes (Fattahi using Brandimarte",
+      "Chambers and Barnes)"
+    ],
     "country": "China",
     "industry": "Not specified",
     "metrics": "Makespan",
@@ -2167,7 +2369,10 @@
       "RL"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "synthetic+benchmark FT-crowston, LA, SWV",
+    "dataSource": [
+      "synthetic",
+      "benchmark FT-crowston, LA, SWV"
+    ],
     "country": "China",
     "industry": "Not specified",
     "metrics": "Delay time + Process time",
@@ -2194,7 +2399,9 @@
       "RL"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "synthetic",
+    "dataSource": [
+      "synthetic"
+    ],
     "country": "China",
     "industry": "Aerospace",
     "metrics": "Makespan + production cost",
@@ -2221,7 +2428,9 @@
       "MAS"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "synthetic",
+    "dataSource": [
+      "synthetic"
+    ],
     "country": "China",
     "industry": "Not specified",
     "metrics": "Makespan + Logistics cost",
@@ -2245,7 +2454,9 @@
       "GA"
     ],
     "evaluationSetting": "static evaluation",
-    "dataSource": "synthetic",
+    "dataSource": [
+      "synthetic"
+    ],
     "country": "China",
     "industry": "Not specified",
     "metrics": "Makespan + Tardiness",
@@ -2273,7 +2484,10 @@
       "RL"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "synthetic+benchmark Kacem",
+    "dataSource": [
+      "synthetic",
+      "benchmark Kacem"
+    ],
     "country": "China",
     "industry": "Not specified",
     "metrics": "Makespan",
@@ -2305,7 +2519,10 @@
       "Interior-point method"
     ],
     "evaluationSetting": "static evaluation",
-    "dataSource": "synthetic+industrial data (operational parameters)",
+    "dataSource": [
+      "synthetic",
+      "industrial data (operational parameters)"
+    ],
     "country": "China",
     "industry": "Chemical",
     "metrics": "Total system cost(production + distribution)",
@@ -2332,7 +2549,9 @@
       "MAS"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "Synthetic",
+    "dataSource": [
+      "Synthetic"
+    ],
     "country": "China",
     "industry": "Aerospace",
     "metrics": "Minimise makespan & Total logistics cost",
@@ -2361,7 +2580,9 @@
       "RL"
     ],
     "evaluationSetting": "static evaluation",
-    "dataSource": "Hurink J benchmark and Behnke D benchmark",
+    "dataSource": [
+      "Hurink J benchmark and Behnke D benchmark"
+    ],
     "country": "India",
     "industry": "Not specified",
     "metrics": "Machine utilisation",
@@ -2386,7 +2607,9 @@
       "ALNS"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "Synthetic",
+    "dataSource": [
+      "Synthetic"
+    ],
     "country": "China",
     "industry": "Paint",
     "metrics": "Production cost, production time, storage cost, storage time",
@@ -2412,7 +2635,9 @@
       "RL"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "Synthetic",
+    "dataSource": [
+      "Synthetic"
+    ],
     "country": "China",
     "industry": "Not specified",
     "metrics": "Makespan minimisation",
@@ -2438,7 +2663,9 @@
       "RL"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "Synthetic",
+    "dataSource": [
+      "Synthetic"
+    ],
     "country": "China",
     "industry": "Not specified",
     "metrics": "Energy efficiency",
@@ -2456,7 +2683,7 @@
     "jobShopVariation": "Job-Shop Scheduling",
     "technologies": [
       "ML",
-      "Simulation software",
+      "Plant Simulation software",
       "metaheuristic"
     ],
     "methods": [
@@ -2464,7 +2691,9 @@
       "DL"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "Synthetic",
+    "dataSource": [
+      "Synthetic"
+    ],
     "country": "Brazil",
     "industry": "Not specified",
     "metrics": "Energy efficiency",
@@ -2501,7 +2730,9 @@
       "RL"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "Synthetic",
+    "dataSource": [
+      "Synthetic"
+    ],
     "country": "China",
     "industry": "Not specified",
     "metrics": "Tardiness",
@@ -2530,7 +2761,9 @@
       "RL"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "Synthetic",
+    "dataSource": [
+      "Synthetic"
+    ],
     "country": "China",
     "industry": "Not specified",
     "metrics": "Makespan minimisation",
@@ -2557,7 +2790,9 @@
       "RL"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "Synthetic",
+    "dataSource": [
+      "Synthetic"
+    ],
     "country": "China",
     "industry": "Not specified",
     "metrics": "Makespan minimisation",
@@ -2585,7 +2820,11 @@
       "RL"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "Synthetic+industrial data+Benchmark (HAM,2020 based on HUdata (Hurink,) flexible job shop (sdata, edata, rdata, vdata with 3 layouts))",
+    "dataSource": [
+      "Synthetic",
+      "industrial data",
+      "Benchmark (HAM,2020 based on HUdata (Hurink,) flexible job shop (sdata, edata, rdata, vdata with 3 layouts))"
+    ],
     "country": "China",
     "industry": "Electronics",
     "metrics": "Makespan minimisation",
@@ -2611,7 +2850,10 @@
       "MAS"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "Synthetic+industrial data",
+    "dataSource": [
+      "Synthetic",
+      "industrial data"
+    ],
     "country": "China",
     "industry": "Automotive",
     "metrics": "Makespan minimisation",
@@ -2636,7 +2878,9 @@
       "costum NSGA-II heuristic (EHA)"
     ],
     "evaluationSetting": "static evaluation",
-    "dataSource": "synthetic based on Expanded_benchmark instances Mk01-Mk15 from Braindimarte",
+    "dataSource": [
+      "synthetic based on Expanded_benchmark instances Mk01-Mk15 from Braindimarte"
+    ],
     "country": "China",
     "industry": "Not specified",
     "metrics": "Energy efficiency",
@@ -2663,7 +2907,10 @@
       "RL"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "Synthetic+Benchmark data (Braindimarte mk01-mk10 and Hurink la instances (rdata, edata, and vdata)).",
+    "dataSource": [
+      "Synthetic",
+      "Benchmark data (Braindimarte mk01-mk10 and Hurink la instances (rdata, edata, and vdata))."
+    ],
     "country": "China",
     "industry": "Not specified",
     "metrics": "Makespan minimisation",
@@ -2687,7 +2934,9 @@
       "rule based?"
     ],
     "evaluationSetting": "static evaluation",
-    "dataSource": "industrial data",
+    "dataSource": [
+      "industrial data"
+    ],
     "country": "South Korea",
     "industry": "Metal & machining",
     "metrics": "machine utilisation",
@@ -2714,7 +2963,11 @@
       "RL"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "indutrial data+Synethic+benchmark fattahi.",
+    "dataSource": [
+      "indutrial data",
+      "Synethic",
+      "benchmark fattahi."
+    ],
     "country": "China",
     "industry": "Not specified",
     "metrics": "Makespan minimisation",
@@ -2740,7 +2993,10 @@
       "RL"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "Synthetic+Benchmark dataset. (Brandimarte [40], Dauzère [41], Taillard [42], Demirkol [43], and Lawrence [44])",
+    "dataSource": [
+      "Synthetic",
+      "Benchmark dataset. (Brandimarte [40], Dauzère [41], Taillard [42], Demirkol [43], and Lawrence [44])"
+    ],
     "country": "China",
     "industry": "Not specified",
     "metrics": "tardiness",
@@ -2762,7 +3018,9 @@
     ],
     "methods": [],
     "evaluationSetting": "lab case study",
-    "dataSource": "lab data",
+    "dataSource": [
+      "lab data"
+    ],
     "country": "USA",
     "industry": "Not specified",
     "metrics": "Makespan minimisation",
@@ -2789,7 +3047,10 @@
       "RL"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "Synthetic+benchmark datasets (Dauzere, Brandimarte, Hurink)",
+    "dataSource": [
+      "Synthetic",
+      "benchmark datasets (Dauzere, Brandimarte, Hurink)"
+    ],
     "country": "China",
     "industry": "Not specified",
     "metrics": "Makespan minimisation",
@@ -2816,7 +3077,9 @@
       "5-fold cross-validation"
     ],
     "evaluationSetting": "static evaluation",
-    "dataSource": "industrial data",
+    "dataSource": [
+      "industrial data"
+    ],
     "country": "USA",
     "industry": "Nuclear",
     "metrics": "Supplier performance",
@@ -2844,7 +3107,9 @@
       "RL"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "industrial data",
+    "dataSource": [
+      "industrial data"
+    ],
     "country": "China",
     "industry": "Metal & machining",
     "metrics": "energy efficiency",
@@ -2867,7 +3132,9 @@
       "MAS"
     ],
     "evaluationSetting": "Other",
-    "dataSource": "lab data",
+    "dataSource": [
+      "lab data"
+    ],
     "country": "Germany",
     "industry": "Not specified",
     "metrics": "Fault detection",
@@ -2892,7 +3159,9 @@
       "MILP"
     ],
     "evaluationSetting": "static evaluation",
-    "dataSource": "synthetic",
+    "dataSource": [
+      "synthetic"
+    ],
     "country": "Taiwan",
     "industry": "Not specified",
     "metrics": "total energy cost",
@@ -2916,7 +3185,9 @@
       "costume heuristic"
     ],
     "evaluationSetting": "static evaluation",
-    "dataSource": "synthetic",
+    "dataSource": [
+      "synthetic"
+    ],
     "country": "South Korea",
     "industry": "Not specified",
     "metrics": "Just-In-Time cost (too early or tardiness (too late)), total operations energy cost, idle energy cost, repair cost",
@@ -2939,7 +3210,9 @@
       "robust optimization"
     ],
     "evaluationSetting": "static evaluation",
-    "dataSource": "synthetic",
+    "dataSource": [
+      "synthetic"
+    ],
     "country": "Iran",
     "industry": "Not specified",
     "metrics": "co2 emmision,  economic cost, comfort cost, (mb scenario expected cost + robustness penalties (want to ensure that shcedules performing well in general are those which is chossen)).",
@@ -2963,7 +3236,10 @@
       "Tabu Search"
     ],
     "evaluationSetting": "static evaluation",
-    "dataSource": "synthetic+industrial data",
+    "dataSource": [
+      "synthetic",
+      "industrial data"
+    ],
     "country": "China",
     "industry": "Not specified",
     "metrics": "total electricity cost",
@@ -2989,7 +3265,10 @@
       "Heuristic neighbourhood search"
     ],
     "evaluationSetting": "static evaluation",
-    "dataSource": "synthetic+industrial data",
+    "dataSource": [
+      "synthetic",
+      "industrial data"
+    ],
     "country": "China",
     "industry": "Pressure vessels",
     "metrics": "total electricity cost, tardiness",
@@ -3015,7 +3294,10 @@
       "MILP"
     ],
     "evaluationSetting": "static evaluation",
-    "dataSource": "synthetic+industrial data",
+    "dataSource": [
+      "synthetic",
+      "industrial data"
+    ],
     "country": "Brazil",
     "industry": "Not specified",
     "metrics": "total energy consumption",
@@ -3039,7 +3321,10 @@
       "Greedy priority rule"
     ],
     "evaluationSetting": "static evaluation",
-    "dataSource": "synthetic+industrial data",
+    "dataSource": [
+      "synthetic",
+      "industrial data"
+    ],
     "country": "China",
     "industry": "Metal & machining",
     "metrics": "total electricity cost",
@@ -3068,7 +3353,10 @@
       "RL"
     ],
     "evaluationSetting": "lab case study",
-    "dataSource": "synthetic+lab data",
+    "dataSource": [
+      "synthetic",
+      "lab data"
+    ],
     "country": "China",
     "industry": "Not specified",
     "metrics": "N/A",
@@ -3089,7 +3377,9 @@
     ],
     "methods": [],
     "evaluationSetting": "Other",
-    "dataSource": "industrial data",
+    "dataSource": [
+      "industrial data"
+    ],
     "country": "Switzerland",
     "industry": "Electronics",
     "metrics": "N/A",
@@ -3110,7 +3400,10 @@
     ],
     "methods": [],
     "evaluationSetting": "simulation",
-    "dataSource": "industrial data+synthetic",
+    "dataSource": [
+      "industrial data",
+      "synthetic"
+    ],
     "country": "China",
     "industry": "Electronics",
     "metrics": "N/A (development time)",
@@ -3134,7 +3427,9 @@
       "ontology"
     ],
     "evaluationSetting": "lab case study",
-    "dataSource": "lab data",
+    "dataSource": [
+      "lab data"
+    ],
     "country": "Austria",
     "industry": "Electronics",
     "metrics": "Robustness --> Planning computation time, plan cost, object recognition precision, object recognition accuracy, qualitative metrics (flexibility, programming effort reduction, adaptability)",
@@ -3161,7 +3456,9 @@
       "RL"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "synthetic",
+    "dataSource": [
+      "synthetic"
+    ],
     "country": "USA",
     "industry": "Not specified",
     "metrics": "N/A",
@@ -3183,7 +3480,9 @@
     ],
     "methods": [],
     "evaluationSetting": "lab case study",
-    "dataSource": "industrial data",
+    "dataSource": [
+      "industrial data"
+    ],
     "country": "France",
     "industry": "Metal & machining",
     "metrics": "N/A",
@@ -3208,7 +3507,9 @@
       "WSM"
     ],
     "evaluationSetting": "static evaluation",
-    "dataSource": "industrial data",
+    "dataSource": [
+      "industrial data"
+    ],
     "country": "Turkey",
     "industry": "Not specified",
     "metrics": "Tardiness + energy cost",
@@ -3237,7 +3538,10 @@
       "RL"
     ],
     "evaluationSetting": "static evaluation",
-    "dataSource": "litterature data+benchmark data scholl ALBP",
+    "dataSource": [
+      "litterature data",
+      "benchmark data scholl ALBP"
+    ],
     "country": "United Kingdom",
     "industry": "Not specified",
     "metrics": "Productivity + cost",
@@ -3262,7 +3566,9 @@
       "meta-learning"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "Industrial data",
+    "dataSource": [
+      "Industrial data"
+    ],
     "country": "Sweden",
     "industry": "Marine engine",
     "metrics": "Max. throughput, min. operators, min. number of forklifts",
@@ -3288,7 +3594,9 @@
       "RL"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "synthetic",
+    "dataSource": [
+      "synthetic"
+    ],
     "country": "South Korea",
     "industry": "Not specified",
     "metrics": "Makespan",
@@ -3312,7 +3620,9 @@
     ],
     "methods": [],
     "evaluationSetting": "industrial case study",
-    "dataSource": "Industrial data",
+    "dataSource": [
+      "Industrial data"
+    ],
     "country": "Netherlands",
     "industry": "Bicycles",
     "metrics": "N/A",
@@ -3336,7 +3646,9 @@
       "QFA"
     ],
     "evaluationSetting": "static evaluation",
-    "dataSource": "synthetic",
+    "dataSource": [
+      "synthetic"
+    ],
     "country": "China",
     "industry": "Electronics",
     "metrics": "Transport cost + tardiness cost",
@@ -3361,7 +3673,10 @@
       "MCTS"
     ],
     "evaluationSetting": "lab case study",
-    "dataSource": "synthetic+lab data",
+    "dataSource": [
+      "synthetic",
+      "lab data"
+    ],
     "country": "Sweden",
     "industry": "Automotive",
     "metrics": "Production cycle completition time",
@@ -3387,7 +3702,9 @@
       "MAS"
     ],
     "evaluationSetting": "static evaluation",
-    "dataSource": "synthetic based on extended_benchmark dataset of (lei Lei01-Lei05 link1 and link2, Reman Remai01-Reman08, and Li FMK01-FMK10)",
+    "dataSource": [
+      "synthetic based on extended_benchmark dataset of (lei Lei01-Lei05 link1 and link2, Reman Remai01-Reman08, and Li FMK01-FMK10)"
+    ],
     "country": "China",
     "industry": "Not specified",
     "metrics": "Makespan + energy consumption",
@@ -3415,7 +3732,9 @@
       "RL"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "synthetic",
+    "dataSource": [
+      "synthetic"
+    ],
     "country": "China",
     "industry": "Not specified",
     "metrics": "Makespan",
@@ -3441,7 +3760,9 @@
       "RL"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "synthetic",
+    "dataSource": [
+      "synthetic"
+    ],
     "country": "China",
     "industry": "Electronics",
     "metrics": "N/A",
@@ -3467,7 +3788,9 @@
       "RL"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "benchmark (ft06, ft10 (Fisher); orb1–orb5 (Applegate & Cook); la11–la30 (Lawrence); abz5, abz7–abz9 (Adams, Balas & Zawack); ta61–ta63, ta71–ta72 (Taillard))",
+    "dataSource": [
+      "benchmark (ft06, ft10 (Fisher); orb1–orb5 (Applegate & Cook); la11–la30 (Lawrence); abz5, abz7–abz9 (Adams, Balas & Zawack); ta61–ta63, ta71–ta72 (Taillard))"
+    ],
     "country": "China",
     "industry": "Not specified",
     "metrics": "Utilisation",
@@ -3494,7 +3817,9 @@
       "RL"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "synthetic",
+    "dataSource": [
+      "synthetic"
+    ],
     "country": "China",
     "industry": "Not specified",
     "metrics": "Makespan",
@@ -3518,7 +3843,9 @@
       "Markov chains"
     ],
     "evaluationSetting": "static evaluation",
-    "dataSource": "synthetic based on extended_benchmark fattahi",
+    "dataSource": [
+      "synthetic based on extended_benchmark fattahi"
+    ],
     "country": "Canada",
     "industry": "Not specified",
     "metrics": "Tardiness cost + maintenance cost",
@@ -3542,7 +3869,9 @@
       "SA"
     ],
     "evaluationSetting": "static evaluation",
-    "dataSource": "synthetic",
+    "dataSource": [
+      "synthetic"
+    ],
     "country": "China",
     "industry": "Not specified",
     "metrics": "Makespan + robot energy consumption",
@@ -3572,7 +3901,10 @@
       "DL"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "synthetic+industrial data",
+    "dataSource": [
+      "synthetic",
+      "industrial data"
+    ],
     "country": "Sweden",
     "industry": "Marine engine",
     "metrics": "Max. Throughput, min. buffers, operators and AMRs",
@@ -3591,7 +3923,9 @@
     "technologies": [],
     "methods": [],
     "evaluationSetting": "lab case study",
-    "dataSource": "lab data",
+    "dataSource": [
+      "lab data"
+    ],
     "country": "China",
     "industry": "Aerospace",
     "metrics": "N/A",
@@ -3617,7 +3951,10 @@
       "RL"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "synthetic+benchmark data ft (Fisher and Thompson), abz (Adam, Balas and Zawack), la Lawrence, orb (Applegate and Cook), yn (Yamada and Nakano), swv (Storer, Wu and Vaccari), ta Taillard and dmu (Demirkol, Metha and Uzsoy).",
+    "dataSource": [
+      "synthetic",
+      "benchmark data ft (Fisher and Thompson), abz (Adam, Balas and Zawack), la Lawrence, orb (Applegate and Cook), yn (Yamada and Nakano), swv (Storer, Wu and Vaccari), ta Taillard and dmu (Demirkol, Metha and Uzsoy)."
+    ],
     "country": "China",
     "industry": "Not specified",
     "metrics": "Makespan",
@@ -3641,7 +3978,9 @@
       "GA"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "synthetic",
+    "dataSource": [
+      "synthetic"
+    ],
     "country": "Portugal",
     "industry": "Not specified",
     "metrics": "Robustness --> differential (expected vs actual produced elements), availability, elements produced, processing time",
@@ -3665,7 +4004,9 @@
       "RL"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "synthetic",
+    "dataSource": [
+      "synthetic"
+    ],
     "country": "Germany",
     "industry": "Not specified",
     "metrics": "N/A",
@@ -3688,7 +4029,10 @@
       "Artificial fish swarm"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "industrial data+synthetic",
+    "dataSource": [
+      "industrial data",
+      "synthetic"
+    ],
     "country": "China",
     "industry": "Not specified",
     "metrics": "Makespan",
@@ -3712,7 +4056,10 @@
       "MAS"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "synthetic+industrial data",
+    "dataSource": [
+      "synthetic",
+      "industrial data"
+    ],
     "country": "Netherlands",
     "industry": "Not specified",
     "metrics": "Tardiness",
@@ -3736,7 +4083,9 @@
       "SA"
     ],
     "evaluationSetting": "static evaluation",
-    "dataSource": "Benchmark data Fisher",
+    "dataSource": [
+      "Benchmark data Fisher"
+    ],
     "country": "Germany",
     "industry": "Not specified",
     "metrics": "Makespan",
@@ -3761,7 +4110,9 @@
       "MAS"
     ],
     "evaluationSetting": "static evaluation",
-    "dataSource": "Benchmark data benchmark data ft (Fisher and Thompson), abz (Adam, Balas and Zawack), la Lawrence, orb (Applegate and Cook).",
+    "dataSource": [
+      "Benchmark data benchmark data ft (Fisher and Thompson), abz (Adam, Balas and Zawack), la Lawrence, orb (Applegate and Cook)."
+    ],
     "country": "China",
     "industry": "Not specified",
     "metrics": "Makespan+Tardiness",
@@ -3785,7 +4136,10 @@
       "RL"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "synthetic+industrial data",
+    "dataSource": [
+      "synthetic",
+      "industrial data"
+    ],
     "country": "Germany",
     "industry": "Not specified",
     "metrics": "N/A",
@@ -3809,7 +4163,9 @@
       "k-means"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "industrial data",
+    "dataSource": [
+      "industrial data"
+    ],
     "country": "Hungary",
     "industry": "Not specified",
     "metrics": "Makespan",
@@ -3833,7 +4189,9 @@
       "heuristic"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "industrial data",
+    "dataSource": [
+      "industrial data"
+    ],
     "country": "Germany",
     "industry": "Automotive",
     "metrics": "Robustness --> Work-in-Progress (WIP), number of setup operations, demand fulfillment (throughput vs demand), inventory level, machine utilization",
@@ -3852,7 +4210,9 @@
     "technologies": [],
     "methods": [],
     "evaluationSetting": "simulation",
-    "dataSource": "industrial data",
+    "dataSource": [
+      "industrial data"
+    ],
     "country": "China",
     "industry": "Automotive",
     "metrics": "N/A",
@@ -3878,7 +4238,10 @@
       "RL"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "industrial data+ synthetic based on benchmark data Brandimarte",
+    "dataSource": [
+      "industrial data",
+      "synthetic based on benchmark data Brandimarte"
+    ],
     "country": "China",
     "industry": "Aerospace",
     "metrics": "makespan",
@@ -3904,7 +4267,9 @@
       "RL"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "benchmark data taillard, dmu (Demirkol, Metha and Uzsoy), la, ft, abz, orb, swv",
+    "dataSource": [
+      "benchmark data taillard, dmu (Demirkol, Metha and Uzsoy), la, ft, abz, orb, swv"
+    ],
     "country": "China",
     "industry": "Not specified",
     "metrics": "makespan",
@@ -3929,7 +4294,9 @@
       "RL"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "synthetic",
+    "dataSource": [
+      "synthetic"
+    ],
     "country": "South Korea",
     "industry": "Electronics",
     "metrics": "Tardiness",
@@ -3955,7 +4322,9 @@
       "RL"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "benchmark data Behnke and vdata Hurink",
+    "dataSource": [
+      "benchmark data Behnke and vdata Hurink"
+    ],
     "country": "Spain",
     "industry": "Not specified",
     "metrics": "Makespan+Tardiness",
@@ -3976,7 +4345,9 @@
       "DES"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "synthetic",
+    "dataSource": [
+      "synthetic"
+    ],
     "country": "Italy",
     "industry": "Not specified",
     "metrics": "N/A",
@@ -3998,7 +4369,9 @@
     ],
     "methods": [],
     "evaluationSetting": "static evaluation",
-    "dataSource": "synthetic",
+    "dataSource": [
+      "synthetic"
+    ],
     "country": "Portugal",
     "industry": "Not specified",
     "metrics": "makespan",
@@ -4023,7 +4396,10 @@
       "SA"
     ],
     "evaluationSetting": "static evaluation",
-    "dataSource": "synthetic+benchmark data Boccia",
+    "dataSource": [
+      "synthetic",
+      "benchmark data Boccia"
+    ],
     "country": "China",
     "industry": "Not specified",
     "metrics": "Makespan",
@@ -4047,7 +4423,9 @@
       "RL"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "synthetic",
+    "dataSource": [
+      "synthetic"
+    ],
     "country": "China",
     "industry": "Not specified",
     "metrics": "makespan",
@@ -4073,7 +4451,9 @@
       "RL"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "synthetic",
+    "dataSource": [
+      "synthetic"
+    ],
     "country": "China",
     "industry": "Not specified",
     "metrics": "Tardiness",
@@ -4098,7 +4478,9 @@
       "DL"
     ],
     "evaluationSetting": "static evaluation",
-    "dataSource": "industrial data",
+    "dataSource": [
+      "industrial data"
+    ],
     "country": "Poland",
     "industry": "Automotive",
     "metrics": "robustness --> classification accuracy, confusion matrix, clustering quality",
@@ -4124,7 +4506,10 @@
       "RL"
     ],
     "evaluationSetting": "static evaluation",
-    "dataSource": "synthetic+extended_benchmark data mk Brandimarte, DP01-10 Dauzere",
+    "dataSource": [
+      "synthetic",
+      "extended_benchmark data mk Brandimarte, DP01-10 Dauzere"
+    ],
     "country": "China",
     "industry": "Not specified",
     "metrics": "makespan+energy consumption",
@@ -4149,7 +4534,9 @@
       "random-forrest"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "industrial data",
+    "dataSource": [
+      "industrial data"
+    ],
     "country": "Slovenia",
     "industry": "Not specified",
     "metrics": "Robustness --> work-system work overload (WSO), prediction accuracy, forecasting error",
@@ -4168,7 +4555,9 @@
     "technologies": [],
     "methods": [],
     "evaluationSetting": "simulation",
-    "dataSource": "Industrial data",
+    "dataSource": [
+      "Industrial data"
+    ],
     "country": "China",
     "industry": "Power equipment",
     "metrics": "N/A",
@@ -4193,7 +4582,10 @@
       "DL"
     ],
     "evaluationSetting": "static evaluation",
-    "dataSource": "industrial data+synthetic",
+    "dataSource": [
+      "industrial data",
+      "synthetic"
+    ],
     "country": "Norway",
     "industry": "Metal & machining",
     "metrics": "Tardiness",
@@ -4217,7 +4609,9 @@
       "Simulation"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "industrial data",
+    "dataSource": [
+      "industrial data"
+    ],
     "country": "China",
     "industry": "Air conditioner",
     "metrics": "robustness --> total production cost, total distribution cost, total warehousing cost, delay penalty cost, total system cost, completion time",
@@ -4242,7 +4636,9 @@
       "simulation"
     ],
     "evaluationSetting": "industrial case study",
-    "dataSource": "industrial data",
+    "dataSource": [
+      "industrial data"
+    ],
     "country": "China",
     "industry": "None",
     "metrics": "makespan",
@@ -4265,7 +4661,10 @@
       "GA"
     ],
     "evaluationSetting": "static evaluation",
-    "dataSource": "industrial data+synthetic",
+    "dataSource": [
+      "industrial data",
+      "synthetic"
+    ],
     "country": "China",
     "industry": "Paint",
     "metrics": "N/A",
@@ -4291,7 +4690,9 @@
       "RL"
     ],
     "evaluationSetting": "lab case study",
-    "dataSource": "lab data",
+    "dataSource": [
+      "lab data"
+    ],
     "country": "China",
     "industry": "Not specified",
     "metrics": "Makespan+Tardiness",
@@ -4315,7 +4716,11 @@
       "simulation"
     ],
     "evaluationSetting": "static evaluation",
-    "dataSource": "benchmark mk (Brandimarte)+industrial data+synthetic",
+    "dataSource": [
+      "benchmark mk (Brandimarte)",
+      "industrial data",
+      "synthetic"
+    ],
     "country": "Germany",
     "industry": "Not specified",
     "metrics": "Makespan",
@@ -4340,7 +4745,9 @@
       "MLP"
     ],
     "evaluationSetting": "static evaluation",
-    "dataSource": "industrial data",
+    "dataSource": [
+      "industrial data"
+    ],
     "country": "Brazil",
     "industry": "Home appliances",
     "metrics": "Makespan",
@@ -4368,7 +4775,10 @@
       "RL"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "synthetic+benchmark data (Which is not indicated)",
+    "dataSource": [
+      "synthetic",
+      "benchmark data (Which is not indicated)"
+    ],
     "country": "China",
     "industry": "Not specified",
     "metrics": "makespan",
@@ -4395,7 +4805,10 @@
       "MDP"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "synthetic+benchmark data Demirkol",
+    "dataSource": [
+      "synthetic",
+      "benchmark data Demirkol"
+    ],
     "country": "Egypt",
     "industry": "Not specified",
     "metrics": "tardiness",
@@ -4420,7 +4833,9 @@
       "RL"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "benchmark kacem",
+    "dataSource": [
+      "benchmark kacem"
+    ],
     "country": "China",
     "industry": "Not specified",
     "metrics": "makespan",
@@ -4443,7 +4858,9 @@
       "MAS"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "synthetic",
+    "dataSource": [
+      "synthetic"
+    ],
     "country": "Germany",
     "industry": "Not specified",
     "metrics": "robustness --> total production costs, logistics costs, makespan, computation time",
@@ -4469,7 +4886,9 @@
       "MAS"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "synthetic",
+    "dataSource": [
+      "synthetic"
+    ],
     "country": "Singapore",
     "industry": "Not specified",
     "metrics": "N/A",
@@ -4490,7 +4909,9 @@
     ],
     "methods": [],
     "evaluationSetting": "static evaluation",
-    "dataSource": "industrial data",
+    "dataSource": [
+      "industrial data"
+    ],
     "country": "Lithuania",
     "industry": "Metal & machining",
     "metrics": "makespan",
@@ -4517,7 +4938,10 @@
       "Tabu Search"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "synthetic+industrial data",
+    "dataSource": [
+      "synthetic",
+      "industrial data"
+    ],
     "country": "Germany",
     "industry": "Electronics",
     "metrics": "tardiness",
@@ -4543,7 +4967,9 @@
       "RL"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "synthetic",
+    "dataSource": [
+      "synthetic"
+    ],
     "country": "Morocco",
     "industry": "Not specified",
     "metrics": "makespan",
@@ -4567,7 +4993,11 @@
       "Simulation"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "industrial data+synthetic+expert knowledge",
+    "dataSource": [
+      "industrial data",
+      "synthetic",
+      "expert knowledge"
+    ],
     "country": "Singapore",
     "industry": "Electronics",
     "metrics": "makespan",
@@ -4592,7 +5022,9 @@
       "NSGA-II"
     ],
     "evaluationSetting": "static evaluation",
-    "dataSource": "industrial data",
+    "dataSource": [
+      "industrial data"
+    ],
     "country": "China",
     "industry": "Automotive",
     "metrics": "makespan+energy consumption",
@@ -4618,7 +5050,10 @@
       "RL"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "synthetic+benchmark data mk Brandimarte and hurink rdata,vdata,edata",
+    "dataSource": [
+      "synthetic",
+      "benchmark data mk Brandimarte and hurink rdata,vdata,edata"
+    ],
     "country": "China",
     "industry": "Not specified",
     "metrics": "makespan",
@@ -4642,7 +5077,10 @@
       "Prophet"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "industrial data+synthetic",
+    "dataSource": [
+      "industrial data",
+      "synthetic"
+    ],
     "country": "Vietnam",
     "industry": "Not specified",
     "metrics": "N/A",
@@ -4669,7 +5107,9 @@
       "RL"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "synthetic",
+    "dataSource": [
+      "synthetic"
+    ],
     "country": "China",
     "industry": "Not specified",
     "metrics": "makespan+tardiness",
@@ -4695,7 +5135,9 @@
       "MAS"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "synthetic",
+    "dataSource": [
+      "synthetic"
+    ],
     "country": "China",
     "industry": "Not specified",
     "metrics": "N/A",
@@ -4721,7 +5163,11 @@
       "MAS"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "benchmark mk Brandimarte+synthetic+industrial data",
+    "dataSource": [
+      "benchmark mk Brandimarte",
+      "synthetic",
+      "industrial data"
+    ],
     "country": "China",
     "industry": "Pump manufacturing",
     "metrics": "makespan",
@@ -4747,7 +5193,9 @@
       "MDP"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "synthetic",
+    "dataSource": [
+      "synthetic"
+    ],
     "country": "China",
     "industry": "Not specified",
     "metrics": "makespan",
@@ -4770,7 +5218,9 @@
       "Dispatching Rules"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "synthetic",
+    "dataSource": [
+      "synthetic"
+    ],
     "country": "Italy",
     "industry": "Not specified",
     "metrics": "makespan+energy consumption",
@@ -4795,7 +5245,10 @@
       "SA"
     ],
     "evaluationSetting": "static evaluation",
-    "dataSource": "industrial+synthetic",
+    "dataSource": [
+      "industrial",
+      "synthetic"
+    ],
     "country": "Japan",
     "industry": "Automotive",
     "metrics": "N/A",
@@ -4822,7 +5275,9 @@
       "MAS"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "synthetic",
+    "dataSource": [
+      "synthetic"
+    ],
     "country": "South Korea",
     "industry": "Semiconductor",
     "metrics": "makespan",
@@ -4847,7 +5302,9 @@
       "MDP"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "synthetic",
+    "dataSource": [
+      "synthetic"
+    ],
     "country": "China",
     "industry": "Not specified",
     "metrics": "makespan",
@@ -4870,7 +5327,9 @@
       "costume metaheuristic"
     ],
     "evaluationSetting": "static evaluation",
-    "dataSource": "synthetic based on_benchmark Taillard (1993), Vallada and Ruiz (2011), Báez et al. (2019), Berthier et\nal. (2022), Fanjul-Peyró et al. (2019)",
+    "dataSource": [
+      "synthetic based on_benchmark Taillard (1993), Vallada and Ruiz (2011), Báez et al. (2019), Berthier et\nal. (2022), Fanjul-Peyró et al. (2019)"
+    ],
     "country": "Spain",
     "industry": "Food",
     "metrics": "makespan",
@@ -4893,7 +5352,9 @@
       "Simulation"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "industrial data",
+    "dataSource": [
+      "industrial data"
+    ],
     "country": "South Korea",
     "industry": "Food",
     "metrics": "N/A",
@@ -4917,7 +5378,9 @@
       "Neural Combinatorial Optimisation"
     ],
     "evaluationSetting": "lab case study",
-    "dataSource": "lab data",
+    "dataSource": [
+      "lab data"
+    ],
     "country": "China",
     "industry": "Electronics",
     "metrics": "robustness --> movement distance, angular rotation time, total time consumption",
@@ -4941,7 +5404,9 @@
       "GRU"
     ],
     "evaluationSetting": "static evaluation",
-    "dataSource": "synthetic",
+    "dataSource": [
+      "synthetic"
+    ],
     "country": "Singapore",
     "industry": "Not specified",
     "metrics": "N/A",
@@ -4965,7 +5430,9 @@
       "MCTS"
     ],
     "evaluationSetting": "static evaluation",
-    "dataSource": "industrial data",
+    "dataSource": [
+      "industrial data"
+    ],
     "country": "China",
     "industry": "Furniture",
     "metrics": "makespan",
@@ -4988,7 +5455,9 @@
       "GA"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "synthetic",
+    "dataSource": [
+      "synthetic"
+    ],
     "country": "China",
     "industry": "Aerospace",
     "metrics": "robustness --> production efficiency (output per unit time), total cost (materials + equipment + labor), defect rate",
@@ -5014,7 +5483,10 @@
       "SA"
     ],
     "evaluationSetting": "static evaluation",
-    "dataSource": "industrial data+synthetic",
+    "dataSource": [
+      "industrial data",
+      "synthetic"
+    ],
     "country": "USA",
     "industry": "Not specified",
     "metrics": "N/A",
@@ -5033,7 +5505,9 @@
     "technologies": [],
     "methods": [],
     "evaluationSetting": "industrial case study",
-    "dataSource": "industrial data",
+    "dataSource": [
+      "industrial data"
+    ],
     "country": "Italy",
     "industry": "Ceramic tile",
     "metrics": "N/A",
@@ -5060,7 +5534,9 @@
       "Diffusion"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "synthetic",
+    "dataSource": [
+      "synthetic"
+    ],
     "country": "China",
     "industry": "Not specified",
     "metrics": "robustness --> demand satisfaction rate, yield/output, resource utilization (number of workstations/buffers/robots), resource efficiency, Permanent Production Loss (PPL), ICC alignment rate (%), topology constraint adherence (%), material flow continuity rate, robustness under disruptions (yield under downtime)",
@@ -5086,7 +5562,9 @@
       "RL"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "synthetic",
+    "dataSource": [
+      "synthetic"
+    ],
     "country": "Chile",
     "industry": "Not specified",
     "metrics": "throughput, mental workload (fatigue), Safety (completed tasks without collission)",
@@ -5112,7 +5590,10 @@
       "RL"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "synthetic+ industrial data",
+    "dataSource": [
+      "synthetic",
+      "industrial data"
+    ],
     "country": "China",
     "industry": "Ship components",
     "metrics": "total tardiness",
@@ -5138,7 +5619,9 @@
       "MDP"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "synthetic",
+    "dataSource": [
+      "synthetic"
+    ],
     "country": "China",
     "industry": "Electronics",
     "metrics": "makespan, total tardiness",
@@ -5161,7 +5644,9 @@
       "Decision Tree"
     ],
     "evaluationSetting": "static evaluation",
-    "dataSource": "synthetic",
+    "dataSource": [
+      "synthetic"
+    ],
     "country": "USA",
     "industry": "Orthodontic brace",
     "metrics": "Robustness --> Degree of Satisfaction",
@@ -5184,7 +5669,9 @@
       "DES"
     ],
     "evaluationSetting": "simulation",
-    "dataSource": "industrial data",
+    "dataSource": [
+      "industrial data"
+    ],
     "country": "Italy",
     "industry": "Oil and gas",
     "metrics": "Robustness --> Flow Time, Tardiness, Number of Late Orders",

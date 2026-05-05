@@ -109,19 +109,15 @@ export function countDataSourceKeywords(
     Benchmark: 0,
     Synthetic: 0,
     Lab: 0,
-    "Literature/survey": 0,
     Other: 0,
   };
 
   for (const paper of papers) {
-    const raw = paper[field] ?? "";
-    const v = String(raw).toLowerCase();
-
-    const matchesIndustrial = /\bindustrial\b/i.test(v);
-    const matchesBenchmark = /\bbenchmarks?\b/i.test(v);
-    const matchesSynthetic = /\bsynthetic\b|\bsynthic\b/i.test(v);
-    const matchesLab = /\blab\b|\blaboratory\b/i.test(v);
-    const matchesLiterature = /\bsurvey\b/i.test(v) || /\bliterature\b/i.test(v);
+    const sources = paper[field] ?? [];
+    const matchesIndustrial = sources.some(src => /\bindustrial\b/i.test(src));
+    const matchesBenchmark = sources.some(src => /\bbenchmarks?\b/i.test(src));
+    const matchesSynthetic = sources.some(src => /\bsynthetic\b|\bsynthic\b/i.test(src));
+    const matchesLab = sources.some(src => /\blab\b|\blaboratory\b/i.test(src));
 
     let matchedAny = false;
 
@@ -153,13 +149,8 @@ export function countDataSourceKeywords(
     .sort((a, b) => b.count - a.count);
 }
 
-export function matchesDataSourceKeyword(raw: string | null | undefined, label: string): boolean {
-  const v = String(raw ?? "").toLowerCase();
-
-  // handle combined labels like "Industrial + Synthetic" => require ALL parts
-  if (label.includes("+")) {
-    return label.split(/\s*\+\s*/).every((part) => matchesDataSourceKeyword(raw, part));
-  }
+export function matchesDataSourceKeyword(src: string, label: string): boolean {
+  const v = String(src ?? "").toLowerCase();
 
   switch (label.trim().toLowerCase()) {
     case "industrial":
@@ -173,11 +164,9 @@ export function matchesDataSourceKeyword(raw: string | null | undefined, label: 
     case "literature/survey":
       return /\bsurvey\b/i.test(v) || /\bliterature\b/i.test(v);
     case "other":
-      // Other = matches none of the known categories
-      return !(/\bindustrial\b|\bbenchmarks?\b|\bsynthetic\b|\bsynthic\b|\blab\b|\blaboratory\b|\bsurvey\b|\bliterature\b/i.test(v));
+      return !(/\bindustrial\b|\bbenchmarks?\b|\bsynthetic\b|\bsynthic\b|\blab\b|\blaboratory\b/i.test(v));
     default:
-      // fallback: exact match against normalized label (keeps compatibility)
-      return normalizeDataSource(raw) === label;
+      return false;
   }
 }
 

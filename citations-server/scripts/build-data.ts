@@ -19,7 +19,7 @@ interface Paper {
   technologies: string[];
   methods: string[];
   evaluationSetting: string;
-  dataSource: string;
+  dataSource: string[];
   country: string;
   industry: string;
   metrics: string;
@@ -194,7 +194,10 @@ function main() {
       technologies: splitList(row["Technologies"] as string),
       methods: splitList(row["Methods"] as string),
       evaluationSetting: ((row["Evaluation setting"] as string) ?? "").trim(),
-      dataSource: ((row["Data Source"] as string) ?? "").trim(),
+      dataSource: ((row["Data Source"] as string) ?? "")
+      .split("+")
+      .map((s) => s.trim())
+      .filter((s) => s.length > 0),
       country: ((row["Country"] as string) ?? "").trim(),
       industry: ((row["Industry"] as string) ?? "").trim(),
       metrics: ((row["Metrics "] as string) ?? "").trim(),

@@ -95,11 +95,13 @@ function matchesFilters(paper: Paper, filters: Filters): boolean {
     !filters.dssFocusGroups.has(paper.dssFocusGrouped || getDSSFocusGroup(paper.dssFocus))
   )
     return false;
-  if (filters.dataSources.size > 0) {
-    const sel = Array.from(filters.dataSources);
-    const matched = sel.some((label) => matchesDataSourceKeyword(paper.dataSource, label));
-    if (!matched) return false;
-  }
+  if (filters.dataSources.size > 0 && 
+    !paper.dataSource.some(src => 
+      Array.from(filters.dataSources).some(label => matchesDataSourceKeyword(src, label))
+    )
+    ) {
+      return false;
+    }
   if (filters.snowball !== null && paper.snowball !== filters.snowball)
     return false;
   return true;
