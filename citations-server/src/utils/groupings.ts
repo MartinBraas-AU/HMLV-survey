@@ -153,6 +153,34 @@ export function countDataSourceKeywords(
     .sort((a, b) => b.count - a.count);
 }
 
+export function matchesDataSourceKeyword(raw: string | null | undefined, label: string): boolean {
+  const v = String(raw ?? "").toLowerCase();
+
+  // handle combined labels like "Industrial + Synthetic" => require ALL parts
+  if (label.includes("+")) {
+    return label.split(/\s*\+\s*/).every((part) => matchesDataSourceKeyword(raw, part));
+  }
+
+  switch (label.trim().toLowerCase()) {
+    case "industrial":
+      return /\bindustrial\b/i.test(v);
+    case "benchmark":
+      return /\bbenchmarks?\b/i.test(v);
+    case "synthetic":
+      return /\bsynthetic\b|\bsynthic\b/i.test(v);
+    case "lab":
+      return /\blab\b|\blaboratory\b/i.test(v);
+    case "literature/survey":
+      return /\bsurvey\b/i.test(v) || /\bliterature\b/i.test(v);
+    case "other":
+      // Other = matches none of the known categories
+      return !(/\bindustrial\b|\bbenchmarks?\b|\bsynthetic\b|\bsynthic\b|\blab\b|\blaboratory\b|\bsurvey\b|\bliterature\b/i.test(v));
+    default:
+      // fallback: exact match against normalized label (keeps compatibility)
+      return normalizeDataSource(raw) === label;
+  }
+}
+
 // Job-shop variant normalization (mirrors generate_figures.py)
 export function getJobShopVariant(variation: string | null): string {
   if (!variation) return "No";

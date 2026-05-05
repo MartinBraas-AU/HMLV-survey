@@ -1,7 +1,7 @@
 import { useMemo } from "react";
 import { useSearchParams } from "react-router-dom";
 import type { Paper } from "../types";
-import { getDSSFocusGroup, getIndustryGroup, normalizeDataSource } from "../utils/groupings";
+import { getDSSFocusGroup, getIndustryGroup, matchesDataSourceKeyword, normalizeDataSource } from "../utils/groupings";
 
 export interface Filters {
   q: string;
@@ -95,11 +95,11 @@ function matchesFilters(paper: Paper, filters: Filters): boolean {
     !filters.dssFocusGroups.has(paper.dssFocusGrouped || getDSSFocusGroup(paper.dssFocus))
   )
     return false;
-  if (
-    filters.dataSources.size > 0 &&
-    !filters.dataSources.has(normalizeDataSource(paper.dataSource))
-  )
-    return false;
+  if (filters.dataSources.size > 0) {
+    const sel = Array.from(filters.dataSources);
+    const matched = sel.some((label) => matchesDataSourceKeyword(paper.dataSource, label));
+    if (!matched) return false;
+  }
   if (filters.snowball !== null && paper.snowball !== filters.snowball)
     return false;
   return true;
