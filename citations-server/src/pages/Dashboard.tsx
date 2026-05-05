@@ -8,7 +8,7 @@ import {
 import type { Paper } from "../types";
 import { Breadcrumb } from "../components/Breadcrumb";
 import {
-  countBy, countMulti,
+  countBy, countDataSourceKeywords, countMulti,
   getDSSFocusGroup,
   getIndustryGroup,
   normalizeDataSource,
@@ -112,7 +112,7 @@ export function Dashboard({ papers }: { papers: Paper[] }) {
   );
 
   const dataSourceData = useMemo(
-    () => countBy(papers, (p) => normalizeDataSource(p.dataSource)),
+    () => countDataSourceKeywords(papers),
     [papers]
   );
 

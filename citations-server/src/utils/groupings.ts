@@ -78,17 +78,79 @@ export function getIndustryGroup(industry: string): string {
   return INDUSTRY_GROUP[industry] ?? "Other";
 }
 
-export function normalizeDataSource(val: string): string {
-  const v = val.toLowerCase().trim();
-  if (v.includes("industrial") && v.includes("synthetic")) return "Industrial + synthetic";
-  if (v.includes("industrial") && v.includes("benchmark")) return "Industrial + benchmark";
-  if (v.includes("lab") && (v.includes("synthetic") || v.includes("industrial"))) return "Lab + other";
-  if (v.includes("synthetic") && v.includes("benchmark")) return "Synthetic + benchmark";
-  if (v.includes("benchmark")) return "Benchmark";
-  if (v.includes("industrial")) return "Industrial";
-  if (v.includes("synthetic") || v.includes("synthic")) return "Synthetic";
-  if (v.includes("lab")) return "Lab";
+export function normalizeDataSource(val: string | null | undefined): string {
+  if (val == null) return "Other";
+
+  const v = String(val).toLowerCase().trim();
+  const labels: string[] = [];
+
+  if (/\bindustrial\b/i.test(v)) labels.push("Industrial");
+  if (/\bbenchmarks?\b/i.test(v)) labels.push("Benchmark");
+  if (/\bsynthetic\b/i.test(v)) labels.push("Synthetic");
+  if (/\blab\b/i.test(v)) labels.push("Lab");
+
+  if (labels.length > 0) {
+    return labels.join(" + ");
+  }
+
+  if (/\bsurvey\b/i.test(v) || /\bliterature\b/i.test(v)) {
+    return "Literature/survey";
+  }
+
   return "Other";
+}
+
+export function countDataSourceKeywords(
+  papers: Paper[],
+  field: "dataSource" = "dataSource"
+): { name: string; count: number }[] {
+  const counts = {
+    Industrial: 0,
+    Benchmark: 0,
+    Synthetic: 0,
+    Lab: 0,
+    "Literature/survey": 0,
+    Other: 0,
+  };
+
+  for (const paper of papers) {
+    const raw = paper[field] ?? "";
+    const v = String(raw).toLowerCase();
+
+    const matchesIndustrial = /\bindustrial\b/i.test(v);
+    const matchesBenchmark = /\bbenchmarks?\b/i.test(v);
+    const matchesSynthetic = /\bsynthetic\b|\bsynthic\b/i.test(v);
+    const matchesLab = /\blab\b|\blaboratory\b/i.test(v);
+    const matchesLiterature = /\bsurvey\b/i.test(v) || /\bliterature\b/i.test(v);
+
+    let matchedAny = false;
+
+    if (matchesIndustrial) {
+      counts.Industrial += 1;
+      matchedAny = true;
+    }
+    if (matchesBenchmark) {
+      counts.Benchmark += 1;
+      matchedAny = true;
+    }
+    if (matchesSynthetic) {
+      counts.Synthetic += 1;
+      matchedAny = true;
+    }
+    if (matchesLab) {
+      counts.Lab += 1;
+      matchedAny = true;
+    }
+
+    if (!matchedAny) {
+      counts.Other += 1;
+    }
+  }
+
+  return Object.entries(counts)
+    .filter(([, count]) => count > 0)
+    .map(([name, count]) => ({ name, count }))
+    .sort((a, b) => b.count - a.count);
 }
 
 // Job-shop variant normalization (mirrors generate_figures.py)

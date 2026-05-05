@@ -449,27 +449,28 @@ JOBSHOP_MAP = {
 
 # Data source normalization
 def normalize_data_source(val):
-    if val is None:
+    if val is None or pd.isna(val):
         return None
+
     v = str(val).lower().strip()
-    if "industrial" in v and "synthetic" in v:
-        return "Industrial + synthetic"
-    if "industrial" in v and "benchmark" in v:
-        return "Industrial + benchmark"
-    if "lab" in v and ("synthetic" in v or "industrial" in v):
-        return "Lab + other"
-    if "synthetic" in v and "benchmark" in v:
-        return "Synthetic + benchmark"
-    if "benchmark" in v:
-        return "Benchmark"
-    if "industrial" in v:
-        return "Industrial"
-    if "synthetic" in v or "synthic" in v:
-        return "Synthetic"
-    if "lab" in v:
-        return "Lab"
-    if "survey" in v or "literature" in v:
+
+    # Extract all mentioned sources and combine instead of collapsing to a single bucket.
+    labels = []
+    if re.search(r"\bindustrial\b", v):
+        labels.append("Industrial")
+    if re.search(r"\bbenchmarks?\b", v):
+        labels.append("Benchmark")
+    if re.search(r"\bsynthetic\b", v):
+        labels.append("Synthetic")
+    if re.search(r"\blab\b", v):
+        labels.append("Lab")
+
+    if labels:
+        return " + ".join(labels)
+
+    if re.search(r"\bsurvey\b", v) or re.search(r"\bliterature\b", v):
         return "Literature/survey"
+
     return "Other"
 
 

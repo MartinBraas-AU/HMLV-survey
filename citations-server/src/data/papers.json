@@ -153,7 +153,7 @@
     "bibtexKey": "Feng2022Predictive",
     "manufacturingLevel": "L2",
     "dssFocus": "Predictive Maintenance",
-    "dssFocusGrouped": "Forecasting & prediction",
+    "dssFocusGrouped": "Quality & maintainance",
     "jobShopVariation": null,
     "technologies": [
       "ML"
@@ -365,7 +365,7 @@
       "DT",
       "CPS",
       "OPC UA",
-      "Simulation"
+      "Simulation software"
     ],
     "methods": [
       "systems engineering",
@@ -391,7 +391,7 @@
     "technologies": [
       "DT",
       "CPS",
-      "Simulation"
+      "Simulation software"
     ],
     "methods": [
       "Heuristic"
@@ -773,7 +773,7 @@
     "bibtexKey": "Wang2025Joint",
     "manufacturingLevel": "L2",
     "dssFocus": "Predictive Maintenance",
-    "dssFocusGrouped": "Forecasting & prediction",
+    "dssFocusGrouped": "Quality & maintainance",
     "jobShopVariation": null,
     "technologies": [
       "ML"
@@ -2026,7 +2026,7 @@
     "jobShopVariation": null,
     "technologies": [
       "ML",
-      "Plant Simulation software"
+      "Simulation software"
     ],
     "methods": [
       "DES",
@@ -2047,7 +2047,7 @@
     "bibtexKey": "He2022Joint",
     "manufacturingLevel": "L2",
     "dssFocus": "Predictive Maintenance",
-    "dssFocusGrouped": "Forecasting & prediction",
+    "dssFocusGrouped": "Quality & maintainance",
     "jobShopVariation": null,
     "technologies": [
       "ML",
@@ -2456,7 +2456,7 @@
     "jobShopVariation": "Job-Shop Scheduling",
     "technologies": [
       "ML",
-      "Plant Simulation software",
+      "Simulation software",
       "metaheuristic"
     ],
     "methods": [
@@ -2858,7 +2858,7 @@
     "bibtexKey": "Rubel2025AgentBased",
     "manufacturingLevel": "L2",
     "dssFocus": "Fault Detection",
-    "dssFocusGrouped": "Forecasting & prediction",
+    "dssFocusGrouped": "Quality & maintainance",
     "jobShopVariation": null,
     "technologies": [
       "CPS"
@@ -3103,7 +3103,7 @@
     "bibtexKey": "Yu2024Design",
     "manufacturingLevel": "L0",
     "dssFocus": "Process Monitoring",
-    "dssFocusGrouped": "Forecasting & prediction",
+    "dssFocusGrouped": "Quality & maintainance",
     "jobShopVariation": null,
     "technologies": [
       "DT"
@@ -3175,7 +3175,7 @@
     "bibtexKey": "Tanane2022Toward",
     "manufacturingLevel": "L0",
     "dssFocus": "Defect Prevenetion",
-    "dssFocusGrouped": "Forecasting & prediction",
+    "dssFocusGrouped": "Quality & maintainance",
     "jobShopVariation": null,
     "technologies": [
       "IoT",
@@ -3330,7 +3330,7 @@
     "jobShopVariation": null,
     "technologies": [
       "Robot",
-      "metahueristic"
+      "metaheuristic"
     ],
     "methods": [
       "QFA"
@@ -3535,7 +3535,7 @@
     "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Job-Shop Scheduling",
     "technologies": [
-      "metahueristic"
+      "metaheuristic"
     ],
     "methods": [
       "MILP",
