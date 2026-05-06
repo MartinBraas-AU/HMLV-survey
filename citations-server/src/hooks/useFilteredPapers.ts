@@ -1,7 +1,7 @@
 import { useMemo } from "react";
 import { useSearchParams } from "react-router-dom";
 import type { Paper } from "../types";
-import { getDSSFocusGroup, getIndustryGroup, matchesDataSourceKeyword, normalizeDataSource } from "../utils/groupings";
+import { getDSSFocusGroup, getIndustryGroup, matchesDataSourceKeyword } from "../utils/groupings";
 
 export interface Filters {
   q: string;
