@@ -39,7 +39,10 @@ const DSS_FOCUS_GROUP_NORMALIZE: Record<string, string> = {
   "logistics & supply chain": "Logistics & supply chain",
   "visualization & simulation": "Visualization & simulation",
   "human-robot collaboration": "Human-robot collaboration",
+  "quality and maintenance": "Quality & maintenance",
+  "quality and maintainance": "Quality & maintenance",
   "quality & maintenance": "Quality & maintenance",
+  "quality & maintainance": "Quality & maintenance",
   other: "Other",
 };
 

@@ -166,7 +166,7 @@
     "bibtexKey": "Feng2022Predictive",
     "manufacturingLevel": "L2",
     "dssFocus": "Predictive Maintenance",
-    "dssFocusGrouped": "Quality & maintainance",
+    "dssFocusGrouped": "Quality & maintenance",
     "jobShopVariation": null,
     "technologies": [
       "ML"
@@ -846,7 +846,7 @@
     "bibtexKey": "Wang2025Joint",
     "manufacturingLevel": "L2",
     "dssFocus": "Predictive Maintenance",
-    "dssFocusGrouped": "Quality & maintainance",
+    "dssFocusGrouped": "Quality & maintenance",
     "jobShopVariation": null,
     "technologies": [
       "ML"
@@ -2236,7 +2236,7 @@
     "bibtexKey": "He2022Joint",
     "manufacturingLevel": "L2",
     "dssFocus": "Predictive Maintenance",
-    "dssFocusGrouped": "Quality & maintainance",
+    "dssFocusGrouped": "Quality & maintenance",
     "jobShopVariation": null,
     "technologies": [
       "ML",
@@ -3123,7 +3123,7 @@
     "bibtexKey": "Rubel2025AgentBased",
     "manufacturingLevel": "L2",
     "dssFocus": "Fault Detection",
-    "dssFocusGrouped": "Quality & maintainance",
+    "dssFocusGrouped": "Quality & maintenance",
     "jobShopVariation": null,
     "technologies": [
       "CPS"
@@ -3393,7 +3393,7 @@
     "bibtexKey": "Yu2024Design",
     "manufacturingLevel": "L0",
     "dssFocus": "Process Monitoring",
-    "dssFocusGrouped": "Quality & maintainance",
+    "dssFocusGrouped": "Quality & maintenance",
     "jobShopVariation": null,
     "technologies": [
       "DT"
@@ -3472,7 +3472,7 @@
     "bibtexKey": "Tanane2022Toward",
     "manufacturingLevel": "L0",
     "dssFocus": "Defect Prevenetion",
-    "dssFocusGrouped": "Quality & maintainance",
+    "dssFocusGrouped": "Quality & maintenance",
     "jobShopVariation": null,
     "technologies": [
       "IoT",
@@ -4240,7 +4240,7 @@
     "evaluationSetting": "simulation",
     "dataSource": [
       "industrial data",
-      "synthetic based on benchmark data Brandimarte"
+      "synthetic based on benchmark_data Brandimarte"
     ],
     "country": "China",
     "industry": "Aerospace",

@@ -6,14 +6,14 @@ Usage:
     python generate_figures.py [path_to_excel] [output_dir]
 
 Defaults:
-    - Excel: Master_sheet_cleaned.xlsx (current directory)
+    - Excel: data/Master sheet.xlsx
     - Output: ./figures/
 
 All normalization mappings are defined in this file so the process
 is repeatable when the spreadsheet is updated.
 """
 
-import sys
+import argparse
 import re
 import textwrap
 from pathlib import Path
@@ -28,8 +28,9 @@ import matplotlib.ticker as mticker
 # ================================================================
 # CONFIG
 # ================================================================
-EXCEL_PATH = sys.argv[1] if len(sys.argv) > 1 else "data/Master sheet.xlsx"
-OUTPUT_DIR = Path(sys.argv[2]) if len(sys.argv) > 2 else Path("figures")
+DEFAULT_EXCEL_PATH = Path("data/Master sheet.xlsx")
+DEFAULT_OUTPUT_DIR = Path("figures")
+OUTPUT_DIR = DEFAULT_OUTPUT_DIR
 SHEET_NAME = "Cleaned Master sheet"
 DPI = 300
 FIG_FORMAT = "pdf"  # Change to "png" if needed
@@ -45,7 +46,10 @@ DSS_FOCUS_GROUP_NORMALIZE = {
     "logistics & supply chain": "Logistics & supply chain",
     "visualization & simulation": "Visualization & simulation",
     "human-robot collaboration": "Human-robot collaboration",
+    "quality and maintenance": "Quality & maintenance",
+    "quality and maintainance": "Quality & maintenance",
     "quality & maintenance": "Quality & maintenance",
+    "quality & maintainance": "Quality & maintenance",
     "other": "Other",
 }
 
@@ -477,31 +481,56 @@ def normalize_data_source(val):
 # ================================================================
 # DATA LOADING & CLEANING
 # ================================================================
-def load_data(path=EXCEL_PATH, sheet=SHEET_NAME):
+
+def normalize_from_map(value, mapping, default=None):
+    if pd.isna(value):
+        return value
+    return mapping.get(value, default if default is not None else value)
+
+
+def normalize_dss_focus_group(value):
+    if pd.isna(value):
+        return value
+    value = str(value).strip()
+    return DSS_FOCUS_GROUP_NORMALIZE.get(value.lower(), value)
+
+
+def find_existing_column(df, candidates):
+    return next((col for col in candidates if col in df.columns), None)
+
+
+def validate_dss_focus_groups(df):
+    known_groups = set(DSS_FOCUS_GROUP_NORMALIZE.values())
+    groups = set(df["DSS focus (grouped)"].dropna().unique())
+    unknown_groups = sorted(groups - known_groups)
+    if unknown_groups:
+        print("Warning: unrecognized DSS focus groups:")
+        for group in unknown_groups:
+            print(f"  - {group}")
+
+    print("DSS focus grouped counts:")
+    print(df["DSS focus (grouped)"].value_counts().to_string())
+
+
+def load_data(path=DEFAULT_EXCEL_PATH, sheet=SHEET_NAME):
     df = pd.read_excel(path, sheet_name=sheet)
 
     # Drop rows with no key_id
     df = df.dropna(subset=["key_id"]).copy()
 
     # Apply mappings
-    df["Country"] = df["Country"].map(
-        lambda x: COUNTRY_MAP.get(x, x) if pd.notna(x) else x
-    )
-    df["DSS focus"] = df["DSS focus"].map(
-        lambda x: DSS_FOCUS_MAP.get(x, x) if pd.notna(x) else x
-    )
-    df["Industry"] = df["Industry"].map(
-        lambda x: INDUSTRY_MAP.get(x, x) if pd.notna(x) else x
-    )
+    df["Country"] = df["Country"].map(lambda x: normalize_from_map(x, COUNTRY_MAP))
+    df["DSS focus"] = df["DSS focus"].map(lambda x: normalize_from_map(x, DSS_FOCUS_MAP))
+    df["Industry"] = df["Industry"].map(lambda x: normalize_from_map(x, INDUSTRY_MAP))
     df["Snowball (Yes/No)"] = df["Snowball (Yes/No)"].map(
-        lambda x: SNOWBALL_MAP.get(x, x) if pd.notna(x) else x
+        lambda x: normalize_from_map(x, SNOWBALL_MAP)
     )
     df["Evaluation setting"] = df["Evaluation setting"].map(
-        lambda x: EVAL_SETTING_MAP.get(x, x) if pd.notna(x) else x
+        lambda x: normalize_from_map(x, EVAL_SETTING_MAP)
     )
     df["Manufacturing level (L0,L1,L2,L3/L4)"] = df[
         "Manufacturing level (L0,L1,L2,L3/L4)"
-    ].map(lambda x: MFG_LEVEL_MAP.get(x, x) if pd.notna(x) else x)
+    ].map(lambda x: normalize_from_map(x, MFG_LEVEL_MAP))
 
     # Normalize date to int
     df["Year"] = pd.to_numeric(df["Date"], errors="coerce").astype("Int64")
@@ -520,17 +549,20 @@ def load_data(path=EXCEL_PATH, sheet=SHEET_NAME):
     df["Industry (grouped)"] = df["Industry"].map(
         lambda x: INDUSTRY_GROUP_MAP.get(x, "Other") if pd.notna(x) else x
     )
-    dss_group_col = next((col for col in DSS_FOCUS_GROUPED_COLUMNS if col in df.columns), None)
+    dss_group_col = find_existing_column(df, DSS_FOCUS_GROUPED_COLUMNS)
     if dss_group_col:
         df["DSS focus (grouped)"] = df[dss_group_col].astype("string").str.strip()
         df["DSS focus (grouped)"] = df["DSS focus (grouped)"].replace("", pd.NA)
-        df["DSS focus (grouped)"] = df["DSS focus (grouped)"].map(normalize_dss_focus_group)
+        df["DSS focus (grouped)"] = df["DSS focus (grouped)"].map(
+            normalize_dss_focus_group
+        )
     else:
         df["DSS focus (grouped)"] = df["DSS focus"].map(
             lambda x: DSS_FOCUS_GROUP_MAP.get(x, "Other") if pd.notna(x) else x
         )
 
     print(f"Loaded {len(df)} papers from '{sheet}'")
+    validate_dss_focus_groups(df)
     return df
 
 
@@ -594,13 +626,6 @@ def bar_counts(series, ax, color=COLORS["primary"], horizontal=False, top_n=None
 
 def wrap_labels(labels, width=18):
     return [textwrap.fill(str(l), width) for l in labels]
-
-
-def normalize_dss_focus_group(value):
-    if pd.isna(value):
-        return value
-    value = str(value).strip()
-    return DSS_FOCUS_GROUP_NORMALIZE.get(value.lower(), value)
 
 
 # ================================================================
@@ -676,7 +701,7 @@ def fig_publication_timeline(df):
     )
     ax.yaxis.set_major_locator(mticker.MaxNLocator(integer=True))
     fig.tight_layout()
-    save_fig(fig, "01_publication_timeline")
+    return save_fig(fig, "01_publication_timeline")
 
 
 def fig_manufacturing_level(df):
@@ -1004,7 +1029,7 @@ def fig_dss_focus(df):
     )
     # ax.set_title("Distribution of DSS focus areas")
     fig.tight_layout()
-    save_fig(fig, "05_dss_focus")
+    return save_fig(fig, "05_dss_focus")
 
 
 def fig_jobshop_variants(df):
@@ -1283,21 +1308,31 @@ def fig_dss_by_mfg_level(df):
 def main():
     global OUTPUT_DIR
 
-    import argparse
-
-    parser = argparse.ArgumentParser()
-    parser.add_argument("excel", nargs="?", default=EXCEL_PATH)
-    parser.add_argument("output_dir", nargs="?", default=OUTPUT_DIR)
+    parser = argparse.ArgumentParser(
+        description="Generate publication figures from the cleaned master sheet."
+    )
+    parser.add_argument(
+        "excel",
+        nargs="?",
+        default=DEFAULT_EXCEL_PATH,
+        help=f"Excel workbook to read. Default: {DEFAULT_EXCEL_PATH}",
+    )
+    parser.add_argument(
+        "output_dir",
+        nargs="?",
+        default=DEFAULT_OUTPUT_DIR,
+        help=f"Directory for generated figures. Default: {DEFAULT_OUTPUT_DIR}",
+    )
     args = parser.parse_args()
 
     OUTPUT_DIR = Path(args.output_dir)
 
-    print(f"Reading: {args.excel}")
+    print(f"Reading: {Path(args.excel)}")
     print(f"Output:  {OUTPUT_DIR}/")
     print()
 
     df = load_data(path=args.excel)
-    print(f"\nGenerating figures...\n")
+    print("\nGenerating figures...\n")
 
     generated = [
         fig_publication_timeline(df),
