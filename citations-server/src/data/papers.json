@@ -10,13 +10,13 @@
     "dssFocusGrouped": "Scheduling",
     "jobShopVariation": null,
     "technologies": [
-      "classic ML",
-      "MES",
-      "hyper-/meta-heuristic"
+      "Classic ML",
+      "MES"
     ],
     "methods": [
       "GP",
-      "OO"
+      "OO",
+      "Hyper-Metaheuristic"
     ],
     "evaluationSetting": "static evaluation",
     "dataSource": [
@@ -61,7 +61,7 @@
     "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Flexible Job-Shop Scheduling",
     "technologies": [
-      "classic ML"
+      "Classic ML"
     ],
     "methods": [
       "Random Forest"
@@ -86,13 +86,13 @@
     "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Flexible Job-Shop Scheduling",
     "technologies": [
-      "AGV/AMR",
-      "heuristics"
+      "AGV/AMR"
     ],
     "methods": [
       "MDP",
       "Costum Heuristic",
-      "dynamic programming"
+      "dynamic programming",
+      "Heuristic"
     ],
     "evaluationSetting": "simulation",
     "dataSource": [
@@ -174,7 +174,7 @@
     "methods": [
       "ADP",
       "Experience replay",
-      "markov chain model",
+      "Markov Chain Model",
       "RL"
     ],
     "evaluationSetting": "simulation",
@@ -196,14 +196,13 @@
     "dssFocus": "Scheduling",
     "dssFocusGrouped": "Scheduling",
     "jobShopVariation": null,
-    "technologies": [
-      "heuristic"
-    ],
+    "technologies": [],
     "methods": [
       "Costum Heuristic",
       "SRPT",
       "SPT",
-      "EDD"
+      "EDD",
+      "Heuristic"
     ],
     "evaluationSetting": "simulation",
     "dataSource": [
@@ -253,12 +252,11 @@
     "dssFocus": "Scheduling",
     "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Job-Shop Scheduling",
-    "technologies": [
-      "metaheuristic"
-    ],
+    "technologies": [],
     "methods": [
       "IGEP",
-      "Discovered dispatching rules"
+      "Dispatching Rules",
+      "Metaheuristic"
     ],
     "evaluationSetting": "simulation",
     "dataSource": [
@@ -338,11 +336,10 @@
     "dssFocusGrouped": "Scheduling",
     "jobShopVariation": null,
     "technologies": [
-      "DT",
-      "heuristic"
+      "DT"
     ],
     "methods": [
-      "heuristic"
+      "Heuristic"
     ],
     "evaluationSetting": "simulation",
     "dataSource": [
@@ -396,11 +393,11 @@
       "DT",
       "CPS",
       "OPC UA",
-      "Simulation"
+      "Simulation software"
     ],
     "methods": [
-      "systems engineering",
-      "UML modeling"
+      "Systems Engineering",
+      "UML Modeling"
     ],
     "evaluationSetting": "lab case study",
     "dataSource": [
@@ -459,7 +456,7 @@
       "MES"
     ],
     "methods": [
-      "costume scheduling method"
+      "Costum Scheduling Method"
     ],
     "evaluationSetting": "lab case study",
     "dataSource": [
@@ -544,10 +541,11 @@
     "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Reconfigurable Job-Shop Scheduling",
     "technologies": [
-      "AGV/AMR",
-      "metaheuristic"
+      "AGV/AMR"
     ],
-    "methods": [],
+    "methods": [
+      "Metaheuristic"
+    ],
     "evaluationSetting": "simulation",
     "dataSource": [
       "synthetic"
@@ -659,7 +657,7 @@
     "methods": [
       "PPO",
       "MDP",
-      "graph embedding",
+      "Graph Embedding",
       "GNN",
       "RL"
     ],
@@ -731,7 +729,7 @@
     "year": 2025,
     "doi": "https://doi.org/10.1109/TASE.2024.3380644",
     "bibtexKey": "Huang2025A",
-    "manufacturingLevel": "L2",
+    "manufacturingLevel": "L3",
     "dssFocus": "Scheduling",
     "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Dynamic Distributed Job-Shop Scheduling",
@@ -795,12 +793,11 @@
     "dssFocus": "Scheduling",
     "dssFocusGrouped": "Scheduling",
     "jobShopVariation": null,
-    "technologies": [
-      "metaheuristic"
-    ],
+    "technologies": [],
     "methods": [
       "MB",
-      "GA"
+      "GA",
+      "Metaheuristic"
     ],
     "evaluationSetting": "simulation",
     "dataSource": [
@@ -928,14 +925,13 @@
     "dssFocus": "Product Family Modularization",
     "dssFocusGrouped": "Plant layout & reconfiguration",
     "jobShopVariation": null,
-    "technologies": [
-      "metaheuristic"
-    ],
+    "technologies": [],
     "methods": [
       "MOBLP",
       "LFJO",
       "custom GA",
-      "DSM"
+      "DSM",
+      "Metaheuristic"
     ],
     "evaluationSetting": "static evaluation",
     "dataSource": [
@@ -957,17 +953,17 @@
     "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Distributed Flexible Job-Shop Scheduling",
     "technologies": [
-      "ML",
-      "metaheuristic"
+      "ML"
     ],
     "methods": [
-      "Evolutionary Algorithm",
+      "EA",
       "MILP",
       "DQN",
       "MDP",
-      "Costum heuristic operators",
+      "Costum Heuristic Operators",
       "RL",
-      "MAS"
+      "MAS",
+      "Metaheuristic"
     ],
     "evaluationSetting": "static evaluation",
     "dataSource": [
@@ -988,12 +984,11 @@
     "dssFocus": "Scheduling",
     "dssFocusGrouped": "Scheduling",
     "jobShopVariation": null,
-    "technologies": [
-      "metaheuristic"
-    ],
+    "technologies": [],
     "methods": [
       "GP",
-      "Bloat control"
+      "Bloat control",
+      "Metaheuristic"
     ],
     "evaluationSetting": "simulation",
     "dataSource": [
@@ -1017,7 +1012,7 @@
     "technologies": [
       "DT",
       "IoT",
-      "AMR/AGV"
+      "AGV/AMR"
     ],
     "methods": [
       "DES"
@@ -1099,7 +1094,7 @@
     "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Dynamic Flexible Job-Shop Scheduling",
     "technologies": [
-      "classic ML",
+      "Classic ML",
       "DT"
     ],
     "methods": [
@@ -1204,7 +1199,7 @@
     "title": "Solving Flexible Job-Shop Scheduling Problem with Heterogeneous Graph Neural Network Based on Relation and Deep Reinforcement Learning",
     "year": 2024,
     "doi": "https://doi.org/10.3390/machines12080584",
-    "bibtexKey": "Tang2024Solving",
+    "bibtexKey": "He2024The",
     "manufacturingLevel": "L2",
     "dssFocus": "Scheduling",
     "dssFocusGrouped": "Scheduling",
@@ -1233,7 +1228,7 @@
     "title": "The use of reinforcement learning for material flow control: An assessment by simulation",
     "year": 2024,
     "doi": "https://doi.org/10.1016/j.ijpe.2024.109312",
-    "bibtexKey": "He2024The",
+    "bibtexKey": "",
     "manufacturingLevel": "L2",
     "dssFocus": "Material Flow Control",
     "dssFocusGrouped": "Visualization & simulation",
@@ -1792,13 +1787,12 @@
     "dssFocus": "Scheduling",
     "dssFocusGrouped": "Scheduling",
     "jobShopVariation": null,
-    "technologies": [
-      "metaheuristic"
-    ],
+    "technologies": [],
     "methods": [
       "NSGA-II",
       "Pareto",
-      "MILP"
+      "MILP",
+      "Metaheuristic"
     ],
     "evaluationSetting": "static evaluation",
     "dataSource": [
@@ -1841,11 +1835,11 @@
     "dssFocusGrouped": "Scheduling",
     "jobShopVariation": null,
     "technologies": [
-      "AGV/AMR",
-      "metaheuristic"
+      "AGV/AMR"
     ],
     "methods": [
-      "GA"
+      "GA",
+      "Metaheuristic"
     ],
     "evaluationSetting": "static evaluation",
     "dataSource": [
@@ -2035,7 +2029,7 @@
       "ML",
       "AGV/AMR",
       "Robot",
-      "cloud computing",
+      "Cloud Computing",
       "IoT",
       "CPS"
     ],
@@ -2094,7 +2088,7 @@
     "year": 2022,
     "doi": "https://doi.org/10.1016/j.aei.2022.101776",
     "bibtexKey": "Yang2022Realtime",
-    "manufacturingLevel": "L2",
+    "manufacturingLevel": "L3",
     "dssFocus": "Scheduling",
     "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Dynamic Distributed Job-Shop Scheduling",
@@ -2159,7 +2153,7 @@
       "DT"
     ],
     "methods": [
-      "Q-Learning",
+      "Q-learning",
       "MDP",
       "RL"
     ],
@@ -2183,13 +2177,12 @@
     "dssFocus": "Scheduling",
     "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Job-Shop Scheduling",
-    "technologies": [
-      "heuristic"
-    ],
+    "technologies": [],
     "methods": [
       "Contract-Net Protocol",
       "FIFO",
-      "MAS"
+      "MAS",
+      "Heuristic"
     ],
     "evaluationSetting": "simulation",
     "dataSource": [
@@ -2212,7 +2205,7 @@
     "jobShopVariation": null,
     "technologies": [
       "ML",
-      "Plant Simulation software"
+      "Simulation software"
     ],
     "methods": [
       "DES",
@@ -2329,14 +2322,14 @@
     "jobShopVariation": "Flexible Job-Shop Scheduling",
     "technologies": [
       "ML",
-      "AGV/AMR",
-      "metaheuristic"
+      "AGV/AMR"
     ],
     "methods": [
       "GNN",
       "MDP",
       "GA",
-      "RL"
+      "RL",
+      "Metaheuristic"
     ],
     "evaluationSetting": "simulation",
     "dataSource": [
@@ -2447,11 +2440,11 @@
     "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Dynamic Flexible Job-Shop Scheduling",
     "technologies": [
-      "Crane",
-      "metaheuristic"
+      "Crane"
     ],
     "methods": [
-      "GA"
+      "GA",
+      "Metaheuristic"
     ],
     "evaluationSetting": "static evaluation",
     "dataSource": [
@@ -2474,14 +2467,14 @@
     "jobShopVariation": "Dynamic Flexible Job-Shop Scheduling",
     "technologies": [
       "ML",
-      "AVG/AMR",
-      "metaheuristic"
+      "AGV/AMR"
     ],
     "methods": [
       "DQN",
       "GA",
       "MDP",
-      "RL"
+      "RL",
+      "Metaheuristic"
     ],
     "evaluationSetting": "simulation",
     "dataSource": [
@@ -2505,10 +2498,9 @@
     "jobShopVariation": null,
     "technologies": [
       "DT",
-      "cloud computing",
-      "fog computing",
-      "edge computing",
-      "metaheuristic"
+      "Cloud Computing",
+      "Fog Computing",
+      "Edge Computing"
     ],
     "methods": [
       "GA",
@@ -2516,7 +2508,8 @@
       "TS",
       "ATC",
       "HSC",
-      "Interior-point method"
+      "Interior-Point Method",
+      "Metaheuristic"
     ],
     "evaluationSetting": "static evaluation",
     "dataSource": [
@@ -2543,8 +2536,8 @@
     ],
     "methods": [
       "PPO",
-      "weight-decomposition",
-      "neighborhood-inheritance",
+      "Weight Decomposition",
+      "Neighborhood Inheritance",
       "RL",
       "MAS"
     ],
@@ -2568,16 +2561,16 @@
     "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Flexible Job-Shop Scheduling",
     "technologies": [
-      "ML",
-      "metaheuristic"
+      "ML"
     ],
     "methods": [
       "A2C",
       "MDP",
       "GA",
-      "K-means clustering",
+      "K-Means Clustering",
       "DNN",
-      "RL"
+      "RL",
+      "Metaheuristic"
     ],
     "evaluationSetting": "static evaluation",
     "dataSource": [
@@ -2599,12 +2592,12 @@
     "dssFocusGrouped": "Scheduling",
     "jobShopVariation": null,
     "technologies": [
-      "DT",
-      "metaheuristic"
+      "DT"
     ],
     "methods": [
       "GA",
-      "ALNS"
+      "ALNS",
+      "Metaheuristic"
     ],
     "evaluationSetting": "simulation",
     "dataSource": [
@@ -2683,12 +2676,12 @@
     "jobShopVariation": "Job-Shop Scheduling",
     "technologies": [
       "ML",
-      "Plant Simulation software",
-      "metaheuristic"
+      "Simulation software"
     ],
     "methods": [
-      "Genetic Algorithm",
-      "DL"
+      "GA",
+      "DL",
+      "Metaheuristic"
     ],
     "evaluationSetting": "simulation",
     "dataSource": [
@@ -2870,12 +2863,12 @@
     "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Flexible Job-Shop Scheduling",
     "technologies": [
-      "AGV/AMR",
-      "metaheuristic"
+      "AGV/AMR"
     ],
     "methods": [
       "MMIP",
-      "costum NSGA-II heuristic (EHA)"
+      "Costum NSGA-II Heuristic (EHA)",
+      "Metaheuristic"
     ],
     "evaluationSetting": "static evaluation",
     "dataSource": [
@@ -2926,12 +2919,11 @@
     "dssFocus": "Scheduling",
     "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Flexible Job-Shop Scheduling",
-    "technologies": [
-      "metaheuristic"
-    ],
+    "technologies": [],
     "methods": [
-      "Genetic Algorithm",
-      "rule based?"
+      "GA",
+      "Rule Based",
+      "Metaheuristic"
     ],
     "evaluationSetting": "static evaluation",
     "dataSource": [
@@ -3097,8 +3089,8 @@
     "jobShopVariation": "Flexible Job-Shop Scheduling",
     "technologies": [
       "ML",
-      "Cloud computing",
-      "Edge computing"
+      "Cloud Computing",
+      "Edge Computing"
     ],
     "methods": [
       "DQN",
@@ -3150,13 +3142,12 @@
     "dssFocus": "Scheduling",
     "dssFocusGrouped": "Scheduling",
     "jobShopVariation": null,
-    "technologies": [
-      "Metaheuristic"
-    ],
+    "technologies": [],
     "methods": [
-      "Genetic Algorithm",
+      "GA",
       "Fuzzy Logic",
-      "MILP"
+      "MILP",
+      "Metaheuristic"
     ],
     "evaluationSetting": "static evaluation",
     "dataSource": [
@@ -3177,12 +3168,11 @@
     "dssFocus": "Scheduling",
     "dssFocusGrouped": "Scheduling",
     "jobShopVariation": null,
-    "technologies": [
-      "Heuristic"
-    ],
+    "technologies": [],
     "methods": [
       "MINLP",
-      "costume heuristic"
+      "Costum Heuristic",
+      "Heuristic"
     ],
     "evaluationSetting": "static evaluation",
     "dataSource": [
@@ -3206,8 +3196,8 @@
     "technologies": [],
     "methods": [
       "MILP",
-      "conditional value at risk (CVaR)",
-      "robust optimization"
+      "Conditional Value at Risk (CVaR)",
+      "Robust Optimization"
     ],
     "evaluationSetting": "static evaluation",
     "dataSource": [
@@ -3228,12 +3218,11 @@
     "dssFocus": "Scheduling",
     "dssFocusGrouped": "Scheduling",
     "jobShopVariation": null,
-    "technologies": [
-      "Heuristic"
-    ],
+    "technologies": [],
     "methods": [
       "MILP",
-      "Tabu Search"
+      "TS",
+      "Heuristic"
     ],
     "evaluationSetting": "static evaluation",
     "dataSource": [
@@ -3255,14 +3244,13 @@
     "dssFocus": "Scheduling",
     "dssFocusGrouped": "Scheduling",
     "jobShopVariation": null,
-    "technologies": [
-      "Metaheuristic"
-    ],
+    "technologies": [],
     "methods": [
       "Multi-objective Artificial Bee Colony (MABC)",
       "Hypervolume indicator",
       "Local Integer Programming",
-      "Heuristic neighbourhood search"
+      "Heuristic neighbourhood search",
+      "Metaheuristic"
     ],
     "evaluationSetting": "static evaluation",
     "dataSource": [
@@ -3284,14 +3272,13 @@
     "dssFocus": "Scheduling",
     "dssFocusGrouped": "Scheduling",
     "jobShopVariation": null,
-    "technologies": [
-      "Metaheuristic"
-    ],
+    "technologies": [],
     "methods": [
-      "Simulated Annealing",
+      "SA",
       "GRASP",
       "Monte Carlo Simulation",
-      "MILP"
+      "MILP",
+      "Metaheuristic"
     ],
     "evaluationSetting": "static evaluation",
     "dataSource": [
@@ -3313,12 +3300,12 @@
     "dssFocus": "Scheduling",
     "dssFocusGrouped": "Scheduling",
     "jobShopVariation": null,
-    "technologies": [
-      "heuristic"
-    ],
+    "technologies": [],
     "methods": [
       "MILP",
-      "Greedy priority rule"
+      "Greedy Priority Rule",
+      "Heuristic",
+      "Dispatching Rules"
     ],
     "evaluationSetting": "static evaluation",
     "dataSource": [
@@ -3447,7 +3434,7 @@
     "jobShopVariation": "Job-Shop Scheduling",
     "technologies": [
       "ML",
-      "Simio simulation"
+      "Simulation software"
     ],
     "methods": [
       "DES",
@@ -3498,13 +3485,12 @@
     "dssFocus": "Scheduling",
     "dssFocusGrouped": "Scheduling",
     "jobShopVariation": null,
-    "technologies": [
-      "Metaheuristic"
-    ],
+    "technologies": [],
     "methods": [
-      "Genetic Algorithm",
+      "GA",
       "MIP",
-      "WSM"
+      "WSM",
+      "Metaheuristic"
     ],
     "evaluationSetting": "static evaluation",
     "dataSource": [
@@ -3527,15 +3513,15 @@
     "jobShopVariation": null,
     "technologies": [
       "Robot",
-      "ML",
-      "Metaheuristic"
+      "ML"
     ],
     "methods": [
-      "Co-Evolutionary Algorithm",
+      "Co-EA",
       "MILP",
       "MDP",
       "Q-learning",
-      "RL"
+      "RL",
+      "Metaheuristic"
     ],
     "evaluationSetting": "static evaluation",
     "dataSource": [
@@ -3558,12 +3544,12 @@
     "dssFocusGrouped": "Forecasting & prediction",
     "jobShopVariation": null,
     "technologies": [
-      "FACTs Analyzer simulation",
-      "metaheuristic"
+      "Simulation software"
     ],
     "methods": [
       "costume NSGA-ll",
-      "meta-learning"
+      "meta-learning",
+      "Metaheuristic"
     ],
     "evaluationSetting": "simulation",
     "dataSource": [
@@ -3639,11 +3625,11 @@
     "dssFocusGrouped": "Scheduling",
     "jobShopVariation": null,
     "technologies": [
-      "Robot",
-      "metaheuristic"
+      "Robot"
     ],
     "methods": [
-      "QFA"
+      "QFA",
+      "Metaheuristic"
     ],
     "evaluationSetting": "static evaluation",
     "dataSource": [
@@ -3669,7 +3655,7 @@
       "AGV/AMR"
     ],
     "methods": [
-      "simulation",
+      "Simulation",
       "MCTS"
     ],
     "evaluationSetting": "lab case study",
@@ -3688,7 +3674,7 @@
     "year": 2025,
     "doi": "https://doi.org/10.1016/j.asoc.2025.113474",
     "bibtexKey": "Zhang2025Multiagent",
-    "manufacturingLevel": "L2",
+    "manufacturingLevel": "L3",
     "dssFocus": "Scheduling",
     "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Distributed Flexible Job-Shop Scheduling",
@@ -3835,12 +3821,11 @@
     "dssFocus": "Scheduling",
     "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Flexible Job-Shop Scheduling",
-    "technologies": [
-      "Metaheuristic"
-    ],
+    "technologies": [],
     "methods": [
       "HGA",
-      "Markov chains"
+      "Markov Chain",
+      "Metaheuristic"
     ],
     "evaluationSetting": "static evaluation",
     "dataSource": [
@@ -3861,12 +3846,11 @@
     "dssFocus": "Scheduling",
     "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Job-Shop Scheduling",
-    "technologies": [
-      "metaheuristic"
-    ],
+    "technologies": [],
     "methods": [
       "MILP",
-      "SA"
+      "SA",
+      "Metaheuristic"
     ],
     "evaluationSetting": "static evaluation",
     "dataSource": [
@@ -3889,16 +3873,16 @@
     "jobShopVariation": null,
     "technologies": [
       "ML",
-      "AGV/AMR",
-      "metaheuristic"
+      "AGV/AMR"
     ],
     "methods": [
       "DES",
       "costume NSGA-ll",
-      "random forest regressor",
+      "Random Forest Regressor",
       "VNS",
       "LLML",
-      "DL"
+      "DL",
+      "Metaheuristic"
     ],
     "evaluationSetting": "simulation",
     "dataSource": [
@@ -3971,11 +3955,11 @@
     "dssFocusGrouped": "Plant layout & reconfiguration",
     "jobShopVariation": null,
     "technologies": [
-      "RMS",
-      "metaheuristic"
+      "RMS"
     ],
     "methods": [
-      "GA"
+      "GA",
+      "Metaheuristic"
     ],
     "evaluationSetting": "simulation",
     "dataSource": [
@@ -4022,11 +4006,10 @@
     "dssFocus": "Scheduling",
     "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Flexible Job-Shop Scheduling",
-    "technologies": [
-      "metaheuristic"
-    ],
+    "technologies": [],
     "methods": [
-      "Artificial fish swarm"
+      "Artificial fish swarm",
+      "Metaheuristic"
     ],
     "evaluationSetting": "simulation",
     "dataSource": [
@@ -4075,12 +4058,11 @@
     "dssFocus": "Scheduling",
     "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Maintenance-Integrated Job-Shop Scheduling",
-    "technologies": [
-      "Metaheuristic"
-    ],
+    "technologies": [],
     "methods": [
       "GA",
-      "SA"
+      "SA",
+      "Metaheuristic"
     ],
     "evaluationSetting": "static evaluation",
     "dataSource": [
@@ -4156,7 +4138,7 @@
     "dssFocusGrouped": "Forecasting & prediction",
     "jobShopVariation": null,
     "technologies": [
-      "classic ML"
+      "Classic ML"
     ],
     "methods": [
       "DES",
@@ -4181,12 +4163,10 @@
     "dssFocus": "Scheduling",
     "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Job-Shop Scheduling",
-    "technologies": [
-      "heuristic"
-    ],
+    "technologies": [],
     "methods": [
       "MAS",
-      "heuristic"
+      "Heuristic"
     ],
     "evaluationSetting": "simulation",
     "dataSource": [
@@ -4364,10 +4344,12 @@
     "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Job-Shop Scheduling",
     "technologies": [
-      "LLM",
+      "AI",
       "AGV/AMR"
     ],
-    "methods": [],
+    "methods": [
+      "LLM"
+    ],
     "evaluationSetting": "static evaluation",
     "dataSource": [
       "synthetic"
@@ -4388,12 +4370,12 @@
     "dssFocusGrouped": "Scheduling",
     "jobShopVariation": null,
     "technologies": [
-      "AGV/AMR",
-      "metaheuristic"
+      "AGV/AMR"
     ],
     "methods": [
       "MILP",
-      "SA"
+      "SA",
+      "Metaheuristic"
     ],
     "evaluationSetting": "static evaluation",
     "dataSource": [
@@ -4497,13 +4479,14 @@
     "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Distributed Flexible Job-Shop Scheduling",
     "technologies": [
-      "metaheuristic"
+      "ML"
     ],
     "methods": [
       "EA",
-      "heuristics",
+      "Heuristic",
       "MILP",
-      "RL"
+      "RL",
+      "Metaheuristic"
     ],
     "evaluationSetting": "static evaluation",
     "dataSource": [
@@ -4529,8 +4512,8 @@
       "Classic ML"
     ],
     "methods": [
-      "Heuristics",
-      "simulation",
+      "Heuristic",
+      "Simulation",
       "random-forrest"
     ],
     "evaluationSetting": "simulation",
@@ -4628,12 +4611,11 @@
     "dssFocusGrouped": "Logistics & supply chain",
     "jobShopVariation": null,
     "technologies": [
-      "DT",
-      "Heuristic"
+      "DT"
     ],
     "methods": [
-      "Heuristics",
-      "simulation"
+      "Heuristic",
+      "Simulation"
     ],
     "evaluationSetting": "industrial case study",
     "dataSource": [
@@ -4708,12 +4690,11 @@
     "dssFocus": "Scheduling",
     "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Flexible Job-Shop Scheduling",
-    "technologies": [
-      "metaheuristic"
-    ],
+    "technologies": [],
     "methods": [
       "GA",
-      "simulation"
+      "Simulation",
+      "Metaheuristic"
     ],
     "evaluationSetting": "static evaluation",
     "dataSource": [
@@ -4770,7 +4751,7 @@
     "methods": [
       "PPO",
       "GNN",
-      "Attention mechanism",
+      "Attention Mechanism",
       "MDP",
       "RL"
     ],
@@ -4928,14 +4909,14 @@
     "dssFocusGrouped": "Scheduling",
     "jobShopVariation": null,
     "technologies": [
-      "ML",
-      "metaheuristic"
+      "ML"
     ],
     "methods": [
       "DL",
       "GA",
       "LSTM",
-      "Tabu Search"
+      "TS",
+      "Metaheuristic"
     ],
     "evaluationSetting": "simulation",
     "dataSource": [
@@ -5014,12 +4995,12 @@
     "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "Flexible Job-Shop Scheduling",
     "technologies": [
-      "AGV/AMR",
-      "metaheuristic"
+      "AGV/AMR"
     ],
     "methods": [
       "Pareto",
-      "NSGA-II"
+      "NSGA-II",
+      "Metaheuristic"
     ],
     "evaluationSetting": "static evaluation",
     "dataSource": [
@@ -5189,7 +5170,7 @@
     "methods": [
       "RL",
       "GNN",
-      "attention mechanism",
+      "Attention Mechanism",
       "MDP"
     ],
     "evaluationSetting": "simulation",
@@ -5211,11 +5192,10 @@
     "dssFocus": "Scheduling",
     "dssFocusGrouped": "Scheduling",
     "jobShopVariation": null,
-    "technologies": [
-      "Heuristic"
-    ],
+    "technologies": [],
     "methods": [
-      "Dispatching Rules"
+      "Dispatching Rules",
+      "Heuristic"
     ],
     "evaluationSetting": "simulation",
     "dataSource": [
@@ -5238,11 +5218,11 @@
     "jobShopVariation": "No (assembly Line Balancing Problem)",
     "technologies": [
       "Robot",
-      "FMS",
-      "Metaheuristic"
+      "FMS"
     ],
     "methods": [
-      "SA"
+      "SA",
+      "Metaheuristic"
     ],
     "evaluationSetting": "static evaluation",
     "dataSource": [
@@ -5320,11 +5300,10 @@
     "dssFocus": "Scheduling",
     "dssFocusGrouped": "Scheduling",
     "jobShopVariation": "No (unrelated Parallel Machine Scheduling Problem)",
-    "technologies": [
-      "Metaheuristic"
-    ],
+    "technologies": [],
     "methods": [
-      "costume metaheuristic"
+      "Costum Metaheuristic",
+      "Metaheuristic"
     ],
     "evaluationSetting": "static evaluation",
     "dataSource": [
@@ -5422,12 +5401,11 @@
     "dssFocus": "Scheduling",
     "dssFocusGrouped": "Scheduling",
     "jobShopVariation": null,
-    "technologies": [
-      "Metaheuristic"
-    ],
+    "technologies": [],
     "methods": [
       "GA",
-      "MCTS"
+      "MCTS",
+      "Metaheuristic"
     ],
     "evaluationSetting": "static evaluation",
     "dataSource": [
@@ -5448,11 +5426,10 @@
     "dssFocus": "Combined Design And Production Optimization",
     "dssFocusGrouped": "Plant layout & reconfiguration",
     "jobShopVariation": null,
-    "technologies": [
-      "metaheuristic"
-    ],
+    "technologies": [],
     "methods": [
-      "GA"
+      "GA",
+      "Metaheuristic"
     ],
     "evaluationSetting": "simulation",
     "dataSource": [
@@ -5474,13 +5451,13 @@
     "dssFocusGrouped": "Plant layout & reconfiguration",
     "jobShopVariation": null,
     "technologies": [
-      "RMS",
-      "Metaheuristic"
+      "RMS"
     ],
     "methods": [
       "MILP",
-      "simulation",
-      "SA"
+      "Simulation",
+      "SA",
+      "Metaheuristic"
     ],
     "evaluationSetting": "static evaluation",
     "dataSource": [
