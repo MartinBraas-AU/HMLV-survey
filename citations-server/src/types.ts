@@ -17,3 +17,18 @@ export interface Paper {
   metrics: string;
   snowball: boolean;
 }
+
+export interface RelevantPaper {
+  id: number;
+  keyId: string;
+  title: string;
+  doi: string;
+  relevanceScore: string;
+  reasoning: string;
+  methods: string[];
+  technologies: string[];
+  automatedManufacturingLevel: string;
+  negativesFound: string;
+  dssFocus: string;
+  year: number;
+}

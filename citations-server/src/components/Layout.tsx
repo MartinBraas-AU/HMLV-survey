@@ -20,6 +20,7 @@ export function Layout() {
         <Link to="/" className="site-title">HMLV Survey</Link>
         <nav className="header-nav">
           <Link to="/dashboard" className="header-link">Dashboard</Link>
+          <Link to="/possibly-relevant" className="header-link">Possibly Relevant</Link>
           <Link to="/technology" className="header-link">Technologies</Link>
           <Link to="/country" className="header-link">Countries</Link>
           <Link to="/year" className="header-link">Years</Link>

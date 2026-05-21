@@ -1,6 +1,7 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import papersData from "./data/papers.json";
-import type { Paper } from "./types";
+import relevantPapersData from "./data/relevant-papers.json";
+import type { Paper, RelevantPaper } from "./types";
 import { Layout } from "./components/Layout";
 import { LevelSelect } from "./pages/LevelSelect";
 import { DSSFocusSelect } from "./pages/DSSFocusSelect";
@@ -9,6 +10,7 @@ import { PaperList } from "./pages/PaperList";
 import { PaperDetail } from "./pages/PaperDetail";
 import { SearchResults } from "./pages/SearchResults";
 import { Dashboard } from "./pages/Dashboard";
+import { RelevantPapers } from "./pages/RelevantPapers";
 import {
   TechnologyIndex, TechnologyPapers,
   CountryIndex, CountryPapers,
@@ -16,6 +18,7 @@ import {
 } from "./pages/BrowseBy";
 
 const papers: Paper[] = papersData as Paper[];
+const relevantPapers: RelevantPaper[] = relevantPapersData as RelevantPaper[];
 
 function App() {
   return (
@@ -24,6 +27,7 @@ function App() {
         <Route element={<Layout />}>
           <Route path="/" element={<LevelSelect papers={papers} />} />
           <Route path="/search" element={<SearchResults papers={papers} />} />
+          <Route path="/possibly-relevant" element={<RelevantPapers papers={relevantPapers} />} />
           <Route path="/dashboard" element={<Dashboard papers={papers} />} />
           <Route path="/technology" element={<TechnologyIndex papers={papers} />} />
           <Route path="/technology/:tech" element={<TechnologyPapers papers={papers} />} />

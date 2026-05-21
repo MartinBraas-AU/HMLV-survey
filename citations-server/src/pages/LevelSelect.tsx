@@ -1,4 +1,5 @@
 import { useMemo } from "react";
+import { Link } from "react-router-dom";
 import type { Paper } from "../types";
 import { papersByLevel, sortLevels } from "../utils/normalize";
 import { CategoryCard } from "../components/CategoryCard";
@@ -25,6 +26,32 @@ export function LevelSelect({ papers }: { papers: Paper[] }) {
         {levels.size} manufacturing levels
       </p>
 
+      <section className="intro-panel">
+        <div className="intro-copy">
+          <h2>About the Survey</h2>
+          <p>
+            This interactive companion presents the papers included in the
+            systematic survey of decision support systems for high-mix,
+            low-volume manufacturing. Introductory text and references for the
+            survey can be added here before publication.
+          </p>
+          <p className="reference-placeholder">
+            References placeholder: cite the survey manuscript and any companion
+            protocol, data, or review-method papers here.
+          </p>
+        </div>
+        <div className="bibtex-block">
+          <div className="bibtex-title">BibTeX</div>
+          <pre>{`@article{hmlv_dss_survey_placeholder,
+  title = {Decision Support Systems for High-Mix Low-Volume Manufacturing: A Systematic Literature Review},
+  author = {Author, First and Author, Second},
+  journal = {Journal Name},
+  year = {2026},
+  note = {Manuscript in preparation}
+}`}</pre>
+        </div>
+      </section>
+
       <div className="card-grid">
         <CategoryCard
           label="All Levels"
@@ -39,6 +66,12 @@ export function LevelSelect({ papers }: { papers: Paper[] }) {
             to={`/level/${encodeURIComponent(level)}`}
           />
         ))}
+      </div>
+
+      <div className="level-actions">
+        <Link to="/possibly-relevant" className="primary-link-button">
+          View Possibly Relevant Papers
+        </Link>
       </div>
     </div>
   );

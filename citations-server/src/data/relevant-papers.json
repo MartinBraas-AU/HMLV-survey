@@ -1,0 +1,648 @@
+[
+  {
+    "id": 0,
+    "keyId": "2025_panoptic_migrating_birds_optimization_with_gcn-guided_population_iteration:_a_feature-guided_intelligent_optimizer_(fgio)_for_flexible_job_shop_scheduling",
+    "title": "Panoptic migrating birds optimization with GCN-guided population iteration: a feature-guided intelligent optimizer (FGIO) for flexible job shop scheduling",
+    "doi": "https://doi.org/10.1007/s12351-025-00977-3",
+    "relevanceScore": "*",
+    "reasoning": "Manufacturing (3) + some technology relevance (1)",
+    "methods": [
+      "metaheuristic",
+      "optimization",
+      "reinforcement learning"
+    ],
+    "technologies": [
+      "reinforcement learning"
+    ],
+    "automatedManufacturingLevel": "Factory",
+    "negativesFound": "Managerial/business/policy focus",
+    "dssFocus": "Scheduling",
+    "year": 2025
+  },
+  {
+    "id": 1,
+    "keyId": "2025_a_group_decision_making_scheduling_method_for_flexible_job_shop_integrating_blockchain_and_rule_mining",
+    "title": "A group decision making scheduling method for flexible job shop integrating blockchain and rule mining",
+    "doi": "https://doi.org/10.1016/j.engappai.2025.111783",
+    "relevanceScore": "*",
+    "reasoning": "Manufacturing (8) + some technology relevance (1)",
+    "methods": [
+      "optimization"
+    ],
+    "technologies": [
+      "cyber-physical system"
+    ],
+    "automatedManufacturingLevel": "Factory",
+    "negativesFound": "None",
+    "dssFocus": "Scheduling",
+    "year": 2025
+  },
+  {
+    "id": 2,
+    "keyId": "2025_balanced_adaptive_subspace_collaboration_for_mixed_pareto-lexicographic_multi-objective_problems_with_priority_levels",
+    "title": "Balanced Adaptive Subspace Collaboration for Mixed Pareto-Lexicographic Multi-Objective Problems with Priority Levels",
+    "doi": "https://doi.org/10.1609/aaai.v39i25.34907",
+    "relevanceScore": "*",
+    "reasoning": "Manufacturing (2) + some technology relevance (1)",
+    "methods": [
+      "evolutionary algorithm",
+      "optimization"
+    ],
+    "technologies": [
+      "artificial intelligence"
+    ],
+    "automatedManufacturingLevel": "Factory",
+    "negativesFound": "None",
+    "dssFocus": "-",
+    "year": 2025
+  },
+  {
+    "id": 3,
+    "keyId": "2025_advancing_mass_customization_in_capital_goods_manufacturing_through_standard_man_hours_(smh)_modelling_and_esg_considerations",
+    "title": "Advancing Mass Customization in Capital Goods Manufacturing Through Standard Man Hours (SMH) Modelling and ESG Considerations",
+    "doi": "https://doi.org/10.1007/978-3-031-77012-8_7",
+    "relevanceScore": "*",
+    "reasoning": "Manufacturing (4) + some technology relevance (1)",
+    "methods": [],
+    "technologies": [
+      "analytics"
+    ],
+    "automatedManufacturingLevel": "Unclassified",
+    "negativesFound": "Managerial/business/policy focus",
+    "dssFocus": "-",
+    "year": 2025
+  },
+  {
+    "id": 4,
+    "keyId": "2025_a_dueling_dqn_framework_for_solving_multi-objective_flexible_job_shop_scheduling_with_urgent_job_insertions_and_machine_breakdowns",
+    "title": "A Dueling DQN Framework for Solving Multi-objective Flexible Job Shop Scheduling with Urgent Job Insertions and Machine Breakdowns",
+    "doi": "https://doi.org/10.1007/978-981-96-9901-8_31",
+    "relevanceScore": "*",
+    "reasoning": "Manufacturing (6) + some technology relevance (1)",
+    "methods": [
+      "data mining",
+      "deep q-network",
+      "dqn",
+      "optimization",
+      "reinforcement learning"
+    ],
+    "technologies": [
+      "reinforcement learning"
+    ],
+    "automatedManufacturingLevel": "Factory",
+    "negativesFound": "None",
+    "dssFocus": "Scheduling",
+    "year": 2025
+  },
+  {
+    "id": 5,
+    "keyId": "2025_multi-agent_communication_for_dynamic_job-shop_scheduling:_a_robust_single-machine_scheduling_model_with_genetic_algorithm_optimization",
+    "title": "Multi-Agent Communication for Dynamic Job-Shop Scheduling: A Robust Single-Machine Scheduling Model With Genetic Algorithm Optimization",
+    "doi": "https://doi.org/10.1109/ACCESS.2025.3569568",
+    "relevanceScore": "*",
+    "reasoning": "Manufacturing (5) + some technology relevance (1)",
+    "methods": [
+      "genetic algorithm",
+      "optimization",
+      "simulation"
+    ],
+    "technologies": [
+      "iot"
+    ],
+    "automatedManufacturingLevel": "Factory",
+    "negativesFound": "None",
+    "dssFocus": "Scheduling",
+    "year": 2025
+  },
+  {
+    "id": 6,
+    "keyId": "2025_influencing_factors_on_worker_task_sequencing_decisions_in_a_medium-sized_hydraulic_cylinder_manufacturer",
+    "title": "Influencing factors on worker task sequencing decisions in a medium-sized hydraulic cylinder manufacturer",
+    "doi": "https://doi.org/10.1016/j.procs.2025.01.244",
+    "relevanceScore": "*",
+    "reasoning": "Manufacturing (4) + some technology relevance (1)",
+    "methods": [],
+    "technologies": [
+      "machine learning"
+    ],
+    "automatedManufacturingLevel": "Unclassified",
+    "negativesFound": "None",
+    "dssFocus": "-",
+    "year": 2025
+  },
+  {
+    "id": 7,
+    "keyId": "2024_optimization_of_process,_knowledge,_and_manufacturing_management_in_customized_production:_a_graph-based_approach_for_manufacturing_planning",
+    "title": "Optimization of Process, Knowledge, and Manufacturing Management in Customized Production: A Graph-Based Approach for Manufacturing Planning",
+    "doi": "https://doi.org/10.1016/j.ifacol.2024.09.103",
+    "relevanceScore": "*",
+    "reasoning": "Manufacturing (10) + some technology relevance (1)",
+    "methods": [
+      "optimization"
+    ],
+    "technologies": [
+      "data-driven"
+    ],
+    "automatedManufacturingLevel": "Unclassified",
+    "negativesFound": "Managerial/business/policy focus",
+    "dssFocus": "-",
+    "year": 2024
+  },
+  {
+    "id": 8,
+    "keyId": "2024_multi-enterprise_dynamic_task_scheduling_approach_for_industrial_internet-of-things",
+    "title": "Multi-enterprise Dynamic Task Scheduling Approach for Industrial Internet-of-things",
+    "doi": "https://doi.org/10.23919/CCC63176.2024.10661681",
+    "relevanceScore": "*",
+    "reasoning": "Manufacturing (14) + some technology relevance (1)",
+    "methods": [
+      "genetic algorithm"
+    ],
+    "technologies": [
+      "internet of things"
+    ],
+    "automatedManufacturingLevel": "Factory",
+    "negativesFound": "None",
+    "dssFocus": "Scheduling",
+    "year": 2024
+  },
+  {
+    "id": 9,
+    "keyId": "2023_integrating_information,_financial,_and_material_flows_in_a_chemical_supply_chain",
+    "title": "Integrating information, financial, and material flows in a chemical supply chain",
+    "doi": "https://doi.org/10.1016/j.compchemeng.2023.108363",
+    "relevanceScore": "*",
+    "reasoning": "Manufacturing (2) + some technology relevance (1)",
+    "methods": [
+      "simulation"
+    ],
+    "technologies": [
+      "artificial intelligence"
+    ],
+    "automatedManufacturingLevel": "Unclassified",
+    "negativesFound": "Managerial/business/policy focus",
+    "dssFocus": "-",
+    "year": 2023
+  },
+  {
+    "id": 10,
+    "keyId": "2023_a_decision_support_framework_for_sustainable_production_planning_of_paper_recycling_systems",
+    "title": "A decision support framework for sustainable production planning of paper recycling systems",
+    "doi": "https://doi.org/10.1016/j.cie.2023.109500",
+    "relevanceScore": "*",
+    "reasoning": "Manufacturing (5) + some technology relevance (1)",
+    "methods": [],
+    "technologies": [
+      "neural network"
+    ],
+    "automatedManufacturingLevel": "Unclassified",
+    "negativesFound": "Managerial/business/policy focus",
+    "dssFocus": "-",
+    "year": 2023
+  },
+  {
+    "id": 11,
+    "keyId": "2023_optimizing_dispatching_strategies_for_semiconductor_manufacturing_facilities_with_genetic_programming",
+    "title": "Optimizing dispatching strategies for semiconductor manufacturing facilities with genetic programming",
+    "doi": "https://doi.org/10.1016/j.cie.2023.109500",
+    "relevanceScore": "*",
+    "reasoning": "Manufacturing (7) + some technology relevance (1)",
+    "methods": [
+      "optimization",
+      "simulator"
+    ],
+    "technologies": [
+      "machine learning"
+    ],
+    "automatedManufacturingLevel": "Factory",
+    "negativesFound": "None",
+    "dssFocus": "-",
+    "year": 2023
+  },
+  {
+    "id": 12,
+    "keyId": "2023_automatically_evolving_preference-based_dispatching_rules_for_multi-objective_job_shop_scheduling",
+    "title": "Automatically evolving preference-based dispatching rules for multi-objective job shop scheduling",
+    "doi": "https://doi.org/10.1007/s10951-023-00783-9",
+    "relevanceScore": "*",
+    "reasoning": "Manufacturing (7) + some technology relevance (1)",
+    "methods": [
+      "optimization"
+    ],
+    "technologies": [
+      "artificial intelligence"
+    ],
+    "automatedManufacturingLevel": "Factory",
+    "negativesFound": "None",
+    "dssFocus": "Scheduling",
+    "year": 2023
+  },
+  {
+    "id": 13,
+    "keyId": "2023_toward_automated_algorithm_configuration_for_distributed_hybrid_flow_shop_scheduling_with_multiprocessor_tasks",
+    "title": "Toward automated algorithm configuration for distributed hybrid flow shop scheduling with multiprocessor tasks",
+    "doi": "https://doi.org/10.1016/j.knosys.2023.110309",
+    "relevanceScore": "*",
+    "reasoning": "Manufacturing (8) + some technology relevance (1)",
+    "methods": [
+      "markov decision process",
+      "mdp",
+      "metaheuristic",
+      "optimization",
+      "q-learning",
+      "reinforcement learning"
+    ],
+    "technologies": [
+      "reinforcement learning"
+    ],
+    "automatedManufacturingLevel": "Factory",
+    "negativesFound": "None",
+    "dssFocus": "Scheduling",
+    "year": 2023
+  },
+  {
+    "id": 14,
+    "keyId": "2023_batch_sizing_control_of_a_flow_shop_based_on_the_entropy-function_theorems",
+    "title": "Batch sizing control of a flow shop based on the entropy-function theorems",
+    "doi": "https://doi.org/10.1016/j.eswa.2022.118958",
+    "relevanceScore": "*",
+    "reasoning": "Manufacturing (5) + some technology relevance (1)",
+    "methods": [],
+    "technologies": [
+      "artificial intelligence"
+    ],
+    "automatedManufacturingLevel": "Factory",
+    "negativesFound": "Managerial/business/policy focus",
+    "dssFocus": "-",
+    "year": 2023
+  },
+  {
+    "id": 15,
+    "keyId": "2023_a_genetic_algorithm_for_a_real-life_scheduling_problem_in_the_valve_industry",
+    "title": "A Genetic Algorithm for a Real-Life Scheduling Problem in the Valve Industry",
+    "doi": "https://doi.org/10.1007/978-3-031-24457-5_55",
+    "relevanceScore": "*",
+    "reasoning": "Manufacturing (3) + some technology relevance (1)",
+    "methods": [
+      "genetic algorithm",
+      "optimization"
+    ],
+    "technologies": [
+      "artificial intelligence"
+    ],
+    "automatedManufacturingLevel": "Factory",
+    "negativesFound": "None",
+    "dssFocus": "Scheduling",
+    "year": 2023
+  },
+  {
+    "id": 16,
+    "keyId": "2023_multiple_size_cutting_stock_problem_in_steel_industry",
+    "title": "Multiple Size Cutting Stock Problem in Steel Industry",
+    "doi": "https://doi.org/10.1007/978-3-031-24457-5_61",
+    "relevanceScore": "*",
+    "reasoning": "Manufacturing (2) + some technology relevance (1)",
+    "methods": [],
+    "technologies": [
+      "artificial intelligence"
+    ],
+    "automatedManufacturingLevel": "Factory",
+    "negativesFound": "None",
+    "dssFocus": "-",
+    "year": 2023
+  },
+  {
+    "id": 17,
+    "keyId": "2023_design_of_intelligent_decision_support_system_for_production_collaboration_in_flexible_packaging_printing_enterprises",
+    "title": "Design of Intelligent Decision Support System for Production Collaboration in Flexible Packaging Printing Enterprises",
+    "doi": "https://doi.org/10.1007/978-981-19-9024-3_57",
+    "relevanceScore": "*",
+    "reasoning": "Manufacturing (3) + some technology relevance (1)",
+    "methods": [
+      "genetic algorithm"
+    ],
+    "technologies": [
+      "artificial intelligence"
+    ],
+    "automatedManufacturingLevel": "Unclassified",
+    "negativesFound": "None",
+    "dssFocus": "-",
+    "year": 2023
+  },
+  {
+    "id": 18,
+    "keyId": "2023_job_scheduling_problem_in_the_production_of_electrical_equipment",
+    "title": "Job Scheduling Problem in the Production of Electrical Equipment",
+    "doi": "https://doi.org/10.1007/978-3-031-24457-5_65",
+    "relevanceScore": "*",
+    "reasoning": "Manufacturing (4) + some technology relevance (1)",
+    "methods": [],
+    "technologies": [
+      "artificial intelligence"
+    ],
+    "automatedManufacturingLevel": "Factory",
+    "negativesFound": "None",
+    "dssFocus": "Scheduling",
+    "year": 2023
+  },
+  {
+    "id": 19,
+    "keyId": "2022_an_application_of_a_decision_support_system_enabled_by_a_hybrid_algorithmic_framework_for_production_scheduling_in_an_sme_manufacturer",
+    "title": "An Application of a Decision Support System Enabled by a Hybrid Algorithmic Framework for Production Scheduling in an SME Manufacturer",
+    "doi": "https://doi.org/10.3390/a15100372",
+    "relevanceScore": "*",
+    "reasoning": "Manufacturing (9) + some technology relevance (1)",
+    "methods": [],
+    "technologies": [
+      "artificial intelligence"
+    ],
+    "automatedManufacturingLevel": "Factory",
+    "negativesFound": "Managerial/business/policy focus",
+    "dssFocus": "Scheduling",
+    "year": 2022
+  },
+  {
+    "id": 20,
+    "keyId": "2022_a_skill-_and_feature-based_approach_to_planning_process_monitoring_in_assembly_planning",
+    "title": "A skill- and feature-based approach to planning process monitoring in assembly planning",
+    "doi": "https://doi.org/10.1007/s00170-022-09931-5",
+    "relevanceScore": "*",
+    "reasoning": "Manufacturing (4) + some technology relevance (1)",
+    "methods": [
+      "optimization",
+      "simulation"
+    ],
+    "technologies": [
+      "artificial intelligence"
+    ],
+    "automatedManufacturingLevel": "Unclassified",
+    "negativesFound": "None",
+    "dssFocus": "-",
+    "year": 2022
+  },
+  {
+    "id": 21,
+    "keyId": "2022_solving_scheduling_problems_with_integrated_online_sustainability_observation_using_heuristic_optimization",
+    "title": "Solving scheduling problems with integrated online sustainability observation using heuristic optimization",
+    "doi": "https://doi.org/10.24425/bpasts.2022.143830",
+    "relevanceScore": "*",
+    "reasoning": "Manufacturing (9) + some technology relevance (1)",
+    "methods": [
+      "genetic algorithm",
+      "metaheuristic",
+      "optimization",
+      "tabu search"
+    ],
+    "technologies": [
+      "neural network"
+    ],
+    "automatedManufacturingLevel": "Factory",
+    "negativesFound": "Managerial/business/policy focus",
+    "dssFocus": "Scheduling",
+    "year": 2022
+  },
+  {
+    "id": 22,
+    "keyId": "2022_additive_or_conventional_manufacturing_for_spare_parts:_effect_of_failure_rate_uncertainty_on_the_sourcing_option_decision",
+    "title": "Additive or Conventional Manufacturing for Spare Parts: Effect of Failure Rate Uncertainty on the Sourcing Option Decision",
+    "doi": "https://doi.org/10.1016/j.ifacol.2022.09.543",
+    "relevanceScore": "*",
+    "reasoning": "Manufacturing (11) + some technology relevance (1)",
+    "methods": [
+      "decision tree"
+    ],
+    "technologies": [
+      "artificial intelligence"
+    ],
+    "automatedManufacturingLevel": "Unclassified",
+    "negativesFound": "Managerial/business/policy focus",
+    "dssFocus": "-",
+    "year": 2022
+  },
+  {
+    "id": 23,
+    "keyId": "2021_predicting_performance_indicators_with_anns_for_ai-based_online_scheduling_in_dynamically_interconnected_assembly_systems",
+    "title": "Predicting performance indicators with ANNs for AI-based online scheduling in dynamically interconnected assembly systems",
+    "doi": "https://doi.org/10.1007/s11740-021-01057-z",
+    "relevanceScore": "*",
+    "reasoning": "Manufacturing (4) + some technology relevance (1)",
+    "methods": [
+      "forecasting",
+      "simulation"
+    ],
+    "technologies": [
+      "artificial intelligence"
+    ],
+    "automatedManufacturingLevel": "Unclassified",
+    "negativesFound": "None",
+    "dssFocus": "Scheduling",
+    "year": 2021
+  },
+  {
+    "id": 24,
+    "keyId": "2021_a_decision_support_system_to_operationalize_customer-centric_sustainability",
+    "title": "A Decision Support System to Operationalize Customer-Centric Sustainability",
+    "doi": "https://doi.org/10.1016/j.procir.2021.10.019",
+    "relevanceScore": "*",
+    "reasoning": "Manufacturing (2) + some technology relevance (1)",
+    "methods": [],
+    "technologies": [
+      "artificial intelligence"
+    ],
+    "automatedManufacturingLevel": "Unclassified",
+    "negativesFound": "Managerial/business/policy focus",
+    "dssFocus": "-",
+    "year": 2021
+  },
+  {
+    "id": 25,
+    "keyId": "2021_fms_scheduling_integration_for_mass_customization",
+    "title": "FMS Scheduling Integration for Mass Customization",
+    "doi": "https://doi.org/10.1007/978-3-030-85902-2_54",
+    "relevanceScore": "*",
+    "reasoning": "Manufacturing (5) + some technology relevance (1)",
+    "methods": [],
+    "technologies": [
+      "artificial intelligence"
+    ],
+    "automatedManufacturingLevel": "Unclassified",
+    "negativesFound": "Managerial/business/policy focus",
+    "dssFocus": "-",
+    "year": 2021
+  },
+  {
+    "id": 26,
+    "keyId": "2020_bim-based_decision_support_system_for_automated_manufacturability_check_of_wood_frame_assemblies",
+    "title": "BIM-based decision support system for automated manufacturability check of wood frame assemblies",
+    "doi": "https://doi.org/10.1016/j.autcon.2019.103065",
+    "relevanceScore": "*",
+    "reasoning": "Manufacturing (9) + some technology relevance (1)",
+    "methods": [],
+    "technologies": [
+      "artificial intelligence"
+    ],
+    "automatedManufacturingLevel": "Unclassified",
+    "negativesFound": "None",
+    "dssFocus": "-",
+    "year": 2020
+  },
+  {
+    "id": 27,
+    "keyId": "2020_product_platforms_design,_selection_and_customisation_in_high-variety_manufacturing",
+    "title": "Product platforms design, selection and customisation in high-variety manufacturing",
+    "doi": "https://doi.org/10.1080/00207543.2019.1602745",
+    "relevanceScore": "*",
+    "reasoning": "Manufacturing (2) + some technology relevance (1)",
+    "methods": [],
+    "technologies": [
+      "artificial intelligence"
+    ],
+    "automatedManufacturingLevel": "Unclassified",
+    "negativesFound": "Managerial/business/policy focus",
+    "dssFocus": "-",
+    "year": 2020
+  },
+  {
+    "id": 28,
+    "keyId": "2020_creation_of_digital_production_twins_for_the_optimization_of_value_creation_in_single_and_small_batch_production",
+    "title": "Creation of digital production twins for the optimization of value creation in single and small batch production",
+    "doi": "https://doi.org/10.1016/j.procir.2020.04.125",
+    "relevanceScore": "*",
+    "reasoning": "Manufacturing (2) + some technology relevance (1)",
+    "methods": [
+      "optimization"
+    ],
+    "technologies": [
+      "digital twin"
+    ],
+    "automatedManufacturingLevel": "Unclassified",
+    "negativesFound": "None",
+    "dssFocus": "-",
+    "year": 2020
+  },
+  {
+    "id": 29,
+    "keyId": "2020_mathematical_modeling_and_a_hybridized_bacterial_foraging_optimization_algorithm_for_the_flexible_job-shop_scheduling_problem_with_sequencing_flexibility",
+    "title": "Mathematical modeling and a hybridized bacterial foraging optimization algorithm for the flexible job-shop scheduling problem with sequencing flexibility",
+    "doi": "https://doi.org/10.1016/j.jmsy.2019.11.010",
+    "relevanceScore": "*",
+    "reasoning": "Manufacturing (3) + some technology relevance (1)",
+    "methods": [
+      "optimization",
+      "simulated annealing"
+    ],
+    "technologies": [
+      "artificial intelligence"
+    ],
+    "automatedManufacturingLevel": "Factory",
+    "negativesFound": "None",
+    "dssFocus": "Scheduling",
+    "year": 2020
+  },
+  {
+    "id": 30,
+    "keyId": "2019_a_knee-point_driven_multi-objective_evolutionary_algorithm_for_flexible_job_shop_scheduling",
+    "title": "A Knee-Point Driven Multi-objective Evolutionary Algorithm for Flexible Job Shop Scheduling",
+    "doi": "https://doi.org/10.1109/SSCI44817.2019.9002654",
+    "relevanceScore": "*",
+    "reasoning": "Manufacturing (6) + some technology relevance (1)",
+    "methods": [
+      "evolutionary algorithm",
+      "optimization"
+    ],
+    "technologies": [
+      "artificial intelligence"
+    ],
+    "automatedManufacturingLevel": "Factory",
+    "negativesFound": "None",
+    "dssFocus": "Scheduling",
+    "year": 2019
+  },
+  {
+    "id": 31,
+    "keyId": "2019_decentralized_line_equipment_detection_and_production_control_by_multi-agent_technology",
+    "title": "Decentralized line equipment detection and production control by multi-agent technology",
+    "doi": "https://doi.org/10.1109/IECON.2019.8926900",
+    "relevanceScore": "*",
+    "reasoning": "Manufacturing (5) + some technology relevance (1)",
+    "methods": [],
+    "technologies": [
+      "iot"
+    ],
+    "automatedManufacturingLevel": "Factory",
+    "negativesFound": "None",
+    "dssFocus": "-",
+    "year": 2019
+  },
+  {
+    "id": 32,
+    "keyId": "2019_a_decision_support_system_for_a_critical_time_constraint_tunnel",
+    "title": "A decision support system for a critical time constraint tunnel",
+    "doi": "https://doi.org/10.1109/ASMC.2019.8791812",
+    "relevanceScore": "*",
+    "reasoning": "Manufacturing (3) + some technology relevance (1)",
+    "methods": [],
+    "technologies": [
+      "artificial intelligence"
+    ],
+    "automatedManufacturingLevel": "Unclassified",
+    "negativesFound": "None",
+    "dssFocus": "-",
+    "year": 2019
+  },
+  {
+    "id": 33,
+    "keyId": "2018_integrating_simulation_modelling_and_multi_criteria_decision_making_for_customer_focused_scheduling_in_job_shops",
+    "title": "Integrating simulation modelling and multi criteria decision making for customer focused scheduling in job shops",
+    "doi": "https://doi.org/10.1016/j.simpat.2019.101990",
+    "relevanceScore": "*",
+    "reasoning": "Manufacturing (5) + some technology relevance (1)",
+    "methods": [
+      "optimization",
+      "simulation"
+    ],
+    "technologies": [
+      "artificial intelligence"
+    ],
+    "automatedManufacturingLevel": "Factory",
+    "negativesFound": "Managerial/business/policy focus",
+    "dssFocus": "Scheduling",
+    "year": 2018
+  },
+  {
+    "id": 34,
+    "keyId": "2018_a_multi-purpose_operational_capacity_and_production_planning_tool",
+    "title": "A multi-purpose operational capacity and production planning tool",
+    "doi": "https://doi.org/10.1109/ASMC.2018.8373203",
+    "relevanceScore": "*",
+    "reasoning": "Manufacturing (7) + some technology relevance (1)",
+    "methods": [
+      "forecasting"
+    ],
+    "technologies": [
+      "artificial intelligence"
+    ],
+    "automatedManufacturingLevel": "Unclassified",
+    "negativesFound": "None",
+    "dssFocus": "-",
+    "year": 2018
+  },
+  {
+    "id": 35,
+    "keyId": "2018_energy-efficient_concurrent_assessment_of_industrial_robot_operation_based_on_association_rules_in_manufacturing",
+    "title": "Energy-efficient concurrent assessment of industrial robot operation based on association rules in manufacturing",
+    "doi": "https://doi.org/10.1109/ICNSC.2018.8361334",
+    "relevanceScore": "*",
+    "reasoning": "Manufacturing (17) + some technology relevance (1)",
+    "methods": [
+      "optimization"
+    ],
+    "technologies": [
+      "robot"
+    ],
+    "automatedManufacturingLevel": "Factory",
+    "negativesFound": "None",
+    "dssFocus": "-",
+    "year": 2018
+  }
+]

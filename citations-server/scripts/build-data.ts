@@ -26,6 +26,21 @@ interface Paper {
   snowball: boolean;
 }
 
+interface RelevantPaper {
+  id: number;
+  keyId: string;
+  title: string;
+  doi: string;
+  relevanceScore: string;
+  reasoning: string;
+  methods: string[];
+  technologies: string[];
+  automatedManufacturingLevel: string;
+  negativesFound: string;
+  dssFocus: string;
+  year: number;
+}
+
 const DSS_FOCUS_GROUPED_COLUMNS = [
   "DSS focus (grouped)",
   "DSS focus (broard groups)",
@@ -159,6 +174,7 @@ function main() {
   const buf = readFileSync(xlsxPath);
   const workbook = XLSX.read(buf);
   const sheet = workbook.Sheets["Cleaned Master sheet"];
+  const relevantSheet = workbook.Sheets["Possibly relevant papers"];
 
   if (!sheet) {
     console.error("Sheet 'Cleaned Master sheet' not found!");
@@ -213,6 +229,38 @@ function main() {
   const outPath = resolve(__dirname, "../src/data/papers.json");
   writeFileSync(outPath, JSON.stringify(papers, null, 2));
   console.log(`Wrote ${papers.length} papers to ${outPath}`);
+
+  if (relevantSheet) {
+    const relevantRows = XLSX.utils.sheet_to_json<Record<string, unknown>>(relevantSheet);
+    const relevantPapers: RelevantPaper[] = [];
+
+    for (const row of relevantRows) {
+      const title = row["Title"] as string | undefined;
+      if (!title || !title.trim()) continue;
+
+      const yearRaw = row["Year"];
+      const year = typeof yearRaw === "number" ? yearRaw : parseInt(String(yearRaw), 10) || 0;
+
+      relevantPapers.push({
+        id: relevantPapers.length,
+        keyId: String(row["key_id"] ?? "").trim(),
+        title: title.trim(),
+        doi: String(row["DOI"] ?? "").trim(),
+        relevanceScore: String(row["Relevance Score"] ?? "").trim(),
+        reasoning: String(row["Reasoning"] ?? "").trim(),
+        methods: splitList(row["Methods"] as string | undefined),
+        technologies: splitList(row["Technologies"] as string | undefined),
+        automatedManufacturingLevel: String(row["Automated Manufacturing Level"] ?? "").trim(),
+        negativesFound: String(row["Negatives Found"] ?? "").trim(),
+        dssFocus: normalizeDSSFocus(row["DSS focus"] as string | undefined),
+        year,
+      });
+    }
+
+    const relevantOutPath = resolve(__dirname, "../src/data/relevant-papers.json");
+    writeFileSync(relevantOutPath, JSON.stringify(relevantPapers, null, 2));
+    console.log(`Wrote ${relevantPapers.length} possibly relevant papers to ${relevantOutPath}`);
+  }
 }
 
 main();
