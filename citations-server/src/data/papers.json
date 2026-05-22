@@ -5307,7 +5307,7 @@
     ],
     "evaluationSetting": "static evaluation",
     "dataSource": [
-      "synthetic based on_benchmark Taillard (1993), Vallada and Ruiz (2011), Báez et al. (2019), Berthier et\nal. (2022), Fanjul-Peyró et al. (2019)"
+      "synthetic based on_benchmark Taillard (1993), Vallada and Ruiz (2011), Báez et al. (2019), Berthier et\r\nal. (2022), Fanjul-Peyró et al. (2019)"
     ],
     "country": "Spain",
     "industry": "Food",
