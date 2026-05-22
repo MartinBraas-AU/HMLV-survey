@@ -43,6 +43,7 @@ const DSS_FOCUS_GROUP: Record<string, string> = {
 
 // Industry → grouped category (mirrors generate_figures.py INDUSTRY_GROUP_MAP)
 const INDUSTRY_GROUP: Record<string, string> = {
+  None: "Not specified",
   Automotive: "Automotive",
   Aerospace: "Aerospace",
   Electronics: "Electronics & Semiconductor",
@@ -59,10 +60,12 @@ const INDUSTRY_GROUP: Record<string, string> = {
   "Pump manufacturing": "Machinery & Equipment",
   "Pneumatic components": "Machinery & Equipment",
   "Power equipment": "Machinery & Equipment",
-  "Home appliances": "Other",
-  Furniture: "Other",
-  Bicycles: "Other",
-  "Ceramic tile": "Other",
+  "Home appliances": "Machinery & Equipment",
+  "Air conditioner": "Machinery & Equipment",
+  Furniture: "Machinery & Equipment",
+  Bicycles: "Machinery & Equipment",
+  "Ceramic tile": "Process Industry",
+  "Oil and gas": "Process Industry",
   Packaging: "Other",
   "Precast concrete": "Other",
   Nuclear: "Other",

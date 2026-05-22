@@ -225,7 +225,6 @@ INDUSTRY_MAP = {
     "Pump": "Pump manufacturing",
     "power equibment": "Power equipment",
     "Laboratory": "Laboratory",
-    "Pressure vessels": "Metal & machining",
     "Air conditioner": "Home appliances",
 }
 
@@ -258,15 +257,16 @@ INDUSTRY_GROUP_MAP = {
     "Pump manufacturing": "Machinery & Equipment",
     "Pneumatic components": "Machinery & Equipment",
     "Power equipment": "Machinery & Equipment",
-    # Remaining — too diverse to form a coherent group
-    "Home appliances": "Other",
-    "Furniture": "Other",
-    "Bicycles": "Other",
-    "Ceramic tile": "Other",
+    # Remaining — align with Counts (definitions.tex) grouping
+    "Home appliances": "Machinery & Equipment",
+    "Furniture": "Machinery & Equipment",
+    "Bicycles": "Machinery & Equipment",
+    "Ceramic tile": "Process Industry",
     "Packaging": "Other",
     "Precast concrete": "Other",
     "Nuclear": "Other",
     "Laboratory": "Other",
+    "Oil and gas": "Process Industry",
     "Not specified": "Not specified",
 }
 
@@ -1337,6 +1337,7 @@ def main():
     generated = [
         fig_publication_timeline(df),
         fig_dss_focus(df),
+        fig_industry(df),
     ]
 
     print(f"\nDone! {len(generated)} figures generated.")
