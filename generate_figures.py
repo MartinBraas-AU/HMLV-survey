@@ -29,7 +29,7 @@ import matplotlib.ticker as mticker
 # CONFIG
 # ================================================================
 DEFAULT_EXCEL_PATH = Path("data/Master sheet.xlsx")
-DEFAULT_OUTPUT_DIR = Path("figures/test1")
+DEFAULT_OUTPUT_DIR = Path("figures")
 OUTPUT_DIR = DEFAULT_OUTPUT_DIR
 SHEET_NAME = "Cleaned Master sheet"
 DPI = 300
@@ -1384,15 +1384,6 @@ def main():
     generated = [
         fig_publication_timeline(df),
         fig_dss_focus(df),
-        fig_industry(df),
-        fig_jobshop_variants(df),
-        fig_evaluation_setting(df),
-        fig_data_source(df),
-        fig_snowball(df),
-        fig_technology_landscape(df),
-        fig_manufacturing_level(df),
-        fig_country_choropleth(df),
-        fig_methods_tech_wordcloud(df),
     ]
 
     print(f"\nDone! {len(generated)} figures generated.")
