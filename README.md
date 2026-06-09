@@ -1,10 +1,6 @@
 # HMLV Survey
 
-This repository contains material for the HMLV survey project, including a React app in `citations-server` for browsing and analyzing the paper dataset.
-
-## About This Survey
-
-This repository contains the survey article "A Survey on Decision Support in High‑Mix Low‑Volume Manufacturing" and its supporting materials. The `citations-server` app provides an interactive citation explorer and data visualizations. The repository also includes the raw data, analysis outputs, and figures used in the article.
+This repository contains material for the HMLV survey project, including the survey article itself "A Survey on Decision Support in High‑Mix Low‑Volume Manufacturing" and its supporting materials. It includes the `citations-server` React app for browsing and visualizing the paper dataset, the master sheet (`data/Master sheet.xlsx`), analysis outputs, and the figures used in the article.
 
 **Cite this paper**
 
