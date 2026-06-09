@@ -247,7 +247,6 @@ def fetch_references_test(scopus_id: str, api_key: str, retries: int = 3, delay:
 
             response2 = data2.get("abstracts-retrieval-response", {})
             refs_data2 = response2.get("references", {})
-            #refs2 = refs_data2.get("reference", []) or []
             refs2 = normalize_reference_list(refs_data2.get("reference"))
 
             print(f"Page2 OK for {clean_id} (startref={startref}): got {len(refs2)} refs")
@@ -309,9 +308,7 @@ def fetch_references(scopus_id: str, api_key: str, retries: int = 3, delay: floa
     # =========================================================
     # PART 1 — First request (always works)
     # =========================================================
-    #params1 = {"view": "REF", "startref": 1, "refcount": page_size}
     params1 = {"view": "REF"}
-    #params1 = {"view": "REF", "startref": 1}
 
     resp1 = None
     for attempt in range(1, retries + 1):
@@ -365,9 +362,6 @@ def fetch_references(scopus_id: str, api_key: str, retries: int = 3, delay: floa
             )
             tail_refs = normalize_reference_list(tail_raw)
             
-            #if tail_refs:
-            #    break
-            # stop condition
             if len(tail_refs) < page_size:
                 print(f"stop condition met at tail_startref={tail_startref} with {len(tail_refs)} refs")
                 # Add to out
@@ -388,14 +382,6 @@ def fetch_references(scopus_id: str, api_key: str, retries: int = 3, delay: floa
         else:
             print(f"Error {resp_tail.status_code} for {clean_id} tail_startref={tail_startref}; stopping")
             break
-            
-    #if not tail_refs:
-    #    return out
-
-    # Exclude last locally
-    #rest_excluding_last = tail_refs[:-1]
-    #extract_into_out(tail_refs, out, seen)
-    #time.sleep(delay)
 
     # =========================================================
     # PART 3 — Last reference trick (only if needed)

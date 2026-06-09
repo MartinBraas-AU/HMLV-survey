@@ -89,9 +89,7 @@ class fetch_info_refferences:
         # =========================================================
         # PART 1 — First request (always works)
         # =========================================================
-        # params1 = {"view": "REF", "startref": 1, "refcount": page_size}
         params1 = {"view": "FULL"}
-        # params1 = {"view": "REF", "startref": 1}
 
         resp = None
         for attempt in range(1, retries + 1):
@@ -133,8 +131,6 @@ class fetch_info_refferences:
             "year": year,
             "scopus_id": scopus_id_out,
         }
-        # refs1 = self.normalize_reference_list(refs1_raw)
-        # self.extract_into_out(refs1, out, seen)
 
         return refs_raw
 
@@ -147,9 +143,6 @@ class fetch_info_refferences:
 
         for scopus_id in self.refference_papers.keys():
             self.print_id(scopus_id)
-            # refs_info = self.fetch(scopus_id, api_key)
-            # all_references_info.append(refs_info)
-            # print(f"Fetched info for refference {scopus_id} where title is '{refs_info.get('title','')}'")
 
         return all_references_info
 

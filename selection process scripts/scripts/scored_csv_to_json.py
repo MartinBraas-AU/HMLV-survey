@@ -42,12 +42,6 @@ def convert_df_to_json(df) -> list[dict]:
             "doi": doi,
             "scopus_id": scopus_id
         })
-        #reviews.append({
-        #    "Title": str(row.get("Title", "")).strip(),
-        #    "Year": str(row.get("Year", "")).strip(),
-        #    "doi": str(row.get("DOI", "")).strip(),
-        #    "scopus_id": scopus_id
-        #})
     return reviews
 
 

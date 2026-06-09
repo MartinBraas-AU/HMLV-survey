@@ -325,5 +325,5 @@ if __name__ == "__main__":
     # counter.count_citations_towards_queried()   # fills self.citation_count
     # counter.compute_scores()                    # uses citation_count + year + total citations
 
-    # counter.print_top_by_score(top_n=10, min_internal=0)  # your ">=7 cites our set" idea
+    # counter.print_top_by_score(top_n=10, min_internal=0)
     # counter.plot_scores_sorted(min_internal=0)

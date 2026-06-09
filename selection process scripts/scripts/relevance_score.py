@@ -226,20 +226,11 @@ class PaperSelector:
 
         has_negative = self._check_match(self.negative_indicators, text)
 
-        # Logic tree (same structure as original)
-        #if has_negative:
-        #    return "-", "Managerial/business/policy focus"
-
         if mfg_count == 0:
             return "-", "No manufacturing/production focus", "Managerial/business/policy focus" if has_negative else "None"
 
-        # ++ Most relevant old
-        #if tech_count >= 2 and decision_count >= 1 and mfg_count >= 1:
-        #    return "++", f"Core tech ({tech_count}) + decision support ({decision_count}) + manufacturing ({mfg_count})"
-
         # ++ Most relevant new
-        #if tech_count >= 2 and mfg_count >= 1 and (decision_count >= 2 or combined_count >= 3):
-        if tech_count >= 2 and mfg_count >= 1 and (decision_count >= 1 or combined_count >= 2): #tech_count >= 2 and mfg_count >= 1 and (decision_count >= 1 or combined_count >= 2):
+        if tech_count >= 2 and mfg_count >= 1 and (decision_count >= 1 or combined_count >= 2): 
             return "++", f"Core tech ({tech_count}) + manufacturing ({mfg_count}) + strong decision or scheduling/simulation/robotics signal", "Managerial/business/policy focus" if has_negative else "None"
 
         # + Relevant

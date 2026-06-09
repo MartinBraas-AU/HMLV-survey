@@ -20,7 +20,7 @@ def resolve_from_root(root_dir: Path, relative_path: str) -> str:
     return str((root_dir / relative_path.lstrip("./")).resolve())
 
 
-class ScopusCiterFetcher:#25
+class ScopusCiterFetcher:
     def __init__(self, api_key=None, page_size=50, max_results=5000, delay=1.0):
         self.api_key = api_key or os.getenv("SCOPUS_API_KEY")
         self.page_size = page_size
@@ -56,7 +56,6 @@ class ScopusCiterFetcher:#25
         )
 
         resp = requests.get(url, headers=self.headers)
-        #print("6")
         print(resp)
         if resp.status_code != 200:
             print(f"Error {resp.status_code} at start={start} for {scopus_id}")
@@ -105,8 +104,6 @@ class ScopusCiterFetcher:#25
             data_json = self.replace_dict_key(data_json, scopus_id, key_id)
 
             entries = self.extract_entries(data_json)
-            #print(f"entries: {entries}")
-            #print(not entries)
             if not entries:
                 print("No entries found, stopping.")
                 break
@@ -151,18 +148,9 @@ class ScopusCiterFetcher:#25
         total = None # Keep track of total citations
         start = 0
         while start < self.max_results:
-            #print("5")
             data_json = self.fetch_page(scopus_id, start)
-            #print(f"data_json: {data_json}")
-            # Stop if no data or no entries
-            #if not data_json:
-            #    print("No data returned, stopping.")
-            #    break
-            
-            # replace cleaned scopus_id with key_id in output entries
-            #data_json = self.replace_dict_key(data_json, scopus_id, key_id)
 
-                    # Read totalResults ONCE (from first page)
+            # Read totalResults ONCE (from first page)
             if total is None and data_json:
                 total = int(
                     data_json
@@ -172,8 +160,6 @@ class ScopusCiterFetcher:#25
                 print(f"📊 Scopus reports total citations: {total}")
 
             entries = self.extract_entries_dict(data_json, key_id)
-            #print(f"entries: {entries}")
-            #print(not entries)
 
             if not bool(entries):
                 print("No entries found, stopping.")
@@ -235,12 +221,10 @@ class HMLVCitationCollector:
         print(f"📚 Loaded {len(papers)} HMLV papers")
         
         for i, paper in enumerate(papers, start=1):
-            #print("2")
             sid = paper.get("scopus_id")
             key_id = "_".join([self.clean(paper.get("Year","")), self.clean(paper.get("Title",""))]) #paper.get("key_id")
             print(f"Processing paper {i}/{len(papers)}: {key_id} ({sid})")
             sid = self.fetcher.clean_scopus_id(sid)
-            #print("3")
             if not sid:
                 continue
 
@@ -249,9 +233,7 @@ class HMLVCitationCollector:
                 continue
 
             print(f"[{i}] Fetching citers for {sid}...")
-            #citers = self.fetcher.fetch_all_citers(sid, key_id)
             citers = self.fetcher.fetch_all_citers_dict(sid, key_id)
-            #self.citing_data[sid] = citers
 
             # Merge citers into existing data
             for key, val in citers.items():

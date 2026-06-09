@@ -65,7 +65,6 @@ class countRefferences:
         plt.hist(
             counts, bins=range(1, max(counts) + 2), align="left", edgecolor="black"
         )
-        # plt.plot(sorted(counts, reverse=True), marker='o')
         plt.xlabel("Number of Citations")
         plt.ylabel("Number of Papers")
         plt.title(f"{level} Histogram of the number of times Papers are Cited in References")

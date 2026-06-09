@@ -93,9 +93,7 @@ class ScopusCiterFetcher:#25
 
         start = 0
         while start < self.max_results:
-            #print("5")
             data_json = self.fetch_page(scopus_id, start)
-            #print(f"data_json: {data_json}")
             # Stop if no data or no entries
             if not data_json:
                 print("No data returned, stopping.")
@@ -105,8 +103,6 @@ class ScopusCiterFetcher:#25
             data_json = self.replace_dict_key(data_json, scopus_id, key_id)
 
             entries = self.extract_entries(data_json)
-            #print(f"entries: {entries}")
-            #print(not entries)
             if not entries:
                 print("No entries found, stopping.")
                 break
@@ -151,18 +147,9 @@ class ScopusCiterFetcher:#25
         total = None # Keep track of total citations
         start = 0
         while start < self.max_results:
-            #print("5")
             data_json = self.fetch_page(scopus_id, start)
-            #print(f"data_json: {data_json}")
-            # Stop if no data or no entries
-            #if not data_json:
-            #    print("No data returned, stopping.")
-            #    break
-            
-            # replace cleaned scopus_id with key_id in output entries
-            #data_json = self.replace_dict_key(data_json, scopus_id, key_id)
 
-                    # Read totalResults ONCE (from first page)
+            # Read totalResults ONCE (from first page)
             if total is None and data_json:
                 total = int(
                     data_json
@@ -172,8 +159,6 @@ class ScopusCiterFetcher:#25
                 print(f"📊 Scopus reports total citations: {total}")
 
             entries = self.extract_entries_dict(data_json, key_id)
-            #print(f"entries: {entries}")
-            #print(not entries)
 
             if not bool(entries):
                 print("No entries found, stopping.")
@@ -244,7 +229,6 @@ class HMLVCitationCollector:
             key_id = "_".join([self.clean(paper.get("Year","")), self.clean(paper.get("Title",""))]) #paper.get("key_id")
             print(f"Processing paper {i}/{len(papers)}: {key_id} ({sid})")
             sid = self.fetcher.clean_scopus_id(sid)
-            #print("3")
             if not sid:
                 continue
 
@@ -258,7 +242,6 @@ class HMLVCitationCollector:
                 print(f"Key ID {key_id} not in included papers, skipping fetch.")
                 continue
             citers = self.fetcher.fetch_all_citers_dict(sid, key_id)
-            #self.citing_data[sid] = citers
 
             # Merge citers into existing data
             for key, val in citers.items():
@@ -266,12 +249,11 @@ class HMLVCitationCollector:
                     self.citing_data[key]["cited_key_id"].extend(val["cited_key_id"]) # If a paper cites multiple HMLV papers, extend the list it cites.
                 else:
                     self.citing_data[key] = val
-            #print("4")
             print(f"    ✅ {len(citers)} citing documents saved\n")
             self.save_progress()
             time.sleep(1)
 
-        print(f"🎉 All results saved to {self.output_json}")
+        print(f"All results saved to {self.output_json}")
 
 
 if __name__ == "__main__":
