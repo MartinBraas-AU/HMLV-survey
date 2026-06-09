@@ -2,6 +2,38 @@
 
 This repository contains material for the HMLV survey project, including a React app in `citations-server` for browsing and analyzing the paper dataset.
 
+## About This Survey
+
+This repository contains the survey article "A Survey on Decision Support in High‑Mix Low‑Volume Manufacturing" and its supporting materials. The `citations-server` app provides an interactive citation explorer and data visualizations. The repository also includes the raw data, analysis outputs, and figures used in the article.
+
+**Cite this paper**
+
+If you use the survey article, the interactive overview, the paper corpus, or the associated data in academic research, please cite the survey article. The citation below currently refers to the preprint placeholder and will be updated with journal publication details when available.
+
+BibTeX (journal placeholder):
+
+```
+@article{hmlv_dss_survey_placeholder,
+	title = {A Survey on Decision Support in High-Mix Low-Volume Manufacturing},
+	author = {Author, First and Author, Second},
+	journal = {Journal Name},
+	year = {2026},
+	note = {Manuscript in preparation}
+}
+```
+
+BibTeX (arXiv / preprint placeholder):
+
+```
+@article{hmlv_dss_survey_placeholder,
+	title = {A Survey on Decision Support in High-Mix Low-Volume Manufacturing},
+	author = {Author, First and Author, Second},
+	journal = {Arxiv preprint},
+	year = {2026},
+	note = {Manuscript in preparation}
+}
+```
+
 ## Run `citations-server`
 
 ### Prerequisites
