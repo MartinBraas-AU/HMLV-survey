@@ -29,7 +29,7 @@ import matplotlib.ticker as mticker
 # CONFIG
 # ================================================================
 DEFAULT_EXCEL_PATH = Path("data/Master sheet.xlsx")
-DEFAULT_OUTPUT_DIR = Path("figures")
+DEFAULT_OUTPUT_DIR = Path("figures/test1")
 OUTPUT_DIR = DEFAULT_OUTPUT_DIR
 SHEET_NAME = "Cleaned Master sheet"
 DPI = 300
@@ -81,6 +81,7 @@ COLORS = {
     "quinary": "#F39C12",
     "light_gray": "#BDC3C7",
     "dark_gray": "#7F8C8D",
+    "evaluation": "#208346",
 }
 PALETTE = [
     "#2C3E50",
@@ -627,6 +628,39 @@ def bar_counts(series, ax, color=COLORS["primary"], horizontal=False, top_n=None
 def wrap_labels(labels, width=18):
     return [textwrap.fill(str(l), width) for l in labels]
 
+def count_data_source_keywords(df, source_col="Data Source"):
+    """Count row-level occurrences of predefined data-source categories.
+
+    A single row can contribute to multiple categories (e.g., "industrial benchmark"),
+    so the sum of counts can exceed the number of rows.
+
+    Other is defined as rows that match none of the predefined categories.
+    Returns a pd.Series with keys: Industrial, Benchmark, Synthetic, Lab,
+    Literature/survey, Other.
+    """
+    if source_col not in df.columns:
+        raise KeyError(f"Column '{source_col}' not found in dataframe")
+
+    s = df[source_col].astype("string")
+
+    patterns = {
+        "Industrial": r"\bindustrial\b",
+        "Benchmark": r"\bbenchmarks?\b",
+        "Synthetic": r"\bsynthetic\b|\bsynthic\b",
+        "Lab": r"\blab\b|\blaboratory\b",
+    }
+
+    masks = {
+        label: s.str.contains(pattern, case=False, regex=True, na=False)
+        for label, pattern in patterns.items()
+    }
+
+    counts = {label: int(mask.sum()) for label, mask in masks.items()}
+    any_match = pd.concat(masks.values(), axis=1).any(axis=1)
+    if int((~any_match).sum()) > 0:
+        counts["Other"] = int((~any_match).sum())
+
+    return pd.Series(counts).sort_values(ascending=False)
 
 # ================================================================
 # FIGURE FUNCTIONS
@@ -1082,7 +1116,7 @@ def fig_evaluation_setting(df):
     bars = ax.bar(
         counts.index,
         counts.values,
-        color=COLORS["quaternary"],
+        color=COLORS["evaluation"],
         edgecolor="white",
         linewidth=0.5,
     )
@@ -1107,7 +1141,21 @@ def fig_evaluation_setting(df):
 def fig_data_source(df):
     """Fig 8: Data source distribution."""
     fig, ax = plt.subplots(figsize=(7, 3.5))
-    counts = df["Data Source (clean)"].value_counts()
+    counts = count_data_source_keywords(df, source_col="Data Source")
+
+    denom = int(df["Data Source"].notna().sum())
+    print("\nData source distribution (count, % of papers):")
+    if denom == 0:
+        print("  (no data)")
+    else:
+        sorted_counts = counts.sort_values(ascending=False)
+        for label, cnt in zip(sorted_counts.index.tolist(), sorted_counts.values.tolist()):
+            pct = (cnt / denom) * 100
+            print(f"  {label}: {int(cnt)} ({pct:.1f}%)")
+
+        if int(counts.sum()) != denom:
+            print("  Note: categories can overlap, so totals may exceed 100%.")
+
     counts = counts.sort_values()
 
     bars = ax.barh(
@@ -1123,7 +1171,6 @@ def fig_data_source(df):
         ax.text(cnt + 0.3, i, str(cnt), va="center", fontsize=8)
 
     ax.set_xlabel("Number of papers")
-    # ax.set_title("Data source distribution")
     ax.xaxis.set_major_locator(mticker.MaxNLocator(integer=True))
     fig.tight_layout()
     save_fig(fig, "08_data_source")
@@ -1338,6 +1385,14 @@ def main():
         fig_publication_timeline(df),
         fig_dss_focus(df),
         fig_industry(df),
+        fig_jobshop_variants(df),
+        fig_evaluation_setting(df),
+        fig_data_source(df),
+        fig_snowball(df),
+        fig_technology_landscape(df),
+        fig_manufacturing_level(df),
+        fig_country_choropleth(df),
+        fig_methods_tech_wordcloud(df),
     ]
 
     print(f"\nDone! {len(generated)} figures generated.")
