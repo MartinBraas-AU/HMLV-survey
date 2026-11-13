@@ -3,6 +3,8 @@ import { Link } from "react-router-dom";
 import type { Paper } from "../types";
 import { papersByLevel, sortLevels } from "../utils/normalize";
 import { CategoryCard } from "../components/CategoryCard";
+import { CitationBlock } from "../components/CitationBlock";
+import { surveyBibtex } from "../data/citations";
 
 const LEVEL_DESCRIPTIONS: Record<string, string> = {
   L0: "Process",
@@ -42,29 +44,7 @@ export function LevelSelect({ papers }: { papers: Paper[] }) {
             If you use the survey article, this interactive overview, the paper corpus, or the associated data in academic research, please cite the survey article using the citation provided on this page.
           </p>
         </div>
-        <div className="bibtex-block">
-          <div className="bibtex-title">BibTeX</div>
-          <pre>{`@article{Petersen2026Survey,
-    title   = {A Survey on Decision Support in High-Mix Low-Volume Manufacturing},
-    author  = {Petersen, Mikkel Ejsing Skov and
-               Birkebæk, Malthe Tøttrup and
-               Braas, Martin and
-               Dzigurski, Filip and
-               Fibiger, Jannik and
-               Lunding, Rasmus Skovhus and
-               Yousaf, Samra and
-               Sørensen, Jan Corfixen and
-               Schou, Casper and
-               Larsen, Peter Gorm and
-               Esterle, Lukas},
-    journal = {Frontiers in Manufacturing Technology},
-    volume  = {6},
-    year    = {2026},
-    doi     = {10.3389/fmtec.2026.1905224},
-    url     = {https://www.frontiersin.org/journals/manufacturing-technology/articles/10.3389/fmtec.2026.1905224},
-    issn    = {2813-0359}
-}`}</pre>
-        </div>
+        <CitationBlock title="BibTeX" citation={surveyBibtex} />
       </section>
       <div className="card-grid">
         <CategoryCard
