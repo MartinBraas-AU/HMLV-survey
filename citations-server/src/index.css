@@ -229,7 +229,7 @@ body {
 }
 
 .intro-copy {
-  grid-row: 1 / span 2;
+  grid-row: auto;
 }
 
 .intro-copy,

@@ -1583,7 +1583,7 @@
     ],
     "country": "China",
     "industry": "Automotive",
-    "metrics": "Tardiness(?) (Inventory and transportation cost)",
+    "metrics": "Tardiness --> (Inventory and transportation cost)",
     "snowball": false
   },
   {
@@ -1666,7 +1666,7 @@
     ],
     "country": "Brazil",
     "industry": "Laboratory",
-    "metrics": "Robustness(?) --> (quality, availability, cost, lead time)",
+    "metrics": "Robustness--> (quality, availability, cost, lead time)",
     "snowball": false
   },
   {
@@ -4622,7 +4622,7 @@
       "industrial data"
     ],
     "country": "China",
-    "industry": "None",
+    "industry": "Not specified",
     "metrics": "makespan",
     "snowball": true
   },

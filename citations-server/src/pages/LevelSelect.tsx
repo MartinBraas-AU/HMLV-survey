@@ -41,32 +41,31 @@ export function LevelSelect({ papers }: { papers: Paper[] }) {
           <p>
             If you use the survey article, this interactive overview, the paper corpus, or the associated data in academic research, please cite the survey article using the citation provided on this page.
           </p>
-          <p>
-            The citation currently refers to the preprint version and will be updated with journal publication details if the manuscript is accepted.
-          </p>
         </div>
         <div className="bibtex-block">
-          <div className="bibtex-title">BibTeX Journal Placeholder</div>
-          <pre>{`@article{hmlv_dss_survey_placeholder,
-  title = {A Survey on Decision Support in High-Mix Low-Volume Manufacturing},
-  author = {Author, First and Author, Second},
-  journal = {Journal Name},
-  year = {2026},
-  note = {Manuscript in preparation}
-}`}</pre>
-        </div>
-        <div className="bibtex-block">
-          <div className="bibtex-title">BibTeX Arxiv</div>
-          <pre>{`@article{hmlv_dss_survey_placeholder,
-  title = {A Survey on Decision Support in High-Mix Low-Volume Manufacturing},
-  author = {Author, First and Author, Second},
-  journal = {Arxiv preprint},
-  year = {2026},
-  note = {Manuscript in preparation}
+          <div className="bibtex-title">BibTeX</div>
+          <pre>{`@article{Petersen2026Survey,
+    title   = {A Survey on Decision Support in High-Mix Low-Volume Manufacturing},
+    author  = {Petersen, Mikkel Ejsing Skov and
+               Birkebæk, Malthe Tøttrup and
+               Braas, Martin and
+               Dzigurski, Filip and
+               Fibiger, Jannik and
+               Lunding, Rasmus Skovhus and
+               Yousaf, Samra and
+               Sørensen, Jan Corfixen and
+               Schou, Casper and
+               Larsen, Peter Gorm and
+               Esterle, Lukas},
+    journal = {Frontiers in Manufacturing Technology},
+    volume  = {6},
+    year    = {2026},
+    doi     = {10.3389/fmtec.2026.1905224},
+    url     = {https://www.frontiersin.org/journals/manufacturing-technology/articles/10.3389/fmtec.2026.1905224},
+    issn    = {2813-0359}
 }`}</pre>
         </div>
       </section>
-
       <div className="card-grid">
         <CategoryCard
           label="All Levels"
