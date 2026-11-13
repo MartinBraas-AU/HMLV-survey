@@ -24,7 +24,7 @@ export function LevelSelect({ papers }: { papers: Paper[] }) {
     <div className="page">
       <h1>HMLV Manufacturing DSS Survey</h1>
       <p className="subtitle">
-        Systematic literature review - {papers.length} papers across{" "}
+        A survey on decision support in high-mix low-volume manufacturing - {papers.length} papers across{" "}
         {levels.size} manufacturing levels
       </p>
 
@@ -32,10 +32,17 @@ export function LevelSelect({ papers }: { papers: Paper[] }) {
         <div className="intro-copy">
           <h2>About the Survey</h2>
           <p>
-            This interactive overview presents the paper corpus included in the systematic literature review article “A Survey on Decision Support in High-Mix Low-Volume Manufacturing”, currently in preparation for submission to a peer-reviewed journal.
+            This interactive overview presents the paper corpus included in the systematic literature review article {" "}
+  <a
+    href="https://doi.org/10.3389/fmtec.2026.1905224"
+    target="_blank"
+    rel="noopener noreferrer"
+  >
+    “A Survey on Decision Support in High-Mix Low-Volume Manufacturing”
+  </a>, published in Frontiers in Manufacturing Technology (2026).
             It enables researchers and practitioners to filter and explore the corpus by manufacturing level, decision area, and technology. 
             The overview also provides interactive figures and DOI links to the analyzed papers.
-            The raw data will be made available on GitHub, with the link added upon publication.
+            The raw data will is available on GitHub, with the link added upon publication.
           </p>
           <p className="reference-placeholder">
             Cite Us
